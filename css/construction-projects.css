@@ -1,0 +1,579 @@
+.wrapper main .page_content.page_content--constr_project {
+  padding: 60px 0;
+}
+.wrapper main .page_content.page_content--constr_project .text-container {
+  margin-bottom: 40px;
+}
+.wrapper main .page_content.page_content--constr_project .text-wrapper {
+  max-width: 1010px;
+  font: 400 24px/34px 'Circe', 'Arial', sans-serif;
+}
+.wrapper main .page_content.page_content--constr_project .work_diagram {
+  position: relative;
+  padding: 65px 0;
+}
+.wrapper main .page_content.page_content--constr_project .work_diagram-main {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 625px;
+  height: 625px;
+  margin: 0 auto;
+  padding: 145px;
+  border: 1px solid #7f94a8;
+  text-align: center;
+  border-radius: 50%;
+}
+.wrapper main .page_content.page_content--constr_project .work_diagram-main-title {
+  width: 100%;
+  font: 700 32px/38px 'Circe', 'Arial', sans-serif;
+}
+.wrapper main .page_content.page_content--constr_project .work_diagram-main-descr {
+  width: 100%;
+  margin-top: 20px;
+  font: 300 18px/24px 'Circe', 'Arial', sans-serif;
+}
+.wrapper main .page_content.page_content--constr_project .work_diagram-main-circle-icon {
+  position: absolute;
+  width: 125px;
+  height: 125px;
+}
+.wrapper main .page_content.page_content--constr_project .work_diagram-main-circle-icon svg,
+.wrapper main .page_content.page_content--constr_project .work_diagram-main-circle-icon img {
+  max-width: 100%;
+  max-height: 100%;
+}
+.wrapper main .page_content.page_content--constr_project .work_diagram-main-circle-icon:nth-child(1) {
+  top: -63px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+.wrapper main .page_content.page_content--constr_project .work_diagram-main-circle-icon:nth-child(2) {
+  right: -63px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+.wrapper main .page_content.page_content--constr_project .work_diagram-main-circle-icon:nth-child(3) {
+  bottom: -63px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+.wrapper main .page_content.page_content--constr_project .work_diagram-main-circle-icon:nth-child(4) {
+  left: -63px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+.wrapper main .page_content.page_content--constr_project .work_diagram-main-circle-num {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 32px;
+  height: 32px;
+  margin: -16px;
+  border: 1px solid #fe5000;
+  font: 400 18px/30px 'Circe', 'Arial', sans-serif;
+  text-align: center;
+  color: #fe5000;
+  background: #fff;
+  border-radius: 50%;
+}
+.wrapper main .page_content.page_content--constr_project .work_diagram-main-circle-num:nth-child(1) {
+  -webkit-transform: rotate(225deg) translate(312px) rotate(-225deg);
+          transform: rotate(225deg) translate(312px) rotate(-225deg);
+}
+.wrapper main .page_content.page_content--constr_project .work_diagram-main-circle-num:nth-child(2) {
+  -webkit-transform: rotate(315deg) translate(312px) rotate(-315deg);
+          transform: rotate(315deg) translate(312px) rotate(-315deg);
+}
+.wrapper main .page_content.page_content--constr_project .work_diagram-main-circle-num:nth-child(3) {
+  -webkit-transform: rotate(45deg) translate(312px) rotate(-45deg);
+          transform: rotate(45deg) translate(312px) rotate(-45deg);
+}
+.wrapper main .page_content.page_content--constr_project .work_diagram-main-circle-num:nth-child(4) {
+  -webkit-transform: rotate(135deg) translate(312px) rotate(-135deg);
+          transform: rotate(135deg) translate(312px) rotate(-135deg);
+}
+.wrapper main .page_content.page_content--constr_project .work_diagram-txt {
+  position: absolute;
+  top: 20px;
+  bottom: 20px;
+  left: 125px;
+  right: 125px;
+}
+.wrapper main .page_content.page_content--constr_project .work_diagram-txt-item {
+  position: absolute;
+  width: 280px;
+  font: 400 18px/24px 'Circe', 'Arial', sans-serif;
+}
+.wrapper main .page_content.page_content--constr_project .work_diagram-txt-item:nth-child(1) {
+  top: 0;
+  left: 0;
+  text-align: right;
+}
+.wrapper main .page_content.page_content--constr_project .work_diagram-txt-item:nth-child(2) {
+  top: 0;
+  right: 0;
+}
+.wrapper main .page_content.page_content--constr_project .work_diagram-txt-item:nth-child(3) {
+  right: 0;
+  bottom: 0;
+}
+.wrapper main .page_content.page_content--constr_project .work_diagram-txt-item:nth-child(4) {
+  bottom: 0;
+  left: 0;
+  text-align: right;
+}
+.wrapper main .page_content.page_content--constr_project .work_diagram-txt-item-num {
+  display: none;
+  width: 32px;
+  height: 32px;
+  border: 1px solid #fe5000;
+  font: 400 18px/30px 'Circe', 'Arial', sans-serif;
+  text-align: center;
+  color: #fe5000;
+  border-radius: 50%;
+}
+.wrapper main .page_content.page_content--constr_project .terms-section {
+  margin-bottom: 60px;
+}
+.wrapper main .page_content.page_content--constr_project .terms-section:last-child {
+  margin-bottom: 0;
+}
+.wrapper main .page_content.page_content--constr_project .terms-table-tr {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 20px 0;
+  border-bottom: 1px solid #e3e3e3;
+  font: 400 20px/28px 'Circe', 'Arial', sans-serif;
+  color: #6e6e6e;
+}
+.wrapper main .page_content.page_content--constr_project .terms-table-tr:first-child {
+  padding-top: 0;
+}
+.wrapper main .page_content.page_content--constr_project .terms-table-td:first-child {
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  width: 280px;
+  margin-right: 20px;
+  font: 400 18px/28px 'Circe', 'Arial', sans-serif;
+  color: #373A36;
+}
+.wrapper main .page_content.page_content--constr_project .terms-table-td:last-child {
+  padding-right: 120px;
+}
+.wrapper main .page_content.page_content--constr_project .terms-txt-head {
+  margin-bottom: 20px;
+  font: 700 36px/42px 'Circe', 'Arial', sans-serif;
+}
+.wrapper main .page_content.page_content--constr_project .terms-txt-main p {
+  margin-bottom: 15px;
+  font: 300 18px/26px 'Circe', 'Arial', sans-serif;
+}
+.wrapper main .page_content.page_content--constr_project .terms-txt-main p:last-child {
+  margin-bottom: 0;
+}
+.wrapper main .page_content.page_content--constr_project .terms-txt-main-list {
+  margin: 0 0 15px;
+  padding: 0;
+  font: 300 18px/26px 'Circe', 'Arial', sans-serif;
+}
+.wrapper main .page_content.page_content--constr_project .terms-txt-main-list:last-child {
+  margin-bottom: 0;
+}
+.wrapper main .page_content.page_content--constr_project .terms-txt-main-list li {
+  position: relative;
+  padding-left: 20px;
+  margin-bottom: 15px;
+  list-style-type: none;
+}
+.wrapper main .page_content.page_content--constr_project .terms-txt-main-list li:last-child {
+  margin-bottom: 0;
+}
+.wrapper main .page_content.page_content--constr_project .terms-txt-main-list li:before {
+  position: absolute;
+  left: 0;
+  top: 10px;
+  width: 6px;
+  height: 6px;
+  background: #fe5000;
+  border-radius: 50%;
+  content: '';
+}
+.wrapper main .page_content.page_content--constr_project .rate-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 80px;
+}
+.wrapper main .page_content.page_content--constr_project .rate-info-txt {
+  width: 600px;
+  margin-right: 20px;
+}
+.wrapper main .page_content.page_content--constr_project .rate-info-txt-title {
+  max-width: 470px;
+  margin-bottom: 20px;
+  font: 400 24px/34px 'Circe', 'Arial', sans-serif;
+}
+.wrapper main .page_content.page_content--constr_project .rate-info-txt-main {
+  font: 300 18px/26px 'Circe', 'Arial', sans-serif;
+}
+.wrapper main .page_content.page_content--constr_project .rate-info-txt-main p {
+  margin-bottom: 25px;
+}
+.wrapper main .page_content.page_content--constr_project .rate-info-txt-main p:last-child {
+  margin-bottom: 0;
+}
+.wrapper main .page_content.page_content--constr_project .rate-info-graph {
+  width: 520px;
+  margin-left: auto;
+}
+.wrapper main .page_content.page_content--constr_project .rate-info-graph-desc {
+  margin-top: 10px;
+  font: 400 14px/20px 'Circe', 'Arial', sans-serif;
+  color: #999;
+}
+.wrapper main .page_content.page_content--constr_project .rate-calc-title {
+  margin-bottom: 20px;
+  font: 700 40px/50px 'Circe', 'Arial', sans-serif;
+}
+.wrapper main .page_content.page_content--constr_project .rate-calc-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+.wrapper main .page_content.page_content--constr_project .rate-calc-params {
+  width: 570px;
+  margin-right: 130px;
+}
+.wrapper main .page_content.page_content--constr_project .rate-calc-params-line {
+  margin-bottom: 35px;
+}
+.wrapper main .page_content.page_content--constr_project .rate-calc-params-line:last-child {
+  margin-right: 0;
+}
+.wrapper main .page_content.page_content--constr_project .rate-calc-result {
+  width: 400px;
+  padding: 35px 40px 35px 60px;
+  background: #fff;
+  -webkit-box-shadow: 10px 15px 60px rgba(0, 0, 0, 0.08);
+          box-shadow: 10px 15px 60px rgba(0, 0, 0, 0.08);
+  border-radius: 7px;
+}
+.wrapper main .page_content.page_content--constr_project .rate-calc-result-main-title {
+  margin-bottom: 20px;
+  font: 300 12px/1 'Circe', 'Arial', sans-serif;
+  text-transform: uppercase;
+  color: #6e6e6e;
+}
+.wrapper main .page_content.page_content--constr_project .rate-calc-result-main-num {
+  font: 400 56px/1 'Circe', 'Arial', sans-serif;
+}
+.wrapper main .page_content.page_content--constr_project .rate-calc-result-foot {
+  margin-top: 30px;
+  font: 300 12px/16px 'Circe', 'Arial', sans-serif;
+  color: #999;
+}
+.wrapper main .page_content.page_content--constr_project .book_account_form {
+  padding: 60px 0 65px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#F8F8F8), to(rgba(248, 248, 248, 0)));
+  background: linear-gradient(180deg, #F8F8F8 0%, rgba(248, 248, 248, 0) 100%);
+}
+.wrapper main .page_content.page_content--constr_project .book_account_form .title {
+  margin-bottom: 40px;
+  font: 400 36px/46px 'Circe', 'Arial', sans-serif;
+  text-align: center;
+}
+@media (max-width: 1259px) {
+  .wrapper main .page_content.page_content--constr_project .work_diagram-main {
+    width: 500px;
+    height: 500px;
+    padding: 85px;
+  }
+  .wrapper main .page_content.page_content--constr_project .work_diagram-main-circle-num:nth-child(1) {
+    -webkit-transform: rotate(225deg) translate(250px) rotate(-225deg);
+            transform: rotate(225deg) translate(250px) rotate(-225deg);
+  }
+  .wrapper main .page_content.page_content--constr_project .work_diagram-main-circle-num:nth-child(2) {
+    -webkit-transform: rotate(315deg) translate(250px) rotate(-315deg);
+            transform: rotate(315deg) translate(250px) rotate(-315deg);
+  }
+  .wrapper main .page_content.page_content--constr_project .work_diagram-main-circle-num:nth-child(3) {
+    -webkit-transform: rotate(45deg) translate(250px) rotate(-45deg);
+            transform: rotate(45deg) translate(250px) rotate(-45deg);
+  }
+  .wrapper main .page_content.page_content--constr_project .work_diagram-main-circle-num:nth-child(4) {
+    -webkit-transform: rotate(135deg) translate(250px) rotate(-135deg);
+            transform: rotate(135deg) translate(250px) rotate(-135deg);
+  }
+  .wrapper main .page_content.page_content--constr_project .work_diagram-txt {
+    left: 20px;
+    right: 20px;
+  }
+  .wrapper main .page_content.page_content--constr_project .terms-table-td:last-child {
+    padding-right: 0;
+  }
+  .wrapper main .page_content.page_content--constr_project .rate-info-txt {
+    width: 500px;
+  }
+  .wrapper main .page_content.page_content--constr_project .rate-info-graph {
+    width: 400px;
+  }
+  .wrapper main .page_content.page_content--constr_project .rate-calc-params {
+    margin-right: 40px;
+  }
+  .wrapper main .page_content.page_content--constr_project .rate-calc-result {
+    width: 370px;
+    padding: 35px;
+  }
+}
+@media (max-width: 999px) {
+  .wrapper main .page_content.page_content--constr_project .text-wrapper {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .wrapper main .page_content.page_content--constr_project .work_diagram-main {
+    width: 420px;
+    height: 420px;
+    padding: 70px;
+  }
+  .wrapper main .page_content.page_content--constr_project .work_diagram-main-title {
+    font-size: 24px;
+    line-height: 28px;
+  }
+  .wrapper main .page_content.page_content--constr_project .work_diagram-main-circle-icon {
+    width: 80px;
+    height: 80px;
+  }
+  .wrapper main .page_content.page_content--constr_project .work_diagram-main-circle-icon:nth-child(1) {
+    top: -40px;
+  }
+  .wrapper main .page_content.page_content--constr_project .work_diagram-main-circle-icon:nth-child(2) {
+    right: -40px;
+  }
+  .wrapper main .page_content.page_content--constr_project .work_diagram-main-circle-icon:nth-child(3) {
+    bottom: -40px;
+  }
+  .wrapper main .page_content.page_content--constr_project .work_diagram-main-circle-icon:nth-child(4) {
+    left: -40px;
+  }
+  .wrapper main .page_content.page_content--constr_project .work_diagram-main-circle-num:nth-child(1) {
+    -webkit-transform: rotate(225deg) translate(210px) rotate(-225deg);
+            transform: rotate(225deg) translate(210px) rotate(-225deg);
+  }
+  .wrapper main .page_content.page_content--constr_project .work_diagram-main-circle-num:nth-child(2) {
+    -webkit-transform: rotate(315deg) translate(210px) rotate(-315deg);
+            transform: rotate(315deg) translate(210px) rotate(-315deg);
+  }
+  .wrapper main .page_content.page_content--constr_project .work_diagram-main-circle-num:nth-child(3) {
+    -webkit-transform: rotate(45deg) translate(210px) rotate(-45deg);
+            transform: rotate(45deg) translate(210px) rotate(-45deg);
+  }
+  .wrapper main .page_content.page_content--constr_project .work_diagram-main-circle-num:nth-child(4) {
+    -webkit-transform: rotate(135deg) translate(210px) rotate(-135deg);
+            transform: rotate(135deg) translate(210px) rotate(-135deg);
+  }
+  .wrapper main .page_content.page_content--constr_project .work_diagram-txt {
+    top: 0;
+    bottom: 0;
+    left: 10px;
+    right: 10px;
+  }
+  .wrapper main .page_content.page_content--constr_project .work_diagram-txt-item {
+    width: 250px;
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .wrapper main .page_content.page_content--constr_project .terms-table-tr {
+    font-size: 18px;
+    line-height: 28px;
+  }
+  .wrapper main .page_content.page_content--constr_project .terms-table-td:first-child {
+    width: 190px;
+  }
+  .wrapper main .page_content.page_content--constr_project .rate-info-txt {
+    width: 400px;
+  }
+  .wrapper main .page_content.page_content--constr_project .rate-info-txt-title {
+    font-size: 20px;
+    line-height: 26px;
+  }
+  .wrapper main .page_content.page_content--constr_project .rate-info-txt-main {
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .wrapper main .page_content.page_content--constr_project .rate-info-txt-main p {
+    margin-bottom: 20px;
+  }
+  .wrapper main .page_content.page_content--constr_project .rate-info-graph {
+    width: 300px;
+  }
+  .wrapper main .page_content.page_content--constr_project .rate-calc-wrapper {
+    display: block;
+  }
+  .wrapper main .page_content.page_content--constr_project .rate-calc-params {
+    width: auto;
+    margin-right: 0;
+    margin-bottom: 40px;
+    padding: 0 15px;
+  }
+  .wrapper main .page_content.page_content--constr_project .rate-calc-result {
+    width: auto;
+    text-align: center;
+  }
+}
+@media (max-width: 767px) {
+  .wrapper main .page_content.page_content--constr_project {
+    padding: 40px 0 0;
+  }
+  .wrapper main .page_content.page_content--constr_project .text-wrapper {
+    font-size: 18px;
+    line-height: 24px;
+  }
+  .wrapper main .page_content.page_content--constr_project .book_account_form {
+    padding: 40px 0;
+  }
+  .wrapper main .page_content.page_content--constr_project .book_account_form .title {
+    margin-bottom: 30px;
+    font-size: 22px;
+    line-height: 28px;
+  }
+  .wrapper main .page_content.page_content--constr_project .work_diagram {
+    padding: 0;
+  }
+  .wrapper main .page_content.page_content--constr_project .work_diagram-main {
+    display: block;
+    width: auto;
+    height: auto;
+    margin-bottom: 30px;
+    padding: 0;
+    border: 0;
+    text-align: left;
+    border-radius: 0;
+  }
+  .wrapper main .page_content.page_content--constr_project .work_diagram-main-descr {
+    margin-top: 30px;
+  }
+  .wrapper main .page_content.page_content--constr_project .work_diagram-main-circle {
+    display: none;
+  }
+  .wrapper main .page_content.page_content--constr_project .work_diagram-txt {
+    position: static;
+  }
+  .wrapper main .page_content.page_content--constr_project .work_diagram-txt-item {
+    position: static;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: auto;
+    margin-bottom: 20px;
+  }
+  .wrapper main .page_content.page_content--constr_project .work_diagram-txt-item:last-child {
+    margin-bottom: 0;
+  }
+  .wrapper main .page_content.page_content--constr_project .work_diagram-txt-item:nth-child(1),
+  .wrapper main .page_content.page_content--constr_project .work_diagram-txt-item:nth-child(4) {
+    text-align: left;
+  }
+  .wrapper main .page_content.page_content--constr_project .work_diagram-txt-item-num {
+    -ms-flex-negative: 0;
+        flex-shrink: 0;
+    display: block;
+    margin-right: 15px;
+  }
+  .wrapper main .page_content.page_content--constr_project .work_diagram-txt-item-desc {
+    -ms-flex-item-align: center;
+        align-self: center;
+  }
+  .wrapper main .page_content.page_content--constr_project .work_diagram-txt-item-desc br {
+    display: none;
+  }
+  .wrapper main .page_content.page_content--constr_project .terms-section {
+    margin-bottom: 40px;
+  }
+  .wrapper main .page_content.page_content--constr_project .terms-table-tr {
+    padding: 15px 0;
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .wrapper main .page_content.page_content--constr_project .terms-table-td:first-child {
+    width: 110px;
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .wrapper main .page_content.page_content--constr_project .terms-txt-head {
+    font-size: 22px;
+    line-height: 28px;
+  }
+  .wrapper main .page_content.page_content--constr_project .terms-txt-main p {
+    margin-bottom: 10px;
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .wrapper main .page_content.page_content--constr_project .terms-txt-main-list {
+    margin-bottom: 10px;
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .wrapper main .page_content.page_content--constr_project .terms-txt-main-list li {
+    margin-bottom: 10px;
+  }
+  .wrapper main .page_content.page_content--constr_project .terms-txt-main-list li:before {
+    top: 7px;
+  }
+  .wrapper main .page_content.page_content--constr_project .rate-info {
+    display: block;
+  }
+  .wrapper main .page_content.page_content--constr_project .rate-info-txt {
+    width: auto;
+    margin-right: 0;
+    margin-bottom: 40px;
+  }
+  .wrapper main .page_content.page_content--constr_project .rate-info-graph {
+    width: auto;
+  }
+  .wrapper main .page_content.page_content--constr_project .rate-info-graph-img img {
+    display: none;
+  }
+  .wrapper main .page_content.page_content--constr_project .rate-info-graph-img img.img_mobile {
+    display: block;
+  }
+  .wrapper main .page_content.page_content--constr_project .rate-info-graph-desc {
+    font-size: 12px;
+    line-height: 18px;
+  }
+  .wrapper main .page_content.page_content--constr_project .rate-calc-title {
+    font-size: 28px;
+    line-height: 34px;
+  }
+  .wrapper main .page_content.page_content--constr_project .rate-calc-params {
+    margin-bottom: 25px;
+  }
+  .wrapper main .page_content.page_content--constr_project .rate-calc-result {
+    padding: 35px 25px;
+  }
+  .wrapper main .page_content.page_content--constr_project .rate-calc-result-main-num {
+    font-size: 44px;
+  }
+  .wrapper main .page_content.page_content--constr_project .rate-calc-result-foot {
+    margin-top: 25px;
+  }
+}

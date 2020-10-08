@@ -1,0 +1,378 @@
+.wrapper main .top_ban-container .inner {
+  position: relative;
+  width: 1220px;
+  height: inherit;
+  margin: 0 auto;
+}
+.wrapper main .top_ban-container.acc_business {
+  background: #e3dedb;
+}
+.wrapper main .top_ban-container.business-deposit .top_ban-wrapper {
+  background: #dde2e6;
+}
+.wrapper main .top_ban-container.business-deposit .top_ban-content {
+  padding-top: 100px;
+}
+.wrapper main .top_ban-container.business-deposit .top_ban-list {
+  max-width: 500px;
+  font-weight: 300;
+}
+.wrapper main .top_ban-container.business-deposit .top_ban-list_mobile {
+  font-weight: 300;
+}
+.wrapper main .top_ban-container.corp_card {
+  background: #e1ebed;
+}
+.wrapper main .top_ban-container.corp_card .top_ban-content {
+  padding-top: 100px;
+}
+.wrapper main .top_ban-container.sp_dev_acc-page .top_ban-content {
+  padding-top: 140px;
+}
+.wrapper main .top_ban-container.escrow-page .top_ban-desc {
+  max-width: 660px;
+}
+.wrapper main .top_ban-container.constr_project-page .top_ban-title {
+  max-width: 620px;
+}
+.wrapper main .top_ban-container.microlite .top_ban-content {
+  padding-top: 100px;
+}
+.wrapper main .top_ban-container.payroll_loan .top_ban-content {
+  padding-top: 100px;
+}
+.wrapper main .top_ban-container.precious_metal .top_ban-content {
+  padding-top: 95px;
+}
+.wrapper main .top_ban-container.subsoil_users .top_ban-content {
+  padding-top: 140px;
+}
+.wrapper main .top_ban-container.subsoil_users .top_ban-title {
+  max-width: 620px;
+}
+.wrapper main .top_ban-wrapper {
+  position: relative;
+  height: 460px;
+  color: #333;
+}
+.wrapper main .top_ban-content {
+  position: relative;
+  z-index: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: inherit;
+  padding: 120px 0 60px;
+}
+.wrapper main .top_ban-title {
+  max-width: 550px;
+  margin-bottom: 20px;
+  font: 700 56px/1.15 'Circe', 'Arial', sans-serif;
+}
+.wrapper main .top_ban-title:last-child {
+  margin-bottom: 0;
+}
+.wrapper main .top_ban-title span {
+  color: #fe5000;
+}
+.wrapper main .top_ban-desc {
+  margin: 0 0 25px;
+  max-width: 620px;
+  font: 400 24px/34px 'Circe', 'Arial', sans-serif;
+}
+.wrapper main .top_ban-desc:last-child {
+  margin-bottom: 0;
+}
+.wrapper main .top_ban-desc .accent {
+  font-weight: 700;
+  color: #fe5000;
+}
+.wrapper main .top_ban-desc_mobile {
+  font: 400 18px/24px 'Circe', 'Arial', sans-serif;
+}
+.wrapper main .top_ban-list {
+  max-width: 550px;
+  margin: 0 0 25px;
+  padding: 0;
+  font: 400 20px/28px 'Circe', 'Arial', sans-serif;
+  list-style-type: none;
+}
+.wrapper main .top_ban-list li {
+  position: relative;
+  margin-bottom: 10px;
+  padding-left: 18px;
+}
+.wrapper main .top_ban-list li:last-child {
+  margin-bottom: 0;
+}
+.wrapper main .top_ban-list li:before {
+  position: absolute;
+  top: 11px;
+  left: 0;
+  width: 6px;
+  height: 6px;
+  background: #fe5000;
+  border-radius: 50%;
+  content: '';
+}
+.wrapper main .top_ban-list_mobile {
+  margin: 0;
+  padding: 0;
+  font: 400 16px/22px 'Circe', 'Arial', sans-serif;
+  list-style-type: none;
+}
+.wrapper main .top_ban-list_mobile li {
+  position: relative;
+  margin-bottom: 10px;
+  padding-left: 18px;
+}
+.wrapper main .top_ban-list_mobile li:last-child {
+  margin-bottom: 0;
+}
+.wrapper main .top_ban-list_mobile li:before {
+  position: absolute;
+  top: 9px;
+  left: 0;
+  width: 6px;
+  height: 6px;
+  background: #fe5000;
+  border-radius: 50%;
+  content: '';
+}
+.wrapper main .top_ban-features {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 20px;
+}
+.wrapper main .top_ban-features-item {
+  margin-right: 50px;
+}
+.wrapper main .top_ban-features-item:last-child {
+  margin-right: 0;
+}
+.wrapper main .top_ban-features-item-top {
+  font: 400 48px/1 'Circe', 'Arial', sans-serif;
+}
+.wrapper main .top_ban-features-item-top .xs {
+  font-size: 24px;
+}
+.wrapper main .top_ban-features-item-top .s {
+  font-size: 32px;
+}
+.wrapper main .top_ban-features-item-bot {
+  margin-top: 15px;
+  font: 400 11px/1 'Circe', 'Arial', sans-serif;
+  text-transform: uppercase;
+  color: #6E6E6E;
+}
+.wrapper main .top_ban-btns {
+  margin-top: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.wrapper main .top_ban-btns > * {
+  margin-right: 30px;
+}
+.wrapper main .top_ban-btns > *:last-child {
+  margin-right: 0;
+}
+.wrapper main .top_ban-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.wrapper main .top_ban-img img {
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  height: 100%;
+}
+.wrapper main .top_ban-desc_block {
+  display: none;
+  margin-top: 40px;
+}
+@media (max-width: 1259px) {
+  .wrapper main .top_ban-container .inner {
+    width: 980px;
+  }
+  .wrapper main .top_ban-container.escrow-page .top_ban-desc {
+    max-width: 540px;
+  }
+  .wrapper main .top_ban-features-item {
+    margin-right: 35px;
+  }
+}
+@media (max-width: 999px) {
+  .wrapper main .top_ban-wrapper {
+    height: 380px;
+  }
+  .wrapper main .top_ban-content {
+    padding: 100px 0 60px;
+  }
+  .wrapper main .top_ban-title {
+    max-width: 440px;
+    font-size: 44px;
+  }
+  .wrapper main .top_ban-desc {
+    max-width: 440px;
+    font-size: 18px;
+    line-height: 26px;
+  }
+  .wrapper main .top_ban-features-item-top {
+    font-size: 32px;
+  }
+  .wrapper main .top_ban-features-item-top .xs {
+    font-size: 20px;
+  }
+  .wrapper main .top_ban-features-item-top .s {
+    font-size: 26px;
+  }
+  .wrapper main .top_ban-features-item-bot {
+    margin-top: 10px;
+  }
+  .wrapper main .top_ban-list {
+    max-width: 440px;
+    font-size: 18px;
+    line-height: 26px;
+  }
+  .wrapper main .top_ban-list li:before {
+    top: 10px;
+  }
+  .wrapper main .top_ban-btns > * {
+    margin-right: 20px;
+  }
+  .wrapper main .top_ban-container .inner {
+    width: 740px;
+  }
+  .wrapper main .top_ban-container.business-deposit .top_ban-content {
+    padding-top: 60px;
+  }
+  .wrapper main .top_ban-container.business-deposit .top_ban-list {
+    max-width: 360px;
+  }
+  .wrapper main .top_ban-container.corp_card .top_ban-content {
+    max-width: 460px;
+    padding-top: 60px;
+  }
+  .wrapper main .top_ban-container.corp_card .top_ban-title {
+    margin-bottom: 15px;
+  }
+  .wrapper main .top_ban-container.escrow-page .top_ban-desc {
+    max-width: 400px;
+  }
+  .wrapper main .top_ban-container.microlite .top_ban-content {
+    padding-top: 80px;
+  }
+  .wrapper main .top_ban-container.payroll_loan .top_ban-content {
+    padding-top: 80px;
+  }
+  .wrapper main .top_ban-container.precious_metal .top_ban-content {
+    padding-top: 70px;
+  }
+  .wrapper main .top_ban-container.subsoil_users .top_ban-content {
+    padding-top: 100px;
+  }
+  .wrapper main .top_ban-container.subsoil_users .top_ban-title {
+    max-width: 500px;
+  }
+  .wrapper main .top_ban-container.ved-page .top_ban-desc {
+    max-width: 260px;
+    font-size: 20px;
+  }
+}
+@media (max-width: 767px) {
+  .wrapper main .top_ban-wrapper {
+    height: 240px;
+  }
+  .wrapper main .top_ban-content {
+    padding: 50px 0 20px;
+  }
+  .wrapper main .top_ban-title {
+    max-width: 220px;
+    font-size: 26px;
+  }
+  .wrapper main .top_ban-desc {
+    display: none;
+  }
+  .wrapper main .top_ban-features {
+    display: none;
+  }
+  .wrapper main .top_ban-list {
+    display: none;
+  }
+  .wrapper main .top_ban-btns > * {
+    margin-right: 10px;
+  }
+  .wrapper main .top_ban-desc_block {
+    display: block;
+  }
+  .wrapper main .top_ban-container .inner {
+    width: 95%;
+    min-width: 300px;
+  }
+  .wrapper main .top_ban-container.corp_card .top_ban-title {
+    max-width: 140px;
+  }
+  .wrapper main .top_ban-container.sp_dev_acc-page .top_ban-content {
+    padding-top: 60px;
+  }
+  .wrapper main .top_ban-container.sp_dev_acc-page .top_ban-content br {
+    display: none;
+  }
+  .wrapper main .top_ban-container.constr_project-page .top_ban-title {
+    max-width: 220px;
+  }
+  .wrapper main .top_ban-container.microlite .top_ban-content {
+    padding-top: 60px;
+  }
+  .wrapper main .top_ban-container.microlite .top_ban-img img {
+    left: 40%;
+  }
+  .wrapper main .top_ban-container.payroll_loan .top_ban-content {
+    padding-top: 40px;
+  }
+  .wrapper main .top_ban-container.payroll_loan .top_ban-desc_block .top_ban-features {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-right: -10px;
+    overflow-x: auto;
+    overflow-y: hidden;
+  }
+  .wrapper main .top_ban-container.payroll_loan .top_ban-desc_block .top_ban-features-item {
+    white-space: nowrap;
+  }
+  .wrapper main .top_ban-container.payroll_loan .top_ban-desc_block .top_ban-features-item:last-child {
+    padding-right: 10px;
+  }
+  .wrapper main .top_ban-container.precious_metal .top_ban-content {
+    padding-top: 40px;
+  }
+  .wrapper main .top_ban-container.subsoil_users .top_ban-content {
+    padding-top: 40px;
+  }
+  .wrapper main .top_ban-container.subsoil_users .top_ban-title {
+    max-width: 210px;
+  }
+  .wrapper main .top_ban-container.ved-page .top_ban-title {
+    max-width: 250px;
+  }
+}
+@media (max-width: 374px) {
+  .wrapper main .top_ban-btns .ui-btn {
+    padding: 10px 15px;
+  }
+  .wrapper main .top_ban-btns .ui-btn_white {
+    padding: 10px 15px;
+  }
+}

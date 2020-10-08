@@ -1,0 +1,296 @@
+.wrapper .how_get-container {
+  padding: 40px 0 55px;
+  background: #f8f8f8;
+}
+.wrapper .how_get-title {
+  margin-bottom: 50px;
+  font: 700 40px/58px 'Circe', 'Arial', sans-serif;
+  text-align: center;
+}
+.wrapper .how_get-steps {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.wrapper .how_get-steps-box {
+  width: 320px;
+  margin-right: 50px;
+  text-align: center;
+}
+.wrapper .how_get-steps-box:nth-last-child(1) {
+  margin-right: 0;
+}
+.wrapper .how_get-steps-box.active .how_get-steps-box-progress-num {
+  top: -11px;
+  width: 26px;
+  height: 26px;
+  font-size: 17px;
+  line-height: 28px;
+  background: #7f94a8;
+}
+.wrapper .how_get-steps-box-head {
+  position: relative;
+  margin-bottom: 40px;
+}
+.wrapper .how_get-steps-box-img {
+  position: relative;
+  width: 125px;
+  height: 125px;
+  margin: 0 auto 25px;
+}
+.wrapper .how_get-steps-box-img-progress {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  -webkit-transform: scale(1, -1);
+          transform: scale(1, -1);
+}
+.wrapper .how_get-steps-box-img-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 66px;
+  height: 66px;
+}
+.wrapper .how_get-steps-box-img-icon img {
+  max-width: 100%;
+  max-height: 100%;
+}
+.wrapper .how_get-steps-box-txt {
+  color: #373a36;
+}
+.wrapper .how_get-steps-box-txt-title {
+  font: 400 20px/26px 'Circe', 'Arial', sans-serif;
+}
+.wrapper .how_get-steps-box-txt-title a {
+  color: #fe5000;
+  text-decoration: none;
+}
+.wrapper .how_get-steps-box-txt-desc {
+  margin-top: 10px;
+  font: 300 16px/24px 'Circe', 'Arial', sans-serif;
+}
+.wrapper .how_get-steps-box-txt-desc a {
+  color: #fe5000;
+  text-decoration: underline;
+}
+.wrapper .how_get-steps-box-progress {
+  position: relative;
+  height: 2px;
+}
+.wrapper .how_get-steps-box-progress-wrap {
+  padding: 12px 0;
+}
+.wrapper .how_get-steps-box-progress-num {
+  position: absolute;
+  top: -4px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  width: 10px;
+  height: 10px;
+  font-size: 0;
+  font-family: 'Circe', 'Arial', sans-serif;
+  text-align: center;
+  background: #999;
+  color: #fff;
+  border-radius: 50%;
+  z-index: 5;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.wrapper .how_get-steps-box-progress-line {
+  position: absolute;
+  left: 155px;
+  top: 0;
+  width: 370px;
+  height: 100%;
+  background: #ebebeb;
+}
+.wrapper .how_get-steps-box-progress-line:before {
+  position: absolute;
+  content: '';
+  right: 0;
+  top: 0;
+  height: 100%;
+  width: 0;
+  background: #7f94a8;
+  -webkit-transition: 0.5s linear;
+  transition: 0.5s linear;
+}
+.wrapper .how_get-steps-box-progress-line.active_line:before {
+  width: 100%;
+  left: 0;
+}
+.wrapper .how_get-btn {
+  margin-top: 80px;
+  text-align: center;
+}
+.wrapper .how_get-btn a {
+  display: inline-block;
+  padding: 15px 50px;
+  font: 400 14px/20px 'Circe', 'Arial', sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: #fe5000;
+  color: #fff;
+  border-radius: 6px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.wrapper .how_get-btn a:hover {
+  -webkit-box-shadow: 0px 4px 20px rgba(135, 151, 155, 0.3);
+          box-shadow: 0px 4px 20px rgba(135, 151, 155, 0.3);
+}
+@media (max-width: 1259px) {
+  .wrapper .how_get-steps-box {
+    width: 290px;
+    margin-right: 40px;
+  }
+  .wrapper .how_get-steps-box-progress-line {
+    left: 150px;
+    width: 330px;
+  }
+}
+@media (max-width: 999px) {
+  .wrapper .how_get-container {
+    padding: 50px 0 60px;
+  }
+  .wrapper .how_get-title {
+    margin-bottom: 40px;
+    font-size: 32px;
+    line-height: 36px;
+  }
+  .wrapper .how_get-steps {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .wrapper .how_get-steps-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    max-width: 590px;
+    margin-right: 0;
+    margin-bottom: 45px;
+    text-align: left;
+  }
+  .wrapper .how_get-steps-box:nth-last-child(1) {
+    margin-bottom: 0;
+  }
+  .wrapper .how_get-steps-box.active .how_get-steps-box-progress-num {
+    top: -15px;
+  }
+  .wrapper .how_get-steps-box-head {
+    margin-right: 100px;
+    margin-bottom: 0;
+  }
+  .wrapper .how_get-steps-box-txt-desc br {
+    display: none;
+  }
+  .wrapper .how_get-steps-box-img {
+    width: 100px;
+    height: 100px;
+    margin: 0;
+  }
+  .wrapper .how_get-steps-box-img-icon {
+    width: 52px;
+    height: 52px;
+  }
+  .wrapper .how_get-steps-box-txt {
+    -ms-flex-item-align: center;
+        align-self: center;
+  }
+  .wrapper .how_get-steps-box-progress {
+    height: 100%;
+    width: 2px;
+  }
+  .wrapper .how_get-steps-box-progress-wrap {
+    position: absolute;
+    top: 55px;
+    right: -50px;
+    height: calc(100%  + 45px);
+    padding: 0;
+  }
+  .wrapper .how_get-steps-box-progress-num {
+    top: -8px;
+  }
+  .wrapper .how_get-steps-box-progress-line {
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .wrapper .how_get-steps-box-progress-line:before {
+    height: 0;
+    top: auto;
+    bottom: 0;
+    width: 100%;
+  }
+  .wrapper .how_get-steps-box-progress-line.active_line:before {
+    height: 100%;
+    top: 0;
+  }
+  .wrapper .how_get-btn {
+    margin-top: 60px;
+  }
+}
+@media (max-width: 767px) {
+  .wrapper .how_get-container {
+    padding: 30px 0 60px;
+  }
+  .wrapper .how_get-title {
+    font-size: 26px;
+    line-height: 32px;
+  }
+  .wrapper .how_get-steps-box {
+    margin-bottom: 60px;
+  }
+  .wrapper .how_get-steps-box-head {
+    margin-right: 20px;
+  }
+  .wrapper .how_get-steps-box-img {
+    width: 60px;
+    height: 60px;
+  }
+  .wrapper .how_get-steps-box-img-icon {
+    width: 31px;
+    height: 31px;
+  }
+  .wrapper .how_get-steps-box-txt-title {
+    font-size: 18px;
+    line-height: 24px;
+  }
+  .wrapper .how_get-steps-box-txt-desc {
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .wrapper .how_get-steps-box-progress-wrap {
+    top: 70px;
+    left: 50%;
+    right: auto;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+    height: calc(100% - 60px + 60px - 20px);
+  }
+  .wrapper .how_get-steps-box-progress-num {
+    display: none;
+  }
+  .wrapper .how_get-btn {
+    margin-top: 40px;
+  }
+  .wrapper .how_get-btn a {
+    display: block;
+  }
+}

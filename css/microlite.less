@@ -1,0 +1,469 @@
+@circe: 'Circe', 'Arial', sans-serif;
+@orange: #fe5000;
+@red: #fe1E00;
+@blue: #449099;
+@gray: #c8c8c8;
+@grey_blue: #7f94a8;
+@light_grey: #e3e3e3;
+@bg_gray: #f8f8f8;
+@dark_grey: #6e6e6e;
+@black: #373a36;
+
+.before_after {
+    position: absolute;
+    content: '';
+}
+
+.wrapper {
+    main {
+        .page_content {
+            &.page_content--microlite {
+                .tabs-container {
+                    padding: 15px 0 20px;
+                }
+
+                .terms-container {
+                    .terms {
+                        &-table {
+                            &-tr {
+                                display: flex;
+                                padding: 20px 0;
+                                border-bottom: 1px solid #e9e9e9;
+                                font: 400 18px/28px @circe;
+                                color: @dark_grey;
+
+                                &:first-child {
+                                    padding-top: 0;
+                                }
+                            }
+
+                            &-td {
+                                &:first-child {
+                                    flex-shrink: 0;
+                                    width: 340px;
+                                    margin-right: 60px;
+                                    color: @black;
+                                }
+                            }
+
+                            &-list {
+                                margin: 0;
+                                padding: 0;
+                                list-style-type: none;
+                                font: 400 20px/24px @circe;
+
+                                li {
+                                    position: relative;
+                                    padding-left: 25px;
+                                    margin-bottom: 12px;
+
+                                    &:last-child {
+                                        margin-bottom: 0;
+                                    }
+
+                                    &::before {
+                                        position: absolute;
+                                        top: 8px;
+                                        left: 3px;
+                                        width: 6px;
+                                        height: 6px;
+                                        background: @orange;
+                                        border-radius: 50%;
+                                        content: '';
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .pay_calc {
+                    &-container {
+                        padding: 20px 0 80px;
+                    }
+
+                    &-btn_open {
+                        text-align: center;
+
+                        span {
+                            display: inline-block;
+                            vertical-align: top;
+                            padding: 15px 50px;
+                            border: 0;
+                            font: 400 14px/20px @circe;
+                            text-transform: uppercase;
+                            text-decoration: none;
+                            background: @orange;
+                            color: #fff;
+                            border-radius: 6px;
+                            transition: .3s;
+                            cursor: pointer;
+
+                            &:hover {
+                                box-shadow: 0px 3px 15px rgba(135, 151, 155, 0.25);
+                            }
+                        }
+                    }
+
+                    &-hidden_block {
+                        display: none;
+                        padding: 20px 0 15px;
+                    }
+
+                    &-title {
+                        margin-bottom: 20px;
+                        font: 700 40px/50px @circe;
+                    }
+
+                    &-wrapper {
+                        display: flex;
+                        align-items: flex-start;
+                    }
+
+                    &-params {
+                        width: 570px;
+                        margin-right: 130px;
+
+                        &-line {
+                            margin-bottom: 35px;
+
+                            &:last-child {
+                                margin-right: 0;
+                            }
+                        }
+                    }
+
+                    &-result {
+                        width: 400px;
+                        padding: 35px 40px 35px 60px;
+                        background: #fff;
+                        box-shadow: 10px 15px 60px rgba(0, 0, 0, 0.08);
+                        border-radius: 7px;
+
+                        &-main {
+                            &-title {
+                                margin-bottom: 20px;
+                                font: 300 12px/1 @circe;
+                                text-transform: uppercase;
+                                color: @dark_grey;
+                            }
+
+                            &-num {
+                                font: 400 56px/1 @circe;
+                            }
+                        }
+
+                        &-btn {
+                            margin-top: 30px;
+                        }
+
+                        &-foot {
+                            margin-top: 20px;
+                            font: 300 12px/16px @circe;
+                            color: #999;
+                        }
+                    }
+
+                    &-btn_close {
+                        margin-top: 55px;
+                        text-align: center;
+                        font: 400 14px/20px @circe;
+                        text-transform: uppercase;
+
+                        span {
+                            display: inline-block;
+                            border-bottom: 1px dashed;
+                            text-decoration: none;
+                            color: #999;
+                            cursor: pointer;
+                        }
+                    }
+                }
+
+                .docs_txt_block {
+                    &-title {
+                        margin-bottom: 30px;
+                        font: 700 24px/1.2 @circe;
+                    }
+
+                    &-list {
+                        &-item {
+                            display: flex;
+                            align-items: center;
+                            margin-bottom: 30px;
+
+                            &:last-child {
+                                margin-bottom: 0;
+                            }
+
+                            &-icon {
+                                flex-shrink: 0;
+                                width: 44px;
+                                height: 44px;
+                                margin-right: 20px;
+
+                                img,
+                                svg {
+                                    max-height: 100%;
+                                }
+                            }
+
+                            &-txt {
+                                font: 400 18px/28px @circe;
+                            }
+                        }
+                    }
+
+                    &-footnote {
+                        margin-top: 30px;
+                        font: 400 14px/20px @circe;
+                        color: @dark_grey;
+                    } 
+                }
+
+                .book_account_form {
+                    padding: 95px 0 65px;
+
+                    .title {
+                        margin-bottom: 40px;
+                        font: 400 36px/1.4 @circe;
+                        text-align: center;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media(max-width: 1259px) {
+    .wrapper {
+        main {
+            .page_content {
+                &.page_content--microlite {
+                    .pay_calc {
+                        &-params {
+                            margin-right: 40px;
+                        }
+
+                        &-result {
+                            width: 370px;
+                            padding: 35px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media(max-width: 999px) {
+    .wrapper {
+        main {
+            .page_content {
+                &.page_content--microlite {
+                    .terms-container {
+                        .terms {
+                            &-table {
+                                &-td {
+                                    &:first-child {
+                                        width: 240px;
+                                        margin-right: 40px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                    .pay_calc {
+                        &-wrapper {
+                            display: block;
+                        }
+
+                        &-params {
+                            width: auto;
+                            margin-right: 0;
+                            margin-bottom: 40px;
+                            padding: 0 15px;
+                        }
+
+                        &-result {
+                            width: auto;
+                            text-align: center;
+                        }
+                    }
+
+                    .book_account_form {
+                        .title {
+                            margin-bottom: 20px;
+                            font-size: 30px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media(max-width: 767px) {
+    .wrapper {
+        main {
+            .page_content {
+                &.page_content--microlite {
+                    .tabs-container {
+                        padding: 5px 0 15px;
+                    }
+
+                    .terms-container {
+                        .terms {
+                            &-table {
+                                &-tr {
+                                    padding: 25px 0;
+                                    font-size: 16px;
+                                    line-height: 22px;
+                                }
+
+                                &-td {
+                                    &:first-child {
+                                        width: 120px;
+                                        margin-right: 20px;
+                                    }
+                                }
+
+                                &-list {
+                                    font-size: 16px;
+                                    line-height: 22px;
+
+                                    li {
+                                        padding-left: 15px;
+                                        margin-bottom: 20px;
+
+                                        &::before {
+                                            top: 6px;
+                                            left: 0;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                    .pay_calc {
+                        &-container {
+                            padding: 15px 0 60px;
+                        }
+
+                        &-btn_open {
+                            span {
+                                display: block;
+                                max-width: 280px;
+                                margin: 0 auto;
+                                font-size: 12px;
+                                line-height: 18px;
+                                text-align: center;
+                            }
+                        }
+
+                        &-hidden_block {
+                            padding: 30px 0 5px;
+                        }
+
+                        &-title {
+                            font-size: 24px;
+                            line-height: 28px;
+                        }
+
+                        &-params {
+                            .ui-range {
+                                &-name {
+                                    font-size: 14px;
+                                }
+
+                                &-inp {
+                                    font-size: 22px;
+                                }
+                            }
+                        }
+
+                        &-result {
+                            padding: 25px 35px 35px;
+                            text-align: left;
+
+                            &-main {
+                                &-num {
+                                    font-size: 40px;
+                                }
+                            }
+
+                            .ui-btn {
+                                display: block;
+                                max-width: 270px;
+                                padding: 15px 25px;
+                                font-size: 14px;
+                                text-align: center;
+                            }
+
+                            &-foot {
+                                margin-top: 25px;
+                            }
+                        }
+
+                        &-btn_close {
+                            margin-top: 40px;
+                            font-size: 12px;
+                            line-height: 18px;
+                        }
+                    }
+
+                    .docs_txt_block {    
+                        &-list {
+                            &-item {
+                                margin-bottom: 25px;
+    
+                                &-icon {
+                                    width: 34px;
+                                    height: 34px;
+                                }
+    
+                                &-txt {
+                                    font-size: 16px;
+                                    line-height: 22px;
+                                }
+                            }
+                        }
+    
+                        &-footnote {
+                            margin-top: 25px;
+                            font-size: 12px;
+                            line-height: 18px;
+                        } 
+                    }
+
+                    .book_account_form {
+                        padding: 50px 40px 90px;
+
+                        .title {
+                            margin-bottom: 30px;
+                            font-size: 32px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media(max-width: 374px) {
+    .wrapper {
+        main {
+            .page_content {
+                &.page_content--microlite {
+                    .book_account_form {
+                        padding: 50px 10px 90px;
+                    }
+                }
+            }
+        }
+    }
+}

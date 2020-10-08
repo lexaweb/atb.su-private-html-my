@@ -1,0 +1,369 @@
+@circe: 'Circe', 'Arial', sans-serif;
+@orange: #fe5000;
+@dark_grey: #6E6E6E;
+@black: #333;
+
+.wrapper,
+.fancybox-wrap {
+    .form_thank-rko {
+        max-width: 670px;
+        margin: 0 auto;
+        color: @black;
+
+        &-h1 {
+            margin-bottom: 35px;
+            font: 400 36px/1.3 @circe;
+        }
+
+        &-h2 {
+            margin-bottom: 20px;
+            font: 400 22px/1.3 @circe;
+        }
+
+        &-txt {
+            margin-bottom: 25px;
+            font: 350 18px/1.45 @circe;
+
+            p {
+                margin-bottom: 25px;
+
+                &:last-child {
+                    margin-bottom: 0;
+                }
+            }
+        }
+
+        &-sign {
+            font: 350px 16px/1.4 @circe;
+            color: #666;
+        }
+
+        &-home {
+            display: flex;
+            align-items: flex-start;
+            margin-top: 50px;
+            font: 400 24px/28px @circe;
+            color: @orange;
+
+            img {
+                margin-left: 10px;
+            }
+        }
+    }
+
+    .form_thank_adv {
+        padding: 70px 0;
+        background:#f6f6f6;
+
+        &-inner {
+            max-width: 1220px;
+            margin: 0 auto;
+            padding: 85px 85px 90px;
+            border-radius: 10px;
+            background-color: #fff;
+        }
+
+        &-txt {
+            max-width: 790px;
+            margin: 0 auto;
+            text-align: center;
+            color: #28282a;
+
+            &-h1 {
+                margin-bottom: 40px;
+                font: 700 40px/1.2 @circe;
+            }
+
+            &-h2 {
+                margin-bottom: 25px;
+                font: 400 22px/32px @circe;
+            }
+
+            &-desc {
+                margin-bottom: 30px;
+                font: 400 18px/26px @circe;
+
+                p {
+                    margin-bottom: 25px;
+
+                    &:last-child {
+                        margin-bottom: 0;
+                    }
+                }
+            }
+
+            &-foot {
+                font: 400 16px/1.2 @circe;
+            }
+        }
+
+        &-offers {
+            margin-top: 50px;
+
+            &-inner {
+                display: flex;
+            }
+
+            &-box {
+                position: relative;
+                flex-shrink: 0;
+                display: block;
+                width: 327px;
+                height: 316px;
+                margin-right: 25px;
+                text-decoration: none;
+                border-radius: 10px;
+                background-color: #e6e8ea;
+                transition: 0.3s;
+
+                &:last-child {
+                    margin-right: 0;
+                }
+
+                &:hover {
+                    box-shadow: 0px 4px 20px rgba(135, 151, 155, 0.3);
+                }
+
+                &-content {
+                    position: relative;
+                    z-index: 1;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: flex-start;
+                    height: 100%;
+                    padding: 35px 25px 30px;
+                }
+
+                &-title {
+                    max-width: 150px;
+                    font: 700 22px/1.1 @circe;
+                    color: #4a4a4a;
+                }
+
+                &-btn {
+                    display: inline-block;
+                    margin-top: auto;
+                    padding: 15px 32px;
+                    font: 400 14px/15px @circe;
+                    text-transform: uppercase;
+                    background-color: #f6f6f6;
+                    color: @orange;
+                    border-radius: 6px;
+                }
+
+                &-img {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+
+                    img {
+                        position: absolute;
+                        bottom: 0;
+                        right: 0;
+                        max-width: 100%;
+                        max-height: 100%;
+                    }
+                }
+
+                &.rko {
+                    .form_thank_adv-offers-box-img img {
+                        max-height: 89%;
+                    }
+                }
+
+                &.corp_card {
+                    .form_thank_adv-offers-box-img img {
+                        max-height: 65%;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.fancybox-wrap {
+    .form_thank_adv {
+        padding: 0;
+
+        &-inner {
+            border-radius: 0;
+        }
+    }
+}
+
+.fancybox-close {
+    top: 20px;
+    right: 20px;
+    width: 15px;
+    height: 16px;
+    background: url(../img/ico_close_mid.png) no-repeat;
+    background-size: contain;
+}
+
+
+@media (max-width: 1259px) {
+    .wrapper,
+    .fancybox-wrap  {
+        .form_thank_adv {
+            &-inner {
+                max-width: 980px;
+                padding: 70px 50px 80px;
+            }
+
+            &-offers {
+                &-box {
+                    width: 275px;
+                    height: 266px;
+                }
+            }
+        }
+    }
+}
+
+
+@media (max-width: 999px) {
+    .wrapper,
+    .fancybox-wrap  {
+        .form_thank_adv {
+            &-inner {
+                max-width: 740px;
+                padding: 55px 0 60px;
+                overflow: hidden;
+            }
+
+            &-txt {
+                padding: 0 30px;
+            }
+
+            &-offers {
+                overflow-y: auto;
+
+                &::-webkit-scrollbar {
+                    display: none;
+                }
+
+                &-inner {
+                    width: max-content;
+                    padding: 0 30px;
+                }
+            }
+        }
+    }
+}
+
+
+@media (max-width: 767px) {
+    .wrapper,
+    .fancybox-wrap  {
+        .form_thank-rko {
+            &-h1 {
+                margin-bottom: 25px;
+                font-size: 28px;
+            }
+
+            &-h2 {
+                margin-bottom: 15px;
+                font-size: 18px;
+            }
+
+            &-txt {
+                margin-bottom: 20px;
+                font-size: 14px;
+
+                p {
+                    margin-bottom: 20px;
+                }
+            }
+
+            &-sign {
+                font-size: 14px;
+            }
+
+            &-home {
+                margin-top: 25px;
+                font-size: 18px;
+
+                img {
+                    height: 20px;
+                }
+            }
+        }
+
+        .form_thank_adv {
+            padding: 25px 10px;
+
+            &-inner {
+                padding: 35px 0 25px;
+            }
+
+            &-txt  {
+                padding: 0 15px;
+
+                &-h1 {
+                    margin-bottom: 25px;
+                    font-size: 24px;
+                }
+
+                &-h2 {
+                    margin-bottom: 15px;
+                    font-size: 16px;
+                    line-height: 18px;
+                }
+
+                &-desc {
+                    margin-bottom: 20px;
+                    font-size: 14px;
+                    line-height: 18px;
+
+                    p {
+                        margin-bottom: 20px;
+                    }
+                }
+
+                &-foot {
+                    font-size: 14px;
+                }
+            }
+
+            &-offers {
+                margin-top: 25px;
+
+                &-inner {
+                    padding: 0 15px;
+                }
+
+                &-box {
+                    width: 261px;
+                    height: 252px;
+                    margin-right: 15px;
+
+                    &-content {
+                        padding: 25px 20px 20px;
+                    }
+
+                    &-title {
+                        max-width: 110px;
+                        font-size: 18px;
+                    }
+
+                    &-btn {
+                        font-size: 13px;
+                        line-height: 1;
+                    }
+                }
+            }
+        }
+    }
+
+    .fancybox-wrap {
+        .form_thank_adv {
+            padding: 0;
+
+            &-inner {
+                max-width: 320px;
+            }
+        }
+    }
+}

@@ -1,0 +1,134 @@
+@media (max-width: 989px) {
+  .wrapper .standart_style_form_wrap,
+  .fancybox-overlay .standart_style_form_wrap {
+    padding: 60px 0 200px;
+  }
+  .wrapper .standart_style_form_wrap .form_two_short_steps .form_title,
+  .fancybox-overlay .standart_style_form_wrap .form_two_short_steps .form_title {
+    margin-bottom: 50px;
+    font-size: 34px;
+    line-height: 40px;
+  }
+}
+@media (max-width: 767px) {
+  .wrapper .standart_style_form_wrap,
+  .fancybox-overlay .standart_style_form_wrap {
+    padding: 50px 0 60px;
+  }
+  .wrapper .standart_style_form_wrap.no_btn_continue .form_two_short_steps .form_title,
+  .fancybox-overlay .standart_style_form_wrap.no_btn_continue .form_two_short_steps .form_title {
+    font-size: 26px;
+    line-height: 30px;
+  }
+  .wrapper .form_two_short_steps,
+  .fancybox-overlay .form_two_short_steps {
+    padding: 0 10px;
+  }
+  .wrapper .form_two_short_steps .h1_title,
+  .fancybox-overlay .form_two_short_steps .h1_title {
+    margin-bottom: 30px;
+    font-size: 32px;
+  }
+  .wrapper .form_two_short_steps .form-wrap,
+  .fancybox-overlay .form_two_short_steps .form-wrap {
+    width: auto;
+  }
+  .wrapper .form_two_short_steps .form-wrap input[type="text"],
+  .fancybox-overlay .form_two_short_steps .form-wrap input[type="text"] {
+    padding: 0 15px;
+    font-size: 14px;
+  }
+  .wrapper .form_two_short_steps .form-wrap .btn_action button,
+  .fancybox-overlay .form_two_short_steps .form-wrap .btn_action button {
+    height: 50px;
+  }
+  .wrapper .form_two_short_steps .form-wrap .inn_info-line-name,
+  .fancybox-overlay .form_two_short_steps .form-wrap .inn_info-line-name {
+    margin-bottom: 8px;
+    font-size: 15px;
+  }
+  .wrapper .form_two_short_steps .form-wrap .inn_info-line-value,
+  .fancybox-overlay .form_two_short_steps .form-wrap .inn_info-line-value {
+    font-size: 13px;
+  }
+  .wrapper .form_two_short_steps .form-wrap .confirm_code-inputs,
+  .fancybox-overlay .form_two_short_steps .form-wrap .confirm_code-inputs {
+    display: block;
+  }
+  .wrapper .form_two_short_steps .form-wrap .confirm_code-inputs .sms-code,
+  .fancybox-overlay .form_two_short_steps .form-wrap .confirm_code-inputs .sms-code {
+    width: 100%;
+    margin: 0 0 30px;
+  }
+  .wrapper .form_two_short_steps .form-wrap .confirm_code-inputs .sms-code input[type="text"],
+  .fancybox-overlay .form_two_short_steps .form-wrap .confirm_code-inputs .sms-code input[type="text"] {
+    height: 50px;
+  }
+  .wrapper .form_two_short_steps .form-wrap .confirm_code-inputs .enter-code,
+  .fancybox-overlay .form_two_short_steps .form-wrap .confirm_code-inputs .enter-code {
+    width: 100%;
+  }
+  .wrapper .form_two_short_steps .form-wrap .confirm_code .urls .repeat-sms,
+  .fancybox-overlay .form_two_short_steps .form-wrap .confirm_code .urls .repeat-sms {
+    width: 100%;
+    margin: 10px 0 0;
+  }
+  .wrapper .form_two_short_steps .form-wrap .step2 .for_depart_list .branch .dropdown-menu a,
+  .fancybox-overlay .form_two_short_steps .form-wrap .step2 .for_depart_list .branch .dropdown-menu a {
+    white-space: normal;
+  }
+  .wrapper .form_two_short_steps .form-item-name,
+  .fancybox-overlay .form_two_short_steps .form-item-name {
+    margin-bottom: 15px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #666;
+  }
+  .wrapper .form_two_short_steps .form-check,
+  .fancybox-overlay .form_two_short_steps .form-check {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .wrapper .form_two_short_steps .form-radio,
+  .fancybox-overlay .form_two_short_steps .form-radio {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .wrapper .form_two_short_steps .form-txt,
+  .fancybox-overlay .form_two_short_steps .form-txt {
+    font-size: 12px;
+    line-height: 18px;
+  }
+  .wrapper .form_two_short_steps .form_thank,
+  .fancybox-overlay .form_two_short_steps .form_thank {
+    margin: 0 auto;
+    /*padding: 70px 0 250px;*/
+    padding: 75px 0 75px;
+  }
+  .wrapper .form_two_short_steps .form_thank:before,
+  .fancybox-overlay .form_two_short_steps .form_thank:before {
+    bottom: -20px;
+    width: 500px;
+  }
+  .wrapper .form_two_short_steps .form_thank-head,
+  .fancybox-overlay .form_two_short_steps .form_thank-head {
+    font-size: 32px;
+  }
+  .wrapper .form_two_short_steps .form_thank-main,
+  .fancybox-overlay .form_two_short_steps .form_thank-main {
+    margin-bottom: 20px;
+    font-size: 16px;
+  }
+  .wrapper .form_two_short_steps .form_thank-foot,
+  .fancybox-overlay .form_two_short_steps .form_thank-foot {
+    font-size: 13px;
+  }
+  .wrapper .ui-autocomplete,
+  .fancybox-overlay .ui-autocomplete {
+    width: 270px !important;
+  }
+  .wrapper .ui-autocomplete .ui-menu-item,
+  .fancybox-overlay .ui-autocomplete .ui-menu-item {
+    width: 270px !important;
+  }
+}

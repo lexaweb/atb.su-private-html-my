@@ -1,0 +1,628 @@
+@circe: 'Circe', 'Arial', sans-serif;
+@orange: #fe5000;
+@red: #FE1E00;
+@blue: #3b8b94;
+@gray: #C8C8C8;
+@light_grey: #E3E3E3;
+@dark_grey: #6E6E6E;
+@black: #333;
+
+.wrapper {
+    main {
+        .top_ban {
+            &-container {
+                .inner {
+                    position: relative;
+                    width: 1220px;
+                    height: inherit;
+                    margin: 0 auto;
+                }
+
+                &.acc_business {
+                    background: #e3dedb;
+                }
+
+                &.business-deposit {
+                    .top_ban {
+                        &-wrapper {
+                            background: #dde2e6;
+                        }
+
+                        &-content {
+                            padding-top: 100px;
+                        }
+
+                        &-list {
+                            max-width: 500px;
+                            font-weight: 300;
+                        }
+
+                        &-list_mobile {
+                            font-weight: 300;
+                        }
+                    } 
+                }
+
+                &.corp_card {
+                    background: #e1ebed;
+
+                    .top_ban {
+                        &-content {
+                            padding-top: 100px;
+                        }
+                    }
+                }
+
+                &.sp_dev_acc-page {
+                    .top_ban {
+                        &-content {
+                            padding-top: 140px;
+                        }
+                    }
+                }
+
+                &.escrow-page {
+                    .top_ban {
+                        &-desc {
+                            max-width: 660px;
+                        }
+                    }
+                }
+
+                &.constr_project-page {
+                    .top_ban {
+                        &-title {
+                            max-width: 620px;
+                        }
+                    }
+                }
+
+                &.microlite {
+                    .top_ban {
+                        &-content {
+                            padding-top: 100px;
+                        }
+                    }
+                }                
+
+                &.payroll_loan {
+                    .top_ban {
+                        &-content {
+                            padding-top: 100px;
+                        }
+                    }
+                }
+
+                &.precious_metal {
+                    .top_ban {
+                        &-content {
+                            padding-top: 95px;
+                        }
+                    }
+                }
+
+                &.subsoil_users {
+                    .top_ban {
+                        &-content {
+                            padding-top: 140px;
+                        }
+
+                        &-title {
+                            max-width: 620px;
+                        }
+                    }
+                }
+            }
+
+            &-wrapper {
+                position: relative;
+                height: 460px;
+                color: @black;
+            }
+
+            &-content {
+                position: relative;
+                z-index: 1;
+                display: flex;
+                flex-direction: column;
+                height: inherit;
+                padding: 120px 0 60px;
+            }
+
+            &-title {
+                max-width: 550px;
+                margin-bottom: 20px;
+                font: 700 56px/1.15 @circe;
+
+                &:last-child {
+                    margin-bottom: 0;
+                }
+
+                span {
+                    color: @orange;
+                }
+            }
+
+            &-desc {
+                margin: 0 0 25px;
+                max-width: 620px;
+                font: 400 24px/34px @circe;
+
+                &:last-child {
+                    margin-bottom: 0;
+                }
+
+                .accent {
+                    font-weight: 700;
+                    color: @orange;
+                }
+            }
+
+            &-desc_mobile {
+                font: 400 18px/24px @circe;
+            }
+
+            &-list {
+                max-width: 550px;
+                margin: 0 0 25px;
+                padding: 0;
+                font: 400 20px/28px @circe;
+                list-style-type: none;
+
+                li {
+                    position: relative;
+                    margin-bottom: 10px;
+                    padding-left: 18px;
+
+                    &:last-child {
+                        margin-bottom: 0;
+                    }
+
+                    &:before {
+                        position: absolute;
+                        top: 11px;
+                        left: 0;
+                        width: 6px;
+                        height: 6px;
+                        background: @orange;
+                        border-radius: 50%;
+                        content: '';
+                    }
+                }
+            }
+
+            &-list_mobile {
+                margin: 0;
+                padding: 0;
+                font: 400 16px/22px @circe;
+                list-style-type: none;
+
+                li {
+                    position: relative;
+                    margin-bottom: 10px;
+                    padding-left: 18px;
+
+                    &:last-child {
+                        margin-bottom: 0;
+                    }
+
+                    &:before {
+                        position: absolute;
+                        top: 9px;
+                        left: 0;
+                        width: 6px;
+                        height: 6px;
+                        background: @orange;
+                        border-radius: 50%;
+                        content: '';
+                    }
+                }
+            }
+
+            &-features {
+                display: flex;
+                margin-bottom: 20px;
+
+                &-item {
+                    margin-right: 50px;
+
+                    &:last-child {
+                        margin-right: 0;
+                    }
+
+                    &-top {
+                        font: 400 48px/1 @circe;
+
+                        .xs {
+                            font-size: 24px;
+                        }
+
+                        .s {
+                            font-size: 32px;
+                        }
+                    }
+
+                    &-bot {
+                        margin-top: 15px;
+                        font: 400 11px/1 @circe;
+                        text-transform: uppercase;
+                        color: @dark_grey;
+                    }
+                }
+            }
+
+            &-btns {
+                margin-top: auto;
+                display: flex;
+
+                &>* {
+                    margin-right: 30px;
+
+                    &:last-child {
+                        margin-right: 0;
+                    }
+                }
+            }
+
+            &-img {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+
+                img {
+                    position: absolute;
+                    left: 50%;
+                    bottom: 0;
+                    transform: translateX(-50%);
+                    height: 100%;
+                }
+            }
+
+            &-desc_block {
+                display: none;
+                margin-top: 40px;
+            }
+        }
+    }
+}
+
+
+@media(max-width: 1259px) {
+    .wrapper {
+        main {
+            .top_ban {
+                &-container {
+                    .inner {
+                        width: 980px;
+                    }
+
+                    &.escrow-page {
+                        .top_ban {
+                            &-desc {
+                                max-width: 540px;
+                            }
+                        }
+                    }
+                }
+
+                &-features {
+                    &-item {
+                        margin-right: 35px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media(max-width: 999px) {
+    .wrapper {
+        main {
+            .top_ban {
+                &-wrapper {
+                    height: 380px;
+                }
+
+                &-content {
+                    padding: 100px 0 60px;
+                }
+
+                &-title {
+                    max-width: 440px;
+                    font-size: 44px;
+                }
+
+                &-desc {
+                    max-width: 440px;
+                    font-size: 18px;
+                    line-height: 26px;
+                }
+
+                &-features {
+                    &-item {
+                        &-top {
+                            font-size: 32px;
+
+                            .xs {
+                                font-size: 20px;
+                            }
+
+                            .s {
+                                font-size: 26px;
+                            }
+                        }
+
+                        &-bot {
+                            margin-top: 10px;
+                        }
+                    }
+                }
+
+                &-list {
+                    max-width: 440px;
+                    font-size: 18px;
+                    line-height: 26px;
+
+                    li {
+                        &:before {
+                            top: 10px;
+                        }
+                    }
+                }
+
+                &-btns {
+                    &>* {
+                        margin-right: 20px;
+                    }
+                }
+
+                &-container {
+                    .inner {
+                        width: 740px;
+                    }
+
+                    &.business-deposit {    
+                        .top_ban {
+                            &-content {
+                                padding-top: 60px;
+                            }
+    
+                            &-list {
+                                max-width: 360px;
+                            }
+                        } 
+                    }
+
+                    &.corp_card {
+                        .top_ban {
+                            &-content {
+                                max-width: 460px;
+                                padding-top: 60px;
+                            }
+
+                            &-title {
+                                margin-bottom: 15px;
+                            }
+                        }
+                    }
+
+                    &.escrow-page {
+                        .top_ban {
+                            &-desc {
+                                max-width: 400px;
+                            }
+                        }
+                    }
+
+                    &.microlite {
+                        .top_ban {
+                            &-content {
+                                padding-top: 80px;
+                            }
+                        }
+                    }
+
+                    &.payroll_loan {
+                        .top_ban {
+                            &-content {
+                                padding-top: 80px;
+                            }
+                        }
+                    }   
+
+                    &.precious_metal {
+                        .top_ban {
+                            &-content {
+                                padding-top: 70px;
+                            }
+                        }
+                    }
+
+                    &.subsoil_users {
+                        .top_ban {
+                            &-content {
+                                padding-top: 100px;
+                            }
+    
+                            &-title {
+                                max-width: 500px;
+                            }
+                        }
+                    }
+
+                    &.ved-page {
+                        .top_ban-desc {
+                            max-width: 260px;
+                            font-size: 20px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media(max-width: 767px) {
+    .wrapper {
+        main {
+            .top_ban {
+                &-wrapper {
+                    height: 240px;
+                }
+
+                &-content {
+                    padding: 50px 0 20px;
+                }
+
+                &-title {
+                    max-width: 220px;
+                    font-size: 26px;
+                }
+
+                &-desc {
+                    display: none;
+                }
+
+                &-features {
+                    display: none;
+                }
+
+                &-list {
+                    display: none;
+                }
+
+                &-btns {
+                    &>* {
+                        margin-right: 10px;
+                    }
+                }
+
+                &-desc_block {
+                    display: block;
+                }
+
+                &-container {
+                    .inner {
+                        width: 95%;
+                        min-width: 300px;
+                    }
+
+                    &.corp_card {
+                        .top_ban {
+                            &-title {
+                                max-width: 140px;
+                            }
+                        }
+                    }
+
+                    &.sp_dev_acc-page {
+                        .top_ban {
+                            &-content {
+                                padding-top: 60px;
+
+                                br {
+                                    display: none;
+                                }
+                            }
+                        }
+                    }
+
+                    &.constr_project-page {
+                        .top_ban {
+                            &-title {
+                                max-width: 220px;
+                            }
+                        }
+                    }
+
+                    &.microlite {
+                        .top_ban {
+                            &-content {
+                                padding-top: 60px;
+                            }
+
+                            &-img img {
+                                left: 40%;
+                            }
+                        }
+                    }
+
+                    &.payroll_loan {
+                        .top_ban {
+                            &-content {
+                                padding-top: 40px;
+                            }
+
+                            &-desc_block {
+                                .top_ban-features {
+                                    display: flex;
+                                    margin-right: -10px;
+                                    overflow-x: auto;
+                                    overflow-y: hidden;
+
+                                    &-item {
+                                        white-space: nowrap;
+                
+                                        &:last-child {
+                                            padding-right: 10px;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                    &.precious_metal {
+                        .top_ban {
+                            &-content {
+                                padding-top: 40px;
+                            }
+                        }
+                    }
+
+                    &.subsoil_users {
+                        .top_ban {
+                            &-content {
+                                padding-top: 40px;
+                            }
+    
+                            &-title {
+                                max-width: 210px;
+                            }
+                        }
+                    }
+
+                    &.ved-page {
+                        .top_ban-title {
+                            max-width: 250px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media(max-width: 374px) {
+    .wrapper {
+        main {
+            .top_ban {
+                &-btns {
+                    .ui {
+                        &-btn {
+                            padding: 10px 15px;
+                        }
+
+                        &-btn_white {
+                            padding: 10px 15px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

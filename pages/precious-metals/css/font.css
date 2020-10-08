@@ -1,0 +1,49 @@
+@font-face {
+    font-family: 'Circe';
+    src: url('../fonts/CRC25.eot');
+    src: local('☺'), url('../fonts/CRC25.woff') format('woff'), 
+    url('../fonts/CRC25.ttf') format('truetype'), 
+    url('../fonts/CRC25.svg') format('svg');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Circe';
+    src: url('../fonts/CRC35.eot');
+    src: local('☺'), url('../fonts/CRC35.woff') format('woff'), 
+    url('../fonts/CRC35.ttf') format('truetype'), 
+    url('../fonts/CRC35.svg') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Circe';
+    src: url('../fonts/CRC55.eot');
+    src: local('☺'), url('../fonts/CRC55.woff') format('woff'), 
+    url('../fonts/CRC55.ttf') format('truetype'), 
+    url('../fonts/CRC55.svg') format('svg');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Circe';
+    src: url('../fonts/Circe-Bold.eot');
+    src: local('☺'), url('../fonts/Circe-Bold.woff') format('woff'), 
+    url('../fonts/Circe-Bold.ttf') format('truetype'), 
+    url('../fonts/Circe-Bold.svg') format('svg');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Circe';
+    src: url('../fonts/Circe-ExtraBold.eot');
+    src: local('☺'), url('../fonts/Circe-ExtraBold.woff') format('woff'), 
+    url('../fonts/Circe-ExtraBold.ttf') format('truetype'), 
+    url('../fonts/Circe-ExtraBold.svg') format('svg');
+    font-weight: 800;
+    font-style: normal;
+}
