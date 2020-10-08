@@ -1,0 +1,672 @@
+.wrapper .page_content.page_content--refinancing .calc-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+.wrapper .page_content.page_content--refinancing .calc-container .calc-loans {
+  width: 570px;
+  margin-right: 40px;
+}
+.wrapper .page_content.page_content--refinancing .calc-container .calc-loans-box {
+  margin-bottom: 30px;
+  background: #fff;
+  border: 1px solid #dfdfdf;
+  border-radius: 6px;
+}
+.wrapper .page_content.page_content--refinancing .calc-container .calc-loans-box:last-child {
+  margin-bottom: 0;
+}
+.wrapper .page_content.page_content--refinancing .calc-container .calc-loans-box:nth-child(1) .calc-loans-box-head.open::after {
+  display: block;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+.wrapper .page_content.page_content--refinancing .calc-container .calc-loans-box:nth-child(1) .calc-loans-box-head.open .calc-loans-box-head-btn_del {
+  display: none;
+}
+.wrapper .page_content.page_content--refinancing .calc-container .calc-loans-box-head {
+  position: relative;
+  padding: 10px 70px 10px 20px;
+  font: 700 18px/26px 'Circe', 'Arial', sans-serif;
+  cursor: pointer;
+}
+.wrapper .page_content.page_content--refinancing .calc-container .calc-loans-box-head::after {
+  position: absolute;
+  top: 9px;
+  right: 13px;
+  width: 23px;
+  height: 22px;
+  background-image: url("data:image/svg+xml,%3Csvg width='24' height='22' viewBox='0 0 24 22' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M6.31079 9.28674L12.3108 15.2867L18.3108 9.28674' stroke='%23FE5000' stroke-width='2'/%3E%3C/svg%3E%0A");
+  background-repeat: no-repeat;
+  background-size: contain;
+  content: '';
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.wrapper .page_content.page_content--refinancing .calc-container .calc-loans-box-head-btn_del {
+  position: absolute;
+  top: 8px;
+  display: none;
+  right: 13px;
+  width: 22px;
+  height: 22px;
+  background-image: url("data:image/svg+xml,%3Csvg width='22' height='22' viewBox='0 0 22 22' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M16.2637 4.71423L17.2857 5.73686L5.73619 17.2857L4.71423 16.2638L16.2637 4.71423Z' fill='%23373A36'/%3E%3Cpath d='M5.73619 4.71423L17.2857 16.263L16.2637 17.2857L4.71423 5.73686L5.73619 4.71423Z' fill='%23373A36'/%3E%3C/svg%3E%0A");
+  background-repeat: no-repeat;
+  background-size: contain;
+  cursor: pointer;
+}
+.wrapper .page_content.page_content--refinancing .calc-container .calc-loans-box-head.open::after {
+  display: none;
+}
+.wrapper .page_content.page_content--refinancing .calc-container .calc-loans-box-head.open .calc-loans-box-head-btn_del {
+  display: block;
+}
+.wrapper .page_content.page_content--refinancing .calc-container .calc-loans-box-main {
+  display: none;
+  padding: 25px 20px 50px;
+}
+.wrapper .page_content.page_content--refinancing .calc-container .calc-loans-box-main-line {
+  margin-bottom: 50px;
+}
+.wrapper .page_content.page_content--refinancing .calc-container .calc-loans-box-main-line:last-child {
+  margin-bottom: 0;
+}
+.wrapper .page_content.page_content--refinancing .calc-container .calc-loans-box-add {
+  position: relative;
+  padding: 10px 70px 10px 20px;
+  font: 700 18px/26px 'Circe', 'Arial', sans-serif;
+  cursor: pointer;
+}
+.wrapper .page_content.page_content--refinancing .calc-container .calc-loans-box-add::after {
+  position: absolute;
+  top: 15px;
+  right: 17px;
+  width: 14px;
+  height: 15px;
+  background-image: url("data:image/svg+xml,%3Csvg width='14' height='15' viewBox='0 0 14 15' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0.0700002 8.25H5.71V14.04H7.96V8.25H13.69V6.15H7.96V0.419999H5.71V6.15H0.0700002V8.25Z' fill='%23FE5000'/%3E%3C/svg%3E%0A");
+  background-repeat: no-repeat;
+  background-size: contain;
+  content: '';
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.wrapper .page_content.page_content--refinancing .calc-container .calc-sugges {
+  width: 520px;
+  background: #fff;
+  -webkit-box-shadow: 10px 15px 60px rgba(0, 0, 0, 0.08);
+          box-shadow: 10px 15px 60px rgba(0, 0, 0, 0.08);
+  border-radius: 7px;
+}
+.wrapper .page_content.page_content--refinancing .calc-container .calc-sugges-params {
+  padding: 45px 60px 30px;
+  border-bottom: 1px solid #e3e3e3;
+}
+.wrapper .page_content.page_content--refinancing .calc-container .calc-sugges-params-title {
+  font: 700 30px/1.2 'Circe', 'Arial', sans-serif;
+}
+.wrapper .page_content.page_content--refinancing .calc-container .calc-sugges-params-line {
+  margin-top: 30px;
+}
+.wrapper .page_content.page_content--refinancing .calc-container .calc-sugges-params-slider {
+  margin-top: 45px;
+}
+.wrapper .page_content.page_content--refinancing .calc-container .calc-sugges-params-two_check {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 45px;
+}
+.wrapper .page_content.page_content--refinancing .calc-container .calc-sugges-params-two_check .ui-check {
+  margin-right: 65px;
+}
+.wrapper .page_content.page_content--refinancing .calc-container .calc-sugges-params-two_check .ui-check:last-child {
+  margin-right: 0;
+}
+.wrapper .page_content.page_content--refinancing .calc-container .calc-sugges-params-collateral {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 50px;
+  margin-top: 30px;
+  padding: 0 20px;
+  background: #fff;
+  border: 1px solid #dfdfdf;
+  border-radius: 6px;
+}
+.wrapper .page_content.page_content--refinancing .calc-container .calc-sugges-params-collateral-txt {
+  font: 300 16px/1 'Circe', 'Arial', sans-serif;
+  white-space: nowrap;
+}
+.wrapper .page_content.page_content--refinancing .calc-container .calc-sugges-params-collateral-inp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  font: 700 18px/28px 'Circe', 'Arial', sans-serif;
+}
+.wrapper .page_content.page_content--refinancing .calc-container .calc-sugges-params-collateral-inp input[type='text'] {
+  width: 100%;
+  height: 30px;
+  margin-right: 5px;
+  padding: 0;
+  border: 0;
+  font-weight: inherit;
+  text-align: right;
+  background: transparent;
+  color: #333;
+  outline: none;
+}
+.wrapper .page_content.page_content--refinancing .calc-container .calc-sugges-result {
+  padding: 30px 40px 25px 60px;
+}
+.wrapper .page_content.page_content--refinancing .calc-container .calc-sugges-result-main-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.wrapper .page_content.page_content--refinancing .calc-container .calc-sugges-result-main-top-item {
+  margin-right: 10px;
+}
+.wrapper .page_content.page_content--refinancing .calc-container .calc-sugges-result-main-top-item:nth-child(1) {
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  width: 225px;
+}
+.wrapper .page_content.page_content--refinancing .calc-container .calc-sugges-result-main-top-item:last-child {
+  margin-right: 0;
+}
+.wrapper .page_content.page_content--refinancing .calc-container .calc-sugges-result-main-top-item-desc {
+  margin-bottom: 25px;
+  font: 300 12px/18px 'Circe', 'Arial', sans-serif;
+  text-transform: uppercase;
+  color: #6e6e6e;
+}
+.wrapper .page_content.page_content--refinancing .calc-container .calc-sugges-result-main-top-item-num {
+  font: 300 46px/1 'Circe', 'Arial', sans-serif;
+}
+.wrapper .page_content.page_content--refinancing .calc-container .calc-sugges-result-main-top-item-num.orange {
+  font-weight: 400;
+  color: #fe5000;
+}
+.wrapper .page_content.page_content--refinancing .calc-container .calc-sugges-result-main-bot {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 30px;
+}
+.wrapper .page_content.page_content--refinancing .calc-container .calc-sugges-result-main-bot-item {
+  margin-right: 10px;
+}
+.wrapper .page_content.page_content--refinancing .calc-container .calc-sugges-result-main-bot-item:nth-child(1) {
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  width: 225px;
+}
+.wrapper .page_content.page_content--refinancing .calc-container .calc-sugges-result-main-bot-item:last-child {
+  margin-right: 0;
+}
+.wrapper .page_content.page_content--refinancing .calc-container .calc-sugges-result-main-bot-item-desc {
+  font: 300 12px/30px 'Circe', 'Arial', sans-serif;
+  text-transform: uppercase;
+  color: #6e6e6e;
+}
+.wrapper .page_content.page_content--refinancing .calc-container .calc-sugges-result-main-bot-item-num {
+  font: 400 30px/40px 'Circe', 'Arial', sans-serif;
+}
+.wrapper .page_content.page_content--refinancing .calc-container .calc-sugges-result-main-bot-item-small {
+  font: 300 12px/20px 'Circe', 'Arial', sans-serif;
+}
+.wrapper .page_content.page_content--refinancing .calc-container .calc-sugges-result-btn {
+  margin-top: 35px;
+}
+.wrapper .page_content.page_content--refinancing .calc-container .calc-sugges-result-txt {
+  margin-top: 25px;
+  font: 300 12px/20px 'Circe', 'Arial', sans-serif;
+}
+.wrapper .page_content.page_content--refinancing .calc-container .calc-sugges-result-txt-top {
+  margin-bottom: 15px;
+  color: #999;
+}
+.wrapper .page_content.page_content--refinancing .calc-container .calc-sugges-result-txt a {
+  text-decoration: underline;
+  color: #fe5000;
+}
+.wrapper .page_content.page_content--refinancing .terms-table-tr {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 20px 0;
+  border-bottom: 1px solid #e9e9e9;
+  font: 400 18px/28px 'Circe', 'Arial', sans-serif;
+  color: #6e6e6e;
+}
+.wrapper .page_content.page_content--refinancing .terms-table-tr:first-child {
+  padding-top: 0;
+}
+.wrapper .page_content.page_content--refinancing .terms-table-td:first-child {
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  width: 230px;
+  margin-right: 20px;
+  color: #333;
+}
+.wrapper .page_content.page_content--refinancing .terms-table a {
+  color: #fe5000;
+}
+.wrapper .page_content.page_content--refinancing .how_work {
+  border-radius: 3px;
+  padding: 50px 45px;
+  border: 1px solid #e1e1e1;
+}
+.wrapper .page_content.page_content--refinancing .how_work .item {
+  float: left;
+  border-radius: 3px;
+  height: 370px;
+  width: 330px;
+  padding: 50px 50px 0;
+}
+.wrapper .page_content.page_content--refinancing .how_work .item:nth-child(1) .pay {
+  background: url("../img/refinancing/how_work_1.png") no-repeat 0 0;
+  position: relative;
+}
+.wrapper .page_content.page_content--refinancing .how_work .item:nth-child(1) .pay:before {
+  content: '';
+  position: absolute;
+  top: 7px;
+  left: auto;
+  right: -61px;
+  background: url("../img/refinancing/how_work_plus.png") no-repeat 50% 50%;
+  width: 22px;
+  height: 23px;
+}
+.wrapper .page_content.page_content--refinancing .how_work .item:nth-child(1) .pay:after {
+  content: '14 300 ₽ в месяц';
+  text-align: center;
+  position: absolute;
+  top: 105px;
+  right: -195px;
+  padding-top: 30px;
+  background: url("../img/refinancing/how_work_total.png") no-repeat 50% 0%;
+  width: 290px;
+  height: 16px;
+  font: 20px/22px 'Circe', 'Arial', sans-serif;
+  color: #838383;
+}
+.wrapper .page_content.page_content--refinancing .how_work .item .pay {
+  padding-left: 90px;
+  margin: 45px 0;
+  color: #373a36;
+  font: 19px/23px 'Circe', 'Arial', sans-serif;
+  background: url("../img/refinancing/how_work_2.png") no-repeat 0 0;
+}
+.wrapper .page_content.page_content--refinancing .how_work .item .pay span {
+  color: #212121;
+  display: block;
+  font: 300 38px/38px 'Circe', 'Arial', sans-serif;
+}
+.wrapper .page_content.page_content--refinancing .how_work .item .desc {
+  font: 18px/22px 'Circe', 'Arial', sans-serif;
+  color: #818181;
+}
+.wrapper .page_content.page_content--refinancing .how_work .item .desc span {
+  display: block;
+  color: #3b8b94;
+  margin-bottom: 8px;
+}
+.wrapper .page_content.page_content--refinancing .how_work .itog {
+  float: right;
+  border-radius: 3px;
+  background: #f1f2f2;
+  height: 370px;
+  width: 370px;
+  padding: 50px 40px 0 40px;
+}
+.wrapper .page_content.page_content--refinancing .how_work .itog .pay {
+  padding-left: 90px;
+  margin: 45px 0;
+  color: #373a36;
+  font: 19px/23px 'Circe', 'Arial', sans-serif;
+  background: url("../img/refinancing/how_work.png") no-repeat 0 0;
+  position: relative;
+}
+.wrapper .page_content.page_content--refinancing .how_work .itog .pay:before {
+  content: '';
+  position: absolute;
+  top: 7px;
+  left: -170px;
+  background: url("../img/refinancing/how_work_arrow.png") no-repeat 50% 50%;
+  width: 78px;
+  height: 21px;
+}
+.wrapper .page_content.page_content--refinancing .how_work .itog .pay span {
+  color: #212121;
+  display: block;
+  font: 300 38px/38px 'Circe', 'Arial', sans-serif;
+}
+.wrapper .page_content.page_content--refinancing .how_work .itog .desc {
+  font: 18px/22px 'Circe', 'Arial', sans-serif;
+  color: #818181;
+}
+.wrapper .page_content.page_content--refinancing .how_work .itog .desc span {
+  display: block;
+  color: #3b8b94;
+  margin-bottom: 8px;
+}
+@media (max-width: 1259px) {
+  .wrapper .page_content.page_content--refinancing .calc-container .calc-loans {
+    width: 470px;
+    margin: 0 0 45px;
+  }
+  .wrapper .page_content.page_content--refinancing .calc-container .calc-sugges {
+    width: 470px;
+  }
+  .wrapper .page_content.page_content--refinancing .calc-container .calc-sugges-params {
+    padding: 45px 60px 30px;
+  }
+  .wrapper .page_content.page_content--refinancing .calc-container .calc-sugges-result {
+    padding: 30px 40px 25px 60px;
+  }
+  .wrapper .page_content.page_content--refinancing .how_work {
+    padding: 35px 25px;
+  }
+  .wrapper .page_content.page_content--refinancing .how_work .item {
+    width: 280px;
+    padding: 35px 20px 0;
+    height: 340px;
+  }
+  .wrapper .page_content.page_content--refinancing .how_work .item:nth-child(1) .pay:before {
+    right: -17px;
+  }
+  .wrapper .page_content.page_content--refinancing .how_work .item:nth-child(1) .pay:after {
+    right: -165px;
+  }
+  .wrapper .page_content.page_content--refinancing .how_work .itog {
+    width: 310px;
+    padding: 35px 20px 0 20px;
+    height: 340px;
+  }
+  .wrapper .page_content.page_content--refinancing .how_work .itog .pay:before {
+    left: -111px;
+  }
+}
+@media (max-width: 999px) {
+  .wrapper .page_content.page_content--refinancing .calc-container {
+    display: block;
+  }
+  .wrapper .page_content.page_content--refinancing .calc-container .calc-loans {
+    width: auto;
+  }
+  .wrapper .page_content.page_content--refinancing .calc-container .calc-sugges {
+    width: auto;
+  }
+  .wrapper .page_content.page_content--refinancing .calc-container .calc-sugges-params {
+    padding: 35px 60px 30px;
+  }
+  .wrapper .page_content.page_content--refinancing .calc-container .calc-sugges-result {
+    padding: 30px 25px 25px;
+  }
+  .wrapper .page_content.page_content--refinancing .calc-container .calc-sugges-result-main-top-item {
+    margin-right: 30px;
+  }
+  .wrapper .page_content.page_content--refinancing .calc-container .calc-sugges-result-main-bot {
+    display: block;
+  }
+  .wrapper .page_content.page_content--refinancing .calc-container .calc-sugges-result-main-bot-item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+  .wrapper .page_content.page_content--refinancing .calc-container .calc-sugges-result-main-bot-item:first-child {
+    width: auto;
+  }
+  .wrapper .page_content.page_content--refinancing .calc-container .calc-sugges-result-main-bot-item:last-child {
+    margin-bottom: 0;
+  }
+  .wrapper .page_content.page_content--refinancing .calc-container .calc-sugges-result-main-bot-item-desc {
+    position: relative;
+    -webkit-box-flex: 1;
+        -ms-flex: auto;
+            flex: auto;
+    line-height: 1;
+  }
+  .wrapper .page_content.page_content--refinancing .calc-container .calc-sugges-result-main-bot-item-desc::before {
+    position: absolute;
+    bottom: 2px;
+    height: 2px;
+    width: 100%;
+    border-bottom: 1px dashed #c8c8c8;
+    content: '';
+  }
+  .wrapper .page_content.page_content--refinancing .calc-container .calc-sugges-result-main-bot-item-desc span {
+    position: relative;
+    display: inline-block;
+    padding-right: 5px;
+    background: #fff;
+  }
+  .wrapper .page_content.page_content--refinancing .calc-container .calc-sugges-result-main-bot-item-num {
+    line-height: 1;
+  }
+  .wrapper .page_content.page_content--refinancing .calc-container .calc-sugges-result-btn {
+    text-align: center;
+  }
+  .wrapper .page_content.page_content--refinancing .calc-container .calc-sugges-result-txt {
+    text-align: center;
+  }
+  .wrapper .page_content.page_content--refinancing .how_work {
+    padding: 50px 35px;
+  }
+  .wrapper .page_content.page_content--refinancing .how_work .item {
+    height: 295px;
+    width: 330px;
+    padding: 0 50px 0;
+  }
+  .wrapper .page_content.page_content--refinancing .how_work .item:nth-child(1) .pay:before {
+    right: -61px;
+  }
+  .wrapper .page_content.page_content--refinancing .how_work .item:nth-child(1) .pay:after {
+    right: -195px;
+  }
+  .wrapper .page_content.page_content--refinancing .how_work .itog {
+    float: none;
+    margin: 0 auto;
+    height: 370px;
+    width: 370px;
+    clear: both;
+    padding: 50px 40px 0 40px;
+  }
+  .wrapper .page_content.page_content--refinancing .how_work .itog .pay:before {
+    display: none;
+  }
+}
+@media (max-width: 767px) {
+  .wrapper .page_content.page_content--refinancing .benefits-head .ui-h2 {
+    font-size: 26px;
+    line-height: 34px;
+  }
+  .wrapper .page_content.page_content--refinancing .benefits-main {
+    display: block;
+  }
+  .wrapper .page_content.page_content--refinancing .benefits-main-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: auto;
+    min-height: 90px;
+    margin-top: 15px;
+    padding: 20px 30px;
+    margin-right: 0;
+  }
+  .wrapper .page_content.page_content--refinancing .benefits-main-box:nth-child(2),
+  .wrapper .page_content.page_content--refinancing .benefits-main-box:nth-child(3) {
+    margin-top: 15px;
+  }
+  .wrapper .page_content.page_content--refinancing .benefits-main-box:nth-child(3n) {
+    margin-right: 0;
+  }
+  .wrapper .page_content.page_content--refinancing .benefits-main-box-icon {
+    margin: 0 20px 0 0;
+  }
+  .wrapper .page_content.page_content--refinancing .benefits-main-box-txt {
+    font-size: 14px;
+    line-height: 18px;
+  }
+  .wrapper .page_content.page_content--refinancing .terms-table {
+    margin-bottom: 30px;
+  }
+  .wrapper .page_content.page_content--refinancing .terms-table-tr {
+    padding: 15px 0;
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .wrapper .page_content.page_content--refinancing .terms-table-td:first-child {
+    width: 170px;
+    margin-right: 20px;
+  }
+  .wrapper .page_content.page_content--refinancing .calc-container .calc-loans-box {
+    margin-bottom: 20px;
+  }
+  .wrapper .page_content.page_content--refinancing .calc-container .calc-loans-box-head {
+    position: relative;
+    padding: 15px 50px 15px 15px;
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .wrapper .page_content.page_content--refinancing .calc-container .calc-loans-box-main {
+    padding: 15px 15px 30px;
+  }
+  .wrapper .page_content.page_content--refinancing .calc-container .calc-loans-box-main-line {
+    margin-bottom: 45px;
+  }
+  .wrapper .page_content.page_content--refinancing .calc-container .calc-loans-box-add {
+    padding: 15px 50px 15px 15px;
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .wrapper .page_content.page_content--refinancing .calc-container .calc-sugges-params {
+    padding: 30px 15px;
+  }
+  .wrapper .page_content.page_content--refinancing .calc-container .calc-sugges-params-title {
+    font-size: 22px;
+  }
+  .wrapper .page_content.page_content--refinancing .calc-container .calc-sugges-params-line {
+    margin-top: 15px;
+  }
+  .wrapper .page_content.page_content--refinancing .calc-container .calc-sugges-params-slider {
+    margin-top: 30px;
+  }
+  .wrapper .page_content.page_content--refinancing .calc-container .calc-sugges-params-two_check {
+    display: block;
+    margin-top: 30px;
+  }
+  .wrapper .page_content.page_content--refinancing .calc-container .calc-sugges-params-two_check .ui-check {
+    margin-right: 0;
+    margin-bottom: 25px;
+  }
+  .wrapper .page_content.page_content--refinancing .calc-container .calc-sugges-params-two_check .ui-check:last-child {
+    margin-bottom: 0;
+  }
+  .wrapper .page_content.page_content--refinancing .calc-container .calc-sugges-params-collateral {
+    padding: 0 10px;
+  }
+  .wrapper .page_content.page_content--refinancing .calc-container .calc-sugges-params-collateral-txt {
+    font-size: 14px;
+  }
+  .wrapper .page_content.page_content--refinancing .calc-container .calc-sugges-params-collateral-inp {
+    display: 16px;
+  }
+  .wrapper .page_content.page_content--refinancing .calc-container .calc-sugges-result {
+    padding: 30px 15px 25px;
+  }
+  .wrapper .page_content.page_content--refinancing .calc-container .calc-sugges-result-main-top-item {
+    margin-right: 15px;
+  }
+  .wrapper .page_content.page_content--refinancing .calc-container .calc-sugges-result-main-top-item:nth-child(1) {
+    width: 175px;
+  }
+  .wrapper .page_content.page_content--refinancing .calc-container .calc-sugges-result-main-top-item-desc {
+    margin-bottom: 10px;
+  }
+  .wrapper .page_content.page_content--refinancing .calc-container .calc-sugges-result-main-top-item-num {
+    font-size: 32px;
+  }
+  .wrapper .page_content.page_content--refinancing .calc-container .calc-sugges-result-main-top-item-num.orange {
+    font-size: 37px;
+  }
+  .wrapper .page_content.page_content--refinancing .calc-container .calc-sugges-result-main-bot {
+    margin-top: 20px;
+  }
+  .wrapper .page_content.page_content--refinancing .calc-container .calc-sugges-result-main-bot-item-num {
+    font-size: 18px;
+  }
+  .wrapper .page_content.page_content--refinancing .calc-container .calc-sugges-result-btn {
+    margin-top: 25px;
+  }
+  .wrapper .page_content.page_content--refinancing .calc-container .calc-sugges-result-txt {
+    margin-top: 20px;
+  }
+  .wrapper .page_content.page_content--refinancing .how_work {
+    max-width: 320px;
+    margin: 0 auto;
+    padding: 40px 0 0;
+  }
+  .wrapper .page_content.page_content--refinancing .how_work .item {
+    float: none;
+    margin: 0 auto;
+    height: auto;
+    width: auto;
+    padding: 0 30px;
+  }
+  .wrapper .page_content.page_content--refinancing .how_work .item:nth-child(1) {
+    margin-bottom: 60px;
+  }
+  .wrapper .page_content.page_content--refinancing .how_work .item:nth-child(1) .pay:before {
+    right: 50%;
+    margin-right: -11px;
+    top: 77px;
+  }
+  .wrapper .page_content.page_content--refinancing .how_work .item:nth-child(1) .pay:after {
+    display: none;
+    right: -195px;
+  }
+  .wrapper .page_content.page_content--refinancing .how_work .itog {
+    height: auto;
+    width: auto;
+    padding: 40px 30px 40px 30px;
+  }
+  .wrapper .page_content.page_content--refinancing .how_work .itog .pay:before {
+    display: none;
+  }
+}
+@media (max-width: 374px) {
+  .wrapper .page_content.page_content--refinancing .calc-container .calc-sugges-result-main-top-item:nth-child(1) .calc-sugges-result-main-top-item-desc {
+    max-width: 140px;
+  }
+  .wrapper .page_content.page_content--refinancing .calc-container .calc-sugges-result-main-top-item-num.orange {
+    font-size: 30px;
+  }
+}

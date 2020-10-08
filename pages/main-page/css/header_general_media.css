@@ -65,6 +65,9 @@
   .wrapper header.header_full_width .head-bot-menu {
     width: 100%;
   }
+  .wrapper header.header_full_width .head-bot-open_help {
+    right: 25px;
+  }
   .wrapper header.header_full_width .head-bot-int_bank {
     display: none;
   }
@@ -198,6 +201,9 @@
   }
   .wrapper header.header_full_width .head-bot-menu {
     display: none;
+  }
+  .wrapper header.header_full_width .head-bot-open_help {
+    right: 190px;
   }
   .wrapper header.header_full_width .head-bot-int_bank {
     right: 15px;
@@ -663,7 +669,7 @@
     display: none;
   }
   .wrapper .fix_old_head {
-    margin-top: -30px;
+    margin-top: -35px;
   }
   div.title-search-result .title-search-result {
     width: 100%;
@@ -675,6 +681,9 @@
   .wrapper header.new_style .fix_header.breadcrumbs_02_2020 .hat_block .in_hat_block {
     overflow-y: scroll;
     white-space: nowrap;
+  }
+  .wrapper header.header_full_width {
+    z-index: 10000;
   }
   .wrapper header.header_full_width .head-region .pan_reg_chosen .chosen_reg {
     margin-top: 10px;
@@ -757,6 +766,9 @@
     margin-top: -9px;
     width: 18px;
     height: 18px;
+  }
+  .wrapper header.header_full_width .head-bot-open_help {
+    display: none;
   }
   .wrapper header.header_full_width .fix_header .quick_links_block {
     -webkit-transform: none;
@@ -912,11 +924,18 @@
   .wrapper header.header_full_width .head-top {
     padding: 5px 10px;
   }
+  .wrapper header.header_full_width .head-top-client_menu {
+    display: block;
+  }
   .wrapper header.header_full_width .head-top-client_menu-list {
     width: calc(100% + 20px);
     top: calc(100% + 6px);
     left: -10px;
     border-radius: 0;
+  }
+  .wrapper header.header_full_width .head-top-corona_faq_small {
+    display: block;
+    margin: 0;
   }
   .wrapper header.header_full_width .head-top-right_box {
     right: 10px;
@@ -926,14 +945,13 @@
   }
   .wrapper header.header_full_width .head-bot-int_bank {
     right: 10px;
-    line-height: 1;
   }
   .wrapper header.header_full_width .head-bot-int_bank-link {
     padding-left: 17px;
     font-size: 12px;
   }
   .wrapper header.header_full_width .head-bot-int_bank-link:before {
-    top: 0px;
+    top: -1px;
     width: 13px;
     height: 15px;
   }
@@ -975,8 +993,14 @@
   .wrapper header.header_full_width .head .head-dop_menu .block .mob_in_block-contancts {
     padding: 30px 10px 35px;
   }
-  .wrapper header.header_full_width .head-logo img {
-    margin-bottom: 3px;
+  .wrapper header.header_full_width.long_top_menu .head-dop_menu .block {
+    top: 111px;
+  }
+  .wrapper header.header_full_width.long_top_menu .head-dop_menu .block .btn_close {
+    top: -107px;
+  }
+  .wrapper header.header_full_width.long_top_menu ~ main .fix_old_head {
+    margin-top: -55px;
   }
 }
 @media (max-width: 599px) {

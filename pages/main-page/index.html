@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ATB Business</title>
+    <title>ATB</title>
+    <link rel="stylesheet" href="css/jquery-ui.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/bootstrap-select.min.css">
     <link rel="stylesheet" href="css/swiper.min.css">
@@ -15,6 +16,7 @@
     <link rel="stylesheet" href="css/header_general.css">
     <link rel="stylesheet" href="css/header_general_media.css">
     <link rel="stylesheet" href="css/footer_styles.css">
+    <link rel="stylesheet" href="css/seo_styless.css">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/media.css">
 
@@ -35,24 +37,23 @@
             <div class="webinar_adv-btn_close"></div>
         </div>
     </div>
-
-    <div class="wrapper">
-        <header class="header_full_width  head_business ">
+    <div class="wrapper main_page_wrapper">
+        <header class="header_full_width head_private long_top_menu ">
             <div class="head">
                 <div class="head-top">
                     <div class="head-top_left_box">
                         <div class="head-top-client_menu">
                             <div class="head-top-client_menu-btn">
-                                <span>Бизнесу</span>
+                                <span>Физическим лицам</span>
                             </div>
 
                             <div class="head-top-client_menu-list">
-                                <div class="item ">
-                                    <a href="/">Частным клиентам</a>
+                                <div class="item active">
+                                    <a href="#">Физическим лицам</a>
                                 </div>
 
-                                <div class="item active">
-                                    <a href="#">Бизнесу</a>
+                                <div class="item">
+                                    <a href="/business/">Бизнесу</a>
                                 </div>
 
                                 <div class="item">
@@ -67,9 +68,13 @@
                                     <a href="https://invest.atb.su" target="_blank">Инвестиционные услуги</a>
                                 </div>
                             </div>
+                        </div>
 
+                        <div class="head-top-corona_faq_small">
+                            <a href="/the-most-important/">Самое важное</a>
                         </div>
                     </div>
+
                     <div class="head-top-right_box">
                         <div class="head-top-contacts">
                             <div class="item with_arrow city">
@@ -87,7 +92,7 @@
                                     <a href="#" class="close_block"></a>
                                     <div class="phons">
                                         <div class="sub_item">
-                                            <a href="tel:+78007758080">8-800-775-80-80</a>
+                                            <a href="tel:+78007758888">8-800-775-88-88</a>
                                             <span>Бесплатный звонок по России</span>
                                         </div>
                                         <div class="sub_item">
@@ -99,8 +104,8 @@
                                             <span>Звонок с мобильного бесплатный</span>
                                         </div>
                                         <div class="sub_item">
-                                            <a href="tel:+78007758888">8-800-775-88-88</a>
-                                            <span>Частным клиентам</span>
+                                            <a href="tel:+78007758080">8-800-775-80-80</a>
+                                            <span>Корпоративным клиентам</span>
                                         </div>
                                     </div>
                                     <div class="message">
@@ -114,7 +119,7 @@
                         </div>
 
                         <div class="head-top-int_bank">
-                            <a href="https://business.faktura.ru/f2b/?site=atb" title="Интернет Банк"></a>
+                            <a href="https://my.atb.su" title="Интернет Банк"></a>
                         </div>
 
                         <div class="head-top-lang">
@@ -137,7 +142,7 @@
                             <a href="#" class="head-top-search-btn"></a>
                         </div>
 
-                        <div class="head-top-burger business_burger">
+                        <div class="head-top-burger">
                             <span></span>
                             <span></span>
                             <span></span>
@@ -147,79 +152,103 @@
 
                 <div class="head-bot">
                     <div class="head-logo">
-                        <a href="/business/">
-                            <img src="https://www.atb.su/test/new_header/img/atb_logo-business-orange_black.svg" alt="">
+                        <a href="/">
+                            <img src="img/atb_logo-orange_black.svg" alt="">
                         </a>
                     </div>
-                    <div class="head-bot-menu" secret="secret_menu">
-                        <div class="head-bot-menu-item">
-                            <div class="head-bot-menu-item-btn">Расчетный счет</div>
 
-                            <div class="head-drop_menu">
-                                <div class="drop_menu-inner">
-                                    <div class="drop_menu-tab">
-                                        <div class="drop_menu-tab-col">
-                                            <div class="drop_menu-tab-col-main">
-                                                <div class="item">
-                                                    <a href="/business/cash-services/book-account/">Открытие и ведение
-                                                        счетов</a>
-                                                </div>
 
-                                                <div class="item">
-                                                    <a href="/business/cash-services/connect/">Комплексное
-                                                        обслуживание</a>
-                                                </div>
-
-                                                <div class="item">
-                                                    <a href="/business/cash-services/book-account/">Открытие счета
-                                                        онлайн</a>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="drop_menu-tab-col">
-                                            <div class="drop_menu-tab-col-main">
-                                                <div class="item">
-                                                    <a href="/business/cash-services/internet-bank/">Онлайн
-                                                        обслуживание</a>
-                                                </div>
-
-                                                <div class="item">
-                                                    <a
-                                                        href="/business/cash-services/maintenance-of-foreign-trade-activities/">Обслуживание
-                                                        ВЭД</a>
-                                                </div>
-
-                                                <div class="item">
-                                                    <a href="/business/services/corporate-card/">Корпоративная карта</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                    <div class="head-bot-menu">
 
                         <div class="head-bot-menu-item">
                             <div class="head-bot-menu-item-btn">Кредиты</div>
 
-                            <div class="head-drop_menu">
+                            <div class="head-drop_menu" style="height: 365px;">
                                 <div class="drop_menu-inner">
                                     <div class="drop_menu-tab">
                                         <div class="drop_menu-tab-col">
+                                            <div class="drop_menu-tab-col-head">
+                                                <a href="/kredit/">Все потребительские кредиты</a>
+                                            </div>
+
+                                            <div class="drop_menu-tab-col-main">
+
+                                                <div class="item">
+                                                    <a href="/kredit/available/">Доступный</a>
+                                                </div>
+
+                                                <div class="item">
+                                                    <a href="/kredit/bolshie-dengi-na-bolshie-celi/">Большие деньги</a>
+                                                </div>
+
+
+
+                                                <div class="item">
+                                                    <a href="/kredit/pensionary/">Пенсионный</a>
+                                                </div>
+
+                                                <div class="item">
+                                                    <a href="/kredit/salary/">Бюджетный</a>
+                                                </div>
+
+                                                <div class="item">
+                                                    <a href="/kredit/refinancing/">Рефинансирование</a>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="drop_menu-tab-col">
+                                            <div class="drop_menu-tab-col-head">
+                                                Акции
+                                            </div>
+
                                             <div class="drop_menu-tab-col-main">
                                                 <div class="item">
-                                                    <a href="/business/get/loans/?credit_programms=y">Программы
-                                                        кредитования ЮЛ и ИП</a>
+                                                    <a href="/discounts-and-promotions/club/">АТБ-Клуб</a>
                                                 </div>
 
                                                 <div class="item">
-                                                    <a href="/business/microlite/">Микро лайт для собственников
-                                                        бизнеса</a>
+                                                    <a href="/stock/refer-a-friend/">Акция «Приведи друга»</a>
+                                                </div>
+
+                                            </div>
+                                        </div>
+
+                                        <div class="drop_menu-tab-col">
+                                            <div class="drop_menu-tab-col-head">
+                                                Полезное
+                                            </div>
+
+                                            <div class="drop_menu-tab-col-main">
+                                                <div class="item">
+                                                    <a href="/kredit/sposoby-oplaty/">Способы оплаты кредита</a>
                                                 </div>
 
                                                 <div class="item">
-                                                    <a href="/business/get/trade-financing/">Финансирование ВЭД</a>
+                                                    <a href="/kredit/izmenenie-uslovij-kreditnogo-dogovora/">Изменение
+                                                        условий кредитного договора</a>
+                                                </div>
+
+                                                <div class="item">
+                                                    <a href="/kredit/sposoby-predostavleniya-dohodov/">Способы
+                                                        подтверждения доходов</a>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="drop_menu-tab-promotions">
+                                            <div class="drop_menu-tab-promotions-content">
+                                                <a class="drop_menu-tab-promotions-img" href="/kredit/available/">
+
+                                                </a>
+
+                                                <a class="drop_menu-tab-promotions-descr" href="/kredit/available/">
+                                                    Кредит от 8,8% - «Доступный»
+                                                </a>
+
+                                                <div class="drop_menu-tab-promotions-btn-wr">
+                                                    <a href="/kredit/available/"
+                                                        class="drop_menu-tab-promotions-btn">Подробнее</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -229,34 +258,565 @@
                         </div>
 
                         <div class="head-bot-menu-item">
-                            <div class="head-bot-menu-item-btn">
-                                <a href="/business/get/leasing/">Лизинг</a>
-                            </div>
+                            <div class="head-bot-menu-item-btn">Карты</div>
 
-                            <div class="head-drop_menu">
-                            </div>
-                        </div>
-
-                        <div class="head-bot-menu-item">
-                            <div class="head-bot-menu-item-btn">Гос.программы</div>
-
-                            <div class="head-drop_menu">
+                            <div class="head-drop_menu" style="height: 365px;">
                                 <div class="drop_menu-inner">
                                     <div class="drop_menu-tab">
                                         <div class="drop_menu-tab-col">
+                                            <div class="drop_menu-tab-col-head">
+                                                <a href="/cards/credit/">Все кредитные карты </a>
+                                            </div>
+
                                             <div class="drop_menu-tab-col-main">
                                                 <div class="item">
-                                                    <a href="/business/get/loans/?privilege_programms=y">Льготные
-                                                        программы кредитования</a>
+                                                    <a href="/cards/credit/90-darom/">Карта «90 даром» </a>
                                                 </div>
 
                                                 <div class="item">
-                                                    <a href="/business/get/loans/?developers_programms=y">Кредитование
-                                                        для застройщиков</a>
+                                                    <a href="/cards/credit/stavka-19/">Карта «Ставка 19»</a>
+                                                </div>
+
+
+                                                <div class="item">
+                                                    <a href="/cards/credit/dostupnyy-plyus/">Карта «Доступный плюс»</a>
                                                 </div>
 
                                                 <div class="item">
-                                                    <a href="/business/escrow-accounts/">Застройщикам</a>
+                                                    <a href="/cards/credit/absolyutnyj-0/">Карта «Абсолютный 0»</a>
+                                                </div>
+
+                                                <div class="item">
+                                                    <a href="/cards/credit/universalnaya-karta/">Карта
+                                                        «Универсальная»</a>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="drop_menu-tab-col">
+                                            <div class="drop_menu-tab-col-head">
+                                                <a href="/cards/debit/">Все дебетовые карты</a>
+                                            </div>
+
+                                            <div class="drop_menu-tab-col-main">
+                                                <div class="item">
+                                                    <a href="/cards/debit/cash-back-karta/">Кэш-бэк карта</a>
+                                                </div>
+
+                                                <div class="item">
+                                                    <a href="/card-world-of-warships/">Карта командира</a>
+                                                </div>
+
+                                                <div class="item">
+                                                    <a href="/cards/debit/visa-gold/">Visa Gold «Кошелек»</a>
+                                                </div>
+
+                                                <div class="item">
+                                                    <a href="/cards/debit/mastercard-gold-koshelek/">Mastercard Gold
+                                                        «Кошелек»</a>
+                                                </div>
+
+                                                <div class="item">
+                                                    <a href="/cards/debit/mir-koshelek/">Мир «Кошелек» </a>
+                                                </div>
+
+                                                <div class="item">
+                                                    <a href="/cards/debit/social/">Карта «Особый статус»</a>
+                                                </div>
+                                                <div class="item">
+                                                    <a href="/cards/debit/kampus/">Тарифный план «Кампус»</a>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="drop_menu-tab-col">
+                                            <div class="drop_menu-tab-col-head">
+                                                Платежные системы
+                                            </div>
+
+                                            <div class="drop_menu-tab-col-main">
+                                                <div class="item">
+                                                    <a href="/cards/payment-system/mir/">Карты «Мир»</a>
+                                                </div>
+
+                                                <div class="item">
+                                                    <a href="/cards/payment-system/visa/">Карты Visa</a>
+                                                </div>
+
+                                                <div class="item">
+                                                    <a href="/cards/payment-system/mastercard/">Карты MasterCard </a>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="drop_menu-tab-promotions">
+                                            <div class="drop_menu-tab-promotions-content">
+                                                <a class="drop_menu-tab-promotions-img"
+                                                    href="/cards/debit/cash-back-karta/">
+
+                                                </a>
+
+                                                <a class="drop_menu-tab-promotions-descr"
+                                                    href="/cards/debit/cash-back-karta/">
+                                                    Выгода с «Кэш-бэк картой»
+                                                </a>
+
+                                                <div class="drop_menu-tab-promotions-btn-wr">
+                                                    <a href="/cards/debit/cash-back-karta/"
+                                                        class="drop_menu-tab-promotions-btn">Оформить карту</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="head-bot-menu-item">
+                            <div class="head-bot-menu-item-btn">Ипотека</div>
+
+                            <div class="head-drop_menu" style="height: 365px;">
+                                <div class="drop_menu-inner">
+                                    <div class="drop_menu-tab">
+                                        <div class="drop_menu-tab-col">
+                                            <div class="drop_menu-tab-col-head">
+                                                <a href="/kredit/ipoteka/">Все предложения</a>
+                                            </div>
+
+                                            <div class="drop_menu-tab-col-main">
+                                                <div class="item">
+                                                    <a href="/kredit/ipoteka/kalkulyator/gotovoe-zhile/">Приобретение
+                                                        готового жилья</a>
+                                                </div>
+
+                                                <div class="item">
+                                                    <a
+                                                        href="/kredit/ipoteka/kalkulyator/vremya-zanyat-svoyu-territoriyu/">Ипотека
+                                                        на Дальнем Востоке</a>
+                                                </div>
+
+                                                <div class="item">
+                                                    <a href="/kredit/ipoteka/kalkulyator/semeynaya-ipoteka/">Семейная
+                                                        ипотека</a>
+                                                </div>
+
+                                                <div class="item">
+                                                    <a href="/kredit/ipoteka/kalkulyator/voennaya-ipoteka/">Военная
+                                                        ипотека</a>
+                                                </div>
+
+                                                <div class="item">
+                                                    <a
+                                                        href="/kredit/ipoteka/kalkulyator/kvartira-na-ehtape-stroitelstva/">Приобретение
+                                                        квартиры на этапе строительства</a>
+                                                </div>
+
+
+                                                <div class="item">
+                                                    <a
+                                                        href="/kredit/ipoteka/kalkulyator/perekreditovanie/">Рефинансирование</a>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+                                        <div class="drop_menu-tab-promotions">
+                                            <div class="drop_menu-tab-promotions-content">
+                                                <a class="drop_menu-tab-promotions-img"
+                                                    href="/kredit/ipoteka/kalkulyator/vremya-zanyat-svoyu-territoriyu/">
+
+                                                </a>
+
+                                                <a class="drop_menu-tab-promotions-descr"
+                                                    href="/kredit/ipoteka/kalkulyator/vremya-zanyat-svoyu-territoriyu/">
+                                                    Дальневосточная ипотека от 1,6%
+                                                </a>
+
+                                                <div class="drop_menu-tab-promotions-btn-wr">
+                                                    <a href="/kredit/ipoteka/kalkulyator/vremya-zanyat-svoyu-territoriyu/"
+                                                        class="drop_menu-tab-promotions-btn">Подробнее</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="head-bot-menu-item">
+                            <div class="head-bot-menu-item-btn">Вклады и счета</div>
+
+                            <div class="head-drop_menu" style="height: 365px;">
+                                <div class="drop_menu-inner">
+                                    <div class="drop_menu-tab">
+                                        <div class="drop_menu-tab-col">
+                                            <div class="drop_menu-tab-col-head">
+                                                <a href="/vklady-i-scheta/">Все вклады</a>
+                                            </div>
+
+                                            <div class="drop_menu-tab-col-main">
+                                                <div class="item">
+                                                    <a href="/vklady-i-scheta/pravilnaya-strategiya/">Вклад
+                                                        «Правильная стратегия»</a>
+                                                </div>
+
+                                                <div class="item">
+                                                    <a href="/vklady-i-scheta/sokhrani/">Вклад
+                                                        «Сохрани»</a>
+                                                </div>
+
+                                                <div class="item">
+                                                    <a href="/vklady-i-scheta/nakopi/">Вклад
+                                                        «Накопи»</a>
+                                                </div>
+
+                                                <div class="item">
+                                                    <a href="/vklady-i-scheta/upravlyay/">Вклад
+                                                        «Управляй»</a>
+                                                </div>
+
+                                                <div class="item">
+                                                    <a href="/vklady-i-scheta/kopilka/">Вклад
+                                                        «Копилка»</a>
+                                                </div>
+                                                <div class="item">
+                                                    <a href="/vklady-i-scheta/prazdnichnyy-bonus/">Вклад
+                                                        «Праздничный бонус»</a>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="drop_menu-tab-col">
+                                            <div class="drop_menu-tab-col-head">
+                                                Счета
+                                            </div>
+
+                                            <div class="drop_menu-tab-col-main">
+                                                <div class="item">
+                                                    <a href="/vklady-i-scheta/?dep_get_part=y&amp;dep_capital=y">Личный
+                                                        счет</a>
+                                                </div>
+
+                                                <div class="item">
+                                                    <a href="/vklady-i-scheta/?dep_get_part=y&amp;dep_capital=y">Номинальный
+                                                        счет</a>
+                                                </div>
+
+                                                <div class="item">
+                                                    <a href="/vklady-i-scheta/eskrou/">Счета эскроу</a>
+                                                </div>
+
+                                                <div class="item">
+                                                    <a href="/vklady-i-scheta/metallicheskiy/">Обезличенные
+                                                        металлические счета</a>
+                                                </div>
+
+                                                <div class="item">
+                                                    <a href="/more-money/bank-deposits/savings-accounts/">Накопительный
+                                                        счет</a>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="drop_menu-tab-col">
+                                            <div class="drop_menu-tab-col-head">
+                                                Полезное
+                                            </div>
+
+                                            <div class="drop_menu-tab-col-main">
+                                                <div class="item">
+                                                    <a href="/services/rent-of-safe-box/how-to-use-cell/">Как
+                                                        использовать
+                                                        банковскую ячейку</a>
+                                                </div>
+
+                                                <div class="item">
+                                                    <a href="/vklady-i-scheta/metallicheskiy/">Банковские счета в
+                                                        драгоценных
+                                                        металлах</a>
+                                                </div>
+
+                                                <div class="item">
+                                                    <a href="/more-money/recharge/">Пополнить счет вклада</a>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="drop_menu-tab-promotions">
+                                            <div class="drop_menu-tab-promotions-content">
+                                                <a class="drop_menu-tab-promotions-img" href="/vklady-i-scheta/">
+
+                                                </a>
+
+                                                <a class="drop_menu-tab-promotions-descr" href="/vklady-i-scheta/">
+                                                    Сравните вклады
+                                                </a>
+
+                                                <div class="drop_menu-tab-promotions-btn-wr">
+                                                    <a href="/vklady-i-scheta/"
+                                                        class="drop_menu-tab-promotions-btn">Подробнее</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="head-bot-menu-item">
+                            <div class="head-bot-menu-item-btn">Платежи и переводы</div>
+
+                            <div class="head-drop_menu" style="height: 365px;">
+                                <div class="drop_menu-inner">
+                                    <div class="drop_menu-tab">
+                                        <div class="drop_menu-tab-col" style="width: 310px;">
+                                            <div class="drop_menu-tab-col-main">
+                                                <div class="item">
+                                                    <a href="https://my.atb.su/c2c-transfer/">Переводы с карты на
+                                                        карту</a>
+                                                </div>
+
+                                                <div class="item">
+                                                    <a href="/services/transfers-to-cash/">Переводы с карты в
+                                                        наличные</a>
+                                                </div>
+
+                                                <div class="item">
+                                                    <a href="/services/transfer/">Переводы наличными</a>
+                                                </div>
+
+                                                <div class="item">
+                                                    <a href="/services/exchange/">Валютно-обменные операции</a>
+                                                </div>
+
+                                                <div class="item">
+                                                    <a href="/kredit/sposoby-oplaty/">Способы погашения кредита</a>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="drop_menu-tab-promotions">
+                                            <div class="drop_menu-tab-promotions-content">
+                                                <a class="drop_menu-tab-promotions-img"
+                                                    href="https://my.atb.su/c2c-transfer/">
+
+                                                </a>
+
+                                                <a class="drop_menu-tab-promotions-descr"
+                                                    href="https://my.atb.su/c2c-transfer/">
+                                                    Перевод с карты на карту
+                                                </a>
+
+                                                <div class="drop_menu-tab-promotions-btn-wr">
+                                                    <a href="https://my.atb.su/c2c-transfer/"
+                                                        class="drop_menu-tab-promotions-btn">Подробнее</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="head-bot-menu-item">
+                            <div class="head-bot-menu-item-btn">Страхование</div>
+
+                            <div class="head-drop_menu" style="height: 365px;">
+                                <div class="drop_menu-inner">
+                                    <div class="drop_menu-tab">
+                                        <div class="drop_menu-tab-col">
+                                            <div class="drop_menu-tab-col-head">
+                                                <a href="/insurance/">Все страховые услуги</a>
+                                            </div>
+
+                                            <div class="drop_menu-tab-col-main">
+                                                <div class="item">
+                                                    <a href="/insurance/multipoles/">Комплексное страхование</a>
+                                                </div>
+
+                                                <div class="item">
+                                                    <a href="/insurance/realty/">Страхование имущества</a>
+                                                </div>
+
+                                                <div class="item">
+                                                    <a href="/services/capital-plus/investicionnoe-strahovanie-zhizni/">Инвестицинное
+                                                        страхование жизни</a>
+                                                </div>
+
+                                                <div class="item">
+                                                    <a href="/services/capital-plus/nakopitelnoe-strahovanie-zhizni/">Накопительное
+                                                        страхование жизни</a>
+                                                </div>
+
+                                                <div class="item">
+                                                    <a href="/open_strahovanie/">Обязательное пенсионное страхование</a>
+                                                </div>
+
+                                                <div class="item">
+                                                    <a href="/product-strakhovanie-kart/">Продукт «Защита карты»</a>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="drop_menu-tab-col">
+                                            <div class="drop_menu-tab-col-head">
+                                                <a href="/insurance/health/" class="single_link">Страхование жизни и
+                                                    здоровья</a>
+                                            </div>
+                                            <div class="drop_menu-tab-col-main">
+                                                <div class="item">
+                                                    <div class="txt">
+                                                        Страхование жизни и здоровья – это уверенность в будущем для вас
+                                                        и ваших
+                                                        близких.
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="drop_menu-tab-col">
+                                            <div class="drop_menu-tab-col-head">
+                                                Полезное
+                                            </div>
+
+                                            <div class="drop_menu-tab-col-main">
+                                                <div class="item">
+                                                    <a href="/insurance/memo/">Памятка по порядку уплаты страховых
+                                                        взносов</a>
+                                                </div>
+
+                                                <div class="item">
+                                                    <a href="/insurance/">Застраховать</a>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="drop_menu-tab-promotions">
+                                            <div class="drop_menu-tab-promotions-content">
+                                                <a class="drop_menu-tab-promotions-img"
+                                                    href="/services/capital-plus/nakopitelnoe-strahovanie-zhizni/">
+
+                                                </a>
+
+                                                <a class="drop_menu-tab-promotions-descr"
+                                                    href="/services/capital-plus/nakopitelnoe-strahovanie-zhizni/">
+                                                    Забота о будущем
+                                                </a>
+
+                                                <div class="drop_menu-tab-promotions-btn-wr">
+                                                    <a href="/services/capital-plus/nakopitelnoe-strahovanie-zhizni/"
+                                                        class="drop_menu-tab-promotions-btn">Подробнее</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="head-bot-menu-item">
+                            <div class="head-bot-menu-item-btn">Ещё</div>
+
+                            <div class="head-drop_menu" style="height: 365px;">
+                                <div class="drop_menu-inner">
+                                    <div class="drop_menu-tab four_links_col">
+                                        <div class="drop_menu-tab-col">
+                                            <div class="drop_menu-tab-col-head">
+                                                Онлайн-сервисы
+                                            </div>
+
+                                            <div class="drop_menu-tab-col-main">
+                                                <div class="item">
+                                                    <a class="icon_ib_new" href="https://my.atb.su">Интернет-банк</a>
+                                                </div>
+
+                                                <div class="item">
+                                                    <a href="/services/mobile-banking/">Мобильный банк</a>
+                                                </div>
+
+                                                <div class="item">
+                                                    <a href="/services/dbo/?tab=sms">SMS-сервис</a>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="drop_menu-tab-col">
+                                            <div class="drop_menu-tab-col-head">
+                                                Платежные сервисы
+                                            </div>
+
+                                            <div class="drop_menu-tab-col-main">
+                                                <div class="item">
+                                                    <a href="/cards/samsung-pay/">Samsung Pay</a>
+                                                </div>
+
+                                                <div class="item">
+                                                    <a href="/cards/apple-pay/">Apple Pay</a>
+                                                </div>
+
+                                                <div class="item">
+                                                    <a href="/cards/android-pay/">Google Pay</a>
+                                                </div>
+
+                                                <div class="item">
+                                                    <a href="/cards/garmin-pay/">Garmin Pay</a>
+                                                </div>
+
+                                                <div class="item">
+                                                    <a href="/cards/mir-pay/">Mir Pay</a>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="drop_menu-tab-col">
+                                            <div class="drop_menu-tab-col-head">
+                                                Банковские услуги
+                                            </div>
+
+                                            <div class="drop_menu-tab-col-main">
+                                                <div class="item">
+                                                    <a href="/discounts-and-promotions/">Акции и скидки</a>
+                                                </div>
+
+                                                <div class="item">
+                                                    <a href="/services/personal-lawyer/">Личный адвокат</a>
+                                                </div>
+
+                                                <div class="item">
+                                                    <a href="/services/the-retirement-concierge/">Пенсионный
+                                                        консьерж</a>
+                                                </div>
+
+                                                <div class="item">
+                                                    <a href="/services/second-oppinion/">Второе мнение</a>
+                                                </div>
+
+                                                <div class="item">
+                                                    <a href="/services/coins/">Монеты</a>
+                                                </div>
+
+                                                <div class="item">
+                                                    <a href="/services/registration-in-biometric-system/">Регистрация
+                                                        клиентов в
+                                                        единой биометрической системе</a>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="drop_menu-tab-col">
+                                            <div class="drop_menu-tab-col-main">
+                                                <div class="item">
+                                                    <a href="/services/rent-of-safe-box/">Аренда сейфовой ячейки</a>
+                                                </div>
+
+                                                <div class="item">
+                                                    <a href="/services/depository-services/">Депозитарное
+                                                        обслуживание</a>
+                                                </div>
+
+                                                <div class="item">
+                                                    <a href="/vklady-i-scheta/metallicheskiy/">Банковские счета в
+                                                        драгоценных
+                                                        металлах</a>
+                                                </div>
+
+                                                <div class="item">
+                                                    <a href="/services/collateral-property/">Реализация имущества</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -265,83 +825,12 @@
                             </div>
                         </div>
 
-                        <div class="head-bot-menu-item">
-                            <div class="head-bot-menu-item-btn">Гарантии</div>
-
-                            <div class="head-drop_menu">
-                                <div class="drop_menu-inner">
-                                    <div class="drop_menu-tab">
-                                        <div class="drop_menu-tab-col">
-                                            <div class="drop_menu-tab-col-main">
-                                                <div class="item">
-                                                    <a href="/business/get/to-issue-a-bank-guarantee/">Банковская
-                                                        гарантия</a>
-                                                </div>
-
-                                                <div class="item">
-                                                    <a href="/business/ekspress-garantii/">Экспpесс гаpантии</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="head-bot-menu-item">
-                            <div class="head-bot-menu-item-btn">
-                                <a href="/business/deposits/">Депозиты</a>
-                            </div>
-
-                            <div class="head-drop_menu">
-                            </div>
-                        </div>
-
-                        <div class="head-bot-menu-item">
-                            <div class="head-bot-menu-item-btn">
-                                <a href="/business/services/metals/">Драг.металлы </a>
-                            </div>
-
-                            <div class="head-drop_menu">
-                            </div>
-                        </div>
-
-                        <div class="head-bot-menu-item">
-                            <div class="head-bot-menu-item-btn">Сервисы</div>
-
-                            <div class="head-drop_menu">
-                                <div class="drop_menu-inner">
-                                    <div class="drop_menu-tab">
-                                        <div class="drop_menu-tab-col">
-                                            <div class="drop_menu-tab-col-main">
-                                                <div class="item">
-                                                    <a href="/business/services/legal-support-of-business/">Правовая
-                                                        поддержка бизнеса</a>
-                                                </div>
-
-                                                <div class="item">
-                                                    <a href="/business/services/acquiring/">Эквайринг</a>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="drop_menu-tab-col">
-                                            <div class="drop_menu-tab-col-main">
-                                                <div class="item">
-                                                    <a href="/business/salary-project/">Зарплатный проект</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
                     </div>
 
+                    <a href="#" class="head-bot-open_help"></a>
 
                     <div class="head-bot-int_bank">
-                        <a href="https://business.faktura.ru/f2b/?site=atb" class="head-bot-int_bank-link">Интернет
-                            -Банк</a>
+                        <a href="https://my.atb.su" class="head-bot-int_bank-link">Интернет -Банк</a>
                     </div>
 
 
@@ -357,8 +846,8 @@
                             <div id="title-search">
                                 <form action="/search/index.php">
                                     <input placeholder="Начните поиск, используя поле ввода" id="title-search-input"
-                                        type="text" name="q" value="" size="40" maxlength="50"
-                                        autocomplete="off" /><input name="s" type="submit" value="" />
+                                        type="text" name="q" value="" size="40" maxlength="50" autocomplete="off"><input
+                                        name="s" type="submit" value="">
                                 </form>
                             </div>
                             <a href="#" class="close_search"></a>
@@ -370,220 +859,29 @@
             <div class="    breadcrumbs_02_2020    " id="fix_header">
                 <div class="hat_block">
                     <div class="in_hat_block">
-                        <a href="/" title="Главная">Главная</a><a href="/business/" title="Бизнесу">Бизнесу</a><a
-                            href="/business/cash-services/" title="Расчетно-кассовое обслуживание">Расчетно-кассовое
-                            обслуживание</a><span>Открытие и ведение счетов</span> </div>
+                        <a href="/" title="Главная">Главная</a><a href="/kredit/"
+                            title="Кредиты">Кредиты</a><span>Ипотека</span> </div>
                 </div>
 
             </div>
         </header>
-
         <main>
             <div class="fix_old_head"></div>
             <div class="main_ban">
                 <div class="swiper-container">
                     <div class="swiper-wrapper">
-                        <!-- <div class="main_ban-item swiper-slide gifts_ban">
+                        <div class="main_ban-item swiper-slide consumer_loans">
                             <div class="inner">
-                                <div class="main_ban-item-title">АТБ дарит подарки</div>
+                                <div class="main_ban-item-title">Потребительские 
+                                    кредиты на&nbsp;любые цели</div>
 
-                                <div class="main_ban-item-desc">Откройте расчетный счет и получите красивый номер счета
-                                    бесплатно</div>
-
-                                    <div class="main_ban-item-items_wr">
-                                        <div class="main_ban-item-items_wr-num">
-                                            <span class="big">0</span>₽
-                                        </div>
-
-                                        <div class="main_ban-item-items_wr-list">
-                                            <ul>
-                                                <li>открытие и ведение счета для Вашего бизнеса 4 месяца</li>
-                                                <li>подключение к Интернет-Банку</li>
-                                                <li>бизнес-карта с привилегиями и годовым обслуживанием </li>
-                                                <li>сервис проверки контрагентов «Светофор»</li>
-                                            </ul>
-                                        </div>
-                                    </div>
-
-                                <div class="main_ban-item-foot">
-                                    <div class="main_ban-item-btn">
-                                        <a href="#">подробнее</a>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="main_ban-item-img">
-                                <img class="desktop" src="img/main_ban_img1.jpg" alt="">
-                                <img class="mobile" src="img/main_ban_img1_mob.jpg" alt="">
-                            </div>
-                        </div> -->
-
-                        <div class="main_ban-item swiper-slide microlite">
-                            <div class="inner">
-                                <div class="main_ban-item-title">Кредит для&nbsp;бизнеса</div>
-
-                                <div class="main_ban-item-features">
-                                    <div class="main_ban-item-features-item">
-                                        <div class="main_ban-item-features-item-top"><span class="xs">от</span> 8,6%</div>
-                                        <div class="main_ban-item-features-item-bot">ставка</div>
-                                    </div>
-
-                                    <div class="main_ban-item-features-item">
-                                        <div class="main_ban-item-features-item-top">
-                                            <span class="xs">до</span> 10 <span class="s">млн</span> ₽
-                                        </div>
-                                        <div class="main_ban-item-features-item-bot">сумма кредита</div>
-                                    </div>
-
-                                    <div class="main_ban-item-features-item">
-                                        <div class="main_ban-item-features-item-top">
-                                            <span class="xs">до</span> 5 <span class="s">лет</span>
-                                        </div>
-                                        <div class="main_ban-item-features-item-bot">срок кредита</div>
-                                    </div>
-                                </div>
-                                <div class="main_ban-item-foot">
-                                    <div class="main_ban-item-btn">
-                                        <a href="#">подробнее</a>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="main_ban-item-img">
-                                <img src="img/top_ban-microlite.jpg" alt="">
-                            </div>
-                        </div>
-
-                        <div class="main_ban-item swiper-slide acc_business">
-                            <div class="inner">
-                                <div class="main_ban-item-title">Счет для бизнеса
-                                    <span class="emphasis">бесплатно</span> и навсегда</div>
-
-                                <div class="main_ban-item-foot">
-                                    <div class="main_ban-item-btn">
-                                        <a href="#">Открыть счет</a>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="main_ban-item-img">
-                                <img src="img/top_ban-acc_biz.jpg" alt="">
-                            </div>
-                        </div>
-
-                        <div class="main_ban-item swiper-slide work_time_atm">
-                            <div class="inner">
-                                <div class="work_time_atm-txt">
-                                    <div class="work_time_atm-title_mobile">
-                                        Режим работы  <br>отделений
-                                    </div>
-
-                                    <div class="work_time_atm-title">
-                                        Уважаемые клиенты, просим уточнять режим работы отделений в колл-центре.
-                                    </div>
-
-                                    <div class="work_time_atm-block">
-                                        <div class="work_time_atm-block-item">
-                                            <a href="tel:88007758080">8 (800) 775-80-80</a>
-                                            <span>Бесплатный звонок по России</span>
-                                        </div>
-
-                                        <div class="work_time_atm-block-item">
-                                            <a href="tel:+74162222333">+7(4162) 222 333</a>
-                                            <span>Для звонков из-за рубежа</span>
-                                        </div>
-
-                                        <div class="work_time_atm-block-item">
-                                            <a href="tel:*3040">* 3040</a>
-                                            <span>Звонок с мобильного бесплатный</span>
-                                        </div>
-
-                                        <div class="work_time_atm-block-item phone">
-                                            <a href="#" class="icon_phone">Позвонить через интернет</a>
-                                        </div>
-                                    </div>
-
-                                    <a href="#" class="work_time_atm-btn_list">Актуальный список <br> работающих
-                                        отделений банка</a>
-                                </div>
-                            </div>
-
-                            <div class="main_ban-item-img">
-                                <img class="desktop" src="img/main_ban_img_cat.jpg" alt="">
-                                <img class="mobile" src="img/main_ban_img_cat_mob.jpg" alt="">
-                            </div>
-                        </div>
-
-                        <div class="main_ban-item swiper-slide gifts_ban">
-                            <div class="inner">
-                                <div class="main_ban-item-title">Твой бизнес онлайн</div>
-
-                                <div class="main_ban-item-desc_bold">Откройте расчетный счет, подключите ДБО
-                                    и&nbsp;бизнес-карту и работайте удаленно!</div>
-
-                                <ul class="main_ban-item-list">
-                                    <li>Подключение ДБО – бесплатно</li>
-                                    <li>Красивый номер счета – в подарок </li>
-                                    <li>Документы заполним за Вас</li>
-                                </ul>
-
-                                <div class="main_ban-item-foot">
-                                    <div class="main_ban-item-btn">
-                                        <a href="#">открыть счет</a>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="main_ban-item-img">
-                                <img class="desktop" src="img/main_ban_img_rko.jpg" alt="">
-                                <img class="mobile" src="img/main_ban_img_rko_mob.jpg" alt="">
-                            </div>
-                        </div>
-
-                        <div class="main_ban-item swiper-slide endless_possibilities">
-                            <div class="inner">
-                                <div class="main_ban-item-badge">Акция</div>
-
-                                <div class="main_ban-item-title">Безграничные возможности</div>
-
-                                <div class="main_ban-item-desc">
-                                    <p><span class="orange">АКЦИЯ!</span> Льготные условия для бизнеса
-                                        с&nbsp;иностранными контрагентами.</p>
-                                    <p><span class="orange">0,1%</span> на все тарифы для ВЭД</p>
-
-                                </div>
-
-                                <div class="main_ban-item-foot">
-                                    <div class="main_ban-item-btn">
-                                        <a href="#">оформить заявку</a>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="main_ban-item-img">
-                                <img class="desktop" src="img/main_ban_img4.jpg" alt="">
-                                <img class="mobile" src="img/main_ban_img4_mob.jpg" alt="">
-                            </div>
-                        </div>
-
-                        <!-- <div class="main_ban-item swiper-slide">
-                            <div class="inner">
-                                <div class="main_ban-item-title">Кредит «Микро-лайт»</div>
-
-                                <div class="main_ban-item-block">
-                                    <div class="main_ban-item-block-point">
-                                        <div class="main_ban-item-block-point-desc">на любые</div>
-                                        <div class="main_ban-item-block-point-value">цели</div>
-                                    </div>
-                                    <div class="main_ban-item-block-point">
-                                        <div class="main_ban-item-block-point-value">без</div>
-                                        <div class="main_ban-item-block-point-desc">залога</div>
-                                    </div>
-                                    <div class="main_ban-item-block-point">
-                                        <div class="main_ban-item-block-point-value"><span
-                                                class="main_ban-item-block-point-desc">от</span> 12,25%</div>
-                                        <div class="main_ban-item-block-point-desc">годовых</div>
-                                    </div>
+                                <div class="main_ban-item-desc_m">
+                                    <span class="orange">
+                                        до 
+                                        <span class="main_ban-item-desc_m-big">15 </span>
+                                        млн 
+                                        <span class="main_ban-item-desc_m-big">₽</span>
+                                    </span>
                                 </div>
 
                                 <div class="main_ban-item-foot">
@@ -594,50 +892,57 @@
                             </div>
 
                             <div class="main_ban-item-img">
-                                <img class="desktop" src="img/main_ban_img2.jpg" alt="">
-                                <img class="mobile" src="img/main_ban_img2_mob.jpg" alt="">
+                                <img  src="img/main_ban-loan.jpg" alt="">
                             </div>
-                        </div> -->
+                        </div>
 
                         <div class="main_ban-item swiper-slide">
                             <div class="inner">
-                                <div class="main_ban-item-title">Лизинг - лайт</div>
+                                <div class="main_ban-item-badge">дебетовая карта</div>
 
-                                <div class="main_ban-item-block">
-                                    <div class="main_ban-item-block-point">
-                                        <div class="main_ban-item-block-point-value small">минимальный</div>
-                                        <div class="main_ban-item-block-point-desc small">пакет документов</div>
-                                    </div>
-                                    <div class="main_ban-item-block-point">
-                                        <div class="main_ban-item-block-point-value">3 <span
-                                                class="main_ban-item-block-point-value small">рабочих дня</span></div>
-                                        <div class="main_ban-item-block-point-desc small">на решение</div>
-                                    </div>
-                                </div>
-
+                                <div class="main_ban-item-title">Детская карта</div>
+                                <div class="main_ban-item-desc">
+                                Почувствуй себя <span class="orange">самостоятельным</span></div>
                                 <div class="main_ban-item-foot">
                                     <div class="main_ban-item-btn">
-                                        <a href="#">подробнее</a>
+                                        <a href="#">оформить карту</a>
                                     </div>
                                 </div>
                             </div>
 
                             <div class="main_ban-item-img">
-                                <img src="img/top_banner_img1.jpg" alt="">
+                                <img  src="img/top_ban-child.jpg" alt="">
                             </div>
                         </div>
 
-                        <div class="main_ban-item swiper-slide acquiring">
+                        <div class="main_ban-item swiper-slide fresh_card">
                             <div class="inner">
-                                <div class="main_ban-item-title">Доступный эквайринг</div>
+                                <div class="main_ban-item-badge">кредитная карта</div>
 
-                                <div class="main_ban-item-desc">
-                                    <div class="main_ban-item-desc-txt">
-                                        Сниженный тариф по торговому
-                                        эквайрингу без комиссий*
+                                <div class="main_ban-item-title">Вливайся! Новые возможности
+                                 с&nbsp;кредитной картой <span class="orange">ФРЕШ</span></div>
+                                <div class="main_ban-item-list">
+                                    <li>Кешбэк на покупки до 10%</li>
+                                    <li>Бесплатное обслуживание карты</li>
+                                    <li>Оплата покупок одним движением руки</li>
+                                </div>
+
+                                <div class="main_ban-item-pay">
+                                    <div class="main_ban-item-pay-item">
+                                        <img src="img/icon-pay-01.png" alt="">
                                     </div>
-
-                                    <div class="main_ban-item-desc-num">1<span>%</span></div>
+                                    <div class="main_ban-item-pay-item">
+                                        <img src="img/samsung-pay-seeklogo.svg" alt="">
+                                    </div>
+                                    <div class="main_ban-item-pay-item">
+                                        <img src="img/google-pay-seeklogo.svg" alt="">
+                                    </div>
+                                    <div class="main_ban-item-pay-item">
+                                        <img src="img/apple-pay.svg" alt="">
+                                    </div>
+                                    <div class="main_ban-item-pay-item">
+                                        <img src="img/garmin_pay_logo.png" alt="">
+                                    </div>
                                 </div>
 
                                 <div class="main_ban-item-foot">
@@ -648,8 +953,212 @@
                             </div>
 
                             <div class="main_ban-item-img">
-                                <img class="desktop" src="img/top_ban-eq.jpg" alt="">
-                                <img class="mobile" src="img/top_ban-eq_mob.jpg" alt="">
+                                <img  src="img/top_ban-fresh.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="main_ban-item swiper-slide">
+                            <div class="inner">
+                                <div class="main_ban-item-title">Вклад Лето </div>
+
+                                <div class="main_ban-item-desc">Вкусное предложение!</div>
+
+                                <div class="main_ban-item-foot">
+                                    <div class="main_ban-item-btn">
+                                        <a href="#">оформить заявку</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="main_ban-item-img">
+                                <img src="img/main_ban_leto.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="main_ban-item swiper-slide easy_shopping">
+                            <div class="inner">
+                                <div class="main_ban-item-badge_light">Акции и скидки</div>
+
+                                <div class="main_ban-item-title">Легкие покупки</div>
+
+                                <div class="main_ban-item-desc">Азиатско-Тихоокеанский Банк и Visa запускают новую акцию с денежными
+                                    призами</div>
+
+                                <div class="main_ban-item-foot">
+                                    <div class="main_ban-item-btn">
+                                        <a href="#">Gодробнее</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="main_ban-item-img">
+                                <img src="img/main_ban-img_visa.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="main_ban-item swiper-slide">
+                            <div class="inner">
+                                <div class="main_ban-item-title">Кредит «Доступный»</div>
+
+                                <div class="main_ban-item-desc">От низкой ставки к высоким целям</div>
+
+                                <div class="main_ban-item-foot">
+                                    <div class="main_ban-item-btn">
+                                        <a href="#">оформить карту</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="main_ban-item-img">
+                                <img class="desktop" src="img/main_ban_img0.jpg" alt="">
+                                <img class="mobile" src="img/main_ban_img0_mob.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="main_ban-item swiper-slide">
+                            <div class="inner">
+                                <div class="main_ban-item-title small">Новый Мобильный Банк<span class="dn">
+                                        Ваш&nbsp;финансовый помощник!</span></div>
+
+                                <ul class="main_ban-item-list list-unstyled">
+                                    <li>Быстрый доступ к продуктам</li>
+                                    <li>Пополняйте карту мгновенно</li>
+                                    <li>Наглядный анализ расходов и доходов</li>
+                                </ul>
+
+                                <div class="main_ban-item-foot">
+                                    <div class="main_ban-item-btn">
+                                        <a href="#">подробнее</a>
+                                    </div>
+
+                                    <div class="main_ban-item-app">
+                                        <a href="#">
+                                            <img src="img/ic.appstore.png" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="main_ban-item-app">
+                                        <a href="#">
+                                            <img src="img/ic.googlemarket.png" alt="">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="main_ban-item-img">
+                                <img class="desktop" src="img/main_ban_img6.jpg" alt="">
+                                <img class="mobile" src="img/main_ban_img6_mob.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="main_ban-item swiper-slide">
+                            <div class="inner">
+                                <div class="main_ban-item-badge">дебетовая карта</div>
+
+                                <div class="main_ban-item-title">«Кэш-бэк карта»</div>
+
+                                <div class="main_ban-item-block">
+                                    <div class="main_ban-item-block-point">
+                                        <div class="main_ban-item-block-point-value">0 ₽</div>
+                                        <div class="main_ban-item-block-point-desc">обслуживание</div>
+                                    </div>
+                                    <div class="main_ban-item-block-point">
+                                        <div class="main_ban-item-block-point-value">до 10%</div>
+                                        <div class="main_ban-item-block-point-desc">кэшбэк на покупки</div>
+                                    </div>
+                                    <div class="main_ban-item-block-point">
+                                        <div class="main_ban-item-block-point-value">до 30%</div>
+                                        <div class="main_ban-item-block-point-desc">скидки от партнеров</div>
+                                    </div>
+                                </div>
+
+                                <div class="main_ban-item-foot">
+                                    <div class="main_ban-item-btn">
+                                        <a href="#">оформить карту</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="main_ban-item-img">
+                                <img class="desktop" src="img/main_ban_img1.jpg" alt="">
+                                <img class="mobile" src="img/main_ban_img1_mob.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="main_ban-item swiper-slide universal_card">
+                            <div class="inner">
+                                <div class="main_ban-item-badge">кредитная карта</div>
+
+                                <div class="main_ban-item-title">Универсальная карта</div>
+
+                                <div class="main_ban-item-block">
+                                    <div class="main_ban-item-block-point">
+                                        <div class="main_ban-item-block-point-value emphasis"><span>до</span> 120
+                                            <span>дней</span></div>
+                                        <div class="main_ban-item-block-point-desc">без процентов</div>
+                                    </div>
+                                    <div class="main_ban-item-block-point">
+                                        <div class="main_ban-item-block-point-value"><span>до</span> 10%</div>
+                                        <div class="main_ban-item-block-point-desc">кэшбэк на покупки</div>
+                                    </div>
+                                    <div class="main_ban-item-block-point">
+                                        <div class="main_ban-item-block-point-value">0 ₽</div>
+                                        <div class="main_ban-item-block-point-desc">обслуживание</div>
+                                    </div>
+                                </div>
+
+                                <div class="main_ban-item-foot">
+                                    <div class="main_ban-item-btn">
+                                        <a href="#">оформить карту</a>
+                                    </div>
+
+                                    <div class="main_ban-item-btn">
+                                        <div class="main_ban-item-btn-school">А ещё - Акция 
+                                            <br>к учебному сезону!</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="main_ban-item-img">
+                                <img  src="img/top_ban-univarsal-card-women.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="main_ban-item swiper-slide">
+                            <div class="inner">
+                                <div class="main_ban-item-title">Мгновенные переводы с&nbsp;карты на карту</div>
+
+                                <div class="main_ban-item-desc">по России и за рубеж не выходя из дома</div>
+
+                                <div class="main_ban-item-foot">
+                                    <div class="main_ban-item-btn">
+                                        <a href="#">подробнее</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="main_ban-item-img">
+                                <img src="img/main_ban-img_transfer.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="main_ban-item swiper-slide">
+                            <div class="inner">
+                                <div class="main_ban-item-title">Ипотека АТБ</div>
+
+                                <ul class="main_ban-item-list list-unstyled">
+                                    <li>Персональный менеджер на всех этапах сделки</li>
+                                    <li>Широкая филиальная сеть</li>
+                                    <li>Минимальный срок рассмотрения заявки</li>
+                                </ul>
+
+                                <div class="main_ban-item-foot">
+                                    <div class="main_ban-item-foot-item main_ban-item-btn">
+                                        <a href="#">оставить заявку</a>
+                                    </div>
+
+                                    <div class="main_ban-item-foot-item">
+                                        <a href="#" class="main_ban-item-link_label">
+                                            Ипотека с гос.поддержкой
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="main_ban-item-img">
+                                <img class="desktop" src="img/main_ban_img5.jpg" alt="">
+                                <img class="mobile" src="img/main_ban_img5_mob.jpg" alt="">
                             </div>
                         </div>
                     </div>
@@ -668,10 +1177,43 @@
             </div>
 
             <div class="page_content">
+                <div class="important_info-container">
+                    <div class="inner">
+                        <div class="important_info-wrapper">
+                            <a href="#" class="important_info-box important_info-box_big">
+                                <div class="important_info-box_big-title">Самое важное сегодня</div>
+                                <div class="important_info-box_big-desc">Здесь собрана вся актуальная информация.
+                                    Рассказываем обо&nbsp;всех мерах поддержки и&nbsp;продуктах Банка для вас.</div>
+                                <div class="important_info-box-link important_info-box_big-link">подробнее</div>
+                                <div class="important_info-box_big-img">
+                                    <img src="img/ATB_Cat.png" alt="">
+                                </div>
+                            </a>
+
+                            <!-- <a href="#" class="important_info-box important_info-box_small">
+                                <div class="important_info-box_small-title">Список работающих отделений</div>
+                                <div class="important_info-box_small-desc">Вы можете проверить работу отделений, скачав
+                                    актуальную таблицу в XLS-файле.</div>
+                                <div class="important_info-box-link important_info-box_small-link">скачать</div>
+                            </a> -->
+
+                           <a href="#" class="important_info-box important_info-box_small sales_club">
+                                <div class="important_info-box_small-title">Акции и скидки в АТБ-Клуб </div>
+                                <div class="important_info-box_small-desc">получайте скидки 
+                                    от&nbsp;партнеров Банка до 30%</div>
+                                <div class="important_info-box-link important_info-box_small-link">Подробнее</div>
+                                <div class="important_info-box_small-img">
+                                    <img src="img/imp_club.png" alt="">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
                 <div class="useful_goods_block">
                     <div class="inner">
                         <div class="useful_goods_block-head">
-                            <h1 class="useful_goods_block-title">Полезные продукты и&nbsp;предложения</h1>
+                            <h1 class="useful_goods_block-title">Лучшие предложения</h1>
 
                             <!-- <div class="useful_goods_block-nav">
                                 <div class="useful_goods_block-nav-wrap">
@@ -684,437 +1226,590 @@
                         <div class="useful_goods_block-slider with_btns">
                             <div class="swiper-container">
                                 <div class="swiper-wrapper">
-                                    <div class="swiper-slide useful_goods_block-slider-item">
-                                        <div class="useful_goods_block-slider-item-content">
-                                            <div class="useful_goods_block-slider-item-title">Счет для бизнеса</div>
+                                    <div class="swiper-slide useful_goods_block-slider-item big">
+                                        <a href="#">
+                                            <div class="useful_goods_block-slider-item-content">
+                                                <div class="useful_goods_block-slider-item-title">Универсальная карта
+                                                </div>
 
-                                            <ul class="useful_goods_block-slider-item-list">
-                                                <li><span>Бесплатные внутрибанковские платежи 24/7</span></li>
-                                                <li><span>Внешние платежи 19/5</span></li>
-                                                <li><span>Прозрачные тарифы для&nbsp;бизнеса</span></li>
-                                            </ul>
+                                                <div class="useful_goods_block-slider-item-features">
+                                                    <div class="useful_goods_block-slider-item-features-box">
+                                                        <div class="useful_goods_block-slider-item-features-box-top">
+                                                            до <span>120</span> дней
+                                                        </div>
 
-                                            <div class="useful_goods_block-slider-item-link">
-                                                <a href="#">Оставить заявку</a>
-                                            </div>
+                                                        <div class="useful_goods_block-slider-item-features-box-bot">без
+                                                            процентов</div>
+                                                    </div>
 
-                                            <div class="useful_goods_block-slider-item-img">
-                                                <img class="desktop" src="img/usf1.jpg" alt="">
-                                                <img class="mobile" src="img/usf1_mob.jpg" alt="">
-                                            </div>
-                                        </div>
-                                    </div>
+                                                    <div class="useful_goods_block-slider-item-features-box">
+                                                        <div class="useful_goods_block-slider-item-features-box-top">
+                                                            <span> 0₽</span>
+                                                        </div>
 
-                                    <div class="swiper-slide useful_goods_block-slider-item">
-                                        <div class="useful_goods_block-slider-item-content">
-                                            <div class="useful_goods_block-slider-item-title">Доступный эквайринг</div>
-
-                                            <div class="useful_goods_block-slider-item-txt">
-                                                Сниженный тариф по торговому эквайрингу без&nbsp;комиссий
-
-                                                <div class="useful_goods_block-slider-item-txt-big">
-                                                    1<span>%</span>
+                                                        <div class="useful_goods_block-slider-item-features-box-bot">
+                                                            обслуживание</div>
+                                                    </div>
                                                 </div>
                                             </div>
 
-                                            <div class="useful_goods_block-slider-item-link">
-                                                <a href="#">Оставить заявку</a>
+                                            <div  data-link="/discounts-and-promotions/training-season/"  class="useful_goods_block-slider-item-link js-inner_link">
+                                                <div class="useful_goods_block-slider-item-link-title">Акция
+                                                    <br>«Учебный сезон»</div>
+                                                <div class="useful_goods_block-slider-item-link-btn">подробнее</div>
+                                                <div class="useful_goods_block-slider-item-link-img">
+                                                    <img src="img/school_bag.png" alt="">
+                                                </div>
                                             </div>
 
                                             <div class="useful_goods_block-slider-item-img">
-                                                <img class="desktop" src="img/usf_eq.jpg" alt="">
-                                                <img class="mobile" src="img/usf_eq_mob.jpg" alt="">
+                                                <img class="desktop" src="img/best_off1.jpg" alt="">
+                                                <img class="mobile" src="img/best_off1_mob.jpg" alt="">
                                             </div>
-                                        </div>
+                                        </a>
                                     </div>
-
-
-                                    <!-- <div class="swiper-slide useful_goods_block-slider-item order_mob1">
-                                        <div class="useful_goods_block-slider-item-content">
-                                            <div class="useful_goods_block-slider-item-title">Скидка в сервисе  <br>доставки Gett </div>
-
-                                            <ul class="useful_goods_block-slider-item-list">
-                                                <li><span>- 15% при оплате <nobr>бизнес-картой</nobr> Visa</span></li>
-                                                <li><span>закажите карту в ДБО</span></li>
-                                                <li><span>карта для клиента - бесплатно</span></li>
-                                            </ul>
-
-                                            <div class="useful_goods_block-slider-item-link">
-                                                <a href="#">подробнее</a>
-                                            </div>
-
-                                            <div class="useful_goods_block-slider-item-img">
-                                                <img class="desktop" src="img/usf-gett.jpg" alt="">
-                                                <img class="mobile" src="img/usf-gett_mob.jpg" alt="">
-                                            </div>
-                                        </div>
-                                    </div> -->
 
                                     <div class="swiper-slide useful_goods_block-slider-item">
                                         <div class="useful_goods_block-slider-item-content">
-                                            <div class="useful_goods_block-slider-item-title">Корпоративная карта</div>
+                                            <div class="useful_goods_block-slider-item-title">Ипотека</div>
 
-                                            <ul class="useful_goods_block-slider-item-list">
-                                                <li><span>Можно снимать до&nbsp;500&nbsp;000&nbsp;₽  в&nbsp;сутки</span></li>
-                                                <li><span>Карта бесплатно  при&nbsp;откытии счета</span></li>
-                                                <li><span>Скидка 15% при&nbsp;оплате бизнес-картой  <br>в&nbsp;сервисе доставки Gett</span></li>
-                                            </ul>
-
-                                            <div class="useful_goods_block-slider-item-link">
-                                                <a href="#">Открыть карту</a>
+                                            <div class="useful_goods_block-slider-item-features">
+                                                <div class="useful_goods_block-slider-item-features-box">
+                                                    <div class="useful_goods_block-slider-item-features-box-top">
+                                                        от <span>1,6%</span>
+                                                    </div>
+                                                </div>
                                             </div>
+                                        </div>
 
-                                            <div class="useful_goods_block-slider-item-img">
-                                                <img class="desktop" src="img/usf3.png" alt="">
-                                                <img class="mobile" src="img/usf3_mob.jpg" alt="">
-                                            </div>
+                                        <div class="useful_goods_block-slider-item-btn">
+                                            <a href="#">подробнее</a>
+                                        </div>
+
+                                        <div class="useful_goods_block-slider-item-img">
+                                            <img class="desktop" src="img/best_off2.jpg" alt="">
+                                            <img class="mobile" src="img/best_off2_mob.jpg" alt="">
                                         </div>
                                     </div>
 
                                     <div class="swiper-slide useful_goods_block-slider-item">
                                         <div class="useful_goods_block-slider-item-content">
-                                            <div class="useful_goods_block-slider-item-title">Кредит Микро-лайт</div>
+                                            <div class="useful_goods_block-slider-item-title">Вклад «Правильная
+                                                стратегия»</div>
 
-                                            <ul class="useful_goods_block-slider-item-list">
-                                                <li><span>Oт 12,5%</span></li>
-                                                <li><span>На любые цели</span></li>
-                                                <li><span>Без залога</span></li>
-                                            </ul>
-
-                                            <div class="useful_goods_block-slider-item-link">
-                                                <a href="#">Получить кредит</a>
+                                            <div class="useful_goods_block-slider-item-features">
+                                                <div class="useful_goods_block-slider-item-features-box">
+                                                    <div class="useful_goods_block-slider-item-features-box-top">
+                                                        до <span>5,8%</span>
+                                                    </div>
+                                                </div>
                                             </div>
+                                        </div>
 
-                                            <div class="useful_goods_block-slider-item-img">
-                                                <img class="desktop" src="img/usf2.jpg" alt="">
-                                                <img class="mobile" src="img/usf2_mob.jpg" alt="">
-                                            </div>
+                                        <div class="useful_goods_block-slider-item-btn">
+                                            <a href="#">открыть вклад</a>
+                                        </div>
+
+                                        <div class="useful_goods_block-slider-item-img">
+                                            <img class="desktop" src="img/best_off3.jpg" alt="">
+                                            <img class="mobile" src="img/best_off3_mob.jpg" alt="">
                                         </div>
                                     </div>
 
                                     <div class="swiper-slide useful_goods_block-slider-item">
                                         <div class="useful_goods_block-slider-item-content">
-                                            <div class="useful_goods_block-slider-item-title">Депозиты</div>
-
-                                            <ul class="useful_goods_block-slider-item-list">
-                                                <li><span>От 1 дня</span></li>
-                                                <li><span>Минимальная сумма не&nbsp;ограничена</li>
-                                                <li><span>Возможность пополнения и&nbsp;частичного изъятия</span></li>
-                                            </ul>
-
-                                            <div class="useful_goods_block-slider-item-link">
-                                                <a href="#">Подробнее</a>
+                                            <div class="useful_goods_block-slider-item-title">Мир современных монет
                                             </div>
+                                        </div>
 
-                                            <div class="useful_goods_block-slider-item-img">
-                                                <img class="desktop" src="img/usf4.png" alt="">
-                                                <img class="mobile" src="img/usf4_mob.jpg" alt="">
-                                            </div>
+                                        <div class="useful_goods_block-slider-item-btn">
+                                            <a href="#">подробнее</a>
+                                        </div>
+
+                                        <div class="useful_goods_block-slider-item-img">
+                                            <img class="desktop" src="img/best_off4.jpg" alt="">
+                                            <img class="mobile" src="img/best_off4_mob.jpg" alt="">
                                         </div>
                                     </div>
 
                                     <div class="swiper-slide useful_goods_block-slider-item">
                                         <div class="useful_goods_block-slider-item-content">
-                                            <div class="useful_goods_block-slider-item-title">ВЭД</div>
+                                            <div class="useful_goods_block-slider-item-title">АТБ-статус</div>
 
-                                            <ul class="useful_goods_block-slider-item-list">
-                                                <li><span>Широкая корреспондентская сеть</span></li>
-                                                <li><span>Валютный контроль в&nbsp;интернет-банке</li>
-                                                <li><span>Бесплатные&nbsp;консультации в&nbsp;области вэд</span></li>
-                                            </ul>
-
-                                            <div class="useful_goods_block-slider-item-link">
-                                                <a href="#">Подробнее</a>
+                                            <div class="useful_goods_block-slider-item-features">
+                                                <div class="useful_goods_block-slider-item-features-box">
+                                                    <div class="useful_goods_block-slider-item-features-box-top">
+                                                        премиальное обслуживание
+                                                    </div>
+                                                </div>
                                             </div>
+                                        </div>
+                                        
+                                        <div class="useful_goods_block-slider-item-btn">
+                                            <a href="#">подробнее</a>
+                                        </div>
 
-                                            <div class="useful_goods_block-slider-item-img">
-                                                <img class="desktop" src="img/usf5.png" alt="">
-                                                <img class="mobile" src="img/usf5_mob.jpg" alt="">
-                                            </div>
+                                        <div class="useful_goods_block-slider-item-img">
+                                            <img class="desktop" src="img/best_off5.jpg" alt="">
+                                            <img class="mobile" src="img/best_off5_mob.jpg" alt="">
                                         </div>
                                     </div>
 
                                     <div class="swiper-slide useful_goods_block-slider-item">
                                         <div class="useful_goods_block-slider-item-content">
-                                            <div class="useful_goods_block-slider-item-title">Льготные программы кредитования</div>
+                                            <div class="useful_goods_block-slider-item-title">Инвестиции</div>
 
-                                            <ul class="useful_goods_block-slider-item-list">
-                                                <li><span>Ставка от 7,7%</span></li>
-                                                <li><span>Оборотные и инвестиционные цели</li>
-                                                <li><span>Рефинансирование инвестиционных кредитов</span></li>
-                                            </ul>
+                                            <div class="useful_goods_block-slider-item-features">
+                                                <div class="useful_goods_block-slider-item-features-box">
+                                                    <div class="useful_goods_block-slider-item-features-box-top">
+                                                        получайте доходность выше депозита
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="useful_goods_block-slider-item-btn">
+                                            <a href="#">подробнее</a>
+                                        </div>
 
-                                            <div class="useful_goods_block-slider-item-link">
-                                                <a href="#">Подробнее</a>
+                                        <div class="useful_goods_block-slider-item-img">
+                                            <img class="desktop" src="img/best_off6.jpg" alt="">
+                                            <img class="mobile" src="img/best_off6_mob.jpg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="swiper-btn-prev"></div>
+                            <div class="swiper-btn-next"></div>
+                        </div>
+
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+
+                <div class="calc_section">
+                    <div class="inner">
+                        <div class="calc_section-head">
+                            <div class="calc_section-txt">Подберите&nbsp;</div>
+
+                            <div class="calc_section-switch">
+                                <div class="calc_section-switch-txt active">кредит</div>
+                                <div class="calc_section-switch-txt">ипотеку</div>
+                                <div class="calc_section-switch-btn"></div>
+                            </div>
+                        </div>
+
+                        <div class="calc_section-main">
+                            <div class="calc_section-main-tab" style="display: block;">
+                                <div class="calc_section-adv">
+                                    От низкой ставки к высоким целям
+                                </div>
+
+                                <div class="calc_section-main-tab-content">
+                                    <div class="calc_section-main-left">
+
+                                        <div class="calc_section-params">
+                                            <div class="calc_section-params-line">
+                                                <div class="calc_section-params-line-head">
+                                                    <div class="calc_section-params-line-name">
+                                                        Сумма кpедита
+                                                    </div>
+
+                                                    <div class="calc_section-params-line-inp rub_before">
+                                                        <input id="slider_credit_sum_text" type="text"
+                                                            name="slider_credit_sum_text" value="60 000">
+                                                    </div>
+                                                </div>
+
+                                                <div class="calc_section-params-slider">
+                                                    <div class="calc_section-params-slider-wrap">
+                                                        <div id="slider_credit_sum"
+                                                            class="calc_section-params-slider-range"></div>
+                                                    </div>
+
+                                                    <div class="calc_section-params-slider-pips">
+                                                        <span id="min_credit_sum">60 000</span> <span
+                                                            id="max_credit_sum">1 000 000</span>
+                                                    </div>
+                                                </div>
                                             </div>
 
-                                            <div class="useful_goods_block-slider-item-img">
-                                                <img class="desktop" src="img/usf6.jpg" alt="">
-                                                <img class="mobile" src="img/usf6_mob.jpg" alt="">
+                                            <div class="calc_section-params-line">
+                                                <div class="calc_section-params-line-head">
+                                                    <div class="calc_section-params-line-name">
+                                                        Срок кредита, мес
+                                                    </div>
+
+                                                    <div class="calc_section-params-line-inp moth_before">
+                                                        <input id="slider_credit_date_text" type="text"
+                                                            name="slider_credit_date_text" value="24">
+                                                    </div>
+                                                </div>
+
+                                                <div class="calc_section-params-slider">
+                                                    <div class="calc_section-params-slider-wrap">
+                                                        <div id="slider_credit_date"
+                                                            class="calc_section-params-slider-range"></div>
+                                                    </div>
+
+                                                    <div class="calc_section-params-slider-pips">
+                                                        <span id="min_credit_date">24</span> <span
+                                                            id="max_credit_date">60</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="calc_section-main-right">
+                                        <div class="calc_section-result credit">
+                                            <div class="calc_section-result-main">
+                                                <div class="calc_section-result-main-line">
+                                                    <div class="calc_section-result-main-line-box">
+                                                        <div class="calc_section-result-main-line-box-name">СТАВКА по
+                                                            кредиту</div>
+                                                        <div class="calc_section-result-main-line-box-num big accent">
+                                                            8,8%</div>
+                                                    </div>
+
+                                                    <div class="calc_section-result-main-line-box">
+                                                        <div class="calc_section-result-main-line-box-name">Ежемесячный
+                                                            платеж</div>
+                                                        <div class="calc_section-result-main-line-box-num big">25 092 ₽
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="calc_section-result-btns">
+                                                <a href="#" class="calc_section-result-btns-submit">оставить заявку</a>
+
+                                                <a href="#" class="calc_section-result-btns-more">подробнее</a>
+                                            </div>
+
+                                            <div class="calc_section-result-foot">
+                                                Информация носит справочный характер и не является публичной офертой
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="swiper-btn-prev"></div>
-                            <div class="swiper-btn-next"></div>
+
+                            <div class="calc_section-main-tab">
+
+                                <div class="calc_section-tags">
+                                    <div class="swiper-container">
+                                        <div class="swiper-wrapper">
+                                            <div class="swiper-slide calc_section-tags-item active" id="set_dfo">
+                                                дальневосточная</div>
+                                            <div class="swiper-slide calc_section-tags-item" id="set_gotovoe">готовое
+                                            </div>
+                                            <div class="swiper-slide calc_section-tags-item" id="set_novostroyka">
+                                                новостройка</div>
+                                            <div class="swiper-slide calc_section-tags-item" id="set_semeynaya">семейным
+                                            </div>
+                                            <div class="swiper-slide calc_section-tags-item" id="set_voennaya">военным
+                                            </div>
+                                            <div class="swiper-slide calc_section-tags-item" id="set_perekreditovanie">
+                                                рефинансирование</div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="calc_section-main-tab-content">
+                                    <div class="calc_section-main-left">
+                                        <div class="calc_section-params">
+                                            <div class="calc_section-params-line">
+                                                <div class="calc_section-params-line-name name--block">
+                                                    Объект недвижимости
+                                                </div>
+
+                                                <div class="calc_section-params-line-select">
+                                                    <select class="selectpicker">
+                                                        <option>Квартира</option>
+                                                        <option>Апартаменты </option>
+                                                        <option>Жилой дом с зем.участком</option>
+                                                        <option>Таунхаус </option>
+                                                    </select>
+                                                </div>
+                                            </div>
+
+                                            <div class="calc_section-params-line">
+                                                <div class="calc_section-params-line-head">
+                                                    <div class="calc_section-params-line-name">
+                                                        Стоимость недвижимости
+                                                    </div>
+
+                                                    <div class="calc_section-params-line-inp rub_before">
+                                                        <input id="slider_cost_text" type="text" name="slider_cost_text"
+                                                            value="625 000">
+                                                    </div>
+                                                </div>
+
+                                                <div class="calc_section-params-slider">
+                                                    <div class="calc_section-params-slider-wrap">
+                                                        <div id="slider_cost" class="calc_section-params-slider-range">
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="calc_section-params-slider-pips">
+                                                        <span id="min_cost">625 000</span> <span id="max_cost">7 500
+                                                            000</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="calc_section-params-line">
+                                                <div class="calc_section-params-line-head">
+                                                    <div class="calc_section-params-line-name">
+                                                        Первоначальный взнос
+                                                    </div>
+
+                                                    <div class="calc_section-params-line-inp rub_before">
+                                                        <input id="slider_pay_text" type="text" name="slider_pay_text"
+                                                            value="1 200 00">
+                                                    </div>
+                                                </div>
+
+                                                <div class="calc_section-params-slider">
+                                                    <div class="calc_section-params-slider-wrap">
+                                                        <div id="slider_pay" class="calc_section-params-slider-range">
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="calc_section-params-slider-pips">
+                                                        <span id="min_firs_pay">1 200 000</span> <span
+                                                            id="max_first_pay">5 500
+                                                            000</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="calc_section-params-line line_option">
+                                                <div class="calc_section-options-main-section">
+                                                    <div class="calc_section-options-main-section-items-box">
+                                                        <input id="increase_1" name="increase_1" type="checkbox"
+                                                            value="1">
+                                                        <label for="increase_1">
+                                                            Использовать материнский капитал в качестве первоначального <nobr>взноса
+                                                        </label>
+                                                        <span class="tooltipda iconpick2" data-tooltip="Какой-то текст">
+                                                            <img  src="https://www.atb.su/local/templates/main/css/pages/card/credit/image/ques.png">
+                                                        </span> </nobr>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="calc_section-params-line">
+                                                <div class="calc_section-params-line-head">
+                                                    <div class="calc_section-params-line-name">
+                                                        Срок кредита
+                                                    </div>
+
+                                                    <div class="calc_section-params-line-inp year_before">
+                                                        <input id="slider_year_text" type="text" name="slider_year_text"
+                                                            value="3">
+                                                        <span>лет </span>
+                                                    </div>
+                                                </div>
+
+                                                <div class="calc_section-params-slider">
+                                                    <div class="calc_section-params-slider-wrap">
+                                                        <div id="slider_year" class="calc_section-params-slider-range">
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="calc_section-params-slider-pips">
+                                                        <span id="min_year">3 года</span> <span id="max_year">20
+                                                            лет</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="calc_section-params-line big_inp">
+                                                <div class="calc_section-params-line-head">
+                                                    <div class="calc_section-params-line-name">
+                                                        Дата рождения
+                                                    </div>
+                                                </div>
+
+                                                <div class="calc_section-params-line-inp_line date_before">
+                                                    <input type="text" name="birth_date">
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="calc_section-options">
+                                            <div class="calc_section-options-head">
+                                                Скидки / Надбавки
+                                            </div>
+
+                                            <div class="calc_section-options-main">
+                                                <div class="calc_section-options-main-section">
+                                                    <div class="calc_section-options-main-section-title"> Скидки: </div>
+
+                                                    <div class="calc_section-options-main-section-items" id="discounts">
+                                                        <div class="calc_section-options-main-section-items-box">
+                                                            <input id="discount_13" name="discount_13" type="checkbox"
+                                                                value="0.4">
+                                                            <label for="discount_13">
+                                                                Участник зарплатного проекта АТБ (ПАО) / Сотрудник
+                                                                бюджетной сферы РФ
+                                                            </label>
+
+                                                            <span class="tooltipda iconpick2"
+                                                                data-tooltip="Если один из солидарных Заемщиков является участником зарплатного проекта «Азиатско-Тихоокеанский Банк» (ПАО) и/или лицом, получающим выплаты за счет средств бюджетов бюджетной системы Российской Федерации">
+                                                                <img
+                                                                    src="https://www.atb.su/local/templates/main/css/pages/card/credit/image/ques.png">
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="calc_section-options-main-section">
+                                                    <div class="calc_section-options-main-section-title"> Надбавки:
+                                                    </div>
+                                                    <div class="calc_section-options-main-section-items" id="increases">
+                                                        <div class="calc_section-options-main-section-items-box">
+                                                            <input id="increase_1" name="increase_1" type="checkbox"
+                                                                value="1">
+                                                            <label for="increase_1">
+                                                                Отсутствие личного страхования заемщика
+                                                            </label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="calc_section-main-right">
+                                        <div class="calc_section-result">
+                                            <div class="calc_section-result-main">
+                                                <div class="calc_section-result-main-line">
+                                                    <div class="calc_section-result-main-line-box">
+                                                        <div class="calc_section-result-main-line-box-name">Ежемесячный
+                                                            платеж</div>
+                                                        <div class="calc_section-result-main-line-box-num big accent">45
+                                                            580 ₽</div>
+                                                    </div>
+
+                                                    <div class="calc_section-result-main-line-box">
+                                                        <div class="calc_section-result-main-line-box-name">ставка</div>
+                                                        <div class="calc_section-result-main-line-box-num big">1,75%
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="calc_section-result-main-line row_m">
+                                                    <div class="calc_section-result-main-line-box">
+                                                        <div class="calc_section-result-main-line-box-name">
+                                                            <span>Сумма кредита</span></div>
+                                                        <div class="calc_section-result-main-line-box-num">1 500 000 ₽
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="calc_section-result-main-line-box">
+                                                        <div class="calc_section-result-main-line-box-name">
+                                                            <span>НЕОБХОДИМЫЙ ДОХОД</span></div>
+                                                        <div class="calc_section-result-main-line-box-num">от 66 820 ₽
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="calc_section-result-btns">
+                                                <a href="#" class="calc_section-result-btns-submit">оставить заявку</a>
+
+                                                <a href="#" class="calc_section-result-btns-more">подробнее</a>
+                                            </div>
+
+                                            <div class="calc_section-result-foot">
+                                                Информация носит справочный характер и не является публичной офертой
+                                            </div>
+                                        </div>
+
+                                        <div class="calc_section-card_adv">
+                                            <div class="calc_section-card_adv-content">
+                                                <div class="calc_section-card_adv-content-title">
+                                                    Оформи ипотеку и получи
+                                                    кредитную карту в подарок
+                                                </div>
+                                                <ul class="calc_section-card_adv-content-list">
+                                                    <li>Беспроцентный период до&nbsp;120&nbsp;дней</li>
+                                                    <li>Кэш-бэк до&nbsp;10%</li>
+                                                </ul>
+                                                <div class="calc_section-card_adv-content-btn">
+                                                    <a href="/cards/credit/universalnaya-karta/">подробнее</a>
+                                                </div>
+                                            </div>
+
+                                            <div class="calc_section-card_adv-img">
+                                                <img src="img/absolute_cat_mint.png" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+
+                <!-- <div class="to_club_block">
+                    <div class="inner">
+                        <div class="to_club_block-content">
+                            <div class="to_club_block-title">Акции и скидки в&nbsp;АТБ-клубе</div>
+
+                            <div class="to_club_block-desc">получай скидки от партнеров Банка до 30%</div>
+
+                            <div class="to_club_block-link">
+                                <a href="#">подробнее</a>
+                            </div>
+
+                            <div class="to_club_block-img">
+                                <img src="img/action_img.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+
+                <div class="transfer_section-container">
+                    <div class="inner">
+                        виджет с переводами
                     </div>
                 </div>
 
                 <div class="app_adv_block">
                     <div class="inner">
                         <div class="app_adv_block-content">
-                            <div class="app_adv_block-title">Удобное дистанционное обслуживание для вашего бизнеса</div>
+                            <div class="app_adv_block-title">Удобный мобильный банк</div>
 
-                            <ul class="app_adv_block-list">
-                                <li><span>Будьте в курсе всех операций и движения средств</span></li>
-                                <li><span>Банк в кармане из любой точки мира </span></li>
-                                <li><span>Бесплатный сервис проверки контрагентов</span></li>
-                            </ul>
+                            <div class="app_adv_block-desc">
+                                Погашение кредита по карте в два клика,
+                                информация о&nbsp;покупках, график платежей
+                            </div>
 
-                            <div class="app_adv_block-links">
-                                <a href="#" class="app_adv_block-links-btn">войти</a>
+                            <div class="app_adv_block-downl">
+                                <div class="app_adv_block-links">
+                                    <a href="#" class="app_store_white">
+                                        Загрузите в
+                                        <span>App Store</span>
+                                    </a>
+
+                                    <a href="#" class="google_play_white">
+                                        ДОСТУПНО В
+                                        <span>Google Play</span>
+                                    </a>
+                                </div>
+
+                                <div class="app_adv_block-qr">
+                                    <img src="img/qr-code.png" alt="">
+                                </div>
                             </div>
 
                             <div class="app_adv_block-img">
-                                <img src="img/Laptop.png" alt="">
+                                <img src="img/iphone_x.png" alt="">
                             </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="services_block">
-                    <div class="inner">
-                        <h2 class="services_block-title">Сервисы</h2>
-
-                        <div class="services_block-content">
-                            <a href="#" class="services_block-content-item pr_metals">
-                                <div class="services_block-content-item-title">Операции с драгоценными металлами</div>
-
-                                <div class="services_block-content-item-desc">Надёжный способ сохранить свои денежные
-                                    средства от инфляции.</div>
-
-                                <div class="services_block-content-item-link">подробнее</div>
-                            </a>
-
-                            <a href="#" class="services_block-content-item acquiring">
-                                <div class="services_block-content-item-title">Эквайринг</div>
-
-                                <div class="services_block-content-item-desc">Оплата товаров и услуг через банковские
-                                    карты
-                                    или мобильные устройства.</div>
-
-                                <div class="services_block-content-item-link">подробнее</div>
-                            </a>
-
-                            <a href="#" class="services_block-content-item law">
-                                <div class="services_block-content-item-title">Правовая поддержка бизнеса</div>
-
-                                <div class="services_block-content-item-desc">Круглосуточная помощь в решении
-                                    корпоративных
-                                    правовых проблем Вашего бизнеса.</div>
-
-                                <div class="services_block-content-item-link">подробнее</div>
-                            </a>
-
-                            <a href="#" class="services_block-content-item salary">
-                                <div class="services_block-content-item-title">Зарплатный проект</div>
-
-                                <div class="services_block-content-item-desc">Бесплатное зачисление заработной платы и
-                                    других выплат (командировочных, премий) на карты сотрудников</div>
-
-                                <div class="services_block-content-item-link">подробнее</div>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="open_acc_form">
-                    <div class="inner">
-                        <form action="" class="open_acc_form-content">
-                            <div class="open_acc_form-title">Заявка на открытие счета</div>
-
-                            <div class="open_acc_form-desc">Введите номер телефона и код из SMS, чтобы перейти
-                                к открытию
-                                счёта без визита в банк.
-                                Уже через 5 минут вы сможете получать платежи.</div>
-
-                            <div class="open_acc_form-step step1 active">
-                                <div class="open_acc_form-main">
-                                    <div class="open_acc_form-main-item phone">
-                                        <input type="text" name="phone" id="" placeholder="+7 ( ___ ) ___ - __ - __">
-                                        <div class="open_acc_form-main-item-span">Введите корректный номер телефона
-                                        </div>
-                                    </div>
-
-                                    <div class="open_acc_form-main-item select error">
-                                        <select name="" id="">
-                                            <option value="">Город</option>
-                                            <option value="">Город1</option>
-                                            <option value="">Город2</option>
-                                            <option value="">Город3</option>
-                                            <option value="">Город4</option>
-                                            <option value="">Город</option>
-                                            <option value="">Город1</option>
-                                            <option value="">Город2</option>
-                                            <option value="">Город3</option>
-                                            <option value="">Город4</option>
-                                        </select>
-                                        <div class="open_acc_form-main-item-span">Выберите город</div>
-                                    </div>
-
-                                    <div class="open_acc_form-main-item">
-                                        <input id="open_acc-btn-next" type="submit" value="продолжить"
-                                            class="btn_action">
-                                    </div>
-                                </div>
-
-                                <div class="open_acc_form-foot">
-                                    Нажимая кнопку «Продолжить», я подтверждаю, что согласен на <a href="#">обработку
-                                        персональных данных</a>
-                                </div>
-                            </div>
-
-                            <div class="open_acc_form-step step2">
-                                <div class="open_acc_form-main">
-                                    <div class="open_acc_form-main-item code error">
-                                        <input type="text" name="" id="" placeholder="Код из SMS">
-                                        <div class="open_acc_form-main-item-span">Неправильный код</div>
-                                    </div>
-
-                                    <div class="open_acc_form-main-item">
-                                        <input type="submit" value="подтвердить" class="btn_action">
-                                    </div>
-                                </div>
-
-                                <div class="open_acc_form-foot">
-                                    <div class="open_acc_form-urls">
-
-                                        <div class="open_acc_form-urls-change_num">
-                                            <button>Изменить номер</button>
-                                        </div>
-
-                                        <div class="open_acc_form-urls-repeat_sms">
-                                            <button disabled="disabled">Прислать код повторно</button>
-                                            <span id="">через <b>50 сек.</b></span>
-                                            <input type="hidden" name="get_code_cnt" value="">
-                                        </div>
-
-                                        <input type="hidden" name="code" value="">
-                                        <input type="hidden" name="code_id" value="">
-                                        <input type="hidden" name="code_phone" value="">
-                                    </div>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-
-                <div class="bonuses_block">
-                    <div class="inner">
-                        <div class="bonuses_block-head">
-                            <div class="bonuses_block-title">Бонусы для клиентов</div>
-
-                            <div class="bonuses_block-desc">Откройте счет и воспользуйтесь предложениями партнеров для
-                                развития бизнеса</div>
-                        </div>
-
-                        <div class="bonuses_block-slider">
-                            <div class="swiper-container">
-                                <div class="swiper-wrapper">
-                                    <div class="swiper-slide bonuses_block-slider-item">
-                                        <div class="bonuses_block-slider-item-img">
-                                            <img src="img/tes.png" alt="*">
-                                        </div>
-
-                                        <div class="bonuses_block-slider-item-main">
-                                            <div class="bonuses_block-slider-item-main-title">Заголовок</div>
-
-                                            <div class="bonuses_block-slider-item-main-desc">Поясняющий текст в две или
-                                                три
-                                                строки Поясняющий текст в две или три строки</div>
-                                        </div>
-                                    </div>
-
-                                    <div class="swiper-slide bonuses_block-slider-item">
-                                        <div class="bonuses_block-slider-item-img"></div>
-
-                                        <div class="bonuses_block-slider-item-main">
-                                            <div class="bonuses_block-slider-item-main-title">Заголовок</div>
-
-                                            <div class="bonuses_block-slider-item-main-desc">Поясняющий текст в две или
-                                                три
-                                                строки</div>
-                                        </div>
-                                    </div>
-
-                                    <div class="swiper-slide bonuses_block-slider-item">
-                                        <div class="bonuses_block-slider-item-img"></div>
-
-                                        <div class="bonuses_block-slider-item-main">
-                                            <div class="bonuses_block-slider-item-main-title">Заголовок</div>
-
-                                            <div class="bonuses_block-slider-item-main-desc">Поясняющий текст в две или
-                                                три
-                                                строки</div>
-                                        </div>
-                                    </div>
-
-                                    <div class="swiper-slide bonuses_block-slider-item">
-                                        <div class="bonuses_block-slider-item-img"></div>
-
-                                        <div class="bonuses_block-slider-item-main">
-                                            <div class="bonuses_block-slider-item-main-title">Заголовок</div>
-
-                                            <div class="bonuses_block-slider-item-main-desc">Поясняющий текст в две или
-                                                три
-                                                строки</div>
-                                        </div>
-                                    </div>
-
-                                    <div class="swiper-slide bonuses_block-slider-item">
-                                        <div class="bonuses_block-slider-item-img"></div>
-
-                                        <div class="bonuses_block-slider-item-main">
-                                            <div class="bonuses_block-slider-item-main-title">Заголовок</div>
-
-                                            <div class="bonuses_block-slider-item-main-desc">Поясняющий текст в две или
-                                                три
-                                                строки</div>
-                                        </div>
-                                    </div>
-
-                                    <div class="swiper-slide bonuses_block-slider-item">
-                                        <div class="bonuses_block-slider-item-img"></div>
-
-                                        <div class="bonuses_block-slider-item-main">
-                                            <div class="bonuses_block-slider-item-main-title">Заголовок</div>
-
-                                            <div class="bonuses_block-slider-item-main-desc">Поясняющий текст в две или
-                                                три
-                                                строки</div>
-                                        </div>
-                                    </div>
-
-                                    <div class="swiper-slide bonuses_block-slider-item">
-                                        <div class="bonuses_block-slider-item-img"></div>
-
-                                        <div class="bonuses_block-slider-item-main">
-                                            <div class="bonuses_block-slider-item-main-title">Заголовок</div>
-
-                                            <div class="bonuses_block-slider-item-main-desc">Поясняющий текст в две или
-                                                три
-                                                строки</div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="bonuses_block-link_all">
-                            <a href="#">Полный список бонусов</a>
                         </div>
                     </div>
                 </div>
@@ -1144,41 +1839,51 @@
                                                 style="display: block;">
                                                 <div class="currency_block-table">
                                                     <div class="currency_block-table-tr">
-                                                        <div class="currency_block-table-td tr_name">валюта</div>
-                                                        <div class="currency_block-table-td">USD</div>
-                                                        <div class="currency_block-table-td">EUR</div>
-                                                        <div class="currency_block-table-td">CNY</div>
-                                                        <div class="currency_block-table-td">GBP</div>
-                                                        <div class="currency_block-table-td">CHF</div>
-                                                    </div>
-
-                                                    <div class="currency_block-table-tr">
-                                                        <div class="currency_block-table-td tr_name">покупка</div>
-                                                        <div class="currency_block-table-td"><span
-                                                                class="arrow-up">63.28</span></div>
-                                                        <div class="currency_block-table-td"><span
-                                                                class="arrow-down">63.28</span></div>
-                                                        <div class="currency_block-table-td"><span
-                                                                class="arrow-down">63.28</span>
+                                                        <div class="currency_block-table-td td_name">валюта
                                                         </div>
-                                                        <div class="currency_block-table-td"><span
-                                                                class="arrow-down">63.28</span></div>
-                                                        <div class="currency_block-table-td"><span
-                                                                class="arrow-down">63.28</span></div>
+                                                        <div class="currency_block-table-td td_name">покупка
+                                                        </div>
+                                                        <div class="currency_block-table-td td_name">продажа
+                                                        </div>
+                                                        <div class="currency_block-table-td td_name">ЦБ РФ</div>
+                                                        <div class="currency_block-table-td td_name">изменение
+                                                        </div>
                                                     </div>
 
                                                     <div class="currency_block-table-tr">
-                                                        <div class="currency_block-table-td tr_name">продажа</div>
-                                                        <div class="currency_block-table-td"><span
-                                                                class="arrow-down">68.75</span></div>
-                                                        <div class="currency_block-table-td"><span
-                                                                class="arrow-up">68.75</span></div>
-                                                        <div class="currency_block-table-td"><span
-                                                                class="arrow-down">68.75</span></div>
-                                                        <div class="currency_block-table-td"><span
-                                                                class="arrow-down">68.75</span></div>
-                                                        <div class="currency_block-table-td"><span
-                                                                class="arrow-down">68.75</span></div>
+                                                        <div class="currency_block-table-td tr_name">USD</div>
+                                                        <div class="currency_block-table-td">
+                                                            <span class="arrow-up">63.28</span>
+                                                        </div>
+                                                        <div class="currency_block-table-td">
+                                                            <span class="arrow-up">63.28</span>
+                                                        </div>
+                                                        <div class="currency_block-table-td">63.28</div>
+                                                        <div class="currency_block-table-td">-0.0628</div>
+                                                    </div>
+
+                                                    <div class="currency_block-table-tr">
+                                                        <div class="currency_block-table-td tr_name">EUR</div>
+                                                        <div class="currency_block-table-td">
+                                                            <span class="arrow-up">63.28</span>
+                                                        </div>
+                                                        <div class="currency_block-table-td">
+                                                            <span class="arrow-up">63.28</span>
+                                                        </div>
+                                                        <div class="currency_block-table-td">63.28</div>
+                                                        <div class="currency_block-table-td">-0.0628</div>
+                                                    </div>
+
+                                                    <div class="currency_block-table-tr">
+                                                        <div class="currency_block-table-td tr_name">CNY</div>
+                                                        <div class="currency_block-table-td">
+                                                            <span class="arrow-up">8.28</span>
+                                                        </div>
+                                                        <div class="currency_block-table-td">
+                                                            <span class="arrow-down">9.28</span>
+                                                        </div>
+                                                        <div class="currency_block-table-td">63.28</div>
+                                                        <div class="currency_block-table-td">0.0628</div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -1186,40 +1891,39 @@
                                             <div class="currency_block-tables_wrap-item" id="curr_tabl2">
                                                 <div class="currency_block-table">
                                                     <div class="currency_block-table-tr">
-                                                        <div class="currency_block-table-td tr_name">валюта2</div>
-                                                        <div class="currency_block-table-td">USD</div>
-                                                        <div class="currency_block-table-td">EUR</div>
-                                                        <div class="currency_block-table-td">CNY</div>
-                                                        <div class="currency_block-table-td">GBP</div>
-                                                        <div class="currency_block-table-td">CHF</div>
+                                                        <div class="currency_block-table-td td_name">валюта
+                                                        </div>
+                                                        <div class="currency_block-table-td td_name">покупка
+                                                        </div>
+                                                        <div class="currency_block-table-td td_name">продажа
+                                                        </div>
+                                                        <div class="currency_block-table-td td_name">ЦБ РФ</div>
+                                                        <div class="currency_block-table-td td_name">изменение
+                                                        </div>
                                                     </div>
 
                                                     <div class="currency_block-table-tr">
-                                                        <div class="currency_block-table-td tr_name">покупка</div>
-                                                        <div class="currency_block-table-td"><span
-                                                                class="arrow-up">63.28</span></div>
-                                                        <div class="currency_block-table-td"><span
-                                                                class="arrow-up">63.28</span></div>
-                                                        <div class="currency_block-table-td"><span
-                                                                class="arrow-up">63.28</span></div>
-                                                        <div class="currency_block-table-td"><span
-                                                                class="arrow-up">63.28</span></div>
-                                                        <div class="currency_block-table-td"><span
-                                                                class="arrow-down">63.28</span></div>
+                                                        <div class="currency_block-table-td tr_name">USD</div>
+                                                        <div class="currency_block-table-td">
+                                                            <span class="arrow-down">63.28</span>
+                                                        </div>
+                                                        <div class="currency_block-table-td">
+                                                            <span class="arrow-up">63.28</span>
+                                                        </div>
+                                                        <div class="currency_block-table-td">63.28</div>
+                                                        <div class="currency_block-table-td">-0.0628</div>
                                                     </div>
 
                                                     <div class="currency_block-table-tr">
-                                                        <div class="currency_block-table-td tr_name">продажа</div>
-                                                        <div class="currency_block-table-td"><span
-                                                                class="arrow-down">68.75</span></div>
-                                                        <div class="currency_block-table-td"><span
-                                                                class="arrow-up">68.75</span></div>
-                                                        <div class="currency_block-table-td"><span
-                                                                class="arrow-up">68.75</span></div>
-                                                        <div class="currency_block-table-td"><span
-                                                                class="arrow-down">68.75</span></div>
-                                                        <div class="currency_block-table-td"><span
-                                                                class="arrow-down">68.75</span></div>
+                                                        <div class="currency_block-table-td tr_name">CNY</div>
+                                                        <div class="currency_block-table-td">
+                                                            <span class="arrow-up">8.28</span>
+                                                        </div>
+                                                        <div class="currency_block-table-td">
+                                                            <span class="arrow-down">9.28</span>
+                                                        </div>
+                                                        <div class="currency_block-table-td">63.28</div>
+                                                        <div class="currency_block-table-td">0.0628</div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -1227,26 +1931,51 @@
                                             <div class="currency_block-tables_wrap-item" id="curr_tabl3">
                                                 <div class="currency_block-table">
                                                     <div class="currency_block-table-tr">
-                                                        <div class="currency_block-table-td tr_name">валюта3</div>
-                                                        <div class="currency_block-table-td">USD</div>
-                                                        <div class="currency_block-table-td">EUR</div>
-                                                        <div class="currency_block-table-td">CNY</div>
-                                                        <div class="currency_block-table-td">GBP</div>
-                                                        <div class="currency_block-table-td">CHF</div>
+                                                        <div class="currency_block-table-td td_name">валюта
+                                                        </div>
+                                                        <div class="currency_block-table-td td_name">покупка
+                                                        </div>
+                                                        <div class="currency_block-table-td td_name">продажа
+                                                        </div>
+                                                        <div class="currency_block-table-td td_name">ЦБ РФ</div>
+                                                        <div class="currency_block-table-td td_name">изменение
+                                                        </div>
                                                     </div>
 
                                                     <div class="currency_block-table-tr">
-                                                        <div class="currency_block-table-td tr_name">продажа</div>
-                                                        <div class="currency_block-table-td"><span
-                                                                class="arrow-down">68.75</span></div>
-                                                        <div class="currency_block-table-td"><span
-                                                                class="arrow-up">68.75</span></div>
-                                                        <div class="currency_block-table-td"><span
-                                                                class="arrow-up">68.75</span></div>
-                                                        <div class="currency_block-table-td"><span
-                                                                class="arrow-up">68.75</span></div>
-                                                        <div class="currency_block-table-td"><span
-                                                                class="arrow-up">68.75</span></div>
+                                                        <div class="currency_block-table-td tr_name">USD</div>
+                                                        <div class="currency_block-table-td">
+                                                            <span class="arrow-down">63.28</span>
+                                                        </div>
+                                                        <div class="currency_block-table-td">
+                                                            <span class="arrow-down">73.28</span>
+                                                        </div>
+                                                        <div class="currency_block-table-td">63.28</div>
+                                                        <div class="currency_block-table-td">-0.0628</div>
+                                                    </div>
+
+                                                    <div class="currency_block-table-tr">
+                                                        <div class="currency_block-table-td tr_name">EUR</div>
+                                                        <div class="currency_block-table-td">
+                                                            <span class="arrow-down">63.28</span>
+                                                        </div>
+                                                        <div class="currency_block-table-td">
+                                                            <span class="arrow-down">63.28</span>
+                                                        </div>
+                                                        <div class="currency_block-table-td">63.28</div>
+                                                        <div class="currency_block-table-td">-0.0628</div>
+                                                    </div>
+
+                                                    <div class="currency_block-table-tr">
+                                                        <div class="currency_block-table-td tr_name">CNY</div>
+                                                        <div class="currency_block-table-td">
+                                                            <span class="arrow-down">8.28</span>
+                                                        </div>
+                                                        <div class="currency_block-table-td">
+                                                            <span class="arrow-down">6.28</span>
+                                                        </div>
+                                                        <div class="currency_block-table-td">63.28</div>
+                                                        <div class="currency_block-table-td">0.0628</div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -1256,67 +1985,87 @@
                                     <div class="currency_block-content-item">
                                         <div class="currency_block-table metals">
                                             <div class="currency_block-table-tr">
-                                                <div class="currency_block-table-td tr_name">металл</div>
-                                                <div class="currency_block-table-td">золото</div>
-                                                <div class="currency_block-table-td">серебро</div>
-                                                <div class="currency_block-table-td">платина</div>
-                                                <div class="currency_block-table-td">палладий</div>
+                                                <div class="currency_block-table-td td_name">валюта</div>
+                                                <div class="currency_block-table-td td_name">покупка</div>
+                                                <div class="currency_block-table-td td_name">продажа</div>
+                                                <div class="currency_block-table-td td_name">ЦБ РФ</div>
+                                                <div class="currency_block-table-td td_name">изменение</div>
                                             </div>
 
                                             <div class="currency_block-table-tr">
-                                                <div class="currency_block-table-td tr_name">покупка</div>
-                                                <div class="currency_block-table-td"><span
-                                                        class="arrow-up">3536.36</span></div>
-                                                <div class="currency_block-table-td"><span
-                                                        class="arrow-down">28.45</span></div>
-                                                <div class="currency_block-table-td"><span>индивидуально</span></div>
-                                                <div class="currency_block-table-td"><span>индивидуально</span></div>
-                                            </div>
-
-                                            <div class="currency_block-table-tr">
-                                                <div class="currency_block-table-td tr_name">продажа</div>
-                                                <div class="currency_block-table-td"><span
-                                                        class="arrow-down">3636.75</span></div>
-                                                <div class="currency_block-table-td"><span class="arrow-up">28.75</span>
+                                                <div class="currency_block-table-td tr_name">золото</div>
+                                                <div class="currency_block-table-td">
+                                                    <span class="arrow-down">3283.28</span>
                                                 </div>
-                                                <div class="currency_block-table-td"><span>&nbsp;</span></div>
-                                                <div class="currency_block-table-td"><span>&nbsp;</span></div>
+                                                <div class="currency_block-table-td">
+                                                    <span class="arrow-up">3385.28</span>
+                                                </div>
+                                                <div class="currency_block-table-td">3347.28</div>
+                                                <div class="currency_block-table-td">-0.0628</div>
+                                            </div>
+
+                                            <div class="currency_block-table-tr">
+                                                <div class="currency_block-table-td tr_name">серебро</div>
+                                                <div class="currency_block-table-td">
+                                                    <span class="arrow-down">3283.28</span>
+                                                </div>
+                                                <div class="currency_block-table-td">
+                                                    <span class="arrow-up">3385.28</span>
+                                                </div>
+                                                <div class="currency_block-table-td">3347.28</div>
+                                                <div class="currency_block-table-td">-0.0628</div>
+                                            </div>
+
+                                            <div class="currency_block-table-tr">
+                                                <div class="currency_block-table-td tr_name">платина</div>
+                                                <div class="currency_block-table-td">
+                                                    <span>индивидуально</span>
+                                                </div>
+                                                <div class="currency_block-table-td"> </div>
+                                                <div class="currency_block-table-td"></div>
+                                                <div class="currency_block-table-td"></div>
+                                            </div>
+
+                                            <div class="currency_block-table-tr">
+                                                <div class="currency_block-table-td tr_name">палладий</div>
+                                                <div class="currency_block-table-td">
+                                                    <span>индивидуально</span>
+                                                </div>
+                                                <div class="currency_block-table-td"> </div>
+                                                <div class="currency_block-table-td"></div>
+                                                <div class="currency_block-table-td"></div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
+                            </div>
 
-                                <div class="currency_block-foot">
-                                    Актуально на 10:09, 26 февраля 2020 г.
-                                    <br>Внимание! Курсы валют могут меняться в течение дня в зависимости от ситуации на
-                                    валютном
-                                    рынке
-                                </div>
+                            <div class="currency_block-foot">
+                                Актуально на 10:09, 26 февраля 2020 г.
+                                <br>Внимание! Курсы валют могут меняться в течение дня в зависимости от
+                                ситуации
+                                на
+                                валютном
+                                рынке
                             </div>
 
                             <a href="#" class="info_section-link_box">
-                                <div class="info_section-link_box-title">Реквизиты и&nbsp;филиалы банка</div>
-                                <div class="info_section-link_box-desc">Адреса отделений и банкоматов банка, график
-                                    работы и
-                                    телефоны.</div>
-                                <div class="info_section-link_box-btn">подробнее</div>
+                                <div class="info_section-link_box-title">Офисы и&nbsp;банкоматы</div>
+                                <div class="info_section-link_box-desc">адреса, график работы и&nbsp;телефоны
+                                </div>
+                                <div class="info_section-link_box-btn">перейти</div>
+                                <div class="info_section-link_box-img">
+                                    <div class="info_section-link_box-img-main">
+                                        <img src="img/map.png" alt="">
+                                    </div>
+
+                                    <div class="info_section-link_box-img-min">
+                                        <img src="img/ic.placemark.svg" alt="">
+                                        <img src="img/ic.placemark.svg" alt="">
+                                        <img src="img/ic.placemark.svg" alt="">
+                                    </div>
+                                </div>
                             </a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="to_documents_block">
-                    <div class="inner">
-                        <div class="to_documents_block-content">
-                            <div class="to_documents_block-content-title">Документы и&nbsp;тарифы</div>
-
-                            <div class="to_documents_block-content-link">
-                                <a href="#">подробнее</a>
-                            </div>
-
-                            <div class="to_documents_block-img">
-                                <img src="img/files.png" alt="">
-                            </div>
                         </div>
                     </div>
                 </div>
@@ -1348,31 +2097,153 @@
                                     <img src="img/webinar-img.png" alt="">
                                 </div>
                             </a>
-
-                            <a href="#" class="news_block-content-item">
-                                <div class="news_block-content-item-date">20 февраля</div>
+                            <!-- <a href="#" class="news_block-content-item">
+                                <div class="news_block-content-item-title important">Важно!</div>
 
                                 <div class="news_block-content-item-desc">
-                                    Рейтинговое агентство Fitch Ratings повысило рейтинг
-                                    Азиатско-Тихоокеанского
-                                    Банка до уровня Рейтинговое агентство
+                                    Работа банка в условиях текущей
+                                    ситуации (вопросы и ответы)
                                 </div>
-                            </a>
+                            </a> -->
 
                             <a href="#" class="news_block-content-item">
                                 <div class="news_block-content-item-date">18 февраля</div>
 
                                 <div class="news_block-content-item-desc">
-                                    Азиатско-Тихоокеанский Банк и Mastercard запустили акцию «На хоккей с
-                                    картой Mastercard от АТБ»
+                                    Азиатско-Тихоокеанский Банк обновил сайт
+                                </div>
+                            </a>
+
+                            <a href="#" class="news_block-content-item">
+                                <div class="news_block-content-item-date">16 февраля</div>
+
+                                <div class="news_block-content-item-desc">
+                                    Азиатско-Тихоокеанский Банк начал принимать заявления на ипотеку с господдержкой по
+                                    ставке от 5,99%
+                                    Азиатско-Тихоокеанский Банк начал принимать
+                                    Азиатско-Тихоокеанский Банк начал принимать
+                                    Азиатско-Тихоокеанский Банк начал принимать
                                 </div>
                             </a>
                         </div>
                     </div>
                 </div>
             </div>
-        </main>
 
+            <div class="mobile_bot__menu">
+                <div class="mobile_bot__menu-content">
+                    <div class="mobile_bot__menu-item to_main">
+                        <a href="#">Главная</a>
+                    </div>
+
+                    <div class="mobile_bot__menu-item to_pay">
+                        <a href="#">Платежи</a>
+                    </div>
+
+                    <div class="mobile_bot__menu-item to_sale">
+                        <a href="#">Акции</a>
+                    </div>
+
+                    <div class="mobile_bot__menu-item to_message">
+                        <a href="#">Чат</a>
+                    </div>
+
+                    <div class="mobile_bot__menu-item to_atms">
+                        <a href="#">Адреса</a>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <div class="seo-container">
+            <div class="seo-inner">
+                <div class="new_block_simple">
+                    <h1 class="title">Азиатско-Тихоокеанский Банк</h1>
+                    <div class="in_simple">
+                        <div class="simple_block">
+                            <div class="item">
+                                <div class="item_in" style="display:block;">
+                                    <p>
+                                        Азиатско-Тихоокеанский Банк стабильно работает в 19 регионах РФ уже 28 лет. АТБ
+                                        уверенно входит в топ-100 крупнейших банков страны по различным показателям и
+                                        является лидером по активам на Дальнем Востоке и в Сибири среди
+                                        мультирегиональных банков. Объем собственного капитала составляет 13 млрд
+                                        рублей. По оценкам международных и российских рейтинговых агентств, банк
+                                        демонстрирует уверенную стабильность и даже рост. Клиентская база
+                                        Азиатско-Тихоокеанского Банка сейчас насчитывает 365 тысяч активных клиентов
+                                        только в розничном секторе. Запас собственных активов позволяет качественно
+                                        предоставлять услуги физическим лицам и корпоративным клиентам. Наши 200
+                                        отделений работают в 108 населенных пунктах Российской Федерации.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <h2>Услуги</h2>
+                                <div class="item_in">
+                                    <p>На официальном сайте банка представлен весь перечень услуг, оказываемых частным
+                                        клиентам и бизнесу:</p>
+                                    <ul>
+                                        <li> Кредиты: потребительские, ипотечные, карты, рефинансирование.</li>
+                                        <li> Вклады: размещение средств депозита на выгодных условиях.</li>
+                                        <li> Счета: личный, номинальный, накопительный, эскроу, обезличенные
+                                            металлические счета. </li>
+                                        <li> Банковские карты: кредитные, дебетовые, универсальные, с выгодным
+                                            кэшбэком.<br>
+                                        </li>
+                                        <li>Страхование: жизни (инвестиционное и накопительное), здоровья, имущества,
+                                            обязательное пенсионное страхование, продукт "Защита карты". </li>
+                                        <li> Валютно-обменные операции: выгодный курс, и индивидуальные условия. </li>
+                                        <li> Банковские и онлайн-переводы: наличными в любую точку мира или с карты на
+                                            карту.</li>
+                                        <li>Оплата коммунальных услуг: наличными по квитанции, картой или онлайн через
+                                            сайт.<br>
+                                        </li>
+                                        <li>Специальные предложения для бизнеса: эквайринг, реализация
+                                            имущества.&nbsp;&nbsp;&nbsp; </li>
+                                        <li>Премиальное обслуживание клиентов. </li>
+                                        <li>Инвестиции: брокерское обслуживание, управление активами, индивидуальный
+                                            инвестиционный счет.</li>
+                                        <li>Монеты: памятные (серебро и золото), иностранные. </li>
+                                    </ul>
+                                    <p>Узнать подробнее о каждой из перечисленных услуг Вы можете на посвященной ей
+                                        странице сайта. Мы также готовы проконсультировать Вас по телефону горячей линии
+                                        8-800-775-88-88, на сайте или в офисе банка.</p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <h2>Преимущества Asian Pacific Bank</h2>
+                                <div class="item_in">
+                                    <p>У Азиатско-Тихоокеанского Банка достаточно конкурентных преимуществ даже перед
+                                        флагманами банковского сектора. В их числе: </p>
+                                    <ul>
+                                        <li> Выгодные процентные ставки по кредитам.</li>
+                                        <li>Широкая линейка кредитных и депозитных продуктов, рассчитанная на различные
+                                            категории клиентов и их цели.</li>
+                                        <li> Активный выпуск карт, принимаемых по всему миру.</li>
+                                        <li> Стабильный режим работы. </li>
+                                        <li> Сайт банка доступен круглосуточно, информационная и клиентская поддержка
+                                            осуществляется онлайн.</li>
+                                        <li> Современное дистанционное обслуживание: интернет- и мобильный банк,
+                                            смс-информирование, платежные Samsung Pay, Apple Pay и другие. </li>
+                                        <li> Онлайн-операции по всем видам услуг. Оплатить кредит, перевести деньги с
+                                            карты на карту, погасить коммунальные платежи и т.д. можно в любое время
+                                            суток, не выходя из дома.</li>
+                                        <li> Квалифицированные сотрудники. Помощь и пояснения можно получить у любого
+                                            специалиста, в офисе банка или по телефону. </li>
+                                        <li> АТБ имеет не только широкую сеть отделений, но и множество собственных
+                                            банкоматов и терминалов. Также Вас обрадует отсутствие комиссий за снятие
+                                            наличных в банкоматах сторонних банков.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div style="display:none;">
+                        <pre></pre>
+                    </div>
+                </div>
+            </div>
+        </div>
         <footer>
             <div class="footer">
                 <div class="footer-top">
@@ -1394,10 +2265,6 @@
 
                                     <div class="footer-top-menu-item">
                                         <a href="#">Новости</a>
-                                    </div>
-
-                                    <div class="footer-top-menu-item">
-                                        <a href="#">Акционерам и инвесторам</a>
                                     </div>
 
                                     <div class="footer-top-menu-item">
@@ -1425,20 +2292,30 @@
                                     </div>
 
                                     <div class="footer-top-menu-item">
-                                        <a href="#">Наша рассылка</a>
+                                        <a href="#">Акционерам и инвесторам</a>
+                                    </div>
+
+                                    <div class="footer-top-menu-item">
+                                        <a href="#">Общая информация и Тарифы</a>
+                                    </div>
+
+                                    <div class="footer-top-menu-item">
+                                        <a href="#">Видео о сайте</a>
                                     </div>
                                 </div>
 
                                 <div class="footer-top-app">
                                     <div class="footer-top-app-item">
-                                        <a href="#">
-                                            <img src="img/Download_on_the_App_Store_Badge.svg" alt="">
+                                        <a href="#" class="app_store_black">
+                                            Загрузите в
+                                            <span>App Store</span>
                                         </a>
                                     </div>
 
                                     <div class="footer-top-app-item">
-                                        <a href="#">
-                                            <img src="img/google-play-badge.svg" alt="">
+                                        <a href="#" class="google_play_black">
+                                            ДОСТУПНО В
+                                            <span>Google Play</span>
                                         </a>
                                     </div>
                                 </div>
@@ -1469,6 +2346,14 @@
                                             <a href="tel:*3040"> * 3040</a>
                                         </div>
                                     </div>
+
+                                    <div class="footer-top-phones-item">
+                                        <div class="footer-top-phones-item-txt">Корпоративным клиентам</div>
+
+                                        <div class="footer-top-phones-item-num">
+                                            <a href="tel:88007758080">8-800-775-80-80</a>
+                                        </div>
+                                    </div>
                                 </div>
 
                                 <div class="footer-top-social">
@@ -1491,6 +2376,14 @@
                                     <div class="footer-top-social-item">
                                         <a href="#" class="tw"></a>
                                     </div>
+
+                                    <!-- <div class="footer-top-social-item">
+                                        <a href="#" class="youtube"></a>
+                                    </div>
+
+                                    <div class="footer-top-social-item">
+                                        <a href="#" class="video"></a>
+                                    </div> -->
                                 </div>
                             </div>
                         </div>
@@ -1599,6 +2492,9 @@
     </div>
 
     <script src="js/jquery.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/jquery.touchSwipe.min.js"></script>
+    <script src="js/jquery.ui.touch-punch.js"></script>
     <script src="js/jquery.mask.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/bootstrap-select.min.js"></script>
@@ -1608,6 +2504,7 @@
 
     <script src="js/header_general.js"></script>
     <script src="js/footer_scrits.js"></script>
+    <script src="js/seo_scripts.js"></script>
     <script src="js/main.js"></script>
 </body>
 

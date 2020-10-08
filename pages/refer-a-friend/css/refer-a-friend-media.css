@@ -1,0 +1,85 @@
+@media (max-width: 999px) {
+  body .wrapper main .top_ban-container.refer-a-friend .top_ban-title {
+    font-size: 24px;
+    line-height: 30px;
+  }
+  body .wrapper main .top_ban-container.refer-a-friend .top_ban-title-big {
+    padding-bottom: 15px;
+  }
+  body .wrapper main .top_ban-container.refer-a-friend .top_ban-title .val {
+    font-size: 30px;
+  }
+  body .wrapper main .top_ban-container.refer-a-friend .top_ban-btns {
+    display: none;
+  }
+  body .wrapper main .page_content .inner {
+    width: 740px;
+  }
+  body .wrapper main .page_content .get-bounty-info {
+    padding-top: 20px;
+  }
+  body .wrapper main .page_content .get-bounty-info-block-item {
+    width: calc((100% - 20px)/2);
+  }
+  body .wrapper main .page_content .get-bounty-info-action {
+    margin-top: 40px;
+  }
+}
+@media (max-width: 767px) {
+  body .wrapper .ui-btn a {
+    padding: 0 24px;
+    height: 42px;
+    font-size: 12px;
+  }
+  body .wrapper main .top_ban-container.refer-a-friend .top_ban-title {
+    max-width: 32%;
+    font-size: 22px;
+    line-height: 26px;
+  }
+  body .wrapper main .top_ban-container.refer-a-friend .top_ban-title-big {
+    line-height: 32px;
+  }
+  body .wrapper main .top_ban-container.refer-a-friend .top_ban-title .val {
+    font-size: 24px;
+  }
+  body .wrapper main .page_content .inner {
+    width: 100%;
+    min-width: 320px;
+    padding: 0 10px;
+  }
+  body .wrapper main .page_content .how_get_card-container.refer-a-friend {
+    padding-top: 50px;
+  }
+  body .wrapper main .page_content .how_get_card-container.refer-a-friend .how_get_card-title {
+    margin: 0 auto;
+    margin-bottom: 30px;
+    max-width: 60%;
+    font-size: 24px;
+    line-height: 28px;
+  }
+  body .wrapper main .page_content .get-bounty-info {
+    padding-top: 10px;
+  }
+  body .wrapper main .page_content .get-bounty-info-block {
+    display: block;
+  }
+  body .wrapper main .page_content .get-bounty-info-block-item {
+    padding: 15px 30px;
+    width: 100%;
+    min-height: auto;
+  }
+  body .wrapper main .page_content .get-bounty-info-block-item:not(:first-child) {
+    margin-top: 15px;
+  }
+  body .wrapper main .page_content .get-bounty-info-block-item-txt {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  body .wrapper main .page_content .get-bounty-info-list-item {
+    font-size: 12px;
+    line-height: 18px;
+  }
+  body .wrapper main .page_content .get-bounty-info-action {
+    margin-top: 30px;
+  }
+}

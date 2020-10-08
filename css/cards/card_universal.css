@@ -1,0 +1,302 @@
+.wrapper main .page_content.page_content--universal_card .grace-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 15px;
+  color: #373a36;
+}
+.wrapper main .page_content.page_content--universal_card .grace-chech_line {
+  margin-bottom: 30px;
+}
+.wrapper main .page_content.page_content--universal_card .grace-steps {
+  width: 840px;
+  margin-right: 20px;
+}
+.wrapper main .page_content.page_content--universal_card .grace-steps-title {
+  margin-bottom: 3px;
+  font: 400 16px/24px 'Circe', 'Arial', sans-serif;
+  text-align: center;
+}
+.wrapper main .page_content.page_content--universal_card .grace-steps-title span {
+  font-weight: 700;
+  color: #fe5000;
+}
+.wrapper main .page_content.page_content--universal_card .grace-steps-table-container {
+  position: relative;
+  padding-top: 45px;
+}
+.wrapper main .page_content.page_content--universal_card .grace-steps-table-container:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 45px;
+  background: url(../../img/cards/universal/brace.svg) no-repeat center;
+  background-size: contain;
+  content: '';
+}
+.wrapper main .page_content.page_content--universal_card .grace-steps-table-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 5px;
+  margin-right: -35px;
+}
+.wrapper main .page_content.page_content--universal_card .grace-steps-table-col {
+  width: 25%;
+  margin: 0 -5px;
+}
+.wrapper main .page_content.page_content--universal_card .grace-steps-table-col-head {
+  position: relative;
+  padding-top: 5px;
+  padding-left: 40px;
+  margin-left: 30px;
+  margin-bottom: 8px;
+  font: 400 14px/18px 'Circe', 'Arial', sans-serif;
+}
+.wrapper main .page_content.page_content--universal_card .grace-steps-table-col-head:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 28px;
+  height: 28px;
+  background: url(../../img/cards/universal/ic.credit-card.svg) no-repeat;
+  background-size: contain;
+  content: '';
+}
+.wrapper main .page_content.page_content--universal_card .grace-steps-table-col-month {
+  font: 400 18px/36px 'Circe', 'Arial', sans-serif;
+  text-align: center;
+  background-image: url("data:image/svg+xml,%3Csvg width='220' height='36' viewBox='0 0 220 36' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M25.8824 0H220L194.118 36H0L25.8824 0Z' fill='%23449099'/%3E%3C/svg%3E%0A");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  color: #fff;
+}
+.wrapper main .page_content.page_content--universal_card .grace-steps-table-col-main {
+  margin-right: 26px;
+  padding: 15px 15px 20px 0;
+  border-right: 1px solid #e3e3e3;
+  font: 400 14px/18px 'Circe', 'Arial', sans-serif;
+  text-align: right;
+}
+.wrapper main .page_content.page_content--universal_card .grace-steps-table-col-main-date {
+  font: 400 16px/24px 'Circe', 'Arial', sans-serif;
+  color: #3b8b94;
+}
+.wrapper main .page_content.page_content--universal_card .grace-result {
+  margin-top: 121px;
+}
+.wrapper main .page_content.page_content--universal_card .grace-result-head {
+  position: relative;
+  padding-left: 53px;
+  font: 400 16px/18px 'Circe', 'Arial', sans-serif;
+}
+.wrapper main .page_content.page_content--universal_card .grace-result-head:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 32px;
+  height: 32px;
+  background: url(../../img/cards/universal/ic.arrow-gradient-right.svg) no-repeat;
+  background-size: contain;
+  content: '';
+}
+.wrapper main .page_content.page_content--universal_card .grace-result-main {
+  padding-top: 15px;
+  font: 400 14px/18px 'Circe', 'Arial', sans-serif;
+}
+.wrapper main .page_content.page_content--universal_card .grace-result-main-date {
+  font: 400 16px/24px 'Circe', 'Arial', sans-serif;
+  color: #3b8b94;
+}
+.wrapper main .page_content.page_content--universal_card .app_adv-container {
+  margin-top: 40px;
+}
+@media (max-width: 1259px) {
+  .wrapper main .page_content.page_content--universal_card .grace-steps {
+    width: 745px;
+  }
+}
+@media (max-width: 999px) {
+  .wrapper main .page_content.page_content--universal_card .grace-steps {
+    width: 560px;
+    margin-right: 10px;
+  }
+  .wrapper main .page_content.page_content--universal_card .grace-steps-table-container {
+    padding-top: 30px;
+  }
+  .wrapper main .page_content.page_content--universal_card .grace-steps-table-container:before {
+    height: 30px;
+  }
+  .wrapper main .page_content.page_content--universal_card .grace-steps-table-col-head {
+    padding-left: 35px;
+    margin-left: 20px;
+    font-size: 12px;
+    line-height: 16px;
+  }
+  .wrapper main .page_content.page_content--universal_card .grace-steps-table-col-month {
+    font-size: 16px;
+    background-image: url("data:image/svg+xml,%3Csvg width='150' height='36' viewBox='0 0 150 36' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M25.8824 0H150L124.118 36H0L25.8824 0Z' fill='%23449099'/%3E%3C/svg%3E%0A");
+  }
+  .wrapper main .page_content.page_content--universal_card .grace-steps-table-col-main {
+    font-size: 12px;
+    line-height: 16px;
+  }
+  .wrapper main .page_content.page_content--universal_card .grace-steps-table-col-main-date {
+    font-size: 14px;
+    line-height: 21px;
+  }
+  .wrapper main .page_content.page_content--universal_card .grace-result {
+    margin-top: 102px;
+  }
+  .wrapper main .page_content.page_content--universal_card .grace-result-head {
+    padding-left: 43px;
+    font-size: 14px;
+  }
+  .wrapper main .page_content.page_content--universal_card .grace-result-main {
+    font-size: 12px;
+    line-height: 16px;
+  }
+  .wrapper main .page_content.page_content--universal_card .grace-result-main-date {
+    font-size: 14px;
+    line-height: 21px;
+  }
+}
+@media (max-width: 767px) {
+  .wrapper main .top_ban-container.universal .top_ban-img img {
+    -o-object-position: 52%;
+       object-position: 52%;
+  }
+  .wrapper main .page_content.page_content--universal_card .grace-container {
+    display: block;
+    padding-top: 0;
+  }
+  .wrapper main .page_content.page_content--universal_card .grace-chech_line {
+    margin-bottom: 20px;
+  }
+  .wrapper main .page_content.page_content--universal_card .grace-steps {
+    width: auto;
+    margin-right: 0;
+  }
+  .wrapper main .page_content.page_content--universal_card .grace-steps-title {
+    margin-bottom: 20px;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+  }
+  .wrapper main .page_content.page_content--universal_card .grace-steps-table-container {
+    padding-top: 0;
+  }
+  .wrapper main .page_content.page_content--universal_card .grace-steps-table-container:before {
+    display: none;
+  }
+  .wrapper main .page_content.page_content--universal_card .grace-steps-table-wrapper {
+    display: block;
+    margin: 0;
+  }
+  .wrapper main .page_content.page_content--universal_card .grace-steps-table-col {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: auto;
+    margin: 15px 0;
+    padding-left: 85px;
+    height: 60px;
+  }
+  .wrapper main .page_content.page_content--universal_card .grace-steps-table-col-head {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    min-height: 28px;
+    padding: 0 0 0 50px;
+    margin: 0;
+    font-size: 12px;
+    line-height: 16px;
+  }
+  .wrapper main .page_content.page_content--universal_card .grace-steps-table-col-head:before {
+    left: 15px;
+  }
+  .wrapper main .page_content.page_content--universal_card .grace-steps-table-col-head br {
+    display: none;
+  }
+  .wrapper main .page_content.page_content--universal_card .grace-steps-table-col-month {
+    position: absolute;
+    top: -5px;
+    left: 0;
+    width: 85px;
+    line-height: 90px;
+    background-image: url("data:image/svg+xml,%3Csvg width='86' height='90' viewBox='0 0 86 90' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1.13135e-06 25.8824L6.55671e-06 90L86 64.1177L86 -3.75918e-06L1.13135e-06 25.8824Z' fill='%23449099'/%3E%3C/svg%3E%0A");
+  }
+  .wrapper main .page_content.page_content--universal_card .grace-steps-table-col-main {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    max-width: 210px;
+    margin: 8px 0 0;
+    padding: 0 0 0 15px;
+    border-right: 0;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: left;
+    border-bottom: 1px solid #e3e3e3;
+  }
+  .wrapper main .page_content.page_content--universal_card .grace-steps-table-col-main-date {
+    margin-right: 10px;
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .wrapper main .page_content.page_content--universal_card .grace-result {
+    position: relative;
+    margin-top: 0;
+  }
+  .wrapper main .page_content.page_content--universal_card .grace-result-head {
+    max-width: 100px;
+    padding-left: 0;
+    padding-top: 70px;
+    font-size: 14px;
+    line-height: 18px;
+  }
+  .wrapper main .page_content.page_content--universal_card .grace-result-head:before {
+    top: 10px;
+    left: 10px;
+    -webkit-transform: rotate(90deg);
+            transform: rotate(90deg);
+    -webkit-transform-origin: left;
+            transform-origin: left;
+  }
+  .wrapper main .page_content.page_content--universal_card .grace-result-head br {
+    display: none;
+  }
+  .wrapper main .page_content.page_content--universal_card .grace-result-head br.mobile_br {
+    display: inline;
+  }
+  .wrapper main .page_content.page_content--universal_card .grace-result-main {
+    position: absolute;
+    top: 0;
+    left: 100px;
+    padding-top: 0;
+    font-size: 12px;
+    line-height: 16px;
+  }
+  .wrapper main .page_content.page_content--universal_card .grace-result-main-date {
+    font-size: 14px;
+    line-height: 21px;
+  }
+}
+@media (max-width: 374px) {
+  .wrapper main .top_ban-container.universal .top_ban-img img {
+    -o-object-position: 48%;
+       object-position: 48%;
+  }
+}

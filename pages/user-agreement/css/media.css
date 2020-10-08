@@ -1,0 +1,9 @@
+@media (max-width: 768px) {
+  .wrapper .inner .agreement_content {
+    font-size: 14px;
+    line-height: 21px;
+  }
+  .wrapper .inner .agreement_content .page_title {
+    font-size: 24px;
+  }
+}

@@ -13,6 +13,15 @@
   background: #fff;
   z-index: 500;
 }
+.wrapper header.header_full_width.header_card_fresh {
+  background: #87f3f5;
+}
+.wrapper header.header_full_width.header_card_fresh .head {
+  background: #87f3f5;
+}
+.wrapper header.header_full_width.header_card_fresh .head-bot {
+  border-top-color: rgba(102, 102, 102, 0.2);
+}
 .wrapper header.header_full_width .head {
   position: relative;
   padding-left: 290px;
@@ -58,6 +67,7 @@
 }
 .wrapper header.header_full_width .head-top-client_menu {
   position: relative;
+  display: inline-block;
   vertical-align: top;
   font-size: 0;
 }
@@ -108,6 +118,18 @@
 .wrapper header.header_full_width .head-top-client_menu-list .item:hover a,
 .wrapper header.header_full_width .head-top-client_menu-list .item.active a {
   color: #fe5000;
+}
+.wrapper header.header_full_width .head-top-corona_faq_small {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 20px;
+  font-weight: 600;
+  color: #fe5000;
+  font-size: 14px;
+  line-height: 24px;
+}
+.wrapper header.header_full_width .head-top-corona_faq_small a {
+  color: inherit;
 }
 .wrapper header.header_full_width .head-top-contacts {
   display: inline-block;
@@ -435,6 +457,9 @@
   right: 45px;
   top: 12px;
 }
+.wrapper header.header_full_width .head-top a {
+  text-decoration: none;
+}
 .wrapper header.header_full_width .head-bot {
   position: relative;
   min-height: 22px;
@@ -491,7 +516,6 @@
 }
 .wrapper header.header_full_width .head-bot-menu-item-btn a {
   color: inherit;
-  text-decoration: none;
 }
 .wrapper header.header_full_width .head-bot-menu-item:hover .head-bot-menu-item-btn:before {
   width: 100%;
@@ -538,6 +562,17 @@
   transition: transform 0.4s ease;
   transition: transform 0.4s ease, -webkit-transform 0.4s ease;
 }
+.wrapper header.header_full_width .head-bot-open_help {
+  position: absolute;
+  right: 245px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+  background: url(../img/ic.message-blue.svg) no-repeat center;
+}
 .wrapper header.header_full_width .head-bot-int_bank {
   position: absolute;
   right: 45px;
@@ -545,6 +580,7 @@
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
   width: 180px;
+  line-height: 1;
   text-align: right;
 }
 .wrapper header.header_full_width .head-bot-int_bank-link {
@@ -727,7 +763,7 @@
   display: block;
 }
 .wrapper header.header_full_width .head-search .block {
-  height: 95px;
+  height: 100px;
   width: 1220px;
   margin: 0 auto;
 }

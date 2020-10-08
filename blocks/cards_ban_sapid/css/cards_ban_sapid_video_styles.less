@@ -1,0 +1,192 @@
+@font: 'Circe', 'Arial', sans-serif;
+
+@orange: #fe5000;
+@red: #fe1e00;
+@blue: #3b8b94;
+@gray: #c8c8c8;
+@light_grey: #e3e3e3;
+@dark_grey: #6e6e6e;
+@black: #373a36;
+
+.wrapper {
+  .fancybox-overlay {
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+    right: 0;
+    z-index: 100;
+    background: url(https://www.atb.su/local/templates/private_2020/assets/templ/all_site_assets/css/../img/fancybox_overlay.png);
+  }
+  .popup_video {
+    position: fixed;
+    display: none;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    width: 1085px;
+    border: 1px solid #cbcbcb;
+    border-radius: 15px;
+    padding: 75px 100px 55px 100px;
+    background: #fff;
+    z-index: 101;
+    @media (max-width: 1259px) {
+      width: 980px;
+      padding: 75px 47px 55px;
+    }
+    @media (max-width: 999px) {
+      width: 760px;
+    }
+    @media (max-width: 767px) {
+      width: 300px;
+    }
+    iframe {
+      min-height: 100%;
+    }
+
+    .btn_close {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      a {
+        display: block;
+        content: '';
+        width: 23px;
+        height: 18px;
+        background: url(https://www.atb.su/local/templates/main/css/../img/ico_butn_close.png);
+      }
+    }
+    .video {
+      margin-bottom: 25px;
+      height: 497px;
+      @media (max-width: 999px) {
+        height: 397px;
+      }
+      @media (max-width: 767px) {
+        height: auto;
+      }
+    }
+    .pan_bott {
+      .show_count {
+        text-shadow: none;
+        box-sizing: border-box;
+        float: right;
+        color: #969696;
+        font: 700 16px/22px @font;
+        padding-left: 30px;
+        position: relative;
+        &:before {
+          content: '';
+          background: url(https://www.atb.su/local/templates/main/css/../img/show_count_icon.png)
+            0 0 no-repeat;
+          width: 22px;
+          height: 16px;
+          position: absolute;
+          left: 0;
+          top: 50%;
+          margin-top: -10px;
+        }
+      }
+
+      .btn_buyins {
+        margin-bottom: 25px;
+        float: left;
+        a {
+          display: block;
+          font: 700 15px/22px @font;
+          color: #fe5000;
+          position: relative;
+          padding-left: 30px;
+          &:before {
+            content: '';
+            background: url(https://www.atb.su/local/templates/main/css/../img/back_page_icon.png)
+              0 0 no-repeat;
+            width: 21px;
+            height: 7px;
+            position: absolute;
+            left: 0;
+            top: 50%;
+            margin-top: -4px;
+          }
+        }
+      }
+      .repeat {
+        margin-bottom: 25px;
+        float: left;
+        margin-left: 45px;
+        display: none;
+        position: relative;
+        span {
+          display: block;
+          font: 700 15px/22px @font;
+          color: #000000;
+          position: relative;
+          cursor: pointer;
+          padding-left: 30px;
+        }
+      }
+      .clearfix {
+        &:before {
+          display: table;
+          content: ' ';
+        }
+        &:after {
+          clear: both;
+        }
+      }
+    }
+    .pan_wrap {
+      background: #f5f5f6;
+      border: 1px solid #e0e2e3;
+      padding: 30px;
+      @media (max-width: 767px) {
+        padding: 15px;
+      }
+      .btn_ordcall {
+        float: left;
+        margin-right: 20px;
+        @media (max-width: 767px) {
+          float: none;
+          margin: 0 0 15px 0;
+        }
+        a {
+          display: block;
+          width: 170px;
+          height: 55px;
+          font: 700 12px/16px @font;
+          padding: 12px 20px 0;
+          border: 2px solid @orange;
+          border-radius: 6px;
+          text-align: center;
+          background: #fff;
+          color: @orange;
+          text-transform: uppercase;
+          text-decoration: none;
+          transition: 0.3s;
+          &:hover {
+            text-decoration: none;
+            color: #fff;
+            background: @orange;
+          }
+        }
+      }
+      .descr {
+        overflow: hidden;
+        @media (max-width: 767px) {
+          overflow: unset;
+        }
+        .txt {
+          font: 12px/15px @font;
+          color: #818181;
+          margin-bottom: 5px;
+        }
+        .number {
+          font: 700 21px/21px @font;
+          color: #545454;
+          white-space: nowrap;
+        }
+      }
+    }
+  }
+}

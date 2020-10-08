@@ -1,0 +1,417 @@
+@circe: 'Circe', 'Arial', sans-serif;
+
+@orange: #fe5000;
+@red: #FE1E00;
+@blue: #3b8b94;
+@gray: #C8C8C8;
+@light_grey: #E3E3E3;
+@dark_grey: #6E6E6E;
+@black: #373A36;
+
+
+@media(max-width: 1259px) {
+    .wrapper {
+        main {
+            .inner {
+                width: 980px;
+            }
+
+            .top_ban {
+                &-content {
+                    max-width: 460px;
+                }
+            }
+
+            .features {
+                &-box {
+                    width: 310px;
+                    padding: 30px 20px;
+                    font-size: 18px;
+                    line-height: 24px;
+
+                    &:nth-child(n) {
+                        margin-right: 25px;
+                    }
+
+                    &:nth-child(3n),
+                    &:last-child {
+                        margin-right: 0;
+                    }
+
+                    &-icon {
+                        margin-right: 20px;
+                    }
+                }
+            }
+
+            .how_works {
+                &-box {
+                    width: 400px;
+
+                    &:nth-child(n) {
+                        margin-right: 30px;
+                    }
+
+                    &:nth-child(-n+3) {
+                        width: 305px;
+                    }
+
+                    &:nth-child(3n),
+                    &:last-child {
+                        margin-right: 0;
+                    }
+
+                    &-txt {
+                        font-size: 16px;
+                        line-height: 22px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media(max-width: 999px) {
+    .wrapper {
+        main {
+            .inner {
+                width: 740px;
+            }
+
+            .top_ban {
+                &-wrapper {
+                    height: 380px;
+
+                    .inner {
+                        padding-top: 40px;
+                    }
+                }
+
+                &-content {
+                    max-width: 370px;
+                }
+
+                &-title {
+                    font-size: 44px;
+                    line-height: 52px;
+                }
+
+                &-list {
+                    margin: 15px 0 0;
+                }
+            }
+
+            .features {
+                &-container {
+                    padding: 50px 0 40px;
+                }
+
+                &-title {
+                    font-size: 32px;
+                    line-height: 40px;
+                }
+
+                &-box {
+                    width: ~'calc((100% - 40px) / 2)';
+                    padding: 30px;
+                    font-size: 20px;
+                    line-height: 26px;
+
+                    &:nth-child(n) {
+                        margin-right: 40px;
+                        margin-top: 25px;
+                    }
+
+                    &:nth-child(-n+2) {
+                        margin-top: 0;
+                    }
+
+                    &:nth-child(2n),
+                    &:last-child {
+                        margin-right: 0;
+                    }
+                }
+            }
+
+            .how_works {
+                &-title {
+                    margin-bottom: 40px;
+                    font-size: 32px;
+                    line-height: 40px;
+                }
+
+                &-wrapper {
+                    justify-content: flex-start;
+                }
+
+                &-box {
+                    width: ~'calc((100% - 40px) / 2)';
+
+                    &:nth-child(n) {
+                        margin-top: 45px;
+                    }
+
+                    &:nth-child(-n+2) {
+                        margin-top: 0;
+                    }
+
+                    &:nth-child(-n+3) {
+                        width: ~'calc((100% - 40px) / 2)';
+                    }
+
+                    &:nth-child(3n) {
+                        margin-right: 40px;
+                    }
+
+                    &:nth-child(2n),
+                    &:last-child {
+                        margin-right: 0;
+                    }
+
+                    &-txt {
+                        font-size: 18px;
+                        line-height: 24px;
+                    }
+                }
+            }
+
+            .programs {
+                &-container {
+                    padding: 50px 0 100px;
+                }
+
+                &-title {
+                    margin-bottom: 40px;
+                    font-size: 32px;
+                    line-height: 40px;
+                }
+
+                &-table {
+                    &.clmn_four {
+                        .programs-table {
+
+                            &-th-td,
+                            &-td {
+                                width: 135px;
+
+                                &:nth-child(1) {
+                                    width: ~'calc(100% - 405px)';
+                                }
+                            }
+                        }
+                    }
+
+                    &.clmn_two {
+                        .programs-table {
+
+                            &-th-td,
+                            &-td {
+                                width: 220px;
+
+                                &:nth-child(1) {
+                                    width: ~'calc(100% - 220px)';
+                                }
+                            }
+                        }
+                    }
+
+                    &-block {
+                        margin-bottom: 40px;
+
+                        &-descr {
+                            font-size: 16px;
+                            line-height: 22px;
+                        }
+                    }
+
+                    &-th {
+                        &-td {
+                            font-size: 16px;
+                            line-height: 22px;
+
+                            span {
+                                font-size: 14px;
+                                line-height: 20px;
+                            }
+                        }
+                    }
+
+                    &-tr {
+                        padding: 15px 0;
+                    }
+
+                    &-th-td,
+                    &-td {
+                        padding: 0 8px;
+                    }
+
+                    &-td {
+                        &:nth-child(1) {
+                            font-size: 16px;
+                            line-height: 22px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media(max-width: 767px) {
+    .wrapper {
+        main {
+            .inner {
+                width: 95%;
+                min-width: 300px;
+            }
+
+            .mobile-block {
+                display: block;
+            }
+
+            .desktop-block {
+                display: none;
+            }
+
+            .top_ban {
+                &-container {
+                    padding-bottom: 30px;
+                }
+
+                &-wrapper {
+                    height: 240px;
+
+                    .inner {
+                        padding-top: 65px;
+                    }
+                }
+
+                &-content {
+                    max-width: 130px;
+                }
+
+                &-title {
+                    font-size: 26px;
+                    line-height: 32px;
+                }
+
+                &-list {
+                    margin: 30px 0 0;
+                }
+            }
+
+            .features {
+                &-container {
+                    padding: 30px 0;
+                }
+
+                &-title {
+                    margin-bottom: 30px;
+                    font-size: 26px;
+                    line-height: 32px;
+                }
+
+                &-box {
+                    display: block;
+                    width: ~'calc((100% - 10px) / 2)';
+                    min-height: 163px;
+                    padding: 15px;
+                    font-size: 16px;
+                    line-height: 22px;
+
+                    &:nth-child(n) {
+                        margin-right: 10px;
+                        margin-top: 15px;
+                    }
+
+                    &:nth-child(-n+2) {
+                        margin-top: 0;
+                    }
+
+                    &:nth-child(2n),
+                    &:last-child {
+                        margin-right: 0;
+                    }
+
+                    &-icon {
+                        width: 44px;
+                        height: 44px;
+                        margin-right: 0;
+                        margin-bottom: 5px;
+                    }
+                }
+            }
+
+            .how_works {
+                &-container {
+                    padding: 30px 0;
+                }
+
+                &-wrapper {
+                    display: block;
+                }
+
+                &-title {
+                    margin-bottom: 30px;
+                    font-size: 26px;
+                    line-height: 32px;
+                }
+
+                &-box {
+                    width: auto;
+
+                    &:nth-child(-n+3) {
+                        width: auto;
+                    }
+
+                    &:nth-child(n) {
+                        margin-right: 0;
+                        margin-top: 35px;
+                    }
+
+                    &:nth-child(1) {
+                        margin-top: 0;
+                    }
+
+                    &-num {
+                        width: 60px;
+                        height: 60px;
+                        margin-right: 10px;
+                    }
+
+                    &-txt {
+                        font-size: 16px;
+                        line-height: 22px;
+                    }
+                }
+            }
+
+            .programs {
+                &-container {
+                    padding: 30px 0 100px;
+                }
+
+                &-title {
+                    display: none;
+                }
+
+                &-tables-wrapper {
+                    display: none;
+                }
+
+                &-docs {
+                    &-wrapper {
+                        display: block;
+                    }
+                }
+
+                &-footnote {
+                    font-size: 12px;
+                    line-height: 16px;
+                }
+            }
+        }
+    }
+}

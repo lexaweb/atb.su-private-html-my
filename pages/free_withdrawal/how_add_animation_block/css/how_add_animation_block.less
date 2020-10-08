@@ -1,0 +1,381 @@
+@circe: 'Circe', 'Arial', sans-serif;
+
+@orange: #fe5000;
+@red: #fe1e00;
+@blue: #3b8b94;
+@gray: #c8c8c8;
+@light_grey: #e3e3e3;
+@dark_grey: #6e6e6e;
+@black: #373a36;
+
+
+.wrapper {
+    .how_get_card {
+        &-container {
+            padding: 50px 0 100px;
+        }
+
+        &-title {
+            margin-bottom: 50px;
+            font: 700 40px/58px @circe;
+            text-align: center;
+        }
+
+        &-steps {
+            display: flex;
+            justify-content: center;
+
+            &-box {
+                width: 320px;
+                margin-right: 50px;
+                text-align: center;
+
+                &:nth-last-child(1) {
+                    margin-right: 0;
+                }
+
+                &.active {
+                    .how_get_card-steps-box-progress-num {
+                        top: -11px;
+                        width: 26px;
+                        height: 26px;
+                        font-size: 17px;
+                        line-height: 28px;
+                        background: @orange;
+                    }
+                }
+
+                &-head {
+                    position: relative;
+                    margin-bottom: 30px;
+                }
+
+                &-img {
+                    position: relative;
+                    width: 125px;
+                    height: 125px;
+                    margin: 0 auto 25px;
+
+                    &-progress {
+                        position: relative;
+                        width: 100%;
+                        height: 100%;
+                        margin: 0;
+                        transform: scale(1, -1);
+                    }
+
+                    &-icon {
+                        position: absolute;
+                        top: 50%;
+                        left: 50%;
+                        transform: translate(-50%, -50%);
+                        width: 66px;
+                        height: 66px;
+
+                        img {
+                            max-width: 100%;
+                            max-height: 100%;
+                        }
+                    }
+                }
+
+                &-txt {
+                    &-title {
+                        margin-bottom: 10px;
+                        font: 400 20px/26px @circe;
+
+                        a {
+                            color: @orange;
+                            text-decoration: none;
+                        }
+                    }
+
+                    &-desc {
+                        font: 300 16px/24px @circe;
+
+                        a {
+                            color: @orange;
+                            text-decoration: underline;
+                        }
+                    }
+                }
+
+                &-progress {
+                    position: relative;
+                    height: 2px;
+
+                    &-wrap {
+                        padding: 12px 0;
+                    }
+
+                    &-num {
+                        position: absolute;
+                        top: -4px;
+                        left: 50%;
+                        transform: translateX(-50%);
+                        width: 10px;
+                        height: 10px;
+                        font-size: 0;
+                        font-family: @circe;
+                        text-align: center;
+                        background: #999;
+                        color: #fff;
+                        border-radius: 50%;
+                        z-index: 5;
+                        transition: 0.3s;
+                    }
+
+                    &-line {
+                        position: absolute;
+                        left: 155px;
+                        top: 0;
+                        width: 370px;
+                        height: 100%;
+                        background: #ebebeb;
+
+                        &:before {
+                            position: absolute;
+                            content: '';
+                            right: 0;
+                            top: 0;
+                            height: 100%;
+                            width: 0;
+                            background: @orange;
+                            transition: 0.5s linear;
+                        }
+
+                        &.active_line {
+                            &:before {
+                                width: 100%;
+                                left: 0;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        &-btn {
+            margin-top: 80px;
+            text-align: center;
+
+            a {
+                display: inline-block;
+                padding: 15px 50px;
+                font: 400 14px/20px @circe;
+                text-transform: uppercase;
+                text-decoration: none;
+                background: @orange;
+                color: #fff;
+                border-radius: 6px;
+                transition: .3s;
+
+                &:hover {
+                    box-shadow: 0px 4px 20px rgba(135, 151, 155, 0.3);
+                }
+            }
+        }
+    }
+}
+
+
+@media(max-width: 1259px) {
+    .wrapper {
+        .how_get_card {
+            &-steps {    
+                &-box {
+                    width: 290px;
+                    margin-right: 40px;
+
+                    &-progress {    
+                        &-line {
+                            left: 150px;
+                            width: 330px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media(max-width: 999px) {
+    .wrapper {
+        .how_get_card {
+            &-container {
+                padding: 50px 0 60px;
+            }
+
+            &-title {
+                margin-bottom: 40px;
+                font-size: 32px;
+                line-height: 36px;
+            }
+
+            &-steps {
+                flex-direction: column;
+                align-items: center;
+
+                &-box {
+                    display: flex;
+                    width: 100%;
+                    max-width: 590px;
+                    margin-right: 0;
+                    margin-bottom: 45px;
+                    text-align: left;
+
+                    &:nth-last-child(1) {
+                        margin-bottom: 0;
+                    }
+
+                    &.active .how_get_card-steps-box-progress-num {
+                        top: -15px;
+                    }
+
+                    &-head {
+                        margin-right: 100px;
+                        margin-bottom: 0;
+                    }
+
+                    &-txt {
+                        &-desc {
+                            br {
+                                display: none;
+                            }
+                        }
+                    }
+
+                    &-img {
+                        width: 100px;
+                        height: 100px;
+                        margin: 0;
+
+                        &-icon {
+                            width: 52px;
+                            height: 52px;
+                        }
+                    }
+
+                    &-progress {
+                        height: 100%;
+                        width: 2px;
+
+                        &-wrap {
+                            position: absolute;
+                            top: 55px;
+                            right: -50px;
+                            height: ~'calc(100%  + 45px)';
+                            padding: 0;
+                        }
+
+                        &-num {
+                            top: -8px;
+                        }
+
+                        &-line {
+                            left: 0;
+                            top: 0;
+                            width: 100%;
+                            height: 100%;
+
+                            &:before {
+                                height: 0;
+                                top: auto;
+                                bottom: 0;
+                                width: 100%;
+                            }
+
+                            &.active_line {
+                                &:before {
+                                    height: 100%;
+                                    top: 0;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            &-btn {
+                margin-top: 60px;
+            }
+        }
+    }
+}
+
+
+@media(max-width: 767px) {
+    .wrapper {
+        .how_get_card {
+            &-container {
+                padding: 30px 0 60px;
+            }
+
+            &-title {
+                font-size: 26px;
+                line-height: 32px;
+            }
+
+            &-steps {    
+                &-box {    
+                    min-height: 115px;
+                    margin-bottom: 40px;
+
+                    &:last-child {
+                        min-height: auto;
+                    }
+
+                    &-head {
+                        margin-right: 20px;
+                    }
+
+                    &-img {
+                        width: 60px;
+                        height: 60px;
+    
+                        &-icon {
+                            width: 31px;
+                            height: 31px;
+                        }
+                    }
+
+                    &-txt {
+                        &-title {
+                            font-size: 18px;
+                            line-height: 24px;
+                        }
+
+                        &-desc {
+                            font-size: 14px;
+                            line-height: 20px;
+                        }
+                    }
+
+                    &-progress {    
+                        &-wrap {
+                            top: 70px;
+                            left: 50%;
+                            right: auto;
+                            transform: translateX(-50%);
+                            // - высота картинки + отступ  - (расстояние от картинки до линии * 2)
+                            height: ~'calc(100% - 60px + 40px - 20px)';
+                        }
+
+                        &-num {
+                            display: none;
+                        }
+                    }
+                }
+            }
+
+            &-btn {
+                margin-top: 40px;
+
+                a {
+                    display: block;
+                }
+            }
+        }
+    }
+}

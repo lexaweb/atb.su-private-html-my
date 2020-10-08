@@ -1,0 +1,763 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ATB</title>
+    <link rel="stylesheet" href="library/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="library/jquery/asPieProgress.min.css">
+    <link rel="stylesheet" href="library/jquery/jquery-ui.min.css">
+    <link rel="stylesheet" href="library/tooltipster/tooltipster.bundle.min.css">
+    <link rel="stylesheet" href="library/swiper/swiper.min.css">
+
+    <link rel="stylesheet" href="css/font.css">
+    <link rel="stylesheet" href="css/private_general_styles.css">
+    <link rel="stylesheet" href="css/private_general_media_styles.css">
+    <link rel="stylesheet" href="css/private_top_ban.css">
+    <link rel="stylesheet" href="css/how_add_animation_block.css">
+    <link rel="stylesheet" href="css/seo_styless.css">
+    <link rel="stylesheet" href="blocks/tarif_docs/css/tarif_docs_styles.css">
+    <link rel="stylesheet" href="css/refinancing.css">
+
+</head>
+
+<body>
+    <div class="wrapper">
+        <main>
+            <div class="top_ban-container refinancing">
+                <div class="top_ban-wrapper">
+                    <div class="inner">
+                        <div class="top_ban-content">
+                            <div class="top_ban-title">
+                                Рефинансирование
+                            </div>
+
+                            <div class="top_ban-desc_small">Переведите Ваши кредиты в&nbsp;АТБ и&nbsp;платите меньше</div>
+
+                            <div class="top_ban-features">
+                                <div class="top_ban-features-item">
+                                    <div class="top_ban-features-item-desc">Кредиты на сумму от</div>
+                                    <div class="top_ban-features-item-main">
+                                        200 тыс. — 5 млн. ₽
+                                    </div>
+                                </div>
+                                <div class="top_ban-features-item">
+                                    <div class="top_ban-features-item-desc">Срок кредита от</div>
+                                    <div class="top_ban-features-item-main">
+                                        13 — 84 мес.
+                                    </div>
+                                </div>
+                                <div class="top_ban-features-item">
+                                    <div class="top_ban-features-item-desc">Ставка от</div>
+                                    <div class="top_ban-features-item-main">8,8%
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="top_ban-btns">
+                                <a href="#" class="ui-btn">Оставить заявку</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="top_ban-img">
+                        <img src="img/top_ban/refin.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div class="page_content page_content--refinancing">
+                <div class="benefits-container">
+                    <div class="inner">
+                        <div class="benefits-head">
+                            <div class="benefits-head-title">
+                                <h2 class="ui-h2">Рефинансирование – это кредит АТБ,</h2>
+                            </div>
+                            <div class="benefits-head-desc">
+                                покрывающий Ваши задолженности в других банках и дающий дополнительные возможности
+                            </div>
+                        </div>
+
+                        <div class="benefits-main">
+                            <div class="benefits-main-box">
+                                <div class="benefits-main-box-icon">
+                                    <img src="img/refinancing/business.svg" alt="">
+                                </div>
+                                <div class="benefits-main-box-txt">Ваши ежемесячные
+                                    траты уменьшаются</div>
+                            </div>
+
+                            <div class="benefits-main-box">
+                                <div class="benefits-main-box-icon">
+                                    <img src="img/refinancing/miscellaneous.svg" alt="">
+                                </div>
+                                <div class="benefits-main-box-txt">Вместо нескольких кредитов, вы оплачиваете один</div>
+                            </div>
+
+                            <div class="benefits-main-box">
+                                <div class="benefits-main-box-icon">
+                                    <img src="img/refinancing/cash.svg" alt="">
+                                </div>
+                                <div class="benefits-main-box-txt">Вы получаете дополнительные
+                                    средства на Ваши нужды</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="switch-container">
+                    <div class="inner">
+                        <div class="switch-wrapper">
+                            <div class="switch-btns">
+                                <div class="switch-btns-txt active">Рассчитайте вашу выгоду</div>
+                                <div class="switch-btns-txt">Как это работает</div>
+                                <div class="switch-btns-btn"></div>
+                            </div>
+
+                            <div class="switch-content">
+                                <div class="switch-content-item active">
+                                    <div class="calc-container">
+                                        <div class="calc-loans">
+                                            <div class="calc-loans-box">
+                                                <div class="calc-loans-box-head">
+                                                    Кредит 1
+                                                    <div class="calc-loans-box-head-btn_del"></div>
+                                                </div>
+                                                <div class="calc-loans-box-main">
+                                                    <div class="calc-loans-box-main-line">
+                                                        <div class="ui-range">
+                                                            <div class="ui-range-head">
+                                                                <div class="ui-range-name"> Остаток долга</div>
+
+                                                                <div class="ui-range-inp">
+                                                                    <input id="slider_loan_sum_text1" type="text"
+                                                                        name="slider_loan_sum_text1" value="750 000"> ₽
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="ui-range-slider">
+                                                                <div class="ui-range-slider-wrap">
+                                                                    <div id="slider_loan_sum1" class="ui-range-slider-range"> </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="calc-loans-box-main-line">
+                                                        <div class="ui-range">
+                                                            <div class="ui-range-head">
+                                                                <div class="ui-range-name">Ежемесячный платеж</div>
+
+                                                                <div class="ui-range-inp">
+                                                                    <input id="slider_loan_sum_text2" type="text"
+                                                                        name="slider_loan_sum_text2" value="750 000"> ₽
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="ui-range-slider">
+                                                                <div class="ui-range-slider-wrap">
+                                                                    <div id="slider_loan_sum2" class="ui-range-slider-range"> </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="calc-loans-box">
+                                                <div class="calc-loans-box-head">
+                                                    Кредит 1
+                                                    <div class="calc-loans-box-head-btn_del"></div>
+                                                </div>
+                                                <div class="calc-loans-box-main">
+                                                    <div class="calc-loans-box-main-line">
+                                                        <div class="ui-range">
+                                                            <div class="ui-range-head">
+                                                                <div class="ui-range-name"> Остаток долга</div>
+
+                                                                <div class="ui-range-inp">
+                                                                    <input id="slider_loan_sum_text3" type="text"
+                                                                        name="slider_loan_sum_text3" value="750 000"> ₽
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="ui-range-slider">
+                                                                <div class="ui-range-slider-wrap">
+                                                                    <div id="slider_loan_sum3" class="ui-range-slider-range"> </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="calc-loans-box-main-line">
+                                                        <div class="ui-range">
+                                                            <div class="ui-range-head">
+                                                                <div class="ui-range-name">Ежемесячный платеж</div>
+
+                                                                <div class="ui-range-inp">
+                                                                    <input id="slider_loan_sum_text4" type="text"
+                                                                        name="slider_loan_sum_text4" value="750 000"> ₽
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="ui-range-slider">
+                                                                <div class="ui-range-slider-wrap">
+                                                                    <div id="slider_loan_sum4" class="ui-range-slider-range"> </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="calc-loans-box">
+                                                <div class="calc-loans-box-add">Добавить кредит</div>
+                                            </div>
+                                        </div>
+
+                                        <div class="calc-sugges">
+                                            <div class="calc-sugges-params">
+                                                <div class="calc-sugges-params-title">Ваше предложение</div>
+                                                <div class="calc-sugges-params-line">
+                                                    <div class="calc-sugges-params-check">
+                                                        <div class="ui-check">
+                                                            <input id="check_sum" type="checkbox" name="check_sum">
+                                                            <label for="check_sum">Дополнительная сумма на руки<span></span></label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="calc-sugges-params-slider">
+                                                    <div class="ui-range">
+                                                        <div class="ui-range-head">
+                                                            <div class="ui-range-name">Сумма</div>
+
+                                                            <div class="ui-range-inp">
+                                                                <input id="slider_loan_sum_text5" type="text"
+                                                                    name="slider_loan_sum_text5" value="750 000"> ₽
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="ui-range-slider">
+                                                            <div class="ui-range-slider-wrap">
+                                                                <div id="slider_loan_sum5" class="ui-range-slider-range"> </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="calc-sugges-params-slider">
+                                                    <div class="ui-range">
+                                                        <div class="ui-range-head">
+                                                            <div class="ui-range-name">Сумма</div>
+
+                                                            <div class="ui-range-inp">
+                                                                <input id="slider_loan_sum_text6" type="text"
+                                                                    name="slider_loan_sum_text6" value="20"> мес
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="ui-range-slider">
+                                                            <div class="ui-range-slider-wrap">
+                                                                <div id="slider_loan_sum6" class="ui-range-slider-range"> </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="calc-sugges-params-two_check">
+                                                    <div class="ui-check">
+                                                        <input id="transport_pledge" type="checkbox" name="transport_pledge">
+                                                        <label for="transport_pledge">Залог транспортного
+                                                            средства<span></span></label>
+                                                    </div>
+
+                                                    <div class="ui-check">
+                                                        <input id="pledge_estate" type="checkbox" name="pledge_estate">
+                                                        <label for="pledge_estate">Залог
+                                                            недвижимости<span></span></label>
+                                                    </div>
+                                                </div>
+
+                                                <div class="calc-sugges-params-collateral">
+                                                    <span class="calc-sugges-params-collateral-txt">Стоимость залога</span>
+                                                    <div class="calc-sugges-params-collateral-inp">
+                                                        <input type="text" name="" id="" value="850 000">
+                                                        <span> ₽</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="calc-sugges-result">
+                                                <div class="calc-sugges-result-main">
+                                                    <div class="calc-sugges-result-main-top">
+                                                        <div class="calc-sugges-result-main-top-item">
+                                                            <div class="calc-sugges-result-main-top-item-desc">Ежемесячный платеж</div>
+                                                            <div class="calc-sugges-result-main-top-item-num orange">25 092 ₽</div>
+                                                        </div>
+                                                        <div class="calc-sugges-result-main-top-item">
+                                                            <div class="calc-sugges-result-main-top-item-desc">Процентная Ставка</div>
+                                                            <div class="calc-sugges-result-main-top-item-num">8,8%</div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="calc-sugges-result-main-bot">
+                                                        <div class="calc-sugges-result-main-bot-item">
+                                                            <div class="calc-sugges-result-main-bot-item-desc"><span>Общая сумма кредита</span></div>
+                                                            <div class="calc-sugges-result-main-bot-item-num">1 000 000 ₽</div>
+                                                        </div>
+
+                                                        <div class="calc-sugges-result-main-bot-item">
+                                                            <div class="calc-sugges-result-main-bot-item-small">Максимальная сумма кредита -
+                                                                1&nbsp;000&nbsp;000&nbsp;₽</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="calc-sugges-result-btn">
+                                                    <a href="#" class="ui-btn">оставить заявку</a>
+                                                </div>
+
+                                                <div class="calc-sugges-result-txt">
+                                                    <div class="calc-sugges-result-txt-top">Информация носит справочный характер и не является публичной офертой</div>
+                                                    <div class="calc-sugges-result-txt-bot">
+                                                        Увеличите вероятность одобрения заявки на кредит подтвердив доход.
+                                                         <a href="#">Подробнее</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="switch-content-item">
+                                    <div class="how_work">
+                                        <div class="item">
+                                            <div class="desc">
+                                                Ежемесячный платеж <br>
+                                                в первом банке
+                                            </div>
+                                            <div class="pay">
+                                                <span>5 090 ₽</span>
+                                                в месяц
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <div class="desc">
+                                                Ежемесячный платеж <br>
+                                                во втором банке
+                                            </div>
+                                            <div class="pay">
+                                                <span>9 263 ₽</span>
+                                                в месяц
+                                            </div>
+                                        </div>
+
+                                        <div class="itog">
+                                            <div class="desc">
+                                                В банке АТБ при оформлении <br>
+                                                рефинансирования
+                                            </div>
+                                            <div class="pay">
+                                                <span>4 849 ₽</span>
+                                                один платеж в месяц
+                                            </div>
+                                            <div class="desc">
+                                                <span>+ 135 000 ₽ на личные цели</span>
+                                                = 11 394 ₽ в месяц
+                                            </div>
+                                        </div>
+
+                                        <div class="clearfix"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tabs-container">
+                    <div class="inner">
+                        <div class="tabs-wrapper">
+                            <div class="tabs-head">
+                                <div class="swiper-container">
+                                    <div class="swiper-wrapper">
+                                        <div class="tabs-head-item swiper-slide active">Требования для рефинансирования
+                                        </div>
+                                        <div class="tabs-head-item swiper-slide">Условия предоставления кредита</div>
+                                        <div class="tabs-head-item swiper-slide">Документы</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tabs-content">
+                                <div class="tabs-content-item active">
+                                    <p>Требования к клиенту:</p>
+
+                                    <ul class="tabs-list">
+                                        <li>Вы гражданин Российской Федерации возрастом от 21 и не более 70 лет (на
+                                            момент окончания действия договора).</li>
+                                        <li>Вы зарегистрированы и проживаете на территории обсаживания Банка или у вас
+                                            положительная кредитная история в «АТБ» (ПАО).</li>
+                                        <li>Стаж на вашем текущем месте работы не менее 3 месяцев, для индивидуальных
+                                            предпринимателей – стаж ведения деятельности не менее 6 месяцев.</li>
+                                    </ul>
+
+                                    <p>Требования к рефинансируемым кредитам:</p>
+
+                                    <ul class="tabs-list">
+                                        <li>Виды кредитов – потребительские</li>
+                                        <li>Отсутствие в течение последних 180 дней непрерывной просроченной
+                                            задолженности по кредитам длительностью больше 30 дней по данным БКИ, с
+                                            которыми сотрудничает Банк</li>
+                                        <li>Отсутствие текущей просроченной задолженности</li>
+                                    </ul>
+
+                                    <p>Требования к документам по кредитам:</p>
+
+                                    <ul class="tabs-list">
+                                        <li>Кредитный договор и график платежей по кредитам</li>
+                                        <li>Справка / выписка об остатке задолженности (в случае отсутствия или
+                                            невозможности предоставления Кредитного договора и Графика платежей)</li>
+                                        <li>Платежные реквизиты первичного кредитора (могут содержаться как в Кредитном
+                                            договоре, так и в справке / выписке об остатке задолженности)</li>
+                                    </ul>
+                                </div>
+
+                                <div class="tabs-content-item">
+                                    <div class="terms-wrapper">
+                                        <div class="terms-table">
+                                            <div class="terms-table-tr">
+                                                <div class="terms-table-td">Сумма кредита </div>
+                                                <div class="terms-table-td">от 200&nbsp;000 до
+                                                    5&nbsp;000&nbsp;000&nbsp;руб. </div>
+                                            </div>
+
+                                            <div class="terms-table-tr">
+                                                <div class="terms-table-td">Срок кредита </div>
+                                                <div class="terms-table-td">от 13 до 84 месяцев.</div>
+                                            </div>
+
+                                            <div class="terms-table-tr">
+                                                <div class="terms-table-td">Процентная ставка </div>
+                                                <div class="terms-table-td"><b>от 8,8%</b>, определяется индивидуально
+                                                    для каждого клиента в соответствии с оценкой данных Заемщика</div>
+                                            </div>
+
+                                            <div class="terms-table-tr">
+                                                <div class="terms-table-td">Цель</div>
+                                                <div class="terms-table-td">
+                                                    полное досрочное исполнение обязательств Заемщика и члена семьи
+                                                    Заемщика потребительских кредитов (потребительских кредитов с
+                                                    лимитом кредитования), вне зависимости от целевого назначения, за
+                                                    исключением кредитов, оформленных на коммерческие цели и по ТП
+                                                    линейки "Микро-лайт", выданных в других банках, выданных в
+                                                    Азиатско-Тихоокеанский Банк (ПАО). Дополнительно часть Кредита может
+                                                    быть выдана на потребительские цели (не связанные с
+                                                    предпринимательской деятельностью).
+                                                </div>
+                                            </div>
+
+                                            <div class="terms-table-tr">
+                                                <div class="terms-table-td">Тип платежа</div>
+                                                <div class="terms-table-td">аннуитетный – сумма платежа не меняется на
+                                                    протяжении всего срока кредита.</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="tabs-content-item">
+                                    <div class="wrap-arv trfdoc">
+                                        <div class="wrap-f-docs">
+                                            <div class="doc">
+                                                <div class="img">
+                                                    <img src="img/pdf.png">
+                                                </div>
+
+                                                <div class="item">
+                                                    <a href="#" target="_blank">
+                                                        Программа лояльности для держателей банковских карт
+                                                    </a>
+                                                    <span>
+                                                        (pdf, 113.2 КБ)
+                                                    </span>
+                                                </div>
+                                            </div>
+
+                                            <div class="doc">
+                                                <div class="img">
+                                                    <img src="img/pdf.png">
+                                                </div>
+
+                                                <div class="item">
+                                                    <a href="#" target="_blank">
+                                                        документ
+                                                    </a>
+                                                    <span>
+                                                        (pdf, 113.2 КБ)
+                                                    </span>
+                                                </div>
+                                            </div>
+
+                                            <div class="doc">
+                                                <div class="img">
+                                                    <img src="img/pdf.png">
+                                                </div>
+
+                                                <div class="item">
+                                                    <a href="#" target="_blank">
+                                                        Программа лояльности для держателей банковских карт
+                                                    </a>
+                                                    <span>
+                                                        (pdf, 113.2 КБ)
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="how_get_card-container">
+                    <div class="inner">
+                        <div class="how_get_card-title">
+                            Как получить?
+                        </div>
+
+                        <div class="how_get_card-steps">
+                            <div class="how_get_card-steps-box step1">
+                                <div class="how_get_card-steps-box-head">
+                                    <div class="how_get_card-steps-box-img">
+                                        <div class="how_get_card-steps-box-img-progress" id="show_get_step1"
+                                            role="progressbar"></div>
+
+                                        <div class="how_get_card-steps-box-img-icon">
+                                            <img src="img/refinancing/how1.svg" alt="">
+                                        </div>
+                                    </div>
+
+                                    <div class="how_get_card-steps-box-progress-wrap">
+                                        <div class="how_get_card-steps-box-progress">
+                                            <div class="how_get_card-steps-box-progress-num">1</div>
+                                            <div class="how_get_card-steps-box-progress-line"></div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="how_get_card-steps-box-txt">
+                                    <div class="how_get_card-steps-box-txt-title">
+                                        Заполните <a href="#">анкету</a>
+                                    </div>
+
+                                    <div class="how_get_card-steps-box-txt-desc">
+                                        <p>Это в среднем занимает около 7 минут</p>
+                                        <p>Авторизация с помощью сервиса ЕСИА
+                                            <span class="mytooltipster-wrapper">
+                                                <span class="mytooltipster"
+                                                    data-tooltip-content="#tooltip_content1"></span>
+                                                <span class="mytooltipster-content" id="tooltip_content1">
+                                                    Единая система идентификации и аутентификации
+                                                </span>
+                                            </span>
+                                            ускорит процесс заполнения заявки и повысит шансы на положительное решение.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="how_get_card-steps-box step2">
+                                <div class="how_get_card-steps-box-head">
+                                    <div class="how_get_card-steps-box-img">
+                                        <div class="how_get_card-steps-box-img-progress" id="show_get_step2"
+                                            role="progressbar"></div>
+
+                                        <div class="how_get_card-steps-box-img-icon">
+                                            <img src="img/refinancing/how2.svg" alt="">
+                                        </div>
+                                    </div>
+
+                                    <div class="how_get_card-steps-box-progress-wrap">
+                                        <div class="how_get_card-steps-box-progress">
+                                            <div class="how_get_card-steps-box-progress-num">2</div>
+                                            <div class="how_get_card-steps-box-progress-line"></div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="how_get_card-steps-box-txt">
+                                    <div class="how_get_card-steps-box-txt-title">
+                                        Дождитесь предварительного одобрения Банком
+                                    </div>
+
+                                    <div class="how_get_card-steps-box-txt-desc">
+                                        Мы принимаем решение в течение
+                                        <br>15 минут и&nbsp;сообщим вам по СМС
+                                        <br>на указанный в анкете номер
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="how_get_card-steps-box step3">
+                                <div class="how_get_card-steps-box-head">
+                                    <div class="how_get_card-steps-box-img">
+                                        <div class="how_get_card-steps-box-img-progress" id="show_get_step3"
+                                            role="progressbar"></div>
+
+                                        <div class="how_get_card-steps-box-img-icon">
+                                            <img src="img/refinancing/how3.svg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="how_get_card-steps-box-progress-wrap">
+                                        <div class="how_get_card-steps-box-progress">
+                                            <div class="how_get_card-steps-box-progress-num">3</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="how_get_card-steps-box-txt">
+                                    <div class="how_get_card-steps-box-txt-title">
+                                        Приходите с паспортом
+                                        <br>в <a href="#">ближайшее отделение</a>
+                                    </div>
+
+                                    <div class="how_get_card-steps-box-txt-desc">
+                                        <p>Возьмите с собой документы , указанные
+                                            в&nbsp;анкете и приходите в любое удобное отделение без очереди. </p>
+                                        <p>Увеличьте вероятность одобрения заявки
+                                            на&nbsp;кредит подтвердив доход.
+                                            <a href="#">Подробнее</a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="how_get_card-btn">
+                            <a href="#">оставить заявку</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <div class="seo-container">
+            <div class="seo-inner">
+                <div class="new_block_simple">
+                    <h1 class="title">Рефинансирование кредитов в банке АТБ</h1>
+                    <div class="in_simple">
+                        <div class="simple_block">
+                            <div class="item">
+                                <h2>Банковское кредитование</h2>
+                                <div class="item_in" style="display: block;">
+
+                                    <p>Мы поможем Вам изменить текущие условия кредитования, снизить проценты и
+                                        переплату.
+                                        Рефинансирование кредита в Азиатско-Тихоокеанский Банке – это оформление новой
+                                        ссуды, за
+                                        счет
+                                        которой будут перекрыты Ваши обязательства перед другими банками. Условия
+                                        перекредитования
+                                        выгодные, ставки минимальные.</p>
+
+                                    <p>Вы можете перекрыть одну или сразу несколько ссуд, оформленных в любых банках.
+                                        Переоформлению
+                                        подлежат:</p>
+
+                                    <ul>
+                                        <li>ипотеки;</li>
+                                        <li>автокредиты;</li>
+                                        <li>кредитные карты;</li>
+                                        <li>любые потребительские ссуды.</li>
+                                    </ul>
+
+                                    <p>Процедура рефинансирования аналогична получению обычного кредита. Вам нужно
+                                        подать заявку
+                                        в банк
+                                        АТБ через офис или онлайн, предоставить пакет необходимых документов и дождаться
+                                        решения. При
+                                        одобрении все заявленными Вами ссуды закрываются досрочно, Вы получаете на руки
+                                        кредитный
+                                        договор с нашим банком.</p>
+
+
+                                    <h2>Задачи перекредитования</h2>
+
+                                    <ul>
+                                        <li>Понижение ставки кредита. Мы выдаем заем под меньший процент, за счет чего
+                                            Вы
+                                            снижаете
+                                            уровень переплаты и уменьшаете размер ежемесячного платежа.</li>
+                                        <li>Изменение графика платежей, сокращение срока выплаты ссуды. Сокращая срок,
+                                            Вы
+                                            уменьшаете
+                                            переплату. А если учесть, что происходит еще и снижение ставки по кредиту,
+                                            Вы
+                                            выигрываете
+                                            вдвойне.</li>
+                                        <li>Объединение нескольких действующих займов в один. Вы будете должны только
+                                            одному
+                                            банку,
+                                            сократите затраты на обслуживание кредитных счетов, снизите общую переплату
+                                            за счет
+                                            выгодных
+                                            условий.</li>
+                                        <li>Выход из проблемной ситуации. Рефинансировать кредиты других банков можно и
+                                            в том
+                                            случае,
+                                            если возникают проблемы с их выплатой. Тогда новая ссуда в банке АТБ
+                                            оформляется с
+                                            более
+                                            длительным сроком возврата: в итоге произойдет снижение размера ежемесячного
+                                            платежа,
+                                            справляться с долговыми обязательствами будет легче.</li>
+                                    </ul>
+
+                                    <h2>Кто может получить услугу рефинансирования</h2>
+
+                                    <p>Программа актуальна для физических лиц и индивидуальных предпринимателей, имеющих
+                                        стабильный
+                                        источник дохода. Возраст заявителя – от 21 года до 70 лет.</p>
+
+                                    <p>Условия перекредитования:</p>
+
+                                    <ul>
+                                        <li>есть все необходимые документы;</li>
+                                        <li>положительная кредитная история заявителя;</li>
+                                        <li>отсутствие значительных просрочек по перекрываемым ссудам;</li>
+                                        <li>кредитор не установил мораторий на досрочное расторжение договора.</li>
+                                    </ul>
+
+                                    <p>Прежде чем рефинансировать кредит, воспользуйтесь кредитным калькулятором на
+                                        нашем сайте.
+                                        Он
+                                        позволит наглядно увидеть возможные изменения и сокращение переплаты.</p>
+
+                                    <p>Полную информацию о продукте, условиях и преимуществах перекредитования узнавайте
+                                        в наших
+                                        офисах
+                                        или по бесплатному телефону горячей линии 8-800-775-88-88. Специалисты дадут
+                                        подробную
+                                        консультацию и помогут максимально выгодно рефинансировать текущую
+                                        задолженность.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="library/jquery/jquery.min.js"></script>
+    <script src="library/jquery/jquery-ui.min.js"></script>
+    <script src="library/jquery/jquery.touchSwipe.min.js"></script>
+    <script src="library/jquery/jquery.ui.touch-punch.js"></script>
+    <script src="library/jquery/jquery-asPieProgress.min.js"></script>
+    <script src="library/bootstrap/bootstrap.min.js"></script>
+    <script src="library/swiper/swiper.min.js"></script>
+    <script src="library/tooltipster/tooltipster.bundle.min.js"></script>
+
+    <script src="js/main.js"></script>
+    <script src="js/how_add_animation_block.js"></script>
+    <script src="blocks/tarif_docs/js/tarif_docs_js.js"></script>
+    <script src="js/seo_scripts.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,165 @@
+.wrapper {
+  position: relative;
+  overflow: hidden;
+}
+.wrapper input {
+  outline: none !important;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
+.wrapper h1,
+.wrapper h2,
+.wrapper h3 {
+  margin: 0;
+}
+.wrapper main .inner {
+  position: relative;
+  width: 1220px;
+  margin: 0 auto;
+}
+.wrapper main .top_ban {
+  position: relative;
+  height: 460px;
+  background: -webkit-gradient(linear, left top, right top, color-stop(13.39%, #91D1DB), to(#D7F1F2));
+  background: linear-gradient(90deg, #91D1DB 13.39%, #D7F1F2 100%);
+  color: #373a36;
+}
+.wrapper main .top_ban .inner {
+  height: 100%;
+}
+.wrapper main .top_ban-content {
+  position: relative;
+  z-index: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100%;
+  padding: 80px 0 50px;
+}
+.wrapper main .top_ban-title {
+  max-width: 440px;
+  margin-bottom: 30px;
+  font: 700 56px/66px 'Circe', 'Arial', sans-serif;
+}
+.wrapper main .top_ban-desc {
+  margin-bottom: 25px;
+  max-width: 490px;
+  font: 400 24px/32px 'Circe', 'Arial', sans-serif;
+}
+.wrapper main .top_ban-btn {
+  margin-top: auto;
+}
+.wrapper main .top_ban-btn a {
+  position: relative;
+  display: inline-block;
+  padding: 0 20px;
+  border: 2px solid #fe5000;
+  font: 400 14px/46px 'Circe', 'Arial', sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: #fff;
+  color: #fe5000;
+  border-radius: 5px;
+  -webkit-transition: -webkit-box-shadow 0.3s;
+  transition: -webkit-box-shadow 0.3s;
+  transition: box-shadow 0.3s;
+  transition: box-shadow 0.3s, -webkit-box-shadow 0.3s;
+}
+.wrapper main .top_ban-btn a:hover {
+  -webkit-box-shadow: 0px 4px 20px rgba(135, 151, 155, 0.3);
+          box-shadow: 0px 4px 20px rgba(135, 151, 155, 0.3);
+}
+.wrapper main .top_ban-btn a.adobe-btn {
+  padding: 0 20px 0 60px;
+}
+.wrapper main .top_ban-btn a.adobe-btn:before {
+  position: absolute;
+  top: 50%;
+  left: 15px;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  width: 35px;
+  height: 35px;
+  background: url(../img/ic.adobe.png) no-repeat;
+  background-size: contain;
+  content: '';
+}
+.wrapper main .top_ban-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.wrapper main .top_ban-img img {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  height: 100%;
+}
+.wrapper main .discounts-container {
+  padding: 60px 0 50px;
+  color: #373a36;
+}
+.wrapper main .discounts-title {
+  margin-bottom: 40px;
+  font: 400 40px/1.5 'Circe', 'Arial', sans-serif;
+  text-align: center;
+}
+.wrapper main .discounts-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.wrapper main .discounts-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 600px;
+  margin-right: 20px;
+  padding: 0 0 0 50px;
+  background: #fff;
+  -webkit-box-shadow: 0px 3px 30px rgba(135, 151, 155, 0.15);
+          box-shadow: 0px 3px 30px rgba(135, 151, 155, 0.15);
+  border-radius: 8px;
+}
+.wrapper main .discounts-box:last-child {
+  margin-right: 0;
+}
+.wrapper main .discounts-box-txt {
+  -ms-flex-item-align: center;
+      align-self: center;
+  padding: 35px 0;
+  width: calc(100% - 220px);
+  font: 400 18px/24px 'Circe', 'Arial', sans-serif;
+}
+.wrapper main .discounts-box-txt br {
+  display: none;
+}
+.wrapper main .discounts-box-img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  width: 200px;
+}
+.wrapper main .discounts-box-img img {
+  max-width: 100%;
+  max-height: 100%;
+}

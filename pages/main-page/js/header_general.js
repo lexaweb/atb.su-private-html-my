@@ -159,26 +159,26 @@ $(document).ready(function () {
         return false;        
     });
 
-    $(document).on('click', '.add_city_btn', function(){
-        var id=$(this).attr('value');
-        var select_city="n";
-        if($(this).hasClass('select_city_y')){
-            select_city="y";
-        }
+    // $(document).on('click', '.add_city_btn', function(){
+	// 	var id=$(this).attr('value');
+	// 	var select_city="n";
+	// 	if($(this).hasClass('select_city_y')){
+	// 		select_city="y";
+	// 	}
 
-        $.ajax({
-            type: "POST",
-            url: "/local/templates/main/inc/header/add_city.php",
-            data: ({
-                "select_city" : select_city,
-                "id" : id
-            }),
-            success: function(msg){
-                $('#city_to').html(msg);
-            }
-        });
-        return false;
-    });
+	// 	$.ajax({
+	// 		type: "POST",
+	// 		url: "/local/templates/main/inc/header/add_city.php",
+	// 		data: ({
+	// 			"select_city" : select_city,
+	// 			"id" : id
+	// 		}),
+	// 		success: function(msg){
+	// 			$('#city_to').html(msg);
+	// 		}
+	// 	});
+	// 	return false;
+	// });
 
 
     // $(document).click(function (event) {
@@ -257,16 +257,6 @@ $(document).ready(function () {
     $(window).resize(function() {
         headHeightCalc();
     });
-
-    $(document).on('keyup', 'input[name=city_ns]', function (event) {
-
-        var city = $(this).val();
-        if (city.length > 1) {
-            city_select_new(city);
-        } else {
-            $('#city_select_ns').html('');
-        }
-    });
 });
 
 // $(document).on('keyup', '#title-search-input_new', function() {
@@ -277,18 +267,4 @@ $(document).ready(function () {
 
 function clear_city() {
     $('#head-region').html('');
-}
-
-function city_select_new(city) {
-
-    $.ajax({
-        type: "POST",
-        url: "/local/templates/main/new_style/ajax/city_select.php",
-        data: ({
-            "city": city
-        }),
-        success: function (a) {
-            $('#city_select_ns').html(a);
-        }
-    });
 }

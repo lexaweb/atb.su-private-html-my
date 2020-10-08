@@ -1,0 +1,282 @@
+@media (max-width: 1259px) {
+  .wrapper main .inner {
+    width: 980px;
+  }
+  .wrapper main .top_ban-content {
+    max-width: 460px;
+  }
+  .wrapper main .features-box {
+    width: 310px;
+    padding: 30px 20px;
+    font-size: 18px;
+    line-height: 24px;
+  }
+  .wrapper main .features-box:nth-child(n) {
+    margin-right: 25px;
+  }
+  .wrapper main .features-box:nth-child(3n),
+  .wrapper main .features-box:last-child {
+    margin-right: 0;
+  }
+  .wrapper main .features-box-icon {
+    margin-right: 20px;
+  }
+  .wrapper main .how_works-box {
+    width: 400px;
+  }
+  .wrapper main .how_works-box:nth-child(n) {
+    margin-right: 30px;
+  }
+  .wrapper main .how_works-box:nth-child(-n+3) {
+    width: 305px;
+  }
+  .wrapper main .how_works-box:nth-child(3n),
+  .wrapper main .how_works-box:last-child {
+    margin-right: 0;
+  }
+  .wrapper main .how_works-box-txt {
+    font-size: 16px;
+    line-height: 22px;
+  }
+}
+@media (max-width: 999px) {
+  .wrapper main .inner {
+    width: 740px;
+  }
+  .wrapper main .top_ban-wrapper {
+    height: 380px;
+  }
+  .wrapper main .top_ban-wrapper .inner {
+    padding-top: 40px;
+  }
+  .wrapper main .top_ban-content {
+    max-width: 370px;
+  }
+  .wrapper main .top_ban-title {
+    font-size: 44px;
+    line-height: 52px;
+  }
+  .wrapper main .top_ban-list {
+    margin: 15px 0 0;
+  }
+  .wrapper main .features-container {
+    padding: 50px 0 40px;
+  }
+  .wrapper main .features-title {
+    font-size: 32px;
+    line-height: 40px;
+  }
+  .wrapper main .features-box {
+    width: calc((100% - 40px) / 2);
+    padding: 30px;
+    font-size: 20px;
+    line-height: 26px;
+  }
+  .wrapper main .features-box:nth-child(n) {
+    margin-right: 40px;
+    margin-top: 25px;
+  }
+  .wrapper main .features-box:nth-child(-n+2) {
+    margin-top: 0;
+  }
+  .wrapper main .features-box:nth-child(2n),
+  .wrapper main .features-box:last-child {
+    margin-right: 0;
+  }
+  .wrapper main .how_works-title {
+    margin-bottom: 40px;
+    font-size: 32px;
+    line-height: 40px;
+  }
+  .wrapper main .how_works-wrapper {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+  .wrapper main .how_works-box {
+    width: calc((100% - 40px) / 2);
+  }
+  .wrapper main .how_works-box:nth-child(n) {
+    margin-top: 45px;
+  }
+  .wrapper main .how_works-box:nth-child(-n+2) {
+    margin-top: 0;
+  }
+  .wrapper main .how_works-box:nth-child(-n+3) {
+    width: calc((100% - 40px) / 2);
+  }
+  .wrapper main .how_works-box:nth-child(3n) {
+    margin-right: 40px;
+  }
+  .wrapper main .how_works-box:nth-child(2n),
+  .wrapper main .how_works-box:last-child {
+    margin-right: 0;
+  }
+  .wrapper main .how_works-box-txt {
+    font-size: 18px;
+    line-height: 24px;
+  }
+  .wrapper main .programs-container {
+    padding: 50px 0 100px;
+  }
+  .wrapper main .programs-title {
+    margin-bottom: 40px;
+    font-size: 32px;
+    line-height: 40px;
+  }
+  .wrapper main .programs-table.clmn_four .programs-table-th-td,
+  .wrapper main .programs-table.clmn_four .programs-table-td {
+    width: 135px;
+  }
+  .wrapper main .programs-table.clmn_four .programs-table-th-td:nth-child(1),
+  .wrapper main .programs-table.clmn_four .programs-table-td:nth-child(1) {
+    width: calc(100% - 405px);
+  }
+  .wrapper main .programs-table.clmn_two .programs-table-th-td,
+  .wrapper main .programs-table.clmn_two .programs-table-td {
+    width: 220px;
+  }
+  .wrapper main .programs-table.clmn_two .programs-table-th-td:nth-child(1),
+  .wrapper main .programs-table.clmn_two .programs-table-td:nth-child(1) {
+    width: calc(100% - 220px);
+  }
+  .wrapper main .programs-table-block {
+    margin-bottom: 40px;
+  }
+  .wrapper main .programs-table-block-descr {
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .wrapper main .programs-table-th-td {
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .wrapper main .programs-table-th-td span {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .wrapper main .programs-table-tr {
+    padding: 15px 0;
+  }
+  .wrapper main .programs-table-th-td,
+  .wrapper main .programs-table-td {
+    padding: 0 8px;
+  }
+  .wrapper main .programs-table-td:nth-child(1) {
+    font-size: 16px;
+    line-height: 22px;
+  }
+}
+@media (max-width: 767px) {
+  .wrapper main .inner {
+    width: 95%;
+    min-width: 300px;
+  }
+  .wrapper main .mobile-block {
+    display: block;
+  }
+  .wrapper main .desktop-block {
+    display: none;
+  }
+  .wrapper main .top_ban-container {
+    padding-bottom: 30px;
+  }
+  .wrapper main .top_ban-wrapper {
+    height: 240px;
+  }
+  .wrapper main .top_ban-wrapper .inner {
+    padding-top: 65px;
+  }
+  .wrapper main .top_ban-content {
+    max-width: 130px;
+  }
+  .wrapper main .top_ban-title {
+    font-size: 26px;
+    line-height: 32px;
+  }
+  .wrapper main .top_ban-list {
+    margin: 30px 0 0;
+  }
+  .wrapper main .features-container {
+    padding: 30px 0;
+  }
+  .wrapper main .features-title {
+    margin-bottom: 30px;
+    font-size: 26px;
+    line-height: 32px;
+  }
+  .wrapper main .features-box {
+    display: block;
+    width: calc((100% - 10px) / 2);
+    min-height: 163px;
+    padding: 15px;
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .wrapper main .features-box:nth-child(n) {
+    margin-right: 10px;
+    margin-top: 15px;
+  }
+  .wrapper main .features-box:nth-child(-n+2) {
+    margin-top: 0;
+  }
+  .wrapper main .features-box:nth-child(2n),
+  .wrapper main .features-box:last-child {
+    margin-right: 0;
+  }
+  .wrapper main .features-box-icon {
+    width: 44px;
+    height: 44px;
+    margin-right: 0;
+    margin-bottom: 5px;
+  }
+  .wrapper main .how_works-container {
+    padding: 30px 0;
+  }
+  .wrapper main .how_works-wrapper {
+    display: block;
+  }
+  .wrapper main .how_works-title {
+    margin-bottom: 30px;
+    font-size: 26px;
+    line-height: 32px;
+  }
+  .wrapper main .how_works-box {
+    width: auto;
+  }
+  .wrapper main .how_works-box:nth-child(-n+3) {
+    width: auto;
+  }
+  .wrapper main .how_works-box:nth-child(n) {
+    margin-right: 0;
+    margin-top: 35px;
+  }
+  .wrapper main .how_works-box:nth-child(1) {
+    margin-top: 0;
+  }
+  .wrapper main .how_works-box-num {
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+  }
+  .wrapper main .how_works-box-txt {
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .wrapper main .programs-container {
+    padding: 30px 0 100px;
+  }
+  .wrapper main .programs-title {
+    display: none;
+  }
+  .wrapper main .programs-tables-wrapper {
+    display: none;
+  }
+  .wrapper main .programs-docs-wrapper {
+    display: block;
+  }
+  .wrapper main .programs-footnote {
+    font-size: 12px;
+    line-height: 16px;
+  }
+}

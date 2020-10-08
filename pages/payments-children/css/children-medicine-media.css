@@ -1,0 +1,203 @@
+@media (max-width: 1259px) {
+  .wrapper main .inner {
+    width: 980px;
+  }
+  .wrapper main .can_get_pays-wrapper {
+    display: block;
+  }
+  .wrapper main .can_get_pays-box {
+    width: auto;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+  .wrapper main .can_get_pays-box:last-child {
+    margin-bottom: 0;
+  }
+  .wrapper main .can_get_pays-box-content {
+    height: 320px;
+  }
+  .wrapper main .can_get_pays-box-desc {
+    max-width: 550px;
+  }
+}
+@media (max-width: 999px) {
+  .wrapper main .inner {
+    width: 740px;
+  }
+  .wrapper main .top_ban-wrapper {
+    height: 380px;
+  }
+  .wrapper main .top_ban-content {
+    padding-top: 90px;
+  }
+  .wrapper main .top_ban-title {
+    max-width: 350px;
+    font-size: 44px;
+    line-height: 52px;
+  }
+  .wrapper main .top_ban-desc {
+    font-size: 20px;
+    line-height: 26px;
+  }
+  .wrapper main .top_ban-desc br {
+    display: inline;
+  }
+  .wrapper main .can_get_pays-container {
+    padding: 40px 0 30px;
+  }
+  .wrapper main .can_get_pays-title {
+    font-size: 32px;
+    line-height: 42px;
+  }
+  .wrapper main .can_get_pays-box.family .can_get_pays-box-img {
+    right: 0;
+  }
+  .wrapper main .can_get_pays-box-content {
+    height: auto;
+    min-height: 320px;
+    padding: 40px 294px 30px 40px;
+  }
+  .wrapper main .can_get_pays-box-desc {
+    max-width: 430px;
+    margin-bottom: 35px;
+  }
+  .wrapper main .how_apply-container {
+    padding: 30px 0 100px;
+  }
+  .wrapper main .how_apply-title {
+    font-size: 32px;
+    line-height: 40px;
+  }
+  .wrapper main .how_apply-descr {
+    font-size: 18px;
+    line-height: 24px;
+  }
+  .wrapper main .how_apply-main {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .wrapper main .how_apply-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 550px;
+    margin-right: 0;
+    margin-bottom: 60px;
+    text-align: left;
+  }
+  .wrapper main .how_apply-box:after {
+    top: 120px;
+    left: 50px;
+    width: 1px;
+    height: calc(100% - 100px - 40px + 60px);
+  }
+  .wrapper main .how_apply-box:last-child {
+    margin-bottom: 0;
+  }
+  .wrapper main .how_apply-box-img {
+    -ms-flex-negative: 0;
+        flex-shrink: 0;
+    margin: 0 50px 0 0;
+  }
+}
+@media (max-width: 767px) {
+  .wrapper main .inner {
+    width: 95%;
+    min-width: 300px;
+  }
+  .wrapper main .top_ban-wrapper {
+    height: 240px;
+  }
+  .wrapper main .top_ban-content {
+    padding-top: 75px;
+  }
+  .wrapper main .top_ban-title {
+    max-width: 210px;
+    margin-bottom: 0;
+    font-size: 26px;
+    line-height: 32px;
+  }
+  .wrapper main .top_ban-desc {
+    display: none;
+  }
+  .wrapper main .top_ban-desc--mobile {
+    display: block;
+  }
+  .wrapper main .can_get_pays-container {
+    padding: 20px 0 30px;
+  }
+  .wrapper main .can_get_pays-title {
+    margin-bottom: 30px;
+    font-size: 26px;
+    line-height: 32px;
+    text-align: left;
+  }
+  .wrapper main .can_get_pays-box {
+    margin-bottom: 30px;
+  }
+  .wrapper main .can_get_pays-box-content {
+    min-height: auto;
+    padding: 30px 22px;
+  }
+  .wrapper main .can_get_pays-box-title {
+    max-width: none;
+    font-size: 18px;
+    line-height: 24px;
+  }
+  .wrapper main .can_get_pays-box-desc {
+    max-width: none;
+    margin-bottom: 30px;
+    line-height: 22px;
+  }
+  .wrapper main .can_get_pays-box-img {
+    display: none;
+  }
+  .wrapper main .how_apply-head {
+    margin-bottom: 40px;
+    text-align: left;
+  }
+  .wrapper main .how_apply-title {
+    font-size: 26px;
+    line-height: 32px;
+  }
+  .wrapper main .how_apply-descr {
+    max-width: 330px;
+  }
+  .wrapper main .how_apply-box {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  .wrapper main .how_apply-box:after {
+    top: 90px;
+    left: 30px;
+    height: calc(100% - 60px - 60px + 50px);
+  }
+  .wrapper main .how_apply-box br {
+    display: none;
+  }
+  .wrapper main .how_apply-box-title {
+    font-size: 18px;
+    line-height: 24px;
+  }
+  .wrapper main .how_apply-box-descr {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .wrapper main .how_apply-box-img {
+    width: 60px;
+    height: 60px;
+    margin: 0 20px 0 0;
+  }
+}
+@media (max-width: 374px) {
+  .wrapper main .top_ban-title {
+    max-width: 180px;
+    font-size: 22px;
+    line-height: 28px;
+  }
+}

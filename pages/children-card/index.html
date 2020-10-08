@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html lang="ru" class="add">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <title>Document</title>
+    <link rel="stylesheet" href="../../library/jquery/jquery-ui.min.css" />
+    <link rel="stylesheet" href="../../library/bootstrap/bootstrap.min.css" />
+    <link rel="stylesheet" href="../../library/jquery/asPieProgress.min.css" />
+    <link rel="stylesheet" href="../../library/tooltipster/tooltipster.bundle.min.css"/>
+    <link rel="stylesheet" href="../../library/swiper/swiper.min.css" />
+    <link rel="stylesheet" href="../../css/font.css" />
+    <link rel="stylesheet" href="../../blocks/cards_ban_sapid/css/cards_ban_sapid_styles.css" />
+    <link rel="stylesheet" href="../../blocks/cards_ban_sapid/css/cards_ban_sapid_video_styles.css" />
+    <link rel="stylesheet" href="../../css/how_add_animation_block.css">
+    <link rel="stylesheet" href="../../css/cards/card_inner.css" />
+    <link rel="stylesheet" href="../../css/cards/cards_inner_media.css" />
+    <link rel="stylesheet" href="css/children-card.css" />
+    <link rel="stylesheet" href="css/children-card-media.css" />
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <main>
+        <div class="top_ban-container children-card">
+          <div class="top_ban-wrapper">
+            <div class="inner">
+              <div class="top_ban-card_type">Дебетовая карта</div>
+
+                <div class="top_ban-title-big">Детская карта</div>
+                <div class="top_ban-desc">
+                  Почувствуй себя <span class="top_ban-desc-orange"> самостоятельным</span>
+                </div>
+
+              <div class="top_ban-btns">
+                <a href="#" class="top_ban-btns-item">оставить заявку</a>
+              </div>
+            </div>
+
+            <div class="top_ban-img">
+              <img src="img/top_ban.png" alt="" />
+            </div>
+          </div>
+
+          <div class="ban_sapid-container">
+            <div class="ban_sapid-box">
+              <div class="ban_sapid-box-btn js-open-video active-video">
+                <div class="ban_sapid-box-btn-img">
+                  <img src="img/ic.video.svg" alt="" />
+                </div>
+
+                <div class="ban_sapid-box-btn-txt">Видео</div>
+              </div>
+            </div>
+
+            <div class="ban_sapid-box">
+              <div class="ban_sapid-box-btn js-open-content">
+                <div class="ban_sapid-box-btn-img">
+                  <img src="img/ic.servis.svg" alt="" />
+                </div>
+
+                <div class="ban_sapid-box-btn-txt">Сервисы</div>
+              </div>
+              <div class="ban_sapid-box-main">
+                <div class="ban_sapid-box-main-btn_close"></div>
+
+                <div class="ban_sapid-box-main-content">
+                  <a href="#" class="ban_sapid-box-main-content-item">
+                    <div class="ban_sapid-box-main-content-item-icon">
+                      <img src="img/ic.credit-card-plus.svg" alt="" />
+                    </div>
+                    <div class="ban_sapid-box-main-content-item-txt">
+                      Как пополнить карту?
+                    </div>
+                  </a>
+
+                  <a href="#" class="ban_sapid-box-main-content-item">
+                    <div class="ban_sapid-box-main-content-item-icon">
+                      <img src="img/ic.credit-card.svg" alt="" />
+                    </div>
+                    <div class="ban_sapid-box-main-content-item-txt">
+                      Перевести по номеру карты
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="ban_sapid-box">
+              <div class="ban_sapid-box-btn js-open-content">
+                <div class="ban_sapid-box-btn-img">
+                  <img src="img/ic.star-green.svg" alt="" />
+                </div>
+
+                <div class="ban_sapid-box-btn-txt">Акции</div>
+              </div>
+              <div class="ban_sapid-box-main">
+                <div class="ban_sapid-box-main-btn_close"></div>
+
+                <div class="ban_sapid-box-main-content">
+                  <a href="#" class="ban_sapid-box-main-content-item">
+                    <div class="ban_sapid-box-main-content-item-icon">
+                      <img src="img/ic.wallet.svg" alt="" />
+                    </div>
+                    <div class="ban_sapid-box-main-content-item-txt">
+                      Акция по бесплатному снятию наличных
+                    </div>
+                  </a>
+
+                  <a href="#" class="ban_sapid-box-main-content-item">
+                    <div class="ban_sapid-box-main-content-item-icon">
+                      <img src="img/icon_school.svg" alt="" />
+                    </div>
+                    <div class="ban_sapid-box-main-content-item-txt">
+                      Акция «Учебный сезон»
+                    </div>
+                  </a>
+
+                  <a href="#" class="ban_sapid-box-main-content-item">
+                    <div class="ban_sapid-box-main-content-item-icon">
+                      <img src="img/ic.book.svg" alt="" />
+                    </div>
+                    <div class="ban_sapid-box-main-content-item-txt">
+                      Книга в подарок
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="page_content page_content--children-card">
+          <div class="features-container">
+            <div class="inner">
+              <div class="features-head">
+                <div class="features-title">
+                  Дайте возможность своему ребенку самостоятельно распоряжаться
+                  финансами.
+                </div>
+                <div class="features-desc">
+                  Детская карта – удобный платежный инструмент, который поможет
+                  научить ребёнка планировать расходы и разумно обращаться с
+                  деньгами. Дети в игровой форме смогут осваивать правила
+                  рационального использования средств и повышать финансовую
+                  грамотность.
+                </div>
+              </div>
+              <div class="features-wrapper">
+                <div class="features-box with_img">
+                  <div class="features-box-img">
+                    <img src="img/face.svg" alt="" />
+                  </div>
+                  <div class="features-box-txt_small">
+                    Карта выпускается детям в <br />
+                    возрасте от 7 до 14 лет
+                  </div>
+                </div>
+                <div class="features-box with_img">
+                  <div class="features-box-img">
+                    <img src="img/telephone.svg" alt="" />
+                  </div>
+                  <div class="features-box-txt_small">
+                    Вы получаете бесплатный доступ к мобильному банку
+                  </div>
+                </div>
+                <div class="features-box with_img">
+                  <div class="features-box-img">
+                    <img src="img/family.svg" alt="" />
+                  </div>
+                  <div class="features-box-txt_small">
+                    Детская дебетовая карта привязана к счёту родителя
+                  </div>
+                </div>
+                <div class="features-box with_img">
+                  <div class="features-box-img">
+                    <img src="img/credit-card.svg" alt="" />
+                  </div>
+                  <div class="features-box-txt_small">
+                    Использование пластикового <br />
+                    носителя исключает риск кражи <br />
+                    или утраты наличных
+                  </div>
+                </div>
+                <div class="features-box with_img">
+                  <div class="features-box-img">
+                    <img src="img/business.svg" alt="" />
+                  </div>
+                  <div class="features-box-txt_small">
+                    Можете пополнять карту ребенка в <br />любое время на любую
+                    сумму
+                  </div>
+                </div>
+                <div class="features-box with_img">
+                  <div class="features-box-img">
+                    <img src="img/search.svg" alt="" />
+                  </div>
+                  <div class="features-box-txt_small">
+                    Вы сможете контролировать расходы ребенка онлайн с помощью
+                    мобильного банка
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="features-one-container">
+            <div class="inner">
+              <div class="features-one-title">
+                Преимущества оформления дебетовой карты для ребёнка от АТБ
+              </div>
+              <div class="features-one-wrapper">
+                <div class="features-one-item">
+                  <div class="features-one-item-icon">
+                    <img src="img/features-icon-2.svg" alt="" />
+                  </div>
+                  <div class="features-one-item-txt">
+                    Бесплатный выпуск <br>и обслуживание
+                  </div>
+                </div>
+
+                <div class="features-one-item">
+                  <div class="features-one-item-icon">
+                    <img src="img/features-icon-3.svg" alt="" />
+                  </div>
+                  <div class="features-one-item-txt">
+                    Встроенная опция бесконтактной оплаты
+                  </div>
+                </div>
+
+                <div class="features-one-item">
+                  <div class="features-one-item-icon">
+                    <img src="img/features-icon-4.svg" alt="" />
+                  </div>
+                  <div class="features-one-item-txt">
+                    Разумные лимиты совершения операций в день и в месяц
+                  </div>
+                </div>
+
+                <div class="features-one-item">
+                  <div class="features-one-item-icon">
+                    <img src="img/features-icon-1.svg" alt="" />
+                  </div>
+                  <div class="features-one-item-txt">
+                    Кэшбэк в категории <br />
+                    «Счастливое детство»
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="calc-container">
+            <div class="inner">
+              <div class="calc-head">Рассчитайте вашу выгоду</div>
+              <div class="calc-wrapper">
+                <div class="calc-params">
+                  <div class="calc-category">
+                    <div class="calc-category-item">
+                      <div class="calc-category-item-circle">
+                          <img src="img/planet.svg" alt="">
+
+                          <div class="calc-category-item-circle-txt">
+                          <span> 5%</span>
+                          кэшбэк
+                          </div>
+                      </div>
+
+                      <div class="calc-category-item-name">
+                        <div class="calc-category-item-name-title">
+                          «Счастливое детство»
+                        </div>
+                        <div class="calc-category-item-name-desc">
+                          на хобби, развлечения, кино и кафе
+                        </div>
+                      </div>
+                  </div>
+                </div>
+                    <div class="calc-inp_line">
+                      <div class="calc-inp_line-head">
+                        <div class="calc-inp_line-name">
+                          Сумма покупок по&nbsp;карте за
+                          <span class="nowrap"
+                            >месяц
+                            <span class="mytooltipster-wrapper">
+                              <span class="mytooltipster" data-tooltip-content="#tooltip_content5">
+                              </span>
+                              <span class="mytooltipster-content" id="tooltip_content5">
+                                Оборот по карте за месяц
+                              </span>
+                            </span></span>
+                        </div>
+
+                        <div class="calc-inp_line-input">
+                          <input id="children-card_text" type="text" name="children-card_text" value="1000"/>
+                        </div>
+                      </div>
+
+                      <div class="calc-inp_line-slider">
+                        <div class="calc-inp_line-slider-wrap">
+                          <div id="children-card" class="calc-inp_line-slider-range"></div>
+                        </div>
+
+                        <div class="calc-inp_line-slider-pips">
+                          <span id="min_slider_card">1000</span>
+                          <span id="max_slider_card">5000</span>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+                <div class="calc-result">
+                  <div class="calc-result-content">
+                    <div class="calc-result-title">
+                      За год вы получите до
+                      <span class="mytooltipster-wrapper">
+                        <span
+                          class="mytooltipster"
+                          data-tooltip-content="#tooltip_content1"></span>
+                        <span class="mytooltipster-content" id="tooltip_content1"> 
+                          Возврат от суммы покупок за год</span>
+                      </span>
+                    </div>
+
+                    <div class="calc-result-sum">500 ₽</div>
+
+                    <div class="calc-result-desc">
+                      На этот доход вы сможете
+                      сходить на премьеру фильма
+                    </div>
+
+                    <div class="calc-result-btn">
+                      <a href="#">оформить карту</a>
+                    </div>
+                  </div>
+
+                  <div class="calc-result-img">
+                    <img src="img/kinoshka 1.svg" alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="how_get_card-container">
+            <div class="inner">
+              <div class="how_get_card-title">Как получить карту</div>
+
+              <div class="how_get_card-steps">
+                <div class="how_get_card-steps-box step1">
+                  <div class="how_get_card-steps-box-head">
+                    <div class="how_get_card-steps-box-img">
+                      <div class="how_get_card-steps-box-img-progress" id="show_get_step1" role="progressbar"></div>
+                      <div class="how_get_card-steps-box-img-icon">
+                        <img src="img/how_get1.svg" alt="" />
+                      </div>
+                    </div>
+
+                    <div class="how_get_card-steps-box-progress-wrap">
+                      <div class="how_get_card-steps-box-progress">
+                        <div class="how_get_card-steps-box-progress-num">1</div>
+                        <div class="how_get_card-steps-box-progress-line"></div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="how_get_card-steps-box-txt">
+                    <div class="how_get_card-steps-box-txt-title">
+                      Заполните <a href="#">анкету</a>
+                    </div>
+
+                    <div class="how_get_card-steps-box-txt-desc">
+                      или обратитесь в любое отделение банка или позвоните по
+                      номеру
+                      <a class="nowrap" href="tel:+7800758888">8-800-775-88-88</a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="how_get_card-steps-box step2">
+                  <div class="how_get_card-steps-box-head">
+                    <div class="how_get_card-steps-box-img">
+                      <div class="how_get_card-steps-box-img-progress" id="show_get_step2" role="progressbar"></div>
+                      <div class="how_get_card-steps-box-img-icon">
+                        <img src="img/card-anim.svg" alt="" />
+                      </div>
+                    </div>
+                    <div class="how_get_card-steps-box-progress-wrap">
+                      <div class="how_get_card-steps-box-progress">
+                        <div class="how_get_card-steps-box-progress-num">2</div>
+                        <div class="how_get_card-steps-box-progress-line"></div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="how_get_card-steps-box-txt">
+                    <div class="how_get_card-steps-box-txt-title">
+                      Получите карту для ребенка
+                    </div>
+
+                    <div class="how_get_card-steps-box-txt-desc">
+                      Возьмите с собой документы
+                      <br />и приходите в отделение без очереди.
+                    </div>
+                  </div>
+                </div>
+
+                <div class="how_get_card-steps-box step3">
+                  <div class="how_get_card-steps-box-head">
+                    <div class="how_get_card-steps-box-img">
+                      <div class="how_get_card-steps-box-img-progress" id="show_get_step3" role="progressbar"></div>
+                      <div class="how_get_card-steps-box-img-icon">
+                        <img src="img/face-anim.svg" alt="" />
+                      </div>
+                    </div>
+                    <div class="how_get_card-steps-box-progress-wrap">
+                      <div class="how_get_card-steps-box-progress">
+                        <div class="how_get_card-steps-box-progress-num">3</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="how_get_card-steps-box-txt">
+                    <div class="how_get_card-steps-box-txt-title">
+                      Передайте карту ребенку
+                    </div>
+
+                    <div class="how_get_card-steps-box-txt-desc">
+                      <a href="/">Пополните детскую карту </a>
+                      <br />
+                      с карты любого банка
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="switch-container">
+            <div class="inner">
+                <div class="switch-wrapper">
+                    <div class="switch-btns">
+                        <div class="switch-btns-txt active">Параметры карты</div>
+                        <div class="switch-btns-txt">Тарифы и документы</div>
+                        <div class="switch-btns-btn"></div>
+                    </div>
+
+                    <div class="switch-content">
+                        <div class="switch-content-item active">
+                              <div class="terms-wrapper">
+                                <div class="terms-table">
+                                  <div class="terms-table-tr">
+                                    <div class="terms-table-td">
+                                      Ежемесячное обслуживание <br> Детской карты
+                                    </div>
+                                    <div class="terms-table-td">бесплатно</div>
+                                  </div>
+        
+                                  <div class="terms-table-tr">
+                                    <div class="terms-table-td">Пополнение</div>
+                                    <div class="terms-table-td">
+                                      бесплатно с карты <br />
+                                      любого банка
+                                    </div>
+                                  </div>
+        
+                                  <div class="terms-table-tr">
+                                    <div class="terms-table-td">
+                                      Снятие в любом банкомате
+                                    </div>
+                                    <div class="terms-table-td">бесплатно</div>
+                                  </div>
+        
+                                  <div class="terms-table-tr">
+                                    <div class="terms-table-td">Кэшбэк</div>
+                                    <div class="terms-table-td">
+                                      5% в категории <br />
+                                      «Счастливое детство»
+                                    </div>
+                                  </div>
+        
+                                  <div class="terms-table-tr">
+                                    <div class="terms-table-td">
+                                      Ежедневный лимит совершения безналичных операций в
+                                      ТСП4 (оплата товаров, работ, услуг)
+                                    </div>
+                                    <div class="terms-table-td">5 000 рублей</div>
+                                  </div>
+                                </div>
+        
+                                <div class="terms-txt">
+                                  <ul class="tabs-list terms-list">
+                                    <li>
+                                      участие в дисконтных программах банка и платежных
+                                      систем
+                                    </li>
+                                    <li>
+                                      бесплатная выписка по счетам
+                                      <span class="nowrap">в «АТБ-Онлайн»</span> /
+                                      <span class="nowrap">«АТБ-Мобайл»</span>
+                                    </li>
+                                    <li>
+                                      круглосуточная поддержка через Колл-центр АТБ
+                                    </li>
+                                    <li>
+                                      сообщение в банк о потере или краже карты по
+                                      <br>единому номеру в любой точке мира
+                                    </li>
+                                    <li>оплачивайте покупки одним движением руки!</li>
+                                  </ul>
+        
+                                  <div class="terms-payment">
+                                    <div class="terms-payment-item">
+                                      <img src="img/icon-pay-wifi.svg" alt="" />
+                                    </div>
+        
+                                    <div class="terms-payment-item">
+                                      <img src="img/samsung-pay-seeklogo.svg" alt="" />
+                                    </div>
+        
+                                    <div class="terms-payment-item">
+                                      <img src="img/google-pay-seeklogo.svg" alt="" />
+                                    </div>
+        
+                                    <div class="terms-payment-item">
+                                      <img src="img/icon-apple-pay.svg" alt="" />
+                                    </div>
+        
+                                    <div class="terms-payment-item">
+                                      <img src="img/logo-garmin_pay.svg" alt="" />
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+            </div>
+        </div>
+      </div>
+
+          <div class="app_adv-container">
+            <div class="inner">
+              <div class="app_adv-wrapper">
+                <div class="app_adv-content">
+                  <div class="app_adv-title">
+                    Управляйте вашими средствами
+                    <br />через Интернет Банк и&nbsp;Мобильный Банк!
+                  </div>
+
+                  <ul class="app_adv-list">
+                    <li>
+                      Контролируйте начисления по&nbsp;кэшбэку в режиме онлайн
+                    </li>
+
+                    <li>Пополняйте Детскую карту в любое удобное время</li>
+
+                    <li>
+                      Оплачивайте услуги бесплатно или&nbsp;с&nbsp;минимальной
+                      комиссией
+                    </li>
+
+                    <li>Контролируйте остаток на счете и траты ребенка</li>
+                  </ul>
+
+                  <div class="app_adv-downl">
+                    <div class="app_adv-links">
+                      <a href="#" target="_blank" class="app_store_white">
+                        Загрузите в
+                        <span>App Store</span>
+                      </a>
+
+                      <a href="#" target="_blank" class="google_play_white">
+                        ДОСТУПНО В
+                        <span>Google Play</span>
+                      </a>
+                    </div>
+
+                    <div class="app_adv-qr">
+                      <img src="img/qr-code.png" alt="" />
+                    </div>
+                  </div>
+                </div>
+
+                <div class="app_adv-img">
+                  <img src="img/phone.png" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="fancybox-overlay"></div>
+          <div class="popup_video">
+            <div class="btn_close"><a href="#"></a></div>
+            <div class="video">
+              <iframe
+                id="player1"
+                src="https://player.vimeo.com/video/177535587?autoplay=0"
+                width="100%"
+                height="auto"
+                frameborder="0"
+                webkitallowfullscreen=""
+                mozallowfullscreen=""
+                allowfullscreen=""
+                data-ready="true"
+              ></iframe>
+            </div>
+            <div class="pan_bott">
+              <div class="show_count">9158</div>
+              <div class="btn_buyins">
+                <a href="#">Вернуться на страницу</a>
+              </div>
+              <div class="repeat">
+                <span>Смотреть ещё раз</span>
+              </div>
+              <div class="clearfix"></div>
+            </div>
+            <div class="pan_wrap">
+              <div class="btn_ordcall">
+                <a href="#">Отправить заявку на карту</a>
+              </div>
+              <div class="descr">
+                <div class="txt">
+                  Если у вас остались вопросы, наши специалисты
+                  проконсультируют<br />
+                  вас или помогут заполнить заявку по бесплатному телефону:
+                </div>
+                <div class="number">8-800-775-88-88</div>
+              </div>
+              <div class="clearfix"></div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+
+    <script src="../../library/jquery/jquery.min.js"></script>
+    <script src="../../library/jquery/jquery-ui.min.js"></script>
+    <script src="../../library/bootstrap/bootstrap.min.js"></script>
+    <script src="../../library/bootstrap/bootstrap-select.min.js"></script>
+    <script src="../../library/jquery/jquery-asPieProgress.min.js"></script>
+    <script src="../../library/tooltipster/tooltipster.bundle.min.js"></script>
+    <script src="../../library/swiper/swiper.min.js"></script>
+    <script src="../../js/how_add_animation_block.js"></script>
+    <script src="../../blocks/cards_ban_sapid/js/cards_ban_sapid_skripts.js"></script>
+    <script src="../../blocks/cards_ban_sapid/js/cards_ban_sapid_skripts_video.js"></script>
+    <script src="../../js/cards_inner.js"></script>
+    <script src="js/children-card.js"></script>
+  </body>
+</html>

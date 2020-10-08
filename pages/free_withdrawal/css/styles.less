@@ -1,0 +1,179 @@
+@circe: 'Circe', 'Arial', sans-serif;
+
+@orange: #fe5000;
+@red: #fe1e00;
+@blue: #3b8b94;
+@gray: #c8c8c8;
+@light_grey: #e3e3e3;
+@dark_grey: #6e6e6e;
+@black: #373a36;
+
+.wrapper {
+    position: relative;
+    overflow: hidden;
+
+    input {
+        outline: none !important;
+        box-shadow: none !important;
+    }
+
+    h1,
+    h2,
+    h3 {
+        margin: 0;
+    }
+
+    main {
+        .inner {
+            position: relative;
+            width: 1220px;
+            margin: 0 auto;
+        }
+
+        .top_ban {
+            position: relative;
+            height: 460px;
+            background: linear-gradient(90deg, #91D1DB 13.39%, #D7F1F2 100%);
+            color: @black;
+
+            .inner {
+                height: 100%;
+            }
+
+            &-content {
+                position: relative;
+                z-index: 1;
+                display: flex;
+                flex-direction: column;
+                height: 100%;
+                padding: 80px 0 50px;
+            }
+
+            &-title {
+                max-width: 440px;
+                margin-bottom: 30px;
+                font: 700 56px/66px @circe;
+            }
+
+            &-desc {
+                margin-bottom: 25px;
+                max-width: 490px;
+                font: 400 24px/32px @circe;
+
+                br {
+                    discounts
+                }
+            }
+
+            &-btn {
+                margin-top: auto;
+
+                a { 
+                    position: relative;
+                    display: inline-block;
+                    padding: 0 20px;
+                    border: 2px solid @orange;
+                    font: 400 14px/46px @circe;
+                    text-transform: uppercase;
+                    text-decoration: none;
+                    background: #fff;
+                    color: @orange;
+                    border-radius: 5px;
+                    transition: box-shadow .3s;
+
+                    &:hover {
+                        box-shadow: 0px 4px 20px rgba(135, 151, 155, 0.3);
+                    }
+
+                    &.adobe-btn {
+                        padding: 0 20px 0 60px;
+                        
+                        &:before {
+                            position: absolute;
+                            top: 50%;
+                            left: 15px;
+                            transform: translateY(-50%);
+                            width: 35px;
+                            height: 35px;
+                            background: url(../img/ic.adobe.png) no-repeat;
+                            background-size: contain;
+                            content: '';
+                        }
+                    }
+                }
+            }
+
+            &-img {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+
+                img {
+                    position: absolute;
+                    bottom: 0;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    height: 100%;
+                }
+            }
+        }
+
+        .discounts {
+            &-container {
+                padding: 60px 0 50px;
+                color: @black;
+            }
+
+            &-title {
+                margin-bottom: 40px;
+                font: 400 40px/1.5 @circe;
+                text-align: center;
+            }
+
+            &-wrapper {
+                display: flex;
+            }
+
+            &-box {
+                display: flex;
+                justify-content: space-between;
+                width: 600px;
+                margin-right: 20px;
+                padding: 0 0 0 50px;
+                background: #fff;
+                box-shadow: 0px 3px 30px rgba(135, 151, 155, 0.15);
+                border-radius: 8px;
+
+                &:last-child {
+                    margin-right: 0;
+                }
+
+                &-txt {
+                    align-self: center;
+                    padding: 35px 0;
+                    width: ~'calc(100% - 220px)';
+                    font: 400 18px/24px @circe;
+
+                    br {
+                        display: none;
+                    }
+                }
+
+                &-img {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    align-self: flex-end;
+                    width: 200px;
+                    
+                    img {
+                        max-width: 100%;
+                        max-height: 100%;
+                    }
+                }
+            }
+        }
+    }
+}

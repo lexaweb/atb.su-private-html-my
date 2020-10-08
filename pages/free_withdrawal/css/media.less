@@ -1,0 +1,215 @@
+@circe: 'Circe', 'Arial', sans-serif;
+
+@orange: #fe5000;
+@red: #FE1E00;
+@blue: #3b8b94;
+@gray: #C8C8C8;
+@light_grey: #E3E3E3;
+@dark_grey: #6E6E6E;
+@black: #373A36;
+
+
+@media(max-width: 1259px) {
+    .wrapper {
+        main {
+            .inner {
+                width: 980px;
+            }
+
+            .discounts {   
+                &-title {
+                    font-size: 34px;
+                }
+
+                &-box {
+                    width: 480px;
+                    margin-right: 20px;
+                    padding: 0 0 0 25px;
+
+                    &-txt {
+                        padding: 20px 0;
+                        width: ~'calc(100% - 180px)';
+                        font-size: 16px;
+                        line-height: 24px;
+                    }
+
+                    &-img {
+                        width: 160px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media(max-width: 999px) {
+    .wrapper {
+        main {
+            .inner {
+                width: 740px;
+            }
+
+            .top_ban {
+                height: 380px;
+    
+                &-content {
+                    padding: 60px 0 40px;
+                }
+    
+                &-title {
+                    max-width: 320px;
+                    font-size: 38px;
+                    line-height: 44px;
+                }
+    
+                &-desc {
+                    max-width: 420px;
+                    font-size: 20px;
+                    line-height: 28px;
+                }
+            }
+
+            .discounts {
+                &-container {
+                    padding: 50px 0 40px;
+                    color: @black;
+                }
+
+                &-title {
+                    margin-bottom: 30px;
+                }
+
+                &-wrapper {
+                    display: block;
+                }
+    
+                &-box {
+                    width: 100%;
+                    margin-right: 0;
+                    margin-bottom: 20px;
+
+                    &:last-child {
+                        margin-bottom: 0;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media(max-width: 767px) {
+    .wrapper {
+        main {
+            .inner {
+                width: 95%;
+                min-width: 300px;
+            }
+
+            .top_ban {
+                height: 240px;
+    
+                &-content {
+                    padding: 20px 0;
+                }
+    
+                &-title {
+                    max-width: 220px;
+                    margin-bottom: 10px;
+                    font-size: 26px;
+                    line-height: 32px;
+                }
+    
+                &-desc {
+                    margin-bottom: 15px;
+                    max-width: 220px;
+                    font-size: 14px;
+                    line-height: 20px;
+
+                    br {
+                        display: inline;
+                    }
+                }
+    
+                &-btn {    
+                    a { 
+                        padding: 0 12px;
+                        font-size: 12px;
+                        line-height: 38px;
+    
+                        &.adobe-btn {
+                            padding: 0 12px 0 45px;
+                            
+                            &:before {
+                                width: 25px;
+                                height: 25px;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .discounts {
+                &-container {
+                    padding: 35px 0;
+                }
+    
+                &-title {
+                    font-size: 26px;
+                    line-height: 30px;
+                }
+    
+                &-box {
+                    position: relative;
+                    display: block;
+                    min-height: 210px;
+                    padding: 25px 25px 40px;
+                    overflow: hidden;
+
+                    &:nth-child(1) {
+                        .discounts-box-img {
+                            right: -35px;
+                        }
+                    }
+
+                    &-txt {
+                        position: relative;
+                        z-index: 1;
+                        padding: 0;
+                        width: auto;
+
+                        br {
+                            display: inline;
+                        }
+                    }
+    
+                    &-img {
+                        position: absolute;
+                        bottom: 0;
+                        right: -53px;
+                        width: 140px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media(max-width: 374px) {
+    .wrapper {
+        main {
+            .discounts {
+                &-box {
+                    padding: 25px 20px 40px;
+
+                    &-txt {
+                        font-size: 14px;
+                        line-height: 22px;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,483 @@
+.wrapper main .top_ban-container .inner {
+  position: relative;
+  width: 1220px;
+  height: inherit;
+  margin: 0 auto;
+}
+.wrapper main .top_ban-container.easy_shoping .top_ban-content {
+  padding-top: 95px;
+}
+.wrapper main .top_ban-container.free_withdrawal .top_ban-wrapper {
+  background: -webkit-gradient(linear, left top, right top, color-stop(13.39%, #91D1DB), to(#D7F1F2));
+  background: linear-gradient(90deg, #91D1DB 13.39%, #D7F1F2 100%);
+}
+.wrapper main .top_ban-container.free_withdrawal .top_ban-content {
+  padding-top: 80px;
+}
+.wrapper main .top_ban-container.free_withdrawal .top_ban-title {
+  max-width: 440px;
+}
+.wrapper main .top_ban-container.payments_children .top_ban-wrapper {
+  background: #c2f1f7;
+}
+.wrapper main .top_ban-container.payments_children .top_ban-desc {
+  max-width: 440px;
+}
+.wrapper main .top_ban-container.payments_children .top_ban-desc br {
+  display: none;
+}
+.wrapper main .top_ban-container.refinancing .top_ban-content {
+  padding-top: 85px;
+}
+.wrapper main .top_ban-container.school .top_ban-content {
+  padding-top: 100px;
+}
+.wrapper main .top_ban-container.school .top_ban-desc {
+  max-width: 350px;
+}
+.wrapper main .top_ban-container.smart_medicine .top_ban-wrapper {
+  background: #ebf6fc;
+}
+.wrapper main .top_ban-container.smart_medicine .top_ban-content {
+  padding-top: 80px;
+}
+.wrapper main .top_ban-container.smart_medicine .top_ban-list {
+  max-width: 560px;
+  font: 400 16px/22px 'Circe', 'Arial', sans-serif;
+}
+.wrapper main .top_ban-container.smart_medicine .top_ban-list li {
+  margin-bottom: 15px;
+  padding-left: 15px;
+}
+.wrapper main .top_ban-container.smart_medicine .top_ban-list li:before {
+  top: 6px;
+}
+.wrapper main .top_ban-container.top_ban_restructuring .top_ban-content {
+  padding-top: 100px;
+  color: #fff;
+}
+.wrapper main .top_ban-container.top_ban_restructuring .top_ban-desc_small {
+  max-width: 570px;
+}
+.wrapper main .top_ban-wrapper {
+  position: relative;
+  height: 460px;
+  color: #333;
+}
+.wrapper main .top_ban-content {
+  position: relative;
+  z-index: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: inherit;
+  padding: 125px 0 60px;
+}
+.wrapper main .top_ban-small_title {
+  margin-bottom: 10px;
+  font: 400 11px/1 'Circe', 'Arial', sans-serif;
+  text-transform: uppercase;
+  color: #6e6e6e;
+}
+.wrapper main .top_ban-title {
+  max-width: 550px;
+  margin-bottom: 20px;
+  font: 700 56px/1.15 'Circe', 'Arial', sans-serif;
+}
+.wrapper main .top_ban-title:last-child {
+  margin-bottom: 0;
+}
+.wrapper main .top_ban-title span {
+  color: #fe5000;
+}
+.wrapper main .top_ban-desc {
+  margin: 0 0 25px;
+  max-width: 500px;
+  font: 400 24px/34px 'Circe', 'Arial', sans-serif;
+}
+.wrapper main .top_ban-desc:last-child {
+  margin-bottom: 0;
+}
+.wrapper main .top_ban-desc_small {
+  max-width: 800px;
+  margin-bottom: 30px;
+  font: 400 20px/28px 'Circe', 'Arial', sans-serif;
+}
+.wrapper main .top_ban-desc_small:last-child {
+  margin-bottom: 0;
+}
+.wrapper main .top_ban-desc_small p {
+  margin-bottom: 20px;
+}
+.wrapper main .top_ban-desc_small p:last-child {
+  margin-bottom: 0;
+}
+.wrapper main .top_ban-desc_mobile {
+  font: 400 16px/22px 'Circe', 'Arial', sans-serif;
+}
+.wrapper main .top_ban-list {
+  max-width: 550px;
+  margin: 0 0 25px;
+  padding: 0;
+  font: 400 20px/28px 'Circe', 'Arial', sans-serif;
+  list-style-type: none;
+}
+.wrapper main .top_ban-list li {
+  position: relative;
+  margin-bottom: 10px;
+  padding-left: 18px;
+}
+.wrapper main .top_ban-list li:last-child {
+  margin-bottom: 0;
+}
+.wrapper main .top_ban-list li:before {
+  position: absolute;
+  top: 11px;
+  left: 0;
+  width: 6px;
+  height: 6px;
+  background: #fe5000;
+  border-radius: 50%;
+  content: '';
+}
+.wrapper main .top_ban-features {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.wrapper main .top_ban-features-item {
+  margin-right: 50px;
+}
+.wrapper main .top_ban-features-item:last-child {
+  margin-right: 0;
+}
+.wrapper main .top_ban-features-item-desc {
+  font: 300 12px/30px 'Circe', 'Arial', sans-serif;
+  text-transform: uppercase;
+  color: #6e6e6e;
+}
+.wrapper main .top_ban-features-item-main {
+  font: 400 32px/1 'Circe', 'Arial', sans-serif;
+}
+.wrapper main .top_ban-btns {
+  margin-top: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.wrapper main .top_ban-btns > * {
+  margin-right: 30px;
+}
+.wrapper main .top_ban-btns > *:last-child {
+  margin-right: 0;
+}
+.wrapper main .top_ban-btns-link a {
+  font: 400 15px/20px 'Circe', 'Arial', sans-serif;
+  text-decoration: underline;
+  color: #fe5000;
+}
+.wrapper main .top_ban-btns-adobe {
+  position: relative;
+  display: inline-block;
+  padding: 0 20px 0 60px;
+  border: 2px solid #fe5000;
+  font: 400 14px/46px 'Circe', 'Arial', sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: #fff;
+  color: #fe5000;
+  border-radius: 5px;
+  -webkit-transition: -webkit-box-shadow 0.3s;
+  transition: -webkit-box-shadow 0.3s;
+  transition: box-shadow 0.3s;
+  transition: box-shadow 0.3s, -webkit-box-shadow 0.3s;
+}
+.wrapper main .top_ban-btns-adobe:hover {
+  -webkit-box-shadow: 0px 4px 20px rgba(135, 151, 155, 0.3);
+          box-shadow: 0px 4px 20px rgba(135, 151, 155, 0.3);
+}
+.wrapper main .top_ban-btns-adobe:before {
+  position: absolute;
+  top: 50%;
+  left: 15px;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  width: 35px;
+  height: 35px;
+  background: url(../img/free_withdrawal/ic.adobe.png) no-repeat;
+  background-size: contain;
+  content: '';
+}
+.wrapper main .top_ban-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.wrapper main .top_ban-img img {
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  height: 100%;
+}
+.wrapper main .top_ban-desc_block {
+  display: none;
+  padding: 20px 0;
+}
+@media (max-width: 1259px) {
+  .wrapper main .top_ban-container .inner {
+    width: 980px;
+  }
+  .wrapper main .top_ban-container.smart_medicine .top_ban-list {
+    max-width: 460px;
+  }
+  .wrapper main .top_ban-features-item {
+    margin-right: 30px;
+  }
+}
+@media (max-width: 999px) {
+  .wrapper main .top_ban-container.easy_shoping .top_ban-content {
+    padding-top: 65px;
+  }
+  .wrapper main .top_ban-container.free_withdrawal .top_ban-content {
+    padding-top: 60px;
+  }
+  .wrapper main .top_ban-container.free_withdrawal .top_ban-title {
+    max-width: 320px;
+    font-size: 38px;
+    line-height: 44px;
+  }
+  .wrapper main .top_ban-container.free_withdrawal .top_ban-desc {
+    max-width: 420px;
+  }
+  .wrapper main .top_ban-container.refinancing .top_ban-content {
+    padding-top: 55px;
+  }
+  .wrapper main .top_ban-container.refinancing .top_ban-img img {
+    left: 60%;
+  }
+  .wrapper main .top_ban-container.payments_children .top_ban-content {
+    padding-top: 90px;
+  }
+  .wrapper main .top_ban-container.payments_children .top_ban-title {
+    max-width: 350px;
+  }
+  .wrapper main .top_ban-container.payments_children .top_ban-desc {
+    max-width: 440px;
+    font-size: 20px;
+    line-height: 26px;
+  }
+  .wrapper main .top_ban-container.payments_children .top_ban-desc br {
+    display: inline;
+  }
+  .wrapper main .top_ban-container.school .top_ban-content {
+    padding-top: 60px;
+  }
+  .wrapper main .top_ban-container.smart_medicine .top_ban-content {
+    padding-top: 40px;
+  }
+  .wrapper main .top_ban-container.smart_medicine .top_ban-list {
+    max-width: 370px;
+  }
+  .wrapper main .top_ban-container.top_ban_restructuring .top_ban-content {
+    padding-top: 60px;
+  }
+  .wrapper main .top_ban-container.top_ban_restructuring .top_ban-desc_small {
+    font-size: 20px;
+    line-height: 28px;
+  }
+  .wrapper main .top_ban-wrapper {
+    height: 380px;
+  }
+  .wrapper main .top_ban-content {
+    padding: 100px 0 60px;
+  }
+  .wrapper main .top_ban-title {
+    max-width: 440px;
+    font-size: 44px;
+  }
+  .wrapper main .top_ban-desc {
+    max-width: 330px;
+    font-size: 18px;
+    line-height: 26px;
+  }
+  .wrapper main .top_ban-desc_small {
+    max-width: 500px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    line-height: 26px;
+  }
+  .wrapper main .top_ban-features-item-main {
+    font-size: 26px;
+  }
+  .wrapper main .top_ban-list {
+    max-width: 440px;
+    font-size: 18px;
+    line-height: 26px;
+  }
+  .wrapper main .top_ban-list li:before {
+    top: 10px;
+  }
+  .wrapper main .top_ban-btns > * {
+    margin-right: 20px;
+  }
+  .wrapper main .top_ban-container .inner {
+    width: 740px;
+  }
+}
+@media (max-width: 767px) {
+  .wrapper main .top_ban-container.easy_shoping .top_ban-content {
+    padding-top: 25px;
+  }
+  .wrapper main .top_ban-container.free_withdrawal .top_ban-content {
+    padding: 20px 0;
+  }
+  .wrapper main .top_ban-container.free_withdrawal .top_ban-title {
+    max-width: 220px;
+    margin-bottom: 10px;
+    font-size: 26px;
+    line-height: 32px;
+  }
+  .wrapper main .top_ban-container.free_withdrawal .top_ban-desc {
+    max-width: 220px;
+  }
+  .wrapper main .top_ban-container.payments_children .top_ban-content {
+    padding-top: 75px;
+  }
+  .wrapper main .top_ban-container.payments_children .top_ban-title {
+    max-width: 210px;
+    margin-bottom: 0;
+  }
+  .wrapper main .top_ban-container.payments_children .top_ban-desc {
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .wrapper main .top_ban-container.school .top_ban-content {
+    padding-top: 35px;
+  }
+  .wrapper main .top_ban-container.school .top_ban-desc {
+    max-width: 210px;
+  }
+  .wrapper main .top_ban-container.smart_medicine .top_ban-content {
+    padding-top: 65px;
+  }
+  .wrapper main .top_ban-container.smart_medicine .top_ban-title {
+    max-width: 160px;
+  }
+  .wrapper main .top_ban-container.smart_medicine .top_ban-list {
+    max-width: none;
+  }
+  .wrapper main .top_ban-container.refinancing .top_ban-content {
+    padding-top: 35px;
+  }
+  .wrapper main .top_ban-container.refinancing .top_ban-desc_small {
+    max-width: 185px;
+  }
+  .wrapper main .top_ban-container.refinancing .top_ban-img img {
+    left: 50%;
+  }
+  .wrapper main .top_ban-container.top_ban_restructuring .top_ban-content {
+    padding-top: 30px;
+  }
+  .wrapper main .top_ban-container.top_ban_restructuring .top_ban-desc_small {
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .wrapper main .top_ban-wrapper {
+    height: 240px;
+  }
+  .wrapper main .top_ban-wrapper .mobile_none {
+    display: none;
+  }
+  .wrapper main .top_ban-content {
+    padding: 50px 0 20px;
+  }
+  .wrapper main .top_ban-small_title {
+    margin-bottom: 10px;
+  }
+  .wrapper main .top_ban-title {
+    max-width: 220px;
+    font-size: 26px;
+  }
+  .wrapper main .top_ban-desc {
+    max-width: 165px;
+    margin-bottom: 15px;
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .wrapper main .top_ban-desc_small {
+    max-width: 230px;
+  }
+  .wrapper main .top_ban-desc_small p {
+    margin-bottom: 10px;
+  }
+  .wrapper main .top_ban-list {
+    max-width: none;
+  }
+  .wrapper main .top_ban-features {
+    display: none;
+  }
+  .wrapper main .top_ban-btns > * {
+    margin-right: 10px;
+  }
+  .wrapper main .top_ban-btns-adobe {
+    padding: 0 12px 0 45px;
+    font-size: 12px;
+    line-height: 38px;
+  }
+  .wrapper main .top_ban-btns-adobe:before {
+    width: 25px;
+    height: 25px;
+  }
+  .wrapper main .top_ban-desc_block {
+    display: block;
+  }
+  .wrapper main .top_ban-container .inner {
+    width: 100%;
+    padding: 0 10px;
+    min-width: 300px;
+  }
+}
+@media (max-width: 374px) {
+  .wrapper main .top_ban-content {
+    padding-top: 35px;
+  }
+  .wrapper main .top_ban-title {
+    margin-bottom: 15px;
+    font-size: 24px;
+  }
+  .wrapper main .top_ban-desc {
+    max-width: 155px;
+  }
+  .wrapper main .top_ban-btns .ui-btn {
+    padding: 10px 15px;
+  }
+  .wrapper main .top_ban-btns .ui-btn_white {
+    padding: 10px 15px;
+  }
+  .wrapper main .top_ban-btns-adobe {
+    padding: 0 10px 0 25px;
+  }
+  .wrapper main .top_ban-btns-adobe:before {
+    left: 5px;
+    width: 15px;
+    height: 15px;
+  }
+  .wrapper main .top_ban-container.payments_children .top_ban-title {
+    max-width: 180px;
+    font-size: 22px;
+  }
+  .wrapper main .top_ban-container.school .top_ban-desc {
+    max-width: 160px;
+  }
+}
