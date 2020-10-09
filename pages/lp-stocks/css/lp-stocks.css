@@ -100,8 +100,8 @@
 }
 .wrapper main .page_content.page_content--lp-stocks .authorization-container {
   background: #f8f8f8;
-  padding: 40px 0 50px;
   margin-bottom: 40px;
+  padding: 40px 0 50px;
   text-align: center;
 }
 .wrapper main .page_content.page_content--lp-stocks .authorization-title {
@@ -129,15 +129,257 @@
           box-shadow: 0px 3px 30px rgba(135, 151, 155, 0.15);
   border-radius: 8px;
   text-decoration: none;
+  white-space: nowrap;
 }
 .wrapper main .page_content.page_content--lp-stocks .authorization-input_public_services a img {
   width: 42px;
   height: 42px;
   margin-right: 20px;
 }
+.wrapper main .page_content.page_content--lp-stocks .not_found-container {
+  padding: 30px 0 35px;
+  margin-bottom: 40px;
+  background: #f8f8f8;
+}
+.wrapper main .page_content.page_content--lp-stocks .not_found-container .inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.wrapper main .page_content.page_content--lp-stocks .not_found-img {
+  margin-bottom: 20px;
+}
+.wrapper main .page_content.page_content--lp-stocks .not_found-img img {
+  width: 149px;
+  height: 128px;
+}
+.wrapper main .page_content.page_content--lp-stocks .not_found-desc {
+  margin-bottom: 25px;
+  font: 400 24px/30px 'Circe', 'Arial', sans-serif;
+}
+.wrapper main .page_content.page_content--lp-stocks .not_found-desc br {
+  display: none;
+}
+.wrapper main .page_content.page_content--lp-stocks .not_found-btn a {
+  display: inline-block;
+  padding: 15px 50px;
+  font: 400 14px/21px 'Circe', 'Arial', sans-serif;
+  color: #fff;
+  background: #fe5000;
+  border-radius: 6px;
+  text-transform: uppercase;
+  text-decoration: none;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.wrapper main .page_content.page_content--lp-stocks .not_found-btn a:hover {
+  -webkit-box-shadow: 0px 4px 20px rgba(135, 151, 155, 0.3);
+          box-shadow: 0px 4px 20px rgba(135, 151, 155, 0.3);
+}
+.wrapper main .page_content.page_content--lp-stocks .subscription-container {
+  padding: 50px 0 130px;
+  background: #f8f8f8;
+}
+.wrapper main .page_content.page_content--lp-stocks .subscription-container .inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+.wrapper main .page_content.page_content--lp-stocks .subscription-img {
+  margin-bottom: 15px;
+}
+.wrapper main .page_content.page_content--lp-stocks .subscription-img img {
+  width: 75px;
+  height: 75px;
+}
+.wrapper main .page_content.page_content--lp-stocks .subscription-title {
+  font: 700 40px/56px 'Circe', 'Arial', sans-serif;
+  margin-bottom: 10px;
+}
+.wrapper main .page_content.page_content--lp-stocks .subscription-desc {
+  font: 400 24px/30px 'Circe', 'Arial', sans-serif;
+  margin-bottom: 40px;
+}
+.wrapper main .page_content.page_content--lp-stocks .subscription-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+.wrapper main .page_content.page_content--lp-stocks .subscription-block {
+  width: 590px;
+  margin-right: 40px;
+  background: #fff;
+  -webkit-box-shadow: 0px 3px 30px rgba(135, 151, 155, 0.15);
+          box-shadow: 0px 3px 30px rgba(135, 151, 155, 0.15);
+  border-radius: 18px;
+}
+.wrapper main .page_content.page_content--lp-stocks .subscription-block:last-child {
+  margin-right: 0;
+}
+.wrapper main .page_content.page_content--lp-stocks .subscription-block:last-child .subscription-head {
+  background: #DAE9EA;
+}
+.wrapper main .page_content.page_content--lp-stocks .subscription-block:first-child .subscription-head:after {
+  position: absolute;
+  width: 36px;
+  height: 40px;
+  top: 0;
+  left: 53px;
+  content: '';
+  background: url('../img/Vector 21.svg') no-repeat center;
+  background-size: contain;
+}
+.wrapper main .page_content.page_content--lp-stocks .subscription-head {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 65px;
+  font: 400 26px/28px 'Circe', 'Arial', sans-serif;
+  background: #FEDCD2;
+  border-radius: 18px 18px 0 0;
+}
+.wrapper main .page_content.page_content--lp-stocks .subscription-pay {
+  margin: 20px 0;
+  font: 400 42px/56px 'Circe', 'Arial', sans-serif;
+  color: #fe5000;
+}
+.wrapper main .page_content.page_content--lp-stocks .subscription-pay span {
+  font-size: 30px;
+  color: #666;
+}
+.wrapper main .page_content.page_content--lp-stocks .subscription-btn {
+  margin-bottom: 25px;
+}
+.wrapper main .page_content.page_content--lp-stocks .subscription-btn a {
+  display: inline-block;
+  padding: 15px 50px;
+  font: 400 14px/21px 'Circe', 'Arial', sans-serif;
+  color: #fff;
+  background: #fe5000;
+  border-radius: 6px;
+  text-transform: uppercase;
+  text-decoration: none;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.wrapper main .page_content.page_content--lp-stocks .subscription-btn a:hover {
+  -webkit-box-shadow: 0px 4px 20px rgba(135, 151, 155, 0.3);
+          box-shadow: 0px 4px 20px rgba(135, 151, 155, 0.3);
+}
+.wrapper main .page_content.page_content--lp-stocks .subscription-slider {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin-top: 70px;
+  overflow: hidden;
+}
+.wrapper main .page_content.page_content--lp-stocks .subscription-slider .swiper-wrapper {
+  margin-bottom: 30px;
+}
+.wrapper main .page_content.page_content--lp-stocks .subscription-slider .swiper-pagination {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.wrapper main .page_content.page_content--lp-stocks .subscription-slider .swiper-pagination-bullet {
+  opacity: 1;
+  background: #c3c3c3;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.wrapper main .page_content.page_content--lp-stocks .subscription-slider .swiper-pagination-bullet-active {
+  width: 12px;
+  height: 12px;
+  background: #fe5000;
+}
+.wrapper main .page_content.page_content--lp-stocks .subscription-slider .swiper-button-next,
+.wrapper main .page_content.page_content--lp-stocks .subscription-slider .swiper-button-prev {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  top: 65%;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #fe5000;
+  -webkit-box-shadow: 0px 3px 15px rgba(135, 151, 155, 0.25);
+          box-shadow: 0px 3px 15px rgba(135, 151, 155, 0.25);
+}
+.wrapper main .page_content.page_content--lp-stocks .subscription-slider .swiper-button-next:after,
+.wrapper main .page_content.page_content--lp-stocks .subscription-slider .swiper-button-prev:after {
+  position: absolute;
+  width: 6px;
+  height: 13px;
+  content: '';
+  background: url('../img/Vector 16.svg') no-repeat center;
+}
+.wrapper main .page_content.page_content--lp-stocks .subscription-slider .swiper-button-prev:after {
+  -webkit-transform: rotate(-180deg);
+          transform: rotate(-180deg);
+}
+.wrapper main .page_content.page_content--lp-stocks .subscription-slider .swiper-button-disabled {
+  background: #C3C3C3;
+  opacity: 1;
+}
+.wrapper main .page_content.page_content--lp-stocks .subscription-slider .slide-img {
+  margin-bottom: 20px;
+}
+.wrapper main .page_content.page_content--lp-stocks .subscription-slider .slide-img img {
+  width: 100px;
+  height: 100px;
+}
+.wrapper main .page_content.page_content--lp-stocks .subscription-slider .slide-title {
+  margin-bottom: 10px;
+  font: 700 24px/30px 'Circe', 'Arial', sans-serif;
+}
+.wrapper main .page_content.page_content--lp-stocks .subscription-slider .slide-txt {
+  margin-bottom: 30px;
+  font: 400 20px/26px 'Circe', 'Arial', sans-serif;
+}
 .wrapper main .ui-check-label {
   font: 400 14px/20px 'Circe', 'Arial', sans-serif;
-  color: #666;
+  color: #f8f8f8;
   text-align: left;
 }
 .wrapper main .ui-check a {
