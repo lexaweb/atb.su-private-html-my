@@ -1,4 +1,11 @@
 @media (max-width: 1259px) {
+  .wrapper main .main_ban-item .inner {
+    height: 450px;
+    padding: 75px 0 50px;
+  }
+  .wrapper main .main_ban-item-title {
+    max-width: 500px;
+  }
   .wrapper main .page_content.page_content--lp-stocks .subscription-slider .slide-title {
     width: 85%;
     margin: 0 auto;
@@ -14,26 +21,20 @@
   }
 }
 @media (max-width: 999px) {
-  .wrapper main .top_ban-container.lp-stocks .top_ban-wrapper {
-    height: 380px;
+  .wrapper main .main_ban-item .inner {
+    height: 350px;
+    padding: 50px 0 35px;
   }
-  .wrapper main .top_ban-container.lp-stocks .top_ban-wrapper .inner {
-    padding-top: 70px;
+  .wrapper main .main_ban-item-title {
+    max-width: 420px;
+    font-size: 36px;
   }
-  .wrapper main .top_ban-container.lp-stocks .top_ban-desc {
-    margin-top: 15px;
-    font-weight: 300;
-    font-size: 18px;
-    line-height: 26px;
+  .wrapper main .main_ban-item-desc {
+    max-width: 390px;
+    font-size: 20px;
   }
-  .wrapper main .top_ban-container.lp-stocks .top_ban-desc ul li {
-    margin-bottom: 15px;
-  }
-  .wrapper main .top_ban-container.lp-stocks .top_ban-desc ul li:last-child {
-    margin-bottom: 0;
-  }
-  .wrapper main .top_ban-container.lp-stocks .top_ban-btns {
-    margin-top: 40px;
+  .wrapper main .main_ban-nav {
+    bottom: 35px;
   }
   .wrapper main .page_content.page_content--lp-stocks .how_get_jump-container {
     padding: 50px 0 80px;
@@ -127,22 +128,60 @@
     font-size: 18px;
     line-height: 24px;
   }
+  .wrapper main .page_content.page_content--lp-stocks .popup-error-container,
+  .wrapper main .page_content.page_content--lp-stocks .popup-successfully-container {
+    width: 748px;
+  }
+  .wrapper main .page_content.page_content--lp-stocks .popup-error-title,
+  .wrapper main .page_content.page_content--lp-stocks .popup-successfully-title {
+    font-size: 22px;
+    line-height: 28px;
+  }
 }
 @media (max-width: 767px) {
-  .wrapper main .top_ban-container.lp-stocks .top_ban-wrapper {
+  .wrapper main .main_ban-item .inner {
     height: 240px;
+    padding: 50px 0 20px;
   }
-  .wrapper main .top_ban-container.lp-stocks .top_ban-wrapper .inner {
-    padding-top: 40px;
+  .wrapper main .main_ban-item-title {
+    max-width: 200px;
+    font-size: 26px;
+    line-height: 1.3;
   }
-  .wrapper main .top_ban-container.lp-stocks .top_ban-title-big {
-    width: 155px;
-  }
-  .wrapper main .top_ban-container.lp-stocks .top_ban-desc {
+  .wrapper main .main_ban-item-desc {
     display: none;
   }
-  .wrapper main .top_ban-container.lp-stocks .top_ban-btns {
-    margin-top: auto;
+  .wrapper main .main_ban-item-foot {
+    display: block;
+  }
+  .wrapper main .main_ban-item-foot-item {
+    margin-bottom: 15px;
+  }
+  .wrapper main .main_ban-item-foot-item:last-child {
+    margin-bottom: 0;
+  }
+  .wrapper main .main_ban-item-btn a {
+    display: inline-block;
+    padding: 0 30px;
+    font-size: 12px;
+    line-height: 40px;
+  }
+  .wrapper main .main_ban-nav {
+    right: 10px;
+    bottom: 20px;
+    padding: 0;
+  }
+  .wrapper main .main_ban-nav-btn-prev,
+  .wrapper main .main_ban-nav-btn-next {
+    display: none;
+  }
+  .wrapper main .main_ban-nav-pagination {
+    width: 36px;
+    height: 36px;
+  }
+  .wrapper main .main_ban-nav-pagination-num {
+    font-size: 12px;
+    line-height: 36px;
   }
   .wrapper main .ban_sapid-container {
     display: -webkit-box;
@@ -307,9 +346,43 @@
   }
   .wrapper main .page_content.page_content--lp-stocks .subscription-slider .swiper-button-next,
   .wrapper main .page_content.page_content--lp-stocks .subscription-slider .swiper-button-prev {
-    z-index: 1;
+    z-index: 11;
     top: auto;
     bottom: 0;
+  }
+  .wrapper main .page_content.page_content--lp-stocks .popup-error-container,
+  .wrapper main .page_content.page_content--lp-stocks .popup-successfully-container {
+    width: 95%;
+    padding: 40px 20px 50px 20px;
+  }
+  .wrapper main .page_content.page_content--lp-stocks .popup-error-btn-close,
+  .wrapper main .page_content.page_content--lp-stocks .popup-successfully-btn-close {
+    top: 25px;
+    right: 25px;
+  }
+  .wrapper main .page_content.page_content--lp-stocks .popup-error-img,
+  .wrapper main .page_content.page_content--lp-stocks .popup-successfully-img {
+    margin-bottom: 10px;
+  }
+  .wrapper main .page_content.page_content--lp-stocks .popup-error-img img,
+  .wrapper main .page_content.page_content--lp-stocks .popup-successfully-img img {
+    width: 155px;
+    height: 137px;
+  }
+  .wrapper main .page_content.page_content--lp-stocks .popup-error-title,
+  .wrapper main .page_content.page_content--lp-stocks .popup-successfully-title {
+    font-size: 20px;
+    line-height: 26px;
+  }
+  .wrapper main .page_content.page_content--lp-stocks .popup-error-txt,
+  .wrapper main .page_content.page_content--lp-stocks .popup-successfully-txt {
+    margin-top: 15px;
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .wrapper main .page_content.page_content--lp-stocks .popup-error-txt br,
+  .wrapper main .page_content.page_content--lp-stocks .popup-successfully-txt br {
+    display: none;
   }
   .wrapper main .ui-check-label {
     width: 274px;

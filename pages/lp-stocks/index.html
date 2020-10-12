@@ -1,25 +1,16 @@
 <!DOCTYPE html>
-<html lang="ru" class="add">
+<html lang="ru" class="popup">
   <head>
     <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"
-    />
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <title>Document</title>
     <link rel="stylesheet" href="../../library/jquery/jquery-ui.min.css" />
     <link rel="stylesheet" href="../../library/bootstrap/bootstrap.min.css" />
     <link rel="stylesheet" href="../../library/jquery/asPieProgress.min.css" />
-    <link
-      rel="stylesheet"
-      href="../../library/tooltipster/tooltipster.bundle.min.css"
-    />
+    <link rel="stylesheet" href="../../library/tooltipster/tooltipster.bundle.min.css" />
     <link rel="stylesheet" href="../../library/swiper/swiper.min.css" />
     <link rel="stylesheet" href="../../css/font.css" />
-    <link
-      rel="stylesheet"
-      href="../../blocks/cards_ban_sapid/css/cards_ban_sapid_styles.css"
-    />
+    <link rel="stylesheet" href="../../blocks/cards_ban_sapid/css/cards_ban_sapid_styles.css" />
     <link rel="stylesheet" href="../../css/how_add_animation_block.css" />
     <link rel="stylesheet" href="../../css/cards/card_inner.css" />
     <link rel="stylesheet" href="../../css/cards/cards_inner_media.css" />
@@ -30,7 +21,7 @@
   <body>
     <div class="wrapper">
       <main>
-        <div class="top_ban-container lp-stocks">
+        <!-- <div class="top_ban-container lp-stocks">
           <div class="top_ban-wrapper">
             <div class="inner">
               <div class="top_ban-title-big">Хотите взять кредит?</div>
@@ -86,7 +77,84 @@
               </div>
             </div>
           </div>
+        </div> -->
+
+        <div class="main_ban">
+          <div class="swiper-container">
+              <div class="swiper-wrapper">
+                  <div class="main_ban-item swiper-slide consumer_loans">
+                      <div class="inner">
+                          <div class="main_ban-item-title">Хотите взять кредит?</div>
+
+                          <div class="main_ban-item-desc">
+                            <ul>
+                              <li>Проверьте кредитную историю онлайн</li>
+                              <li>Посмотрите на себя глазами банка</li>
+                              <li>Оцените вероятность получения нового кредита</li>
+                            </ul>
+                          </div>
+
+                          <div class="main_ban-item-foot">
+                              <div class="main_ban-item-btn">
+                                  <a href="#">проверить</a>
+                              </div>
+                          </div>
+                      </div>
+
+                      <div class="main_ban-item-img">
+                          <img  src="img/top_ban.png" alt="">
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="main_ban-nav">
+            <div class="main_ban-nav-btn-prev"></div>
+    
+            <div class="main_ban-nav-pagination">
+                <div class="main_ban-nav-pagination-num"></div>
+                <div class="main_ban-nav-pagination-progress" role="progressbar"></div>
+            </div>
+    
+            <div class="main_ban-nav-btn-next"></div>
         </div>
+      </div>
+
+      <div class="ban_sapid-container">
+        <div class="ban_sapid-box">
+          <div class="ban_sapid-box-btn">
+            <div class="ban_sapid-box-btn-img">
+              <img src="img/top-ban-1.svg" alt="" />
+            </div>
+            <div class="ban_sapid-box-btn-txt">
+              Проверьте кредитную историю онлайн
+            </div>
+          </div>
+        </div>
+
+        <div class="ban_sapid-box">
+          <div class="ban_sapid-box-btn">
+            <div class="ban_sapid-box-btn-img">
+              <img src="img/top-ban-2.svg" alt="" />
+            </div>
+            <div class="ban_sapid-box-btn-txt">
+              Посмотрите на себя глазами банка
+            </div>
+          </div>
+        </div>
+
+        <div class="ban_sapid-box">
+          <div class="ban_sapid-box-btn">
+            <div class="ban_sapid-box-btn-img">
+              <img src="img/top-ban-3.svg" alt="" />
+            </div>
+            <div class="ban_sapid-box-btn-txt">
+              Оцените вероятность получения нового кредита
+            </div>
+          </div>
+        </div>
+      </div>
+
+
 
         <div class="page_content page_content--lp-stocks">
           <div class="how_get_jump-container">
@@ -125,7 +193,6 @@
               </div>
             </div>
           </div>
-
           <div class="authorization-container">
             <div class="inner">
               <div class="authorization-title">
@@ -239,6 +306,40 @@
               <div class="swiper-pagination"></div>
             </div>
           </div>
+          </div>
+          <div class="popup_black"></div>
+          <div class="popup-error-container">
+            <div class="popup-error-btn-close">
+              <a href="#">
+                <img src="img/close_icon.svg" alt="">
+              </a>
+            </div>
+            <div class="popup-error-img">
+              <img src="img/Frame 42.svg" alt="">
+            </div>
+            <div class="popup-error-title">
+              Не удается оплатить подписку. 
+              <br>Попробуйте позднее
+            </div>
+          </div>
+          <div class="popup-successfully-container">
+            <div class="popup-successfully-btn-close">
+              <a href="#">
+                <img src="img/close_icon.svg" alt="">
+              </a>
+            </div>
+            <div class="popup-successfully-img">
+              <img src="img/Frame 75.svg" alt="">
+            </div>
+            <div class="popup-successfully-title">
+              Оплата прошла успешно!
+            </div>
+            <div class="popup-successfully-txt">
+              В течении суток вам придет смс с логин и паролем, ссылка на ucbreport.ru 
+              <br>где вы сможете получить свой кредитный отчет и отслеживать изменения 
+              <br>своей кредитной истории в личном кабинете. Также вам будут приходить 
+              <br>смс и email уведомления.
+            </div>
           </div>
         </div>
       </main>
