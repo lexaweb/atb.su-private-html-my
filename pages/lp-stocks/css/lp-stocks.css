@@ -4,27 +4,8 @@
 .wrapper {
   font-family: 'Circe', 'Arial', sans-serif;
 }
-.wrapper main .top_ban-container.lp-stocks .top_ban-wrapper {
-  height: 500px;
-}
-.wrapper main .top_ban-container.lp-stocks .top_ban-desc {
-  font: 400 20px/29px 'Circe', 'Arial', sans-serif;
-  margin-top: 20px;
-}
-.wrapper main .top_ban-container.lp-stocks .top_ban-desc ul {
-  margin-bottom: 0;
-  padding-left: 20px;
-}
-.wrapper main .top_ban-container.lp-stocks .top_ban-desc ul li {
-  margin-bottom: 10px;
-}
-.wrapper main .top_ban-container.lp-stocks .top_ban-desc ul li:last-child {
-  margin-bottom: 0;
-}
-.wrapper main .main_ban {
-  position: relative;
-}
 .wrapper main .main_ban-item {
+  position: relative;
   color: #373a36;
   background: #e4eff0;
 }
@@ -39,16 +20,19 @@
       -ms-flex-direction: column;
           flex-direction: column;
   height: 500px;
-  padding: 115px 0 50px;
+  padding: 140px 0 50px;
 }
 .wrapper main .main_ban-item-title {
   max-width: 650px;
-  margin-bottom: 15px;
-  font: 700 44px/52px 'Circe', 'Arial', sans-serif;
+  margin-bottom: 20px;
+  font: 700 56px/64px 'Circe', 'Arial', sans-serif;
 }
 .wrapper main .main_ban-item-desc {
-  margin-bottom: 20px;
-  font: 300 18px/26px 'Circe', 'Arial', sans-serif;
+  font: 300 20px/29px 'Circe', 'Arial', sans-serif;
+}
+.wrapper main .main_ban-item-desc ul {
+  padding-left: 20px;
+  margin-bottom: 0;
 }
 .wrapper main .main_ban-item-desc ul li {
   margin-bottom: 15px;
@@ -239,6 +223,10 @@
   width: 320px;
   margin-right: 70px;
 }
+.wrapper main .page_content.page_content--lp-stocks .how_get_jump-box-img {
+  -webkit-animation: float 3s ease-in-out infinite;
+          animation: float 3s ease-in-out infinite;
+}
 .wrapper main .page_content.page_content--lp-stocks .how_get_jump-box-img img {
   width: 180px;
   height: 150px;
@@ -250,6 +238,221 @@
 }
 .wrapper main .page_content.page_content--lp-stocks .how_get_jump-box:last-child {
   margin-right: 0;
+}
+.wrapper main .page_content.page_content--lp-stocks .loader {
+  height: 150px;
+  width: 150px;
+  margin: 30px auto;
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+  font-size: 0;
+  line-height: 0;
+  -webkit-animation: rotate-loader 5s infinite;
+          animation: rotate-loader 5s infinite;
+  padding: 25px;
+  border: 1px solid #fe5000;
+}
+.wrapper main .page_content.page_content--lp-stocks .loader-container {
+  margin-bottom: 40px;
+  padding: 60px 0;
+  background: #f8f8f8;
+}
+.wrapper main .page_content.page_content--lp-stocks .loader-title {
+  padding-bottom: 30px;
+  font: 400 24px/30px 'Circe', 'Arial', sans-serif;
+  color: #fe5000;
+  text-align: center;
+}
+.wrapper main .page_content.page_content--lp-stocks .loader-title br {
+  display: none;
+}
+.wrapper main .page_content.page_content--lp-stocks .segment-holder {
+  position: relative;
+  display: inline-block;
+  width: 50%;
+  height: 50%;
+}
+.wrapper main .page_content.page_content--lp-stocks .segment {
+  position: absolute;
+  background: #fe5000;
+}
+.wrapper main .page_content.page_content--lp-stocks .one {
+  bottom: 0;
+  height: 0;
+  width: 100%;
+  -webkit-animation: slide-one 1s infinite;
+          animation: slide-one 1s infinite;
+}
+.wrapper main .page_content.page_content--lp-stocks .two {
+  left: 0;
+  height: 100%;
+  width: 0;
+  -webkit-animation: slide-two 1s infinite;
+          animation: slide-two 1s infinite;
+  -webkit-animation-delay: 0.25s;
+          animation-delay: 0.25s;
+}
+.wrapper main .page_content.page_content--lp-stocks .three {
+  right: 0;
+  height: 100%;
+  width: 0;
+  -webkit-animation: slide-two 1s infinite;
+          animation: slide-two 1s infinite;
+  -webkit-animation-delay: 0.75s;
+          animation-delay: 0.75s;
+}
+.wrapper main .page_content.page_content--lp-stocks .four {
+  top: 0;
+  height: 0;
+  width: 100%;
+  -webkit-animation: slide-one 1s infinite;
+          animation: slide-one 1s infinite;
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
+}
+@-webkit-keyframes slide-one {
+  0% {
+    height: 0;
+    opacity: 1;
+  }
+  12.5% {
+    height: 100%;
+    opacity: 1;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    height: 100%;
+    opacity: 0;
+  }
+}
+@keyframes slide-one {
+  0% {
+    height: 0;
+    opacity: 1;
+  }
+  12.5% {
+    height: 100%;
+    opacity: 1;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    height: 100%;
+    opacity: 0;
+  }
+}
+@-webkit-keyframes slide-two {
+  0% {
+    width: 0;
+    opacity: 1;
+  }
+  12.5% {
+    width: 100%;
+    opacity: 1;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    width: 100%;
+    opacity: 0;
+  }
+}
+@keyframes slide-two {
+  0% {
+    width: 0;
+    opacity: 1;
+  }
+  12.5% {
+    width: 100%;
+    opacity: 1;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    width: 100%;
+    opacity: 0;
+  }
+}
+@-webkit-keyframes rotate-loader {
+  0% {
+    -webkit-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+  }
+  20% {
+    -webkit-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+  }
+  25% {
+    -webkit-transform: rotate(-135deg);
+            transform: rotate(-135deg);
+  }
+  45% {
+    -webkit-transform: rotate(-135deg);
+            transform: rotate(-135deg);
+  }
+  50% {
+    -webkit-transform: rotate(-225deg);
+            transform: rotate(-225deg);
+  }
+  70% {
+    -webkit-transform: rotate(-225deg);
+            transform: rotate(-225deg);
+  }
+  75% {
+    -webkit-transform: rotate(-315deg);
+            transform: rotate(-315deg);
+  }
+  95% {
+    -webkit-transform: rotate(-315deg);
+            transform: rotate(-315deg);
+  }
+  100% {
+    -webkit-transform: rotate(-405deg);
+            transform: rotate(-405deg);
+  }
+}
+@keyframes rotate-loader {
+  0% {
+    -webkit-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+  }
+  20% {
+    -webkit-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+  }
+  25% {
+    -webkit-transform: rotate(-135deg);
+            transform: rotate(-135deg);
+  }
+  45% {
+    -webkit-transform: rotate(-135deg);
+            transform: rotate(-135deg);
+  }
+  50% {
+    -webkit-transform: rotate(-225deg);
+            transform: rotate(-225deg);
+  }
+  70% {
+    -webkit-transform: rotate(-225deg);
+            transform: rotate(-225deg);
+  }
+  75% {
+    -webkit-transform: rotate(-315deg);
+            transform: rotate(-315deg);
+  }
+  95% {
+    -webkit-transform: rotate(-315deg);
+            transform: rotate(-315deg);
+  }
+  100% {
+    -webkit-transform: rotate(-405deg);
+            transform: rotate(-405deg);
+  }
 }
 .wrapper main .page_content.page_content--lp-stocks .authorization-container {
   background: #f8f8f8;
