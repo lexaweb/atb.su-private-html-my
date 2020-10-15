@@ -148,144 +148,6 @@
 .wrapper {
   font-family: 'Circe', 'Arial', sans-serif;
 }
-.wrapper main .main_ban-item {
-  position: relative;
-  color: #373a36;
-  background: #e4eff0;
-}
-.wrapper main .main_ban-item .inner {
-  position: relative;
-  z-index: 1;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  height: 500px;
-  padding: 140px 0 50px;
-}
-.wrapper main .main_ban-item-title {
-  max-width: 650px;
-  margin-bottom: 20px;
-  font: 700 56px/64px 'Circe', 'Arial', sans-serif;
-}
-.wrapper main .main_ban-item-desc {
-  font: 300 20px/29px 'Circe', 'Arial', sans-serif;
-}
-.wrapper main .main_ban-item-desc ul {
-  padding-left: 20px;
-  margin-bottom: 0;
-}
-.wrapper main .main_ban-item-desc ul li {
-  margin-bottom: 15px;
-}
-.wrapper main .main_ban-item-desc ul li:last-child {
-  margin-bottom: 0;
-}
-.wrapper main .main_ban-item-foot {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin-top: auto;
-}
-.wrapper main .main_ban-item-foot-item {
-  margin-right: 50px;
-}
-.wrapper main .main_ban-item-foot-item:last-child {
-  margin-right: 0;
-}
-.wrapper main .main_ban-item-img {
-  position: absolute;
-  top: 0;
-  left: 50%;
-  -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
-  width: 100%;
-  height: 100%;
-}
-.wrapper main .main_ban-item-img img {
-  width: 100%;
-  height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
-}
-.wrapper main .main_ban-item-img .mobile {
-  display: none;
-}
-.wrapper main .main_ban-nav {
-  position: absolute;
-  right: 40px;
-  bottom: 50px;
-  padding: 0 35px;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
-  z-index: 5;
-}
-.wrapper main .main_ban-nav-btn-prev,
-.wrapper main .main_ban-nav-btn-next {
-  position: absolute;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
-  width: 20px;
-  height: 20px;
-  cursor: pointer;
-  outline: none;
-}
-.wrapper main .main_ban-nav-btn-prev:before,
-.wrapper main .main_ban-nav-btn-next:before {
-  position: absolute;
-  top: 5px;
-  width: 10px;
-  height: 10px;
-  border: 2px solid #666;
-  border-right-width: 0;
-  border-bottom-width: 0;
-  content: '';
-}
-.wrapper main .main_ban-nav-btn-prev {
-  left: 0;
-}
-.wrapper main .main_ban-nav-btn-prev:before {
-  left: 7px;
-  -webkit-transform: rotate(-45deg);
-          transform: rotate(-45deg);
-}
-.wrapper main .main_ban-nav-btn-next {
-  right: 0;
-}
-.wrapper main .main_ban-nav-btn-next:before {
-  right: 7px;
-  -webkit-transform: rotate(135deg);
-          transform: rotate(135deg);
-}
-.wrapper main .main_ban-nav-pagination {
-  position: relative;
-  width: 50px;
-  height: 50px;
-  background: rgba(255, 255, 255, 0.6);
-  border-radius: 50%;
-}
-.wrapper main .main_ban-nav-pagination-num {
-  font: 400 15px/50px 'Circe', 'Arial', sans-serif;
-  text-transform: uppercase;
-  text-align: center;
-  color: #666;
-}
-.wrapper main .main_ban-nav-pagination-progress {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
 .wrapper main .ban_sapid-container {
   display: none;
   -webkit-box-orient: vertical;
@@ -370,7 +232,7 @@
   width: 298px;
 }
 .wrapper main .page_content.page_content--lp-stocks .how_get_jump-box:nth-child(1) .how_get_jump-box-img {
-  background: #FC7F70;
+  background: #fc7f70;
 }
 .wrapper main .page_content.page_content--lp-stocks .how_get_jump-box:nth-child(1) .how_get_jump-box-img img {
   width: 126px;
@@ -379,7 +241,7 @@
   right: -20px;
 }
 .wrapper main .page_content.page_content--lp-stocks .how_get_jump-box:nth-child(2) .how_get_jump-box-img {
-  background: #FEE490;
+  background: #fee490;
 }
 .wrapper main .page_content.page_content--lp-stocks .how_get_jump-box:nth-child(2) .how_get_jump-box-img img {
   width: 102px;
@@ -395,7 +257,7 @@
   top: auto;
 }
 .wrapper main .page_content.page_content--lp-stocks .how_get_jump-box:nth-child(3) .how_get_jump-box-img {
-  background: #86E1F4;
+  background: #86e1f4;
 }
 .wrapper main .page_content.page_content--lp-stocks .how_get_jump-box:nth-child(3) .how_get_jump-box-img img {
   width: 139px;
@@ -422,8 +284,10 @@
 }
 .wrapper main .page_content.page_content--lp-stocks .loader-container {
   padding: 60px 0;
+  text-align: center;
 }
 .wrapper main .page_content.page_content--lp-stocks .loader-title {
+  display: inline-block;
   padding-bottom: 30px;
   font: 400 24px/30px 'Circe', 'Arial', sans-serif;
   color: #fe5000;
@@ -477,10 +341,20 @@
           animation-delay: 0.5s;
 }
 .wrapper main .page_content.page_content--lp-stocks .authorization-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   padding: 40px 0 50px;
-  text-align: center;
 }
 .wrapper main .page_content.page_content--lp-stocks .authorization-title {
+  display: inline-block;
   margin-bottom: 20px;
   font: 700 40px/56px 'Circe', 'Arial', sans-serif;
   text-align: center;
@@ -489,10 +363,10 @@
   width: 645px;
   font: 400 24px/30px 'Circe', 'Arial', sans-serif;
   text-align: center;
-  margin: 0 auto;
   margin-bottom: 40px;
 }
 .wrapper main .page_content.page_content--lp-stocks .authorization-input_public_services {
+  display: inline-block;
   margin-bottom: 30px;
 }
 .wrapper main .page_content.page_content--lp-stocks .authorization-input_public_services a {
@@ -581,8 +455,9 @@
           align-items: flex-start;
 }
 .wrapper main .page_content.page_content--lp-stocks .subscription-block {
-  width: 590px;
+  width: 100%;
   margin-right: 40px;
+  padding-bottom: 25px;
   background: #fff;
   -webkit-box-shadow: 0px 3px 30px rgba(135, 151, 155, 0.15);
           box-shadow: 0px 3px 30px rgba(135, 151, 155, 0.15);
@@ -616,12 +491,14 @@
       -ms-flex-pack: center;
           justify-content: center;
   height: 65px;
+  padding: 0 25px;
   font: 400 26px/28px 'Circe', 'Arial', sans-serif;
   background: #fedcd2;
   border-radius: 18px 18px 0 0;
 }
 .wrapper main .page_content.page_content--lp-stocks .subscription-pay {
-  margin: 20px 0;
+  margin-top: 20px;
+  padding: 0 25px;
   font: 400 42px/56px 'Circe', 'Arial', sans-serif;
   color: #fe5000;
 }
@@ -630,7 +507,8 @@
   color: #666;
 }
 .wrapper main .page_content.page_content--lp-stocks .subscription-btn {
-  margin-bottom: 25px;
+  margin-top: 20px;
+  padding: 0 25px;
 }
 .wrapper main .page_content.page_content--lp-stocks .subscription-slider {
   position: relative;
@@ -725,14 +603,17 @@
   top: 50%;
   left: 50%;
   z-index: 100;
-  display: none;
+  opacity: 0;
+  visibility: hidden;
   -webkit-transform: translateX(-50%) translateY(-50%);
           transform: translateX(-50%) translateY(-50%);
   background: #000000;
-  opacity: 0.3;
+  -webkit-transition: 0.8s;
+  transition: 0.8s;
 }
 .wrapper main .page_content.page_content--lp-stocks .popup_black.active {
-  display: block;
+  visibility: visible;
+  opacity: 0.3;
 }
 .wrapper main .page_content.page_content--lp-stocks .popup-error-container,
 .wrapper main .page_content.page_content--lp-stocks .popup-successfully-container {
@@ -750,10 +631,6 @@
           transform: translateX(-50%) translateY(-50%);
   text-align: center;
   z-index: 100;
-}
-.wrapper main .page_content.page_content--lp-stocks .popup-error-container.active,
-.wrapper main .page_content.page_content--lp-stocks .popup-successfully-container.active {
-  display: block;
 }
 .wrapper main .page_content.page_content--lp-stocks .popup-error-btn-close,
 .wrapper main .page_content.page_content--lp-stocks .popup-successfully-btn-close {
@@ -796,6 +673,9 @@
 .wrapper main .page_content.page_content--lp-stocks .popup-successfully-txt {
   margin-top: 20px;
   font: 400 20px/26px 'Circe', 'Arial', sans-serif;
+}
+.wrapper main .ui-check {
+  width: 415px;
 }
 .wrapper main .ui-check-label {
   font: 400 14px/20px 'Circe', 'Arial', sans-serif;

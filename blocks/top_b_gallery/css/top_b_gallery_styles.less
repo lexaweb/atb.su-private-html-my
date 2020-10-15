@@ -1,0 +1,135 @@
+@font: 'Circe', 'Arial', sans-serif;
+@white: #fff;
+@orange: #fe5000;
+@blue: #4a7cbd;
+@grey: #f8f8f8;
+@dark_grey: #666;
+@black: #373a36;
+
+.top_b_gallery {
+  &-container {
+    position: relative;
+  }
+  &-item {
+    position: relative;
+    color: @black;
+    background: #e4eff0;
+    .inner {
+      position: relative;
+      z-index: 1;
+      display: flex;
+      flex-direction: column;
+      height: 500px;
+      padding: 140px 0 50px;
+    }
+    &-title {
+      max-width: 650px;
+      margin-bottom: 20px;
+      font: 700 56px/64px @font;
+    }
+    &-desc {
+      font: 300 20px/29px @font;
+      ul {
+        padding-left: 20px;
+        margin-bottom: 0;
+        li {
+          margin-bottom: 15px;
+          &:last-child {
+            margin-bottom: 0;
+          }
+        }
+      }
+    }
+    &-foot {
+      display: flex;
+      align-items: center;
+      margin-top: auto;
+      &-item {
+        margin-right: 50px;
+        &:last-child {
+          margin-right: 0;
+        }
+      }
+    }
+    &-img {
+      position: absolute;
+      top: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 100%;
+      height: 100%;
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+      .mobile {
+        display: none;
+      }
+    }
+  }
+  &-nav {
+    position: absolute;
+    right: 40px;
+    bottom: 50px;
+    padding: 0 35px;
+    user-select: none;
+    z-index: 5;
+    &-btn {
+      &-prev,
+      &-next {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 20px;
+        height: 20px;
+        cursor: pointer;
+        outline: none;
+        &:before {
+          position: absolute;
+          top: 5px;
+          width: 10px;
+          height: 10px;
+          border: 2px solid @dark_grey;
+          border-right-width: 0;
+          border-bottom-width: 0;
+          content: '';
+        }
+      }
+      &-prev {
+        left: 0;
+        &:before {
+          left: 7px;
+          transform: rotate(-45deg);
+        }
+      }
+      &-next {
+        right: 0;
+        &:before {
+          right: 7px;
+          transform: rotate(135deg);
+        }
+      }
+    }
+    &-pagination {
+      position: relative;
+      width: 50px;
+      height: 50px;
+      background: rgba(255, 255, 255, 0.6);
+      border-radius: 50%;
+      &-num {
+        font: 400 15px/50px @font;
+        text-transform: uppercase;
+        text-align: center;
+        color: @dark_grey;
+      }
+      &-progress {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+}

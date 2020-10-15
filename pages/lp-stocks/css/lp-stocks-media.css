@@ -18,24 +18,11 @@
   .wrapper main .page_content.page_content--lp-stocks .subscription-slider .slide-txt br {
     display: none;
   }
+  .wrapper main .page_content.page_content--lp-stocks .subscription-block:first-child .subscription-head:after {
+    left: 20px;
+  }
 }
 @media (max-width: 999px) {
-  .wrapper main .main_ban-item .inner {
-    height: 380px;
-    padding: 70px 0 35px;
-  }
-  .wrapper main .main_ban-item-title {
-    margin-bottom: 15px;
-    font-size: 44px;
-    line-height: 52px;
-  }
-  .wrapper main .main_ban-item-desc {
-    font-size: 18px;
-    line-height: 26px;
-  }
-  .wrapper main .main_ban-nav {
-    bottom: 35px;
-  }
   .wrapper main .page_content.page_content--lp-stocks .how_get_jump-container {
     padding: 50px 0 80px;
   }
@@ -135,13 +122,11 @@
     line-height: 28px;
   }
   .wrapper main .page_content.page_content--lp-stocks .subscription-block {
-    width: 100%;
     margin-right: 20px;
   }
   .wrapper main .page_content.page_content--lp-stocks .subscription-block:first-child .subscription-head:after {
     width: 29px;
     height: 33px;
-    left: 20px;
   }
   .wrapper main .page_content.page_content--lp-stocks .subscription-head {
     font-size: 20px;
@@ -173,46 +158,6 @@
   }
 }
 @media (max-width: 767px) {
-  .wrapper main .main_ban-item .inner {
-    width: 95%;
-    height: 240px;
-    padding: 60px 0 20px;
-  }
-  .wrapper main .main_ban-item-title {
-    max-width: 200px;
-    margin-bottom: 0;
-    font-size: 26px;
-    line-height: 32px;
-  }
-  .wrapper main .main_ban-item-desc {
-    display: none;
-  }
-  .wrapper main .main_ban-item-foot {
-    display: block;
-  }
-  .wrapper main .main_ban-item-btn a {
-    display: inline-block;
-    padding: 0 30px;
-    font-size: 12px;
-    line-height: 40px;
-  }
-  .wrapper main .main_ban-nav {
-    right: 10px;
-    bottom: 20px;
-    padding: 0;
-  }
-  .wrapper main .main_ban-nav-btn-prev,
-  .wrapper main .main_ban-nav-btn-next {
-    display: none;
-  }
-  .wrapper main .main_ban-nav-pagination {
-    width: 36px;
-    height: 36px;
-  }
-  .wrapper main .main_ban-nav-pagination-num {
-    font-size: 12px;
-    line-height: 36px;
-  }
   .wrapper main .ban_sapid-container {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -301,6 +246,7 @@
     right: -10px;
   }
   .wrapper main .page_content.page_content--lp-stocks .loader-title {
+    width: 259px;
     font-size: 18px;
     line-height: 24px;
   }
@@ -385,9 +331,6 @@
   .wrapper main .page_content.page_content--lp-stocks .subscription-pay span {
     font-size: 22px;
   }
-  .wrapper main .page_content.page_content--lp-stocks .subscription-btn {
-    margin-bottom: 20px;
-  }
   .wrapper main .page_content.page_content--lp-stocks .subscription-slider .slide-img img {
     width: 80px;
     height: 80px;
@@ -442,8 +385,8 @@
   .wrapper main .page_content.page_content--lp-stocks .popup-successfully-txt br {
     display: none;
   }
-  .wrapper main .ui-check-label {
-    width: 274px;
+  .wrapper main .ui-check {
+    width: 305px;
   }
   .wrapper main .ui-check-label br {
     display: none;

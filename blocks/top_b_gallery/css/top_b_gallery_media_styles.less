@@ -1,0 +1,90 @@
+@font: 'Circe', 'Arial', sans-serif;
+@white: #fff;
+@orange: #fe5000;
+@blue: #4a7cbd;
+@grey: #f8f8f8;
+@dark_grey: #666;
+@black: #373a36;
+
+@media (max-width: 999px) {
+  .wrapper {
+    main {
+      .top_b_gallery {
+        &-item {
+          .inner {
+            height: 380px;
+            padding: 70px 0 35px;
+          }
+          &-title {
+            margin-bottom: 15px;
+            font-size: 44px;
+            line-height: 52px;
+          }
+          &-desc {
+            font-size: 18px;
+            line-height: 26px;
+          }
+        }
+        &-nav {
+          bottom: 35px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .wrapper {
+    main {
+      .top_b_gallery {
+        &-item {
+          .inner {
+            width: 95%;
+            height: 240px;
+            padding: 60px 0 20px;
+          }
+          &-title {
+            max-width: 200px;
+            margin-bottom: 0;
+            font-size: 26px;
+            line-height: 32px;
+          }
+          &-desc {
+            display: none;
+          }
+          &-foot {
+            display: block;
+          }
+          &-btn {
+            a {
+              display: inline-block;
+              padding: 0 30px;
+              font-size: 12px;
+              line-height: 40px;
+            }
+          }
+        }
+        &-nav {
+          right: 10px;
+          bottom: 20px;
+          padding: 0;
+          &-btn {
+            &-prev,
+            &-next {
+              display: none;
+            }
+          }
+          &-pagination {
+            width: 36px;
+            height: 36px;
+
+            &-num {
+              font-size: 12px;
+              line-height: 36px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

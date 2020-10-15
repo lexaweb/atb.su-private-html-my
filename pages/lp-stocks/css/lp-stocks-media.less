@@ -33,6 +33,17 @@
             }
           }
         }
+        .subscription {
+          &-block {
+            &:first-child {
+              .subscription-head {
+                &:after {
+                  left: 20px;
+                }
+              }
+            }
+          }
+        }
       }
     }
   }
@@ -41,27 +52,6 @@
 @media (max-width: 999px) {
   .wrapper {
     main {
-      .main_ban {
-        &-item {
-          .inner {
-            height: 380px;
-            padding: 70px 0 35px;
-          }
-          &-title {
-            margin-bottom: 15px;
-            font-size: 44px;
-            line-height: 52px;
-          }
-          &-desc {
-            font-size: 18px;
-            line-height: 26px;
-          }
-        }
-        &-nav {
-          bottom: 35px;
-        }
-      }
-
       .page_content.page_content--lp-stocks {
         .how_get_jump {
           &-container {
@@ -190,14 +180,12 @@
             line-height: 28px;
           }
           &-block {
-            width: 100%;
             margin-right: 20px;
             &:first-child {
               .subscription-head {
                 &:after {
                   width: 29px;
                   height: 33px;
-                  left: 20px;
                 }
               }
             }
@@ -237,7 +225,6 @@
             line-height: 28px;
           }
         }
-
       }
     }
   }
@@ -246,56 +233,6 @@
 @media (max-width: 767px) {
   .wrapper {
     main {
-      .main_ban {
-        &-item {
-          .inner {
-            width: 95%;
-            height: 240px;
-            padding: 60px 0 20px;
-          }
-          &-title {
-            max-width: 200px;
-            margin-bottom: 0;
-            font-size: 26px;
-            line-height: 32px;
-          }
-          &-desc {
-            display: none;
-          }
-          &-foot {
-            display: block;
-          }
-          &-btn {
-            a {
-              display: inline-block;
-              padding: 0 30px;
-              font-size: 12px;
-              line-height: 40px;
-            }
-          }
-        }
-        &-nav {
-          right: 10px;
-          bottom: 20px;
-          padding: 0;
-          &-btn {
-            &-prev,
-            &-next {
-              display: none;
-            }
-          }
-          &-pagination {
-            width: 36px;
-            height: 36px;
-
-            &-num {
-              font-size: 12px;
-              line-height: 36px;
-            }
-          }
-        }
-      }
-
       .ban_sapid {
         &-container {
           display: flex;
@@ -387,10 +324,9 @@
           }
         }
 
-    
-
         .loader {
           &-title {
+            width: 259px;
             font-size: 18px;
             line-height: 24px;
             br {
@@ -491,9 +427,6 @@
               font-size: 22px;
             }
           }
-          &-btn {
-            margin-bottom: 20px;
-          }
           &-slider {
             .slide {
               &-img {
@@ -554,11 +487,10 @@
             }
           }
         }
-
       }
       .ui-check {
+        width: 305px;
         &-label {
-          width: 274px;
           br {
             display: none;
           }
