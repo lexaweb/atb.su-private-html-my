@@ -1,4 +1,5 @@
 $(document).ready(function () {
+  if ($('.top_b_gallery').length > 0 ) {
   var galleryThumbs = new Swiper('.ban_sapid-container', {
     slidesPerView: 1,
     spaceBetween: 0,
@@ -13,7 +14,7 @@ $(document).ready(function () {
     noSwipingClass: 'ban_sapid-container',
   });
 
-  var galleryTop = new Swiper('.top_b_gallery .top_b_gallery-container', {
+  var galleryTop = new Swiper('.top_b_gallery-container', {
     slidesPerView: 1,
     spaceBetween: 0,
     loop: true,
@@ -47,6 +48,7 @@ $(document).ready(function () {
     barsize: '6',
   });
 
+
   $('.top_b_gallery-nav-pagination-progress').asPieProgress('start');
 
   galleryTop.on('slideChange', function () {
@@ -61,4 +63,5 @@ $(document).ready(function () {
   galleryTop.on('touchEnd', function () {
     $('.top_b_gallery-nav-pagination-progress').asPieProgress('start');
   });
+}
 });
