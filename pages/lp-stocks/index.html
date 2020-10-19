@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="../../library/jquery/asPieProgress.min.css" />
     <link rel="stylesheet" href="../../library/tooltipster/tooltipster.bundle.min.css" />
     <link rel="stylesheet" href="../../library/swiper/swiper.min.css" />
+    <link rel="stylesheet" href="css/fancybox.css">
     <link rel="stylesheet" href="../../css/font.css" />
     <link rel="stylesheet" href="../../blocks/cards_ban_sapid/css/cards_ban_sapid_styles.css" />
     <link rel="stylesheet" href="../../css/private_general_styles.css" />
@@ -44,7 +45,7 @@
                       <div class="top_b_gallery-item-btn">
                         <a class="ui-btn" href="#">проверить</a>
                       </div>
-                    </div>
+                    </div>   
                   </div>
                   <div class="top_b_gallery-item-img">
                     <img src="img/top_ban.png" alt="" />
@@ -303,7 +304,7 @@
                       390 ₽
                       <span>/ месяц</span>
                     </div>
-                    <div class="subscription-btn popup-successfully-btn">
+                    <div class="subscription-btn js-popup_open">
                       <a class="ui-btn" href="#">подключить на месяц</a>
                     </div>
                   </div>
@@ -356,9 +357,9 @@
           </div>
 
           <div class="popup_black"></div>
-          <div class="popup-error-container">
+          <div class="popup-error-container" style="display: none;">
             <div class="popup-error-btn-close">
-              <a href="#">
+              <a onclick="$.fancybox.close(); return false;" href="#">
                 <img src="img/close_icon.svg" alt="" />
               </a>
             </div>
@@ -389,6 +390,10 @@
               вам будут приходить <br />смс и email уведомления.
             </div>
           </div>
+
+
+          
+
         </div>
       </main>
     </div>
@@ -400,6 +405,7 @@
     <script src="../../library/jquery/jquery-asPieProgress.min.js"></script>
     <script src="../../library/tooltipster/tooltipster.bundle.min.js"></script>
     <script src="../../library/swiper/swiper.min.js"></script>
+    <script src="js/fancybox.js"></script>
     <script src="../../js/how_add_animation_block.js"></script>
     <script src="../../blocks/cards_ban_sapid/js/cards_ban_sapid_skripts.js"></script>
     <script src="../../blocks/cards_ban_sapid/js/cards_ban_sapid_skripts_video.js"></script>
