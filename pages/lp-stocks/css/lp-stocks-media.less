@@ -3,6 +3,9 @@
 @media (max-width: 1259px) {
   .wrapper {
     main {
+      .inner {
+        width: 980px;
+    }
       .page_content.page_content--lp-stocks {
         .how_get_jump {
           &-box {
@@ -52,6 +55,9 @@
 @media (max-width: 999px) {
   .wrapper {
     main {
+    .inner {
+        width: 740px;
+    }
       .page_content.page_content--lp-stocks {
         .how_get_jump {
           &-container {
@@ -207,25 +213,24 @@
                 width: 80%;
               }
               &-txt {
-                width: 80%;
+                width: 608px;
                 font-size: 18px;
                 line-height: 24px;
               }
             }
           }
         }
-
-        .popup-error,
-        .popup-successfully {
-          &-container {
-            width: 748px;
-          }
-          &-title {
-            font-size: 22px;
-            line-height: 28px;
-          }
-        }
       }
+    }
+  }
+  .popup-error,
+  .popup-successfully {
+    &-container {
+      width: 748px;
+    }
+    &-title {
+      font-size: 22px;
+      line-height: 28px;
     }
   }
 }
@@ -233,7 +238,7 @@
 @media (max-width: 767px) {
   .wrapper {
     main {
-      .ban_sapid {
+      .second_slider {
         &-container {
           display: flex;
         }
@@ -372,6 +377,8 @@
             }
           }
           &-desc {
+            max-width: 220px;
+            margin: 0 auto 20px;
             font-size: 18px;
             line-height: 24px;
             text-align: center;
@@ -456,37 +463,6 @@
             }
           }
         }
-
-        .popup-error,
-        .popup-successfully {
-          &-container {
-            width: 95%;
-            padding: 40px 20px 50px 20px;
-          }
-          &-btn-close {
-            top: 25px;
-            right: 25px;
-          }
-          &-img {
-            margin-bottom: 10px;
-            img {
-              width: 155px;
-              height: 137px;
-            }
-          }
-          &-title {
-            font-size: 20px;
-            line-height: 26px;
-          }
-          &-txt {
-            margin-top: 15px;
-            font-size: 16px;
-            line-height: 22px;
-            br {
-              display: none;
-            }
-          }
-        }
       }
       .ui-check {
         width: 305px;
@@ -495,6 +471,36 @@
             display: none;
           }
         }
+      }
+    }
+  }
+  .popup-error,
+  .popup-successfully {
+    &-container {
+      width: 95%;
+      padding: 40px 20px 50px 20px;
+    }
+    &-btn-close {
+      top: 25px;
+      right: 25px;
+    }
+    &-img {
+      margin-bottom: 10px;
+      img {
+        width: 155px;
+        height: 137px;
+      }
+    }
+    &-title {
+      font-size: 20px;
+      line-height: 26px;
+    }
+    &-txt {
+      margin-top: 15px;
+      font-size: 16px;
+      line-height: 22px;
+      br {
+        display: none;
       }
     }
   }

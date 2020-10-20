@@ -1,4 +1,7 @@
 @media (max-width: 1259px) {
+  .wrapper main .inner {
+    width: 980px;
+  }
   .wrapper main .page_content.page_content--lp-stocks .how_get_jump-box-txt {
     width: auto;
   }
@@ -23,6 +26,9 @@
   }
 }
 @media (max-width: 999px) {
+  .wrapper main .inner {
+    width: 740px;
+  }
   .wrapper main .page_content.page_content--lp-stocks .how_get_jump-container {
     padding: 50px 0 80px;
   }
@@ -143,22 +149,22 @@
     width: 80%;
   }
   .wrapper main .page_content.page_content--lp-stocks .subscription-slider .slide-txt {
-    width: 80%;
+    width: 608px;
     font-size: 18px;
     line-height: 24px;
   }
-  .wrapper main .page_content.page_content--lp-stocks .popup-error-container,
-  .wrapper main .page_content.page_content--lp-stocks .popup-successfully-container {
+  .popup-error-container,
+  .popup-successfully-container {
     width: 748px;
   }
-  .wrapper main .page_content.page_content--lp-stocks .popup-error-title,
-  .wrapper main .page_content.page_content--lp-stocks .popup-successfully-title {
+  .popup-error-title,
+  .popup-successfully-title {
     font-size: 22px;
     line-height: 28px;
   }
 }
 @media (max-width: 767px) {
-  .wrapper main .ban_sapid-container {
+  .wrapper main .second_slider-container {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -282,6 +288,8 @@
     height: 123px;
   }
   .wrapper main .page_content.page_content--lp-stocks .not_found-desc {
+    max-width: 220px;
+    margin: 0 auto 20px;
     font-size: 18px;
     line-height: 24px;
     text-align: center;
@@ -351,44 +359,44 @@
     top: auto;
     bottom: 0;
   }
-  .wrapper main .page_content.page_content--lp-stocks .popup-error-container,
-  .wrapper main .page_content.page_content--lp-stocks .popup-successfully-container {
-    width: 95%;
-    padding: 40px 20px 50px 20px;
-  }
-  .wrapper main .page_content.page_content--lp-stocks .popup-error-btn-close,
-  .wrapper main .page_content.page_content--lp-stocks .popup-successfully-btn-close {
-    top: 25px;
-    right: 25px;
-  }
-  .wrapper main .page_content.page_content--lp-stocks .popup-error-img,
-  .wrapper main .page_content.page_content--lp-stocks .popup-successfully-img {
-    margin-bottom: 10px;
-  }
-  .wrapper main .page_content.page_content--lp-stocks .popup-error-img img,
-  .wrapper main .page_content.page_content--lp-stocks .popup-successfully-img img {
-    width: 155px;
-    height: 137px;
-  }
-  .wrapper main .page_content.page_content--lp-stocks .popup-error-title,
-  .wrapper main .page_content.page_content--lp-stocks .popup-successfully-title {
-    font-size: 20px;
-    line-height: 26px;
-  }
-  .wrapper main .page_content.page_content--lp-stocks .popup-error-txt,
-  .wrapper main .page_content.page_content--lp-stocks .popup-successfully-txt {
-    margin-top: 15px;
-    font-size: 16px;
-    line-height: 22px;
-  }
-  .wrapper main .page_content.page_content--lp-stocks .popup-error-txt br,
-  .wrapper main .page_content.page_content--lp-stocks .popup-successfully-txt br {
-    display: none;
-  }
   .wrapper main .ui-check {
     width: 305px;
   }
   .wrapper main .ui-check-label br {
+    display: none;
+  }
+  .popup-error-container,
+  .popup-successfully-container {
+    width: 95%;
+    padding: 40px 20px 50px 20px;
+  }
+  .popup-error-btn-close,
+  .popup-successfully-btn-close {
+    top: 25px;
+    right: 25px;
+  }
+  .popup-error-img,
+  .popup-successfully-img {
+    margin-bottom: 10px;
+  }
+  .popup-error-img img,
+  .popup-successfully-img img {
+    width: 155px;
+    height: 137px;
+  }
+  .popup-error-title,
+  .popup-successfully-title {
+    font-size: 20px;
+    line-height: 26px;
+  }
+  .popup-error-txt,
+  .popup-successfully-txt {
+    margin-top: 15px;
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .popup-error-txt br,
+  .popup-successfully-txt br {
     display: none;
   }
 }

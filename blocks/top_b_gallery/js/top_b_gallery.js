@@ -1,6 +1,6 @@
 $(document).ready(function () {
   if ($('.top_b_gallery').length > 0 ) {
-  var galleryThumbs = new Swiper('.ban_sapid-container', {
+  var galleryThumbs = new Swiper('.second_slider-container', {
     slidesPerView: 1,
     spaceBetween: 0,
     effect: 'fade',
@@ -11,7 +11,7 @@ $(document).ready(function () {
       delay: 7000,
       disableOnInteraction: false,
     },
-    noSwipingClass: 'ban_sapid-container',
+    noSwipingClass: 'second_slider-container',
   });
 
   var galleryTop = new Swiper('.top_b_gallery-container', {
