@@ -176,71 +176,6 @@
 .wrapper {
   font-family: 'Circe', 'Arial', sans-serif;
 }
-.wrapper main .inner {
-  position: relative;
-  width: 1220px;
-  margin: 0 auto;
-}
-.wrapper main .second_slider-container {
-  position: absolute;
-  right: 0;
-  top: 0;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  width: 95%;
-  min-width: 300px;
-  -webkit-transform: none;
-          transform: none;
-  margin: 20px auto;
-  opacity: 0;
-  visibility: hidden;
-}
-.wrapper main .second_slider-box {
-  position: static;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  width: 100%;
-  margin-bottom: 10px;
-  margin-right: 0;
-}
-.wrapper main .second_slider-box-btn {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  width: 100%;
-  height: 80px;
-  padding: 0 20px;
-  cursor: default;
-  background: #fff;
-  -webkit-box-shadow: 0px 3px 30px rgba(135, 151, 155, 0.25);
-          box-shadow: 0px 3px 30px rgba(135, 151, 155, 0.25);
-  border-radius: 8px;
-}
-.wrapper main .second_slider-box-btn-img {
-  width: 44px;
-  height: 44px;
-  margin-right: 20px;
-}
-.wrapper main .second_slider-box-btn-txt {
-  font: 700 14px/20px 'Circe', 'Arial', sans-serif;
-  text-transform: none;
-  text-align: left;
-}
 .wrapper main .page_content.page_content--lp-stocks .how_get_jump-container {
   padding: 60px 0 100px;
 }
@@ -281,16 +216,13 @@
 }
 .wrapper main .page_content.page_content--lp-stocks .how_get_jump-box-txt {
   display: inline-block;
-  width: 251px;
+  max-width: 320px;
   font: 700 22px/28px 'Circe', 'Arial', sans-serif;
   margin-top: 30px;
   text-align: center;
 }
 .wrapper main .page_content.page_content--lp-stocks .how_get_jump-box:last-child {
   margin-right: 0;
-}
-.wrapper main .page_content.page_content--lp-stocks .how_get_jump-box:last-child .how_get_jump-box-txt {
-  width: 298px;
 }
 .wrapper main .page_content.page_content--lp-stocks .how_get_jump-box:nth-child(1) .how_get_jump-box-img {
   background: #fc7f70;
@@ -407,16 +339,7 @@
           animation-delay: 0.5s;
 }
 .wrapper main .page_content.page_content--lp-stocks .authorization-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  text-align: center;
   padding: 40px 0 50px;
 }
 .wrapper main .page_content.page_content--lp-stocks .authorization-title {
@@ -426,13 +349,13 @@
 .wrapper main .page_content.page_content--lp-stocks .authorization-desc {
   width: 645px;
   font: 400 24px/30px 'Circe', 'Arial', sans-serif;
-  margin-bottom: 40px;
+  margin: 0 auto 40px;
   text-align: center;
 }
-.wrapper main .page_content.page_content--lp-stocks .authorization-input_public_services {
+.wrapper main .page_content.page_content--lp-stocks .authorization-input {
   margin-bottom: 30px;
 }
-.wrapper main .page_content.page_content--lp-stocks .authorization-input_public_services a {
+.wrapper main .page_content.page_content--lp-stocks .authorization-input a {
   display: inline-block;
   font: 400 20px/22px 'Circe', 'Arial', sans-serif;
   color: #4a7cbd;
@@ -444,7 +367,7 @@
   text-decoration: none;
   white-space: nowrap;
 }
-.wrapper main .page_content.page_content--lp-stocks .authorization-input_public_services a img {
+.wrapper main .page_content.page_content--lp-stocks .authorization-input a img {
   width: 42px;
   height: 42px;
   margin-right: 20px;
@@ -468,16 +391,6 @@
   display: none;
 }
 .wrapper main .page_content.page_content--lp-stocks .subscription-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   text-align: center;
   padding: 50px 0 130px;
 }
@@ -653,6 +566,7 @@
 }
 .wrapper main .ui-check {
   width: 415px;
+  margin: 0 auto;
 }
 .wrapper main .ui-check-label {
   font: 400 14px/20px 'Circe', 'Arial', sans-serif;

@@ -4,13 +4,6 @@ $(document).ready(function () {
     slidesPerView: 1,
     spaceBetween: 0,
     effect: 'fade',
-    freeMode: true,
-    watchSlidesVisibility: true,
-    watchSlidesProgress: true,
-    autoplay: {
-      delay: 7000,
-      disableOnInteraction: false,
-    },
     noSwipingClass: 'second_slider-container',
   });
 

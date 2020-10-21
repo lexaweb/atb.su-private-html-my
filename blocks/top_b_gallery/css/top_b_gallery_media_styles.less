@@ -6,12 +6,24 @@
 @dark_grey: #666;
 @black: #373a36;
 
+@media (max-width: 1259px) {
+  .wrapper {
+    main {
+      .top_b_gallery {
+        .inner {
+          width: 980px;
+        }
+      }
+    }
+  }
+}
 @media (max-width: 999px) {
   .wrapper {
     main {
       .top_b_gallery {
         &-item {
           .inner {
+            width: 740px;
             height: 380px;
             padding: 70px 0 35px;
           }
@@ -83,6 +95,13 @@
               line-height: 36px;
             }
           }
+        }
+      }
+      .second_slider {
+        &-container {
+          position: relative;
+          visibility: visible;
+          opacity: 1;
         }
       }
     }

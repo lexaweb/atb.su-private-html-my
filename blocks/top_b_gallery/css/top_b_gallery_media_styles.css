@@ -1,5 +1,11 @@
+@media (max-width: 1259px) {
+  .wrapper main .top_b_gallery .inner {
+    width: 980px;
+  }
+}
 @media (max-width: 999px) {
   .wrapper main .top_b_gallery-item .inner {
+    width: 740px;
     height: 380px;
     padding: 70px 0 35px;
   }
@@ -56,5 +62,10 @@
   .wrapper main .top_b_gallery-nav-pagination-num {
     font-size: 12px;
     line-height: 36px;
+  }
+  .wrapper main .second_slider-container {
+    position: relative;
+    visibility: visible;
+    opacity: 1;
   }
 }
