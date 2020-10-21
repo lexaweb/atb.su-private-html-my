@@ -170,9 +170,6 @@
             transform: rotate(-405deg);
   }
 }
-.popup.over {
-  overflow: hidden;
-}
 .wrapper {
   font-family: 'Circe', 'Arial', sans-serif;
 }
@@ -291,9 +288,6 @@
   color: #fe5000;
   text-align: center;
 }
-.wrapper main .page_content.page_content--lp-stocks .loader-title br {
-  display: none;
-}
 .wrapper main .page_content.page_content--lp-stocks .loader .segment-holder {
   position: relative;
   display: inline-block;
@@ -386,9 +380,6 @@
 .wrapper main .page_content.page_content--lp-stocks .not_found-desc {
   margin-bottom: 25px;
   font: 400 24px/30px 'Circe', 'Arial', sans-serif;
-}
-.wrapper main .page_content.page_content--lp-stocks .not_found-desc br {
-  display: none;
 }
 .wrapper main .page_content.page_content--lp-stocks .subscription-container {
   text-align: center;
