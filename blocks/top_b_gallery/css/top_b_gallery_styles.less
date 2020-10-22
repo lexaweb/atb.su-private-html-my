@@ -14,6 +14,7 @@
     position: relative;
     color: @black;
     background: #e4eff0;
+    overflow: hidden;
     .inner {
       position: relative;
       z-index: 1;
@@ -58,16 +59,14 @@
       position: absolute;
       top: 0;
       left: 50%;
-      transform: translateX(-50%);
       width: 100%;
       height: 100%;
+      transform: translateX(-50%);
       img {
-        width: 100%;
+        position: relative;
+        left: 50%;
         height: 100%;
-        object-fit: cover;
-      }
-      .mobile {
-        display: none;
+        transform: translateX(-50%);
       }
     }
   }
@@ -161,16 +160,16 @@
     &:last-child {
       margin-bottom: 0;
     }
-      &-img {
-        width: 44px;
-        height: 44px;
-        margin-right: 20px;
-        img {
-          max-width: 100%;
-        }
+    &-img {
+      width: 44px;
+      height: 44px;
+      margin-right: 20px;
+      img {
+        max-width: 100%;
       }
-      &-txt {
-        font: 700 14px/20px @font;
-      }
+    }
+    &-txt {
+      font: 700 14px/20px @font;
+    }
   }
 }
