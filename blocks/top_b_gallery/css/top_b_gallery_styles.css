@@ -4,7 +4,7 @@
 .top_b_gallery-item {
   position: relative;
   color: #373a36;
-  background: #e4eff0;
+  background: #FEEDE5;
   overflow: hidden;
 }
 .top_b_gallery-item .inner {
@@ -159,10 +159,6 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  width: 100%;
   padding: 18px 20px;
   background: #fff;
   -webkit-box-shadow: 0px 3px 30px rgba(135, 151, 155, 0.25);
@@ -181,5 +177,6 @@
   max-width: 100%;
 }
 .second_slider-box-txt {
+  width: 250px;
   font: 700 14px/20px 'Circe', 'Arial', sans-serif;
 }

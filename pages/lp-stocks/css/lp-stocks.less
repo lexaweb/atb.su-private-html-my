@@ -9,12 +9,15 @@
 @keyframes jump {
   0% {
     transform: translateY(0px);
+    -moz-transform: translateY(0px);
   }
   50% {
     transform: translateY(-15px);
+    -moz-transform: translateY(-15px);
   }
   100% {
     transform: translateY(0px);
+    -moz-transform: translateY(0px);
   }
 }
 
@@ -114,7 +117,7 @@
               position: absolute;
               width: 180px;
               height: 150px;
-              animation: jump 3s ease-in-out infinite;
+              animation: jump 3s ease-in-out infinite;      
             }
           }
           &-txt {
@@ -294,11 +297,11 @@
 
       .subscription {
         &-container {
-          text-align: center;
           padding: 50px 0 130px;
         }
         &-img {
           margin-bottom: 15px;
+          text-align: center;
           img {
             width: 75px;
             height: 75px;
@@ -307,10 +310,12 @@
         &-title {
           font: 700 40px/56px @font;
           margin-bottom: 10px;
+          text-align: center;
         }
         &-desc {
           font: 400 24px/30px @font;
           margin-bottom: 40px;
+          text-align: center;
         }
         &-item {
           display: flex;
@@ -319,7 +324,7 @@
           align-items: flex-start;
         }
         &-block {
-          width: 100%;
+          width: 50%;
           margin-right: 40px;
           padding-bottom: 25px;
           background: @white;
@@ -363,6 +368,7 @@
           padding: 0 25px;
           font: 400 42px/56px @font;
           color: @orange;
+          text-align: center;
           span {
             font-size: 30px;
             color: @dark_grey;
@@ -371,6 +377,7 @@
         &-btn {
           margin-top: 20px;
           padding: 0 25px;
+          text-align: center;
         }
         &-slider {
           position: relative;
@@ -433,6 +440,7 @@
           .slide {
             &-img {
               margin-bottom: 20px;
+              text-align: center;
               img {
                 width: 100px;
                 height: 100px;
@@ -441,11 +449,13 @@
             &-title {
               margin-bottom: 10px;
               font: 700 24px/30px @font;
+              text-align: center;
             }
             &-txt {
               max-width: 900px;
               margin: 0 auto 30px;
               font: 400 20px/26px @font;
+              text-align: center;
             }
           }
         }

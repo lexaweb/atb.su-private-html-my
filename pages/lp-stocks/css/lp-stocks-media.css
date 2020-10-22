@@ -2,9 +2,6 @@
   .wrapper main .page_content.page_content--lp-stocks .how_get_jump-box-txt {
     width: auto;
   }
-  .wrapper main .page_content.page_content--lp-stocks .how_get_jump-box:last-child .how_get_jump-box-txt {
-    width: auto;
-  }
   .wrapper main .page_content.page_content--lp-stocks .subscription-slider .slide-title {
     width: 85%;
     margin: 0 auto;
@@ -163,9 +160,10 @@
     padding: 40px 0 60px;
   }
   .wrapper main .page_content.page_content--lp-stocks .how_get_jump-title {
+    max-width: 304px;
     font-size: 24px;
     line-height: 28px;
-    margin-bottom: 30px;
+    margin: 0 auto 30px;
   }
   .wrapper main .page_content.page_content--lp-stocks .how_get_jump-row {
     -webkit-box-pack: start;
@@ -177,6 +175,8 @@
             flex-direction: unset;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
+    max-width: 345px;
+    margin: 0 auto;
   }
   .wrapper main .page_content.page_content--lp-stocks .how_get_jump-box {
     display: -webkit-box;
@@ -196,11 +196,13 @@
   .wrapper main .page_content.page_content--lp-stocks .how_get_jump-box-img {
     width: 63px;
     height: 63px;
+    -ms-flex-negative: 0;
+        flex-shrink: 0;
     margin: 0;
     margin-right: 30px;
   }
   .wrapper main .page_content.page_content--lp-stocks .how_get_jump-box-txt {
-    width: 206px;
+    width: 250px;
     font-size: 18px;
     line-height: 24px;
     text-align: left;
@@ -212,9 +214,6 @@
   .wrapper main .page_content.page_content--lp-stocks .how_get_jump-box:last-child {
     margin-right: 0;
     margin-bottom: 0;
-  }
-  .wrapper main .page_content.page_content--lp-stocks .how_get_jump-box:last-child .how_get_jump-box-txt {
-    width: 250px;
   }
   .wrapper main .page_content.page_content--lp-stocks .how_get_jump-box:nth-child(1) .how_get_jump-box-img img {
     width: 51px;
@@ -376,14 +375,6 @@
     margin-top: 15px;
     font-size: 16px;
     line-height: 22px;
-  }
-}
-@media (max-width: 570px) {
-  .wrapper main .page_content.page_content--lp-stocks .how_get_jump-box-txt {
-    width: 250px;
-  }
-  .wrapper main .page_content.page_content--lp-stocks .how_get_jump-box-txt br {
-    display: block;
   }
 }
 @media (max-width: 374px) {
