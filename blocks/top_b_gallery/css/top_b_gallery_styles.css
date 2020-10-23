@@ -171,12 +171,13 @@
 .second_slider-box-img {
   width: 44px;
   height: 44px;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
   margin-right: 20px;
 }
 .second_slider-box-img img {
   max-width: 100%;
 }
 .second_slider-box-txt {
-  width: 250px;
   font: 700 14px/20px 'Circe', 'Arial', sans-serif;
 }

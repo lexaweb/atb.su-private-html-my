@@ -4,18 +4,6 @@
   .wrapper {
     main {
       .page_content.page_content--lp-stocks {
-        .how_get_jump {
-          &-box {
-            &-txt {
-              width: auto;
-            }
-            // &:last-child {
-            //   .how_get_jump-box-txt {
-            //     width: auto;
-            //   }
-            // }
-          }
-        }
         .subscription-slider {
           .slide {
             &-title {
@@ -35,7 +23,6 @@
         }
         .subscription {
           &-block {
-            width: 100%;
             &:first-child {
               .subscription-head {
                 &:after {
@@ -144,7 +131,7 @@
             font-size: 22px;
             line-height: 28px;
           }
-          &-input_public_services {
+          &-input {
             margin-bottom: 20px;
           }
         }
@@ -165,6 +152,7 @@
         .subscription {
           &-container {
             margin: 40px 0 80px;
+            padding: 50px 0 50px;
           }
           &-img {
             img {
@@ -182,6 +170,7 @@
             line-height: 28px;
           }
           &-block {
+            width: ~'calc((100% - 20px) / 2)';
             margin-right: 20px;
             &:first-child {
               .subscription-head {
@@ -267,7 +256,6 @@
               margin-right: 30px;
             }
             &-txt {
-              width: 250px;
               font-size: 18px;
               line-height: 24px;
               text-align: left;
@@ -343,7 +331,7 @@
             font-size: 18px;
             line-height: 24px;
           }
-          &-input_public_services {
+          &-input {
             a {
               padding: 14px 40px;
               font-size: 16px;
@@ -397,6 +385,7 @@
             flex-wrap: wrap;
           }
           &-block {
+            width: 100%;
             margin-right: 0;
             &:first-child {
               margin-bottom: 20px;

@@ -412,16 +412,9 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 100%;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
 }
 .wrapper main .page_content.page_content--lp-stocks .subscription-block {
-  width: 50%;
+  width: calc((100% - 40px) / 2);
   margin-right: 40px;
   padding-bottom: 25px;
   background: #fff;
@@ -584,6 +577,10 @@
 .fancybox-skin {
   border-radius: 10px;
 }
+.fancybox-close {
+  width: 12px;
+  height: 12px;
+}
 .popup-error-container,
 .popup-successfully-container {
   width: 800px;
@@ -636,6 +633,6 @@
 .popup-error-txt,
 .popup-successfully-txt {
   max-width: 670px;
-  margin-top: 20px;
+  margin: 20px auto 0;
   font: 400 20px/26px 'Circe', 'Arial', sans-serif;
 }

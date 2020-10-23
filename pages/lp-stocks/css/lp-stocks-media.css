@@ -1,7 +1,4 @@
 @media (max-width: 1259px) {
-  .wrapper main .page_content.page_content--lp-stocks .how_get_jump-box-txt {
-    width: auto;
-  }
   .wrapper main .page_content.page_content--lp-stocks .subscription-slider .slide-title {
     width: 85%;
     margin: 0 auto;
@@ -14,9 +11,6 @@
   }
   .wrapper main .page_content.page_content--lp-stocks .subscription-slider .slide-txt br {
     display: none;
-  }
-  .wrapper main .page_content.page_content--lp-stocks .subscription-block {
-    width: 100%;
   }
   .wrapper main .page_content.page_content--lp-stocks .subscription-block:first-child .subscription-head:after {
     left: 20px;
@@ -93,7 +87,7 @@
     font-size: 22px;
     line-height: 28px;
   }
-  .wrapper main .page_content.page_content--lp-stocks .authorization-input_public_services {
+  .wrapper main .page_content.page_content--lp-stocks .authorization-input {
     margin-bottom: 20px;
   }
   .wrapper main .page_content.page_content--lp-stocks .not_found-container {
@@ -108,6 +102,7 @@
   }
   .wrapper main .page_content.page_content--lp-stocks .subscription-container {
     margin: 40px 0 80px;
+    padding: 50px 0 50px;
   }
   .wrapper main .page_content.page_content--lp-stocks .subscription-img img {
     width: 65px;
@@ -123,6 +118,7 @@
     line-height: 28px;
   }
   .wrapper main .page_content.page_content--lp-stocks .subscription-block {
+    width: calc((100% - 20px) / 2);
     margin-right: 20px;
   }
   .wrapper main .page_content.page_content--lp-stocks .subscription-block:first-child .subscription-head:after {
@@ -205,7 +201,6 @@
     margin-right: 30px;
   }
   .wrapper main .page_content.page_content--lp-stocks .how_get_jump-box-txt {
-    width: 250px;
     font-size: 18px;
     line-height: 24px;
     text-align: left;
@@ -262,11 +257,11 @@
     font-size: 18px;
     line-height: 24px;
   }
-  .wrapper main .page_content.page_content--lp-stocks .authorization-input_public_services a {
+  .wrapper main .page_content.page_content--lp-stocks .authorization-input a {
     padding: 14px 40px;
     font-size: 16px;
   }
-  .wrapper main .page_content.page_content--lp-stocks .authorization-input_public_services a img {
+  .wrapper main .page_content.page_content--lp-stocks .authorization-input a img {
     margin-right: 15px;
   }
   .wrapper main .page_content.page_content--lp-stocks .not_found-container {
@@ -305,6 +300,7 @@
         flex-wrap: wrap;
   }
   .wrapper main .page_content.page_content--lp-stocks .subscription-block {
+    width: 100%;
     margin-right: 0;
   }
   .wrapper main .page_content.page_content--lp-stocks .subscription-block:first-child {
