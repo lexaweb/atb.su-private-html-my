@@ -187,14 +187,6 @@ $(document).ready(function() {
         $(".js-popup_open").fancybox({
             margin: 0,
             padding: 0,
-            closeBtn: false,
-            centerOnScroll: true,
-            autoScale: false,
-            helpers: {
-                overlay: {
-                    locked: false
-                }
-            }
         });
       } 
 });

@@ -15,6 +15,9 @@
   .wrapper main .page_content.page_content--lp-stocks .subscription-slider .slide-txt br {
     display: none;
   }
+  .wrapper main .page_content.page_content--lp-stocks .subscription-block {
+    width: 100%;
+  }
   .wrapper main .page_content.page_content--lp-stocks .subscription-block:first-child .subscription-head:after {
     left: 20px;
   }
@@ -348,7 +351,7 @@
   }
   .popup-error-container,
   .popup-successfully-container {
-    width: 95%;
+    width: 355px;
     padding: 40px 20px 50px 20px;
   }
   .popup-error-btn-close,
