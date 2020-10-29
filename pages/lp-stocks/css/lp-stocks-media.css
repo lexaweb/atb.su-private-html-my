@@ -165,29 +165,16 @@
     margin: 0 auto 30px;
   }
   .wrapper main .page_content.page_content--lp-stocks .how_get_jump-row {
-    -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: flex-start;
-    -webkit-box-orient: unset;
-    -webkit-box-direction: unset;
-        -ms-flex-direction: unset;
-            flex-direction: unset;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    justify-content: flex-start;
+    flex-direction: unset;
+    flex-wrap: wrap;
     max-width: 345px;
     margin: 0 auto;
   }
   .wrapper main .page_content.page_content--lp-stocks .how_get_jump-box {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-orient: unset;
-    -webkit-box-direction: unset;
-        -ms-flex-direction: unset;
-            flex-direction: unset;
+    align-items: center;
+    flex-direction: unset;
     width: 100%;
     margin-right: 0;
     margin-bottom: 30px;
@@ -195,8 +182,7 @@
   .wrapper main .page_content.page_content--lp-stocks .how_get_jump-box-img {
     width: 63px;
     height: 63px;
-    -ms-flex-negative: 0;
-        flex-shrink: 0;
+    flex-shrink: 0;
     margin: 0;
     margin-right: 30px;
   }
@@ -296,8 +282,7 @@
     line-height: 24px;
   }
   .wrapper main .page_content.page_content--lp-stocks .subscription-item {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
   }
   .wrapper main .page_content.page_content--lp-stocks .subscription-block {
     width: 100%;
@@ -342,8 +327,8 @@
     top: auto;
     bottom: 0;
   }
-  .wrapper main .ui-check {
-    width: 305px;
+  .wrapper main .page_content.page_content--lp-stocks .ui-check {
+    max-width: 305px;
   }
   .popup-error-container,
   .popup-successfully-container {
@@ -378,9 +363,6 @@
 }
 @media (max-width: 374px) {
   .wrapper main .page_content.page_content--lp-stocks .authorization-desc {
-    width: 100%;
-  }
-  .wrapper main .ui-check-label {
     width: 100%;
   }
 }
