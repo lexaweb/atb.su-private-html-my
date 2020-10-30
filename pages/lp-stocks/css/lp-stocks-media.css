@@ -365,4 +365,9 @@
   .wrapper main .page_content.page_content--lp-stocks .authorization-desc {
     width: 100%;
   }
+  .popup-error-container,
+  .popup-successfully-container {
+    width: 320px;
+    padding: 40px 20px 50px 20px;
+  }
 }

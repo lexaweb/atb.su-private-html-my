@@ -430,11 +430,7 @@
   text-decoration: none;
 }
 .fancybox-skin {
-  border-radius: 10px;
-}
-.fancybox-close {
-  width: 12px;
-  height: 12px;
+  background: transparent;
 }
 .popup-error-container,
 .popup-successfully-container {
@@ -450,25 +446,18 @@
 .popup-error-btn-close,
 .popup-successfully-btn-close {
   position: absolute;
-  width: 20px;
-  height: 20px;
+  width: 12px;
+  height: 12px;
   right: 35px;
   top: 35px;
-}
-.popup-error-btn-close a,
-.popup-successfully-btn-close a {
   display: inline-block;
   cursor: pointer;
   transition: 0.3s;
+  background: url('/img/close_icon.svg') center no-repeat;
 }
-.popup-error-btn-close a:hover,
-.popup-successfully-btn-close a:hover {
+.popup-error-btn-close:hover,
+.popup-successfully-btn-close:hover {
   opacity: 0.7;
-}
-.popup-error-btn-close a img,
-.popup-successfully-btn-close a img {
-  width: 12px;
-  height: 12px;
 }
 .popup-error-img,
 .popup-successfully-img {

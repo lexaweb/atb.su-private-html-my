@@ -12,8 +12,5 @@ $(document).ready(function () {
     },
   });
 }
-if ($('.page_content--lp-stocks').length > 0 ) {
-  $('.fancybox-overlay').addClass('page_content--lp-stocks');
-}
 
 });
